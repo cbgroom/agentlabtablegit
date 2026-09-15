@@ -1,0 +1,22 @@
+{
+	"deleted": false,
+	"key": "crossing-35017807349-turn-1",
+	"recorded_at_unix_ms": 1789503295115,
+	"row": {
+		"arm": "control",
+		"behaviorPass": true,
+		"buildPass": false,
+		"changedPaths": ["common/src/main/ets/storagemanager/PreferenceCacheHelper.ets","common/src/main/ets/storagemanager/PreferenceManager.ets","features/devpractices/src/main/ets/model/SampleModel.ets","features/devpractices/src/main/ets/service/SampleService.ets"],
+		"checkpointId": "checkpoint-35017807349-turn-1",
+		"difficultyId": "difficulty-35017807349-compiler-feedback",
+		"id": "crossing-35017807349-turn-1",
+		"interventionId": "intervention-35017807349-compiler-feedback",
+		"outputSessionSha256": "1f3deb4d5a30e7a8dd8ca19041497fb4e74f620dac911afadcb3505ba6737564",
+		"schema": "agentlab.difficulty_crossing.v1",
+		"scopeDrift": false,
+		"timedOut": false
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "7ea923c3-8b21-5698-98a8-d0465f06a73f"
+}
