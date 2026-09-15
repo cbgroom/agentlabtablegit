@@ -1,0 +1,28 @@
+{
+	"deleted": false,
+	"key": "checkpoint-35013587600-compiler-feedback-repair",
+	"recorded_at_unix_ms": 1789500659422,
+	"row": {
+		"admittedState": {
+			"behaviorPass": true,
+			"buildPass": true,
+			"phase": "compiler-feedback-repair",
+			"semanticRehydrationEligible": true
+		},
+		"checkpointDigest": "264d4233b04f2b94df14b2f913aa7267ac7ed6b07f78d6119216648eda2b711d",
+		"formalSessionFsSnapshot": false,
+		"id": "checkpoint-35013587600-compiler-feedback-repair",
+		"nativeAgent": "pi",
+		"nativeSessionSha256": "d7537d1b491ec4891f6ab97715149d268c7967938eedee47f9088881f77c3a31",
+		"nativeThreadId": "01a0a5f3-b17f-70de-82f0-804c2a74cd77",
+		"nativeVersion": "0.73.1",
+		"readyForControlledFork": false,
+		"schema": "agentlab.difficulty_checkpoint.v1",
+		"sourceCut": "6819b4a3b48166c93ea674ef9d28cdd226dfb25912f1b787bef7d90a7fa4fc90",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+		"taskId": "case-cache-durability-subject-v1"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "54357d38-0516-5cd9-af83-9817090ddd48"
+}
