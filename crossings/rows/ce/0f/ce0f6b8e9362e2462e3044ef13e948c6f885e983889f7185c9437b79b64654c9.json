@@ -1,0 +1,30 @@
+{
+	"deleted": false,
+	"key": "crossing-34919711546-turn1-default",
+	"recorded_at_unix_ms": 1789477398776,
+	"row": {
+		"aggregateScoreMilli": 61004,
+		"arm": "control-default",
+		"behaviorPass": true,
+		"build": {
+			"dimensionId": "D4",
+			"host": "hwlinux-x86_64",
+			"mechanism": "type-system"
+		},
+		"buildPass": false,
+		"changedPaths": ["common/src/main/ets/storagemanager/PreferenceManager.ets","common/src/main/ets/storagemanager/PreferenceCacheHelper.ets","features/devpractices/src/main/ets/model/SampleModel.ets"],
+		"checkpointId": "checkpoint-34919711546-turn1",
+		"difficultyId": "difficulty-34919711546-turn1-timeout-before-source-mutation",
+		"durationMs": 299525,
+		"gatewayRequests": 7,
+		"id": "crossing-34919711546-turn1-default",
+		"interventionId": "intervention-34919711546-turn1-provider-reasoning",
+		"outputSessionSha256": "5808a1b14211e07850c60a4ba81d65d53a5520827c56a39f51b6ad5580a20953",
+		"schema": "agentlab.difficulty_crossing.v1",
+		"scopeDrift": false,
+		"timedOut": false
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "daf2910f-00e5-435d-b8bc-22961a3c8011"
+}
