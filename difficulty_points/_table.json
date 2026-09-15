@@ -1,0 +1,129 @@
+{
+  "schema": "mcpgit.table.v2",
+  "key_field": "id",
+  "fields": {
+    "checkpointIds": {
+      "type": "array",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "dimensionId": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "evidenceIds": {
+      "type": "array",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "id": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "key",
+      "projection": "default"
+    },
+    "maturityState": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "mechanism": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "observation": {
+      "type": "object",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "primaryDimension": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "schema": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "signature": {
+      "type": "string",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "sourceRevision": {
+      "type": "string",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "status": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "taskId": {
+      "type": "string",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    }
+  },
+  "required_fields": [
+    "dimensionId",
+    "id",
+    "maturityState",
+    "mechanism",
+    "primaryDimension",
+    "schema",
+    "status"
+  ],
+  "indexes": [
+    {
+      "name": "by_dimensionId",
+      "field": "dimensionId"
+    },
+    {
+      "name": "by_primaryDimension",
+      "field": "primaryDimension"
+    },
+    {
+      "name": "by_mechanism",
+      "field": "mechanism"
+    },
+    {
+      "name": "by_status",
+      "field": "status"
+    },
+    {
+      "name": "by_maturityState",
+      "field": "maturityState"
+    }
+  ],
+  "description": "Evidence-linked Code Agent difficulty mechanisms."
+}
