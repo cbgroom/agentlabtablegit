@@ -1,0 +1,44 @@
+name: cbgroom-write
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: Operation to run against cbgroom
+        required: true
+        type: choice
+        options:
+          - bootstrap
+          - import-sample
+
+permissions:
+  contents: read
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    environment: cbgroom-public-writer
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Validate before remote write
+        run: python scripts/validate.py
+      - name: Bootstrap tables
+        if: inputs.action == 'bootstrap'
+        env:
+          CBGROOM_WS_URL: ${{ secrets.CBGROOM_WS_URL }}
+          CBGROOM_AUTHORIZATION: ${{ secrets.CBGROOM_AUTHORIZATION }}
+          CBGROOM_REPO: agentlabtablegit
+          CBGROOM_TOPIC_ID: main
+        run: python scripts/bootstrap_cbgroom.py
+      - name: Import sample
+        if: inputs.action == 'import-sample'
+        env:
+          CBGROOM_WS_URL: ${{ secrets.CBGROOM_WS_URL }}
+          CBGROOM_AUTHORIZATION: ${{ secrets.CBGROOM_AUTHORIZATION }}
+          CBGROOM_REPO: agentlabtablegit
+          CBGROOM_TOPIC_ID: main
+        run: python scripts/import_sample.py
