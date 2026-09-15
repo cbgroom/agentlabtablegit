@@ -1,0 +1,24 @@
+{
+  "schema": "agentlab.tablegit.bootstrap_sample.v1",
+  "sourceRunId": "34919711546",
+  "rows": {
+    "difficulty_points": [
+      {"id": "difficulty-34919711546-turn1-timeout-before-source-mutation", "schema": "agentlab.difficulty_point.v1", "taskId": "case-cache-durability-subject-v1", "dimensionId": "D1", "primaryDimension": "localization-planning", "mechanism": "timeout-before-source-mutation", "signature": "timeout-before-source-mutation", "status": "candidate", "maturityState": "candidate", "sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"}
+    ],
+    "checkpoints": [
+      {"id": "checkpoint-34919711546-turn1", "schema": "agentlab.difficulty_checkpoint.v1", "taskId": "case-cache-durability-subject-v1", "sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6", "sourceCut": "97d00f23c92c00dd5d3d6c86a7206453f61672ecdad6bdcab6a09ca0e0dac14f", "checkpointDigest": "8f2aeaf53917f75eb0610835f6560b85915227794c0d42e0d9e1bfe01032cfcf", "nativeAgent": "pi", "nativeVersion": "0.73.1", "nativeThreadId": "01a0a2cf-c922-7021-bd63-6992b29bcc9b", "nativeSessionSha256": "89fc5195c69bb6209c432e9e9dff8f057e3b8997f5c2a17d2376cebb4af41e0a", "formalSessionFsSnapshot": true, "readyForControlledFork": true}
+    ],
+    "interventions": [
+      {"id": "intervention-34919711546-turn1-provider-reasoning", "schema": "agentlab.difficulty_intervention.v1", "difficultyId": "difficulty-34919711546-turn1-timeout-before-source-mutation", "checkpointId": "checkpoint-34919711546-turn1", "variable": "providerReasoningEffort", "controlValue": {"value": "default"}, "variantValue": {"value": "high"}, "model": "glm-5.3-flash", "agentKind": "pi", "frozen": ["source", "native-session", "task", "behavior-oracle", "tool-policy"], "status": "completed"}
+    ],
+    "crossings": [
+      {"id": "crossing-34919711546-turn1-default", "schema": "agentlab.difficulty_crossing.v1", "interventionId": "intervention-34919711546-turn1-provider-reasoning", "difficultyId": "difficulty-34919711546-turn1-timeout-before-source-mutation", "checkpointId": "checkpoint-34919711546-turn1", "arm": "control-default", "behaviorPass": true, "buildPass": false, "scopeDrift": false, "timedOut": false, "durationMs": 299525, "gatewayRequests": 7, "changedPaths": ["common/src/main/ets/storagemanager/PreferenceManager.ets", "common/src/main/ets/storagemanager/PreferenceCacheHelper.ets", "features/devpractices/src/main/ets/model/SampleModel.ets"], "outputSessionSha256": "5808a1b14211e07850c60a4ba81d65d53a5520827c56a39f51b6ad5580a20953", "aggregateScoreMilli": 61004, "build": {"host": "hwlinux-x86_64", "dimensionId": "D4", "mechanism": "type-system"}},
+      {"id": "crossing-34919711546-turn1-high", "schema": "agentlab.difficulty_crossing.v1", "interventionId": "intervention-34919711546-turn1-provider-reasoning", "difficultyId": "difficulty-34919711546-turn1-timeout-before-source-mutation", "checkpointId": "checkpoint-34919711546-turn1", "arm": "reasoning-high", "behaviorPass": true, "buildPass": false, "scopeDrift": false, "timedOut": false, "durationMs": 330877, "gatewayRequests": 10, "changedPaths": ["common/src/main/ets/storagemanager/PreferenceManager.ets", "common/src/main/ets/storagemanager/PreferenceCacheHelper.ets", "features/devpractices/src/main/ets/service/SampleService.ets", "features/devpractices/src/main/ets/model/SampleModel.ets"], "outputSessionSha256": "e85a7202122a4162d147ffc32e9426a195be12f0faccb33901c6fe534420756a", "aggregateScoreMilli": 56567, "build": {"host": "hwlinux-x86_64", "dimensionId": "D4", "mechanism": "compiler-specific-semantics", "signature": "arkts-limited-throw"}}
+    ],
+    "decisions": [
+      {"id": "decision-34919711546-turn1-reasoning-high", "schema": "agentlab.difficulty_decision.v1", "difficultyId": "difficulty-34919711546-turn1-timeout-before-source-mutation", "interventionId": "intervention-34919711546-turn1-provider-reasoning", "decision": "reject-intervention", "reason": "No behavior or full-crossing gain; reasoning-high is slower, uses more gateway requests, touches more frozen files and still fails the attributable D4 build gate.", "preferredArm": "control-default", "nextExperiment": "D4-to-D5-compiler-feedback-repair", "nextCheckpointBoundary": "post-behavior-pre-repair", "holdConstant": ["model", "provider-reasoning", "task", "behavior-oracle", "tool-policy"], "measure": ["repair-latency", "gateway-requests", "build-crossing", "behavior-regression", "scope-drift"]}
+    ],
+    "capability_profiles": [],
+    "evidence_refs": []
+  }
+}
