@@ -1,0 +1,129 @@
+{
+  "schema": "mcpgit.resolved-table-definition.v2",
+  "format": "json_rows",
+  "layout": "sha256_prefix2",
+  "root": "checkpoints",
+  "key_field": "id",
+  "fields": {
+    "admittedState": {
+      "type": "object",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "checkpointDigest": {
+      "type": "string",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "evidenceIds": {
+      "type": "array",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "formalSessionFsSnapshot": {
+      "type": "boolean",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "id": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "key",
+      "projection": "default"
+    },
+    "nativeAgent": {
+      "type": "string",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "nativeSessionSha256": {
+      "type": "string",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "nativeThreadId": {
+      "type": "string",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "nativeVersion": {
+      "type": "string",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "readyForControlledFork": {
+      "type": "boolean",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "schema": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "sourceCut": {
+      "type": "string",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "sourceRevision": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "taskId": {
+      "type": "string",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    }
+  },
+  "required_fields": [
+    "formalSessionFsSnapshot",
+    "id",
+    "readyForControlledFork",
+    "schema",
+    "sourceRevision"
+  ],
+  "indexes": [
+    {
+      "name": "by_sourceRevision",
+      "field": "sourceRevision"
+    },
+    {
+      "name": "by_nativeAgent",
+      "field": "nativeAgent"
+    },
+    {
+      "name": "by_readyForControlledFork",
+      "field": "readyForControlledFork"
+    }
+  ],
+  "description": "Admitted state and native Agent identity for controlled forks."
+}
