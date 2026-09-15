@@ -1,7 +1,7 @@
 {
 	"deleted": false,
 	"key": "capability-pi-glm53flash-cache-durability-v1",
-	"recorded_at_unix_ms": 1789511517423,
+	"recorded_at_unix_ms": 1789511534447,
 	"row": {
 		"agentKind": "pi",
 		"dimensions": {
@@ -44,10 +44,10 @@
 			"rawCrossingsRemainAuthority": true
 		},
 		"profileRevision": "95f067bac1f496ddcb9e9e0a118d55a8c014b4ee",
-		"sampleCount": 8,
+		"sampleCount": 7,
 		"schema": "agentlab.capability_profile.v1"
 	},
-	"row_version": 1,
+	"row_version": 2,
 	"schema": "mcpgit.table-row.v1",
-	"transaction_id": "190f19fd-ce29-59c2-84cf-be1b0cb7b41f"
+	"transaction_id": "85f930ae-0b39-570b-bf57-69b8faf81526"
 }
