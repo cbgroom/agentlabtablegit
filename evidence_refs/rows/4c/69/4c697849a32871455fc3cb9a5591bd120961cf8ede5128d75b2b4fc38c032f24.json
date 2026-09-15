@@ -1,0 +1,23 @@
+{
+	"deleted": false,
+	"key": "evidence-35032213735-summary",
+	"recorded_at_unix_ms": 1789512489897,
+	"row": {
+		"byteLength": 506190,
+		"id": "evidence-35032213735-summary",
+		"kind": "subject-summary",
+		"metadata": {
+			"scenario": "cache-durability",
+			"taskId": "case-cache-durability-subject-v1"
+		},
+		"producerRun": "35032213735",
+		"public": true,
+		"schema": "agentlab.evidence_ref.v1",
+		"sha256": "4d386affa25ee48ffe2831606ec74569a107e194b90f57c3f2467471158b093b",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+		"uri": "https://github.com/yxsicd/agentlabrelease/actions/runs/35032213735#summary.json"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "77e00e07-0331-544c-8dfa-7a7bfbdc3ece"
+}

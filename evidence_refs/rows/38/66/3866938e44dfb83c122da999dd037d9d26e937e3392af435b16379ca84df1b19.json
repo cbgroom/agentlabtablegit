@@ -1,0 +1,23 @@
+{
+	"deleted": false,
+	"key": "evidence-35032213735-difficulty-candidates",
+	"recorded_at_unix_ms": 1789512489897,
+	"row": {
+		"byteLength": 5224,
+		"id": "evidence-35032213735-difficulty-candidates",
+		"kind": "difficulty-candidates",
+		"metadata": {
+			"scenario": "cache-durability",
+			"taskId": "case-cache-durability-subject-v1"
+		},
+		"producerRun": "35032213735",
+		"public": true,
+		"schema": "agentlab.evidence_ref.v1",
+		"sha256": "331affc2f2c0272ff8a56520c2d4419f0dd84a099b9b270789b5a0e9003946c2",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+		"uri": "https://github.com/yxsicd/agentlabrelease/actions/runs/35032213735#difficulty-candidates.json"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "77e00e07-0331-544c-8dfa-7a7bfbdc3ece"
+}
