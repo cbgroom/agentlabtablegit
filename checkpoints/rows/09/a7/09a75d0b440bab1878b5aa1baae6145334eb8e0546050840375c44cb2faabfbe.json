@@ -1,0 +1,28 @@
+{
+	"deleted": false,
+	"key": "checkpoint-35015748220-turn-1",
+	"recorded_at_unix_ms": 1789502254401,
+	"row": {
+		"admittedState": {
+			"behaviorPass": false,
+			"buildPass": true,
+			"phase": "turn-1",
+			"semanticRehydrationEligible": true
+		},
+		"checkpointDigest": "ef8fde559f6817bcf3842f70145abf3170225c9987c4cff1309bb8544d508ea0",
+		"formalSessionFsSnapshot": false,
+		"id": "checkpoint-35015748220-turn-1",
+		"nativeAgent": "pi",
+		"nativeSessionSha256": "6aee384670bf4189488cbe82dc0aac1b86d0dcb477fb0b656a40285c893faa88",
+		"nativeThreadId": "01a0a69e-0096-7743-a540-472045cc7294",
+		"nativeVersion": "0.73.1",
+		"readyForControlledFork": false,
+		"schema": "agentlab.difficulty_checkpoint.v1",
+		"sourceCut": "33f0734c1ecf59b8773c8f108d2222b7834d5a56d32084f1130cbfeb59fa8c10",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+		"taskId": "case-cache-durability-subject-v1"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "393aa0a2-a06e-5644-b2d6-6e7724d682c7"
+}
