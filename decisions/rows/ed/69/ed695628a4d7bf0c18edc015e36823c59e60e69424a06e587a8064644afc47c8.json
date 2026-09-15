@@ -1,0 +1,21 @@
+{
+	"deleted": false,
+	"key": "decision-35030815942-compiler-feedback",
+	"recorded_at_unix_ms": 1789511305717,
+	"row": {
+		"decision": "accept-full-crossing",
+		"difficultyId": "difficulty-35030815942-compiler-feedback",
+		"holdConstant": ["model","provider-reasoning","task","behavior-oracle","tool-policy"],
+		"id": "decision-35030815942-compiler-feedback",
+		"interventionId": "intervention-35030815942-compiler-feedback",
+		"measure": ["latency","gateway-requests","behavior","build","scope-drift"],
+		"nextCheckpointBoundary": "post-compiler-feedback",
+		"nextExperiment": "repeat-for-robustness",
+		"preferredArm": "compiler-feedback",
+		"reason": "compiler-feedback: behaviorPass=True, buildPass=True, scopeDrift=False; preserve independent gates and exact output session.",
+		"schema": "agentlab.difficulty_decision.v1"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "352f8371-ee29-5888-91b3-1afafcac0530"
+}
