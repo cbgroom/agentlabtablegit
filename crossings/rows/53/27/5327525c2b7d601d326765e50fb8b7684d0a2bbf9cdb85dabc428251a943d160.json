@@ -1,0 +1,23 @@
+{
+	"deleted": false,
+	"key": "crossing-35031489607-turn-1",
+	"recorded_at_unix_ms": 1789512268119,
+	"row": {
+		"arm": "control",
+		"behaviorPass": false,
+		"buildPass": true,
+		"changedPaths": [],
+		"checkpointId": "checkpoint-35031489607-turn-1",
+		"difficultyId": "difficulty-35031489607-timeout-feedback",
+		"durationMs": 420002,
+		"id": "crossing-35031489607-turn-1",
+		"interventionId": "intervention-35031489607-timeout-feedback",
+		"outputSessionSha256": "7f079b4e9428231760344009fc50f347faa0599c33342f83d4db2f5da811aef9",
+		"schema": "agentlab.difficulty_crossing.v1",
+		"scopeDrift": false,
+		"timedOut": true
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "aef3f8de-9528-5223-aea3-5933fa190c80"
+}

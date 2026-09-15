@@ -1,0 +1,21 @@
+{
+	"deleted": false,
+	"key": "decision-35031489607-timeout-feedback",
+	"recorded_at_unix_ms": 1789512268119,
+	"row": {
+		"decision": "accept-full-crossing",
+		"difficultyId": "difficulty-35031489607-timeout-feedback",
+		"holdConstant": ["model","provider-reasoning","task","behavior-oracle","tool-policy"],
+		"id": "decision-35031489607-timeout-feedback",
+		"interventionId": "intervention-35031489607-timeout-feedback",
+		"measure": ["latency","gateway-requests","behavior","build","scope-drift"],
+		"nextCheckpointBoundary": "post-timeout-feedback",
+		"nextExperiment": "repeat-for-robustness",
+		"preferredArm": "timeout-feedback",
+		"reason": "timeout-feedback: behaviorPass=True, buildPass=True, scopeDrift=False; preserve independent gates and exact output session.",
+		"schema": "agentlab.difficulty_decision.v1"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "aef3f8de-9528-5223-aea3-5933fa190c80"
+}
