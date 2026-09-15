@@ -1,0 +1,96 @@
+{
+  "schema": "mcpgit.resolved-table-definition.v2",
+  "format": "json_rows",
+  "layout": "sha256_prefix2",
+  "root": "capability_profiles",
+  "key_field": "id",
+  "fields": {
+    "agentKind": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "dimensions": {
+      "type": "object",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "id": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "key",
+      "projection": "default"
+    },
+    "inputCrossingIds": {
+      "type": "array",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "mechanisms": {
+      "type": "object",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "model": {
+      "type": "string",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "normalization": {
+      "type": "object",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "profileRevision": {
+      "type": "string",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "sampleCount": {
+      "type": "integer",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "schema": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    }
+  },
+  "required_fields": [
+    "agentKind",
+    "id",
+    "sampleCount",
+    "schema"
+  ],
+  "indexes": [
+    {
+      "name": "by_agentKind",
+      "field": "agentKind"
+    },
+    {
+      "name": "by_model",
+      "field": "model"
+    }
+  ],
+  "description": "Derived Code Agent capability profiles; raw crossings remain authority."
+}
