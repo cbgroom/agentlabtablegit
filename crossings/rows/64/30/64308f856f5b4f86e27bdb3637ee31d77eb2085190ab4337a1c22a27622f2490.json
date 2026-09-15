@@ -1,0 +1,41 @@
+{
+	"deleted": false,
+	"key": "crossing-34919711546-turn1-compiler-evidence-oracle-v1",
+	"recorded_at_unix_ms": 1789485314952,
+	"row": {
+		"arm": "compiler-evidence-mechanism-oracle",
+		"axes": {
+			"formalAgentTrial": false,
+			"formalBlocker": "post-behavior Pi output session sha256:5808a1b... not retained in local or original subject-evidence artifact",
+			"turn1BehaviorReceiptSha256": "2ff3b77e785e9d51c26797c7856076e08e32d78e95bbbdff56f03773100bf5c5",
+			"turn2BehaviorPass": false,
+			"turn2ControlAlsoPass": false
+		},
+		"behaviorPass": true,
+		"build": {
+			"artifactBytes": 393651944,
+			"artifactSha256": "3cd6e6a694f4d3356d78e423de65ec6cf4ba1a0eda816f191eaa4b375a6e92a",
+			"buildDurationMs": 6146,
+			"buildKitSha256": "dd776eacab20dbf66d948307195ba3420ca1d1f80350e9b013cad13843d8d22a",
+			"dimensionId": "D4",
+			"host": "hwlinux-x86_64",
+			"hvigorVersion": "6.24.4",
+			"mechanism": "type-system",
+			"nodeVersion": "18.20.1",
+			"resultReceiptSha256": "29e402d9bb74099572b0471fe189e541197b5f5a43df4d9dc16f56c05e770eae",
+			"sdkVersion": "6.1.1.125"
+		},
+		"buildPass": true,
+		"changedPaths": ["common/src/main/ets/storagemanager/PreferenceCacheHelper.ets","common/src/main/ets/storagemanager/PreferenceManager.ets","features/devpractices/src/main/ets/model/SampleModel.ets"],
+		"checkpointId": "checkpoint-34919711546-turn1",
+		"difficultyId": "difficulty-34919711546-turn1-timeout-before-source-mutation",
+		"id": "crossing-34919711546-turn1-compiler-evidence-oracle-v1",
+		"interventionId": "intervention-34919711546-turn1-compiler-evidence-oracle-v1",
+		"schema": "agentlab.difficulty_crossing.v1",
+		"scopeDrift": false,
+		"timedOut": false
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "34992423-ebe0-42fc-84b6-2747fcb7787d"
+}

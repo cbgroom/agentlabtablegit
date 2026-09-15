@@ -1,0 +1,21 @@
+{
+	"deleted": false,
+	"key": "decision-34919711546-turn1-compiler-evidence-oracle-v1",
+	"recorded_at_unix_ms": 1789485314952,
+	"row": {
+		"decision": "record-mechanism-crossing-require-formal-agent-replay",
+		"difficultyId": "difficulty-34919711546-turn1-timeout-before-source-mutation",
+		"holdConstant": ["model","provider-reasoning","task","behavior-oracle","tool-policy"],
+		"id": "decision-34919711546-turn1-compiler-evidence-oracle-v1",
+		"interventionId": "intervention-34919711546-turn1-compiler-evidence-oracle-v1",
+		"measure": ["repair-latency","gateway-requests","build-crossing","behavior-regression","scope-drift"],
+		"nextCheckpointBoundary": "post-behavior-pre-repair",
+		"nextExperiment": "capture-post-behavior-native-session-and-run-formal-compiler-evidence-only-repair",
+		"preferredArm": "compiler-evidence-mechanism-oracle",
+		"reason": "A one-line compiler-evidence-derived repair removes ArkTS 10505001, preserves the frozen turn-1 behavior gate, and crosses the full native phone build gate. Turn-2 behavior remains the same pre-existing failure as control, so no new behavior regression is observed. This is mechanism-oracle evidence only because the exact post-behavior Pi output session was not retained; do not count it as a formal same-native-history Agent intervention.",
+		"schema": "agentlab.difficulty_decision.v1"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "34992423-ebe0-42fc-84b6-2747fcb7787d"
+}
