@@ -1,0 +1,29 @@
+{
+	"deleted": false,
+	"key": "claim-compiler-feedback-focused-repair-000001",
+	"recorded_at_unix_ms": 1789577593848,
+	"row": {
+		"claimId": "claim-compiler-feedback-focused-repair",
+		"contradictionAdded": [],
+		"fromStatus": "untracked",
+		"id": "claim-compiler-feedback-focused-repair-000001",
+		"kind": "initialized-from-current-evidence",
+		"metadata": {
+			"bootstrap": true
+		},
+		"metricsAfter": {
+			"contradictionCount": 0,
+			"supportCount": 8
+		},
+		"metricsBefore": {},
+		"sequence": 1,
+		"sourceRevision": "7c9c9da2424f79c508bb63e1102dbffc3f543e64",
+		"summary": "从当前结构化 decisions 初始化 Claim v2；不回填未经结构化保存的历史状态迁移。",
+		"supportAdded": ["decision-35013587600-compiler-feedback","decision-35015165145-compiler-feedback","decision-35017807349-compiler-feedback","decision-35017813318-compiler-feedback","decision-35030197620-compiler-feedback","decision-35030798337-compiler-feedback","decision-35030815942-compiler-feedback","decision-35031774457-compiler-feedback"],
+		"timestamp": "2026-09-16T16:53:12.060437+00:00",
+		"toStatus": "strongly-supported-current-scope"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "718611d9-7b47-5fd8-b632-8afc6907d66d"
+}

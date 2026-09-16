@@ -1,0 +1,35 @@
+{
+	"deleted": false,
+	"key": "claim-timeout-feedback-action-start",
+	"recorded_at_unix_ms": 1789577593848,
+	"row": {
+		"confidenceNote": "证据支持“有明显帮助”，但不支持“已经稳定”；当前完整成功仅 2/11。",
+		"contradictionCount": 4,
+		"contradictionRefs": ["decision-35015755091-timeout-feedback","decision-35032536666-timeout-feedback","decision-35032538780-timeout-feedback","decision-35053204493-timeout-feedback"],
+		"firstSupportedRevision": "7c9c9da2424f79c508bb63e1102dbffc3f543e64",
+		"id": "claim-timeout-feedback-action-start",
+		"independenceSummary": {
+			"note": "当前累计 7/11 行为跨越，且存在 4 条 no-crossing；不同实验批次的独立性尚未统一编码。",
+			"status": "pending-explicit-classification"
+		},
+		"latestEvaluatedRevision": "7c9c9da2424f79c508bb63e1102dbffc3f543e64",
+		"metadata": {
+			"family": "timeout-feedback",
+			"legacyCadenceMetadataIncomplete": true
+		},
+		"scope": {
+			"failureMode": "timeout-before-source-mutation",
+			"interventionFamily": "timeout-feedback",
+			"model": "glm-5.3-flash",
+			"taskFamily": "cache-durability"
+		},
+		"statement": "超时且未修改源码的反馈能够帮助 Agent 跨过一部分“迟迟不开始行动”的问题，但效果仍然不稳定。",
+		"status": "supported-but-variable",
+		"supportCount": 7,
+		"supportRefs": ["decision-34996520525-timeout-feedback","decision-35031489607-timeout-feedback","decision-35032213735-timeout-feedback","decision-35053212824-timeout-feedback","decision-35053215222-timeout-feedback","decision-35055305802-timeout-feedback","decision-35055831604-timeout-feedback"],
+		"updatedAt": "2026-09-16T16:53:12.060437+00:00"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "718611d9-7b47-5fd8-b632-8afc6907d66d"
+}

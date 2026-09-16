@@ -1,0 +1,34 @@
+{
+	"deleted": false,
+	"key": "claim-compiler-feedback-focused-repair",
+	"recorded_at_unix_ms": 1789577593848,
+	"row": {
+		"confidenceNote": "当前范围内 8/8 完整成功；结论仅适用于行为已经正确、问题明确定位到编译层的局部修复场景。",
+		"contradictionCount": 0,
+		"contradictionRefs": [],
+		"firstSupportedRevision": "7c9c9da2424f79c508bb63e1102dbffc3f543e64",
+		"id": "claim-compiler-feedback-focused-repair",
+		"independenceSummary": {
+			"note": "现有重复实验支持强，但 independenceClass 尚未结构化编码。",
+			"status": "pending-explicit-classification"
+		},
+		"latestEvaluatedRevision": "7c9c9da2424f79c508bb63e1102dbffc3f543e64",
+		"metadata": {
+			"family": "compiler-feedback"
+		},
+		"scope": {
+			"intervention": "compiler-feedback-only",
+			"model": "glm-5.3-flash",
+			"precondition": "behavior-pass-build-fail",
+			"taskFamily": "cache-durability"
+		},
+		"statement": "当业务行为已经正确、只剩明确编译错误时，提供具体编译器证据是一种稳定的局部修复方法。",
+		"status": "strongly-supported-current-scope",
+		"supportCount": 8,
+		"supportRefs": ["decision-35013587600-compiler-feedback","decision-35015165145-compiler-feedback","decision-35017807349-compiler-feedback","decision-35017813318-compiler-feedback","decision-35030197620-compiler-feedback","decision-35030798337-compiler-feedback","decision-35030815942-compiler-feedback","decision-35031774457-compiler-feedback"],
+		"updatedAt": "2026-09-16T16:53:12.060437+00:00"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "718611d9-7b47-5fd8-b632-8afc6907d66d"
+}
