@@ -1,12 +1,14 @@
 {
 	"deleted": false,
 	"key": "35081399817",
-	"recorded_at_unix_ms": 1789552078646,
+	"recorded_at_unix_ms": 1789553443082,
 	"row": {
-		"currentStage": "preparing",
+		"behaviorStatus": "fail",
+		"buildStatus": "pass",
+		"currentStage": "evaluated",
 		"id": "35081399817",
-		"latestEventSequence": 1,
-		"latestHeartbeat": "2026-09-16T09:47:37.795088+00:00",
+		"latestEventSequence": 2,
+		"latestHeartbeat": "2026-09-16T10:10:38.836170+00:00",
 		"metadata": {
 			"repository": "yxsicd/agentlabrelease",
 			"sha": "cbd9c9735a9a015a5ba4c655bd74eda84ba952aa",
@@ -16,11 +18,12 @@
 		"reasoningEffort": "default",
 		"reportEligible": true,
 		"scenario": "cache-durability",
+		"sourceRevision": "3390520c9b9c12a6581cf987511f78aaba9b65105c0975c5c7b3ee45cf0a90c0",
 		"startedAt": "2026-09-16T09:47:37.795088+00:00",
 		"status": "running",
 		"workflowRunId": "35081399817"
 	},
-	"row_version": 1,
+	"row_version": 2,
 	"schema": "mcpgit.table-row.v1",
-	"transaction_id": "554f4ae5-05ed-574a-997b-cb348dc0a64d"
+	"transaction_id": "11e1eb7d-8ddf-56ce-968a-b707994f60c4"
 }

@@ -1,0 +1,22 @@
+{
+	"deleted": false,
+	"key": "35081399817-000002",
+	"recorded_at_unix_ms": 1789553443082,
+	"row": {
+		"id": "35081399817-000002",
+		"kind": "agent_phase_finished",
+		"payload": {
+			"scopeDrift": false,
+			"subjectTaskSucceeded": false
+		},
+		"phase": "parent-turn-2",
+		"runId": "35081399817",
+		"sequence": 2,
+		"sourceCut": "3390520c9b9c12a6581cf987511f78aaba9b65105c0975c5c7b3ee45cf0a90c0",
+		"summary": "Assessed Agent phase completed; behavior/build/scope evidence is available.",
+		"timestamp": "2026-09-16T10:10:38.836170+00:00"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "11e1eb7d-8ddf-56ce-968a-b707994f60c4"
+}
