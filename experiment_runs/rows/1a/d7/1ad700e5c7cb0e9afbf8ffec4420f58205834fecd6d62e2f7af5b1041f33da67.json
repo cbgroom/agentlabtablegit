@@ -1,13 +1,13 @@
 {
 	"deleted": false,
 	"key": "research-v3-helper-test-20260916",
-	"recorded_at_unix_ms": 1789551888836,
+	"recorded_at_unix_ms": 1789552376734,
 	"row": {
-		"completedAt": "2026-09-16T09:44:43.678998+00:00",
-		"currentStage": "live-projection-ready",
+		"completedAt": "2026-09-16T09:52:52.365907+00:00",
+		"currentStage": "live-projection-v2",
 		"id": "research-v3-helper-test-20260916",
-		"latestEventSequence": 2,
-		"latestHeartbeat": "2026-09-16T09:44:43.678998+00:00",
+		"latestEventSequence": 3,
+		"latestHeartbeat": "2026-09-16T09:52:52.365907+00:00",
 		"metadata": {
 			"repository": "yxsicd/agentlabrelease",
 			"sha": "c002a5a8ba5ea5e074cbd9e59adecb5e728ecc6a",
@@ -21,7 +21,7 @@
 		"status": "completed",
 		"workflowRunId": "research-v3-helper-test-20260916"
 	},
-	"row_version": 2,
+	"row_version": 3,
 	"schema": "mcpgit.table-row.v1",
-	"transaction_id": "f8a4f29a-3b8e-55e9-ae22-b344a68ff58d"
+	"transaction_id": "4abd5f62-fa55-5e7d-97b3-33501e0812f3"
 }

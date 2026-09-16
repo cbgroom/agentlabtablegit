@@ -1,0 +1,18 @@
+{
+	"deleted": false,
+	"key": "research-v3-helper-test-20260916-000003",
+	"recorded_at_unix_ms": 1789552376734,
+	"row": {
+		"id": "research-v3-helper-test-20260916-000003",
+		"kind": "research_projection_v2_test",
+		"payload": {},
+		"phase": "live-projection-v2",
+		"runId": "research-v3-helper-test-20260916",
+		"sequence": 3,
+		"summary": "Validate difficulty/intervention family projection.",
+		"timestamp": "2026-09-16T09:52:52.365907+00:00"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "4abd5f62-fa55-5e7d-97b3-33501e0812f3"
+}
