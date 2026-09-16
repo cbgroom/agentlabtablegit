@@ -1,0 +1,18 @@
+{
+	"deleted": false,
+	"key": "35081399817-000001",
+	"recorded_at_unix_ms": 1789552078646,
+	"row": {
+		"id": "35081399817-000001",
+		"kind": "run_started",
+		"payload": {},
+		"phase": "preparing",
+		"runId": "35081399817",
+		"sequence": 1,
+		"summary": "GitHub Action accepted the experiment and began immutable preparation.",
+		"timestamp": "2026-09-16T09:47:37.795088+00:00"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "554f4ae5-05ed-574a-997b-cb348dc0a64d"
+}
