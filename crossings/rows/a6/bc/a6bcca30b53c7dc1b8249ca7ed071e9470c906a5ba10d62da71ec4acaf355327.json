@@ -1,0 +1,25 @@
+{
+	"deleted": false,
+	"key": "crossing-35053204493-timeout-feedback-repair",
+	"recorded_at_unix_ms": 1789530910667,
+	"row": {
+		"arm": "timeout-feedback",
+		"behaviorPass": false,
+		"buildPass": true,
+		"changedPaths": ["common/src/main/ets/storagemanager/PreferenceCacheHelper.ets","common/src/main/ets/storagemanager/PreferenceManager.ets","features/devpractices/src/main/ets/model/SampleModel.ets"],
+		"checkpointId": "checkpoint-35053204493-turn-1",
+		"difficultyId": "difficulty-35053204493-timeout-feedback",
+		"durationMs": 213890,
+		"firstMutationMs": 126221,
+		"gatewayRequests": 7,
+		"id": "crossing-35053204493-timeout-feedback-repair",
+		"interventionId": "intervention-35053204493-timeout-feedback",
+		"outputSessionSha256": "1eb1d82f1aeb2a753cec5ba783439f020432723f2b34f53326f1827204e2a4ff",
+		"schema": "agentlab.difficulty_crossing.v1",
+		"scopeDrift": false,
+		"timedOut": false
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "765d3b6f-e64c-56da-aeee-4fea9173183e"
+}
