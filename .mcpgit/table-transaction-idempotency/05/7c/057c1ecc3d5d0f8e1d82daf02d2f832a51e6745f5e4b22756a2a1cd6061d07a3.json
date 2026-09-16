@@ -1,0 +1,5 @@
+{
+  "schema": "mcpgit.table-idempotency-pointer.v1",
+  "idempotency_key": "agentlab-live-bootstrap-20260916",
+  "transaction_id": "baf94b45-ce13-5940-88b2-c3fea146b0b3"
+}

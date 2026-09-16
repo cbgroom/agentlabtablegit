@@ -1,0 +1,29 @@
+{
+	"deleted": false,
+	"key": "research-v3-bootstrap-20260916",
+	"recorded_at_unix_ms": 1789551678570,
+	"row": {
+		"behaviorStatus": "not-applicable",
+		"buildStatus": "not-applicable",
+		"completedAt": "2026-09-16T09:41:16.333696+00:00",
+		"currentStage": "bootstrap-complete",
+		"id": "research-v3-bootstrap-20260916",
+		"latestEventSequence": 1,
+		"latestHeartbeat": "2026-09-16T09:41:16.333696+00:00",
+		"metadata": {
+			"purpose": "validate live run/event atomic transaction"
+		},
+		"model": "none",
+		"persistenceStatus": "persisted",
+		"reasoningEffort": "none",
+		"reportEligible": false,
+		"scenario": "system-bootstrap",
+		"sourceRevision": "3b74d5cdce8e1a94e794dba3f5375b38330b7bca",
+		"startedAt": "2026-09-16T09:41:16.333696+00:00",
+		"status": "completed",
+		"workflowRunId": "research-v3-bootstrap-20260916"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "baf94b45-ce13-5940-88b2-c3fea146b0b3"
+}

@@ -1,0 +1,20 @@
+{
+	"deleted": false,
+	"key": "research-v3-bootstrap-20260916-000001",
+	"recorded_at_unix_ms": 1789551678570,
+	"row": {
+		"id": "research-v3-bootstrap-20260916-000001",
+		"kind": "bootstrap_completed",
+		"payload": {
+			"reportEligible": false
+		},
+		"phase": "system",
+		"runId": "research-v3-bootstrap-20260916",
+		"sequence": 1,
+		"summary": "Validated atomic experiment_runs + run_events transaction for Research Observatory V3.",
+		"timestamp": "2026-09-16T09:41:16.333696+00:00"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "baf94b45-ce13-5940-88b2-c3fea146b0b3"
+}
