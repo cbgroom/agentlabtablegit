@@ -1,0 +1,125 @@
+{
+  "schema": "mcpgit.table.v2",
+  "key_field": "id",
+  "fields": {
+    "claimId": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "contradictionAdded": {
+      "type": "array",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "fromStatus": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "id": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "key",
+      "projection": "default"
+    },
+    "kind": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "metadata": {
+      "type": "json",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "metricsAfter": {
+      "type": "json",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "metricsBefore": {
+      "type": "json",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "sequence": {
+      "type": "integer",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "sourceRevision": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "summary": {
+      "type": "text",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "supportAdded": {
+      "type": "array",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "timestamp": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "toStatus": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    }
+  },
+  "required_fields": [
+    "claimId",
+    "fromStatus",
+    "id",
+    "kind",
+    "sequence",
+    "sourceRevision",
+    "timestamp",
+    "toStatus"
+  ],
+  "indexes": [
+    {
+      "name": "by_claim",
+      "field": "claimId"
+    },
+    {
+      "name": "by_sequence",
+      "field": "sequence"
+    }
+  ],
+  "description": "Append-only claim lifecycle events explaining why AgentLab research conclusions changed."
+}
