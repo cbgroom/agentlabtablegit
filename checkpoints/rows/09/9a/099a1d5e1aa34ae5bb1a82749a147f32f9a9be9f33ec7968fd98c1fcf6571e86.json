@@ -1,0 +1,28 @@
+{
+	"deleted": false,
+	"key": "checkpoint-35081399817-fresh-fork-turn-2",
+	"recorded_at_unix_ms": 1789553466106,
+	"row": {
+		"admittedState": {
+			"behaviorPass": false,
+			"buildPass": true,
+			"phase": "fresh-fork-turn-2",
+			"semanticRehydrationEligible": true
+		},
+		"checkpointDigest": "36efe4ab2f0151611545fbf999d9f290067389d19e6549e058cdc2f5994328ad",
+		"formalSessionFsSnapshot": false,
+		"id": "checkpoint-35081399817-fresh-fork-turn-2",
+		"nativeAgent": "pi",
+		"nativeSessionSha256": "03a79182164deb4b642c5822388d14eb714526e2187d8dbd9dbbf51ebde37202",
+		"nativeThreadId": "01a0a9ab-6a5e-77fe-a011-5e6832f6af16",
+		"nativeVersion": "0.73.1",
+		"readyForControlledFork": false,
+		"schema": "agentlab.difficulty_checkpoint.v1",
+		"sourceCut": "6871e778f407675e6adf688118b93ff51ea34b99106ea6114a1e33c9d856dd7c",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+		"taskId": "case-cache-durability-subject-v1"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "a19d264a-6c6a-536d-930d-70d9e0c3da39"
+}
