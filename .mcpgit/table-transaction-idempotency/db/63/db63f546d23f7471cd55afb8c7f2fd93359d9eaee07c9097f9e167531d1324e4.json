@@ -1,0 +1,5 @@
+{
+  "schema": "mcpgit.table-idempotency-pointer.v1",
+  "idempotency_key": "claim-independence-classification-20260916",
+  "transaction_id": "a37ace71-ec7e-58c4-8d50-106eed12a687"
+}

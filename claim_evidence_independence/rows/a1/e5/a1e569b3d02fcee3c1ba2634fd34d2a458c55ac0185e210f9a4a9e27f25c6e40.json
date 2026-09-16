@@ -1,0 +1,27 @@
+{
+	"deleted": false,
+	"key": "independence-claim-compiler-feedback-focused-repair-35015165145",
+	"recorded_at_unix_ms": 1789597330514,
+	"row": {
+		"basis": "Source cut differs from every earlier evidence item for this claim.",
+		"checkpointId": "checkpoint-35015165145-turn-1",
+		"claimId": "claim-compiler-feedback-focused-repair",
+		"decisionRef": "decision-35015165145-compiler-feedback",
+		"id": "independence-claim-compiler-feedback-focused-repair-35015165145",
+		"independenceClass": "independent-source-cut",
+		"lineageGroup": "dece41b31c33edcd3ee514b3d73133af343dfb298ae4167d8a58ac4d1d5a4aaa|2e5015a26ecc518e5ceb34cc4d06a1eb61ee7e4e4c474ecab5b1a553420b290c",
+		"metadata": {
+			"runId": "35015165145"
+		},
+		"nativeSessionSha256": "2e5015a26ecc518e5ceb34cc4d06a1eb61ee7e4e4c474ecab5b1a553420b290c",
+		"nativeThreadId": "01a0a690-a0f3-7055-b5d2-baf02c9de9db",
+		"polarity": "support",
+		"runnerIndependence": "unknown-not-encoded",
+		"sourceCut": "dece41b31c33edcd3ee514b3d73133af343dfb298ae4167d8a58ac4d1d5a4aaa",
+		"sourceRevision": "829ac6cca62c73e3ca85843ac4bf3ac248e2ae4a",
+		"taskIndependence": "same-task-family-current-scope"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "a37ace71-ec7e-58c4-8d50-106eed12a687"
+}

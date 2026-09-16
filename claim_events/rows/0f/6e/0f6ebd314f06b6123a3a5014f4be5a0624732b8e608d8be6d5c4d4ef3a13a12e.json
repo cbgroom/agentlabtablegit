@@ -1,0 +1,39 @@
+{
+	"deleted": false,
+	"key": "claim-timeout-feedback-action-start-000002",
+	"recorded_at_unix_ms": 1789597330514,
+	"row": {
+		"claimId": "claim-timeout-feedback-action-start",
+		"contradictionAdded": [],
+		"fromStatus": "supported-but-variable",
+		"id": "claim-timeout-feedback-action-start-000002",
+		"kind": "independence-classified",
+		"metadata": {
+			"runnerIndependence": "unknown-not-encoded"
+		},
+		"metricsAfter": {
+			"classCounts": {
+				"anchor-checkpoint": 1,
+				"independent-checkpoint": 4,
+				"same-checkpoint-new-rollout": 6
+			},
+			"contradictionCount": 4,
+			"supportCount": 7,
+			"uniqueNativeSessions": 5,
+			"uniqueSourceCuts": 1
+		},
+		"metricsBefore": {
+			"contradictionCount": 4,
+			"supportCount": 7
+		},
+		"sequence": 2,
+		"sourceRevision": "829ac6cca62c73e3ca85843ac4bf3ac248e2ae4a",
+		"summary": "按 source cut 与 native session/checkpoint lineage 对现有证据独立性完成结构化分类；Claim 状态未改变。",
+		"supportAdded": [],
+		"timestamp": "2026-09-16T22:30:00+00:00",
+		"toStatus": "supported-but-variable"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "a37ace71-ec7e-58c4-8d50-106eed12a687"
+}

@@ -1,0 +1,39 @@
+{
+	"deleted": false,
+	"key": "claim-compiler-feedback-focused-repair-000002",
+	"recorded_at_unix_ms": 1789597330514,
+	"row": {
+		"claimId": "claim-compiler-feedback-focused-repair",
+		"contradictionAdded": [],
+		"fromStatus": "strongly-supported-current-scope",
+		"id": "claim-compiler-feedback-focused-repair-000002",
+		"kind": "independence-classified",
+		"metadata": {
+			"runnerIndependence": "unknown-not-encoded"
+		},
+		"metricsAfter": {
+			"classCounts": {
+				"anchor-checkpoint": 1,
+				"independent-source-cut": 3,
+				"same-checkpoint-new-rollout": 4
+			},
+			"contradictionCount": 0,
+			"supportCount": 8,
+			"uniqueNativeSessions": 4,
+			"uniqueSourceCuts": 4
+		},
+		"metricsBefore": {
+			"contradictionCount": 0,
+			"supportCount": 8
+		},
+		"sequence": 2,
+		"sourceRevision": "829ac6cca62c73e3ca85843ac4bf3ac248e2ae4a",
+		"summary": "按 source cut 与 native session/checkpoint lineage 对现有证据独立性完成结构化分类；Claim 状态未改变。",
+		"supportAdded": [],
+		"timestamp": "2026-09-16T22:30:00+00:00",
+		"toStatus": "strongly-supported-current-scope"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "a37ace71-ec7e-58c4-8d50-106eed12a687"
+}
