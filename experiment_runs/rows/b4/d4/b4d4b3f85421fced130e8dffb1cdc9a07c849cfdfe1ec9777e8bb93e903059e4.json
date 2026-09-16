@@ -1,20 +1,21 @@
 {
 	"deleted": false,
 	"key": "35160136225",
-	"recorded_at_unix_ms": 1789600397517,
+	"recorded_at_unix_ms": 1789600460840,
 	"row": {
 		"behaviorStatus": "pass",
 		"buildStatus": "fail",
-		"currentStage": "evaluated",
+		"currentStage": "evidence-persisted",
 		"id": "35160136225",
-		"latestEventSequence": 2,
-		"latestHeartbeat": "2026-09-16T23:13:13.870659+00:00",
+		"latestEventSequence": 3,
+		"latestHeartbeat": "2026-09-16T23:14:17.265615+00:00",
 		"metadata": {
 			"repository": "yxsicd/agentlabrelease",
 			"sha": "bc5f67db1a0c82999071d4e6416efb758f52c031",
 			"workflow": "Real staged Harmony subject assessment"
 		},
 		"model": "glm-5.3-flash",
+		"persistenceStatus": "persisted",
 		"reasoningEffort": "default",
 		"reportEligible": true,
 		"scenario": "cache-durability",
@@ -23,7 +24,7 @@
 		"status": "running",
 		"workflowRunId": "35160136225"
 	},
-	"row_version": 2,
+	"row_version": 3,
 	"schema": "mcpgit.table-row.v1",
-	"transaction_id": "4e9d90a5-3b5b-5eb9-b775-3b3e0b54bcca"
+	"transaction_id": "95476e8b-3ac4-5687-ad51-04cac16a9cee"
 }
