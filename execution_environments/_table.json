@@ -1,0 +1,117 @@
+{
+  "schema": "mcpgit.table.v2",
+  "key_field": "id",
+  "fields": {
+    "evidenceRef": {
+      "type": "string",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "executionMode": {
+      "type": "string",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "fingerprintSha256": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "id": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "key",
+      "projection": "default"
+    },
+    "machine": {
+      "type": "string",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "metadata": {
+      "type": "json",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "platform": {
+      "type": "text",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "runId": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "runnerArch": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "runnerIdentity": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "runnerName": {
+      "type": "string",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "runnerOs": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "sourceRevision": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    }
+  },
+  "required_fields": [
+    "fingerprintSha256",
+    "id",
+    "runId",
+    "runnerArch",
+    "runnerIdentity",
+    "runnerOs",
+    "sourceRevision"
+  ],
+  "indexes": [
+    {
+      "name": "by_run",
+      "field": "runId"
+    },
+    {
+      "name": "by_runner",
+      "field": "runnerIdentity"
+    }
+  ],
+  "description": "Execution environment identity and reproducibility fingerprint for each AgentLab experiment run."
+}
