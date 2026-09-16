@@ -1,0 +1,18 @@
+{
+	"deleted": false,
+	"key": "research-v3-helper-test-20260916-000002",
+	"recorded_at_unix_ms": 1789551888836,
+	"row": {
+		"id": "research-v3-helper-test-20260916-000002",
+		"kind": "projection_test",
+		"payload": {},
+		"phase": "live-projection-ready",
+		"runId": "research-v3-helper-test-20260916",
+		"sequence": 2,
+		"summary": "Validate live Works projection refresh from exact TableGit revision.",
+		"timestamp": "2026-09-16T09:44:43.678998+00:00"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "f8a4f29a-3b8e-55e9-ae22-b344a68ff58d"
+}
