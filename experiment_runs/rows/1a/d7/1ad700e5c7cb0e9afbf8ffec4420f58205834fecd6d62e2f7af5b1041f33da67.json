@@ -1,0 +1,27 @@
+{
+	"deleted": false,
+	"key": "research-v3-helper-test-20260916",
+	"recorded_at_unix_ms": 1789551835591,
+	"row": {
+		"completedAt": "2026-09-16T09:43:50.521941+00:00",
+		"currentStage": "helper-e2e",
+		"id": "research-v3-helper-test-20260916",
+		"latestEventSequence": 1,
+		"latestHeartbeat": "2026-09-16T09:43:50.521941+00:00",
+		"metadata": {
+			"repository": "yxsicd/agentlabrelease",
+			"sha": "c002a5a8ba5ea5e074cbd9e59adecb5e728ecc6a",
+			"workflow": "helper-e2e"
+		},
+		"model": "none",
+		"reasoningEffort": "none",
+		"reportEligible": false,
+		"scenario": "system-test",
+		"startedAt": "2026-09-16T09:43:50.521941+00:00",
+		"status": "completed",
+		"workflowRunId": "research-v3-helper-test-20260916"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "416bfec6-30dc-5958-bcd6-e15f291b4839"
+}
