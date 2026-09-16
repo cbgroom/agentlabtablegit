@@ -1,0 +1,31 @@
+{
+	"deleted": false,
+	"key": "independence-claim-timeout-feedback-action-start-35160136225",
+	"recorded_at_unix_ms": 1789600455797,
+	"row": {
+		"basis": "Source cut is shared, but native session/checkpoint lineage differs from earlier evidence.",
+		"checkpointId": "checkpoint-35160136225-turn-1",
+		"claimId": "claim-timeout-feedback-action-start",
+		"decisionRef": "decision-35160136225-timeout-feedback",
+		"id": "independence-claim-timeout-feedback-action-start-35160136225",
+		"independenceClass": "independent-checkpoint",
+		"lineageGroup": "97d00f23c92c00dd5d3d6c86a7206453f61672ecdad6bdcab6a09ca0e0dac14f|4e382988f84721e8980fb2911630b03c4b13ddd361323fe1cdccaeae40c20f31",
+		"metadata": {
+			"runId": "35160136225",
+			"runnerArch": "X64",
+			"runnerIdentity": "GitHub Actions 1000004871|Linux|X64|x86_64",
+			"runnerName": "GitHub Actions 1000004871",
+			"runnerOs": "Linux"
+		},
+		"nativeSessionSha256": "4e382988f84721e8980fb2911630b03c4b13ddd361323fe1cdccaeae40c20f31",
+		"nativeThreadId": "01a0ac73-1791-7429-a324-c00cb6f859e4",
+		"polarity": "support",
+		"runnerIndependence": "anchor-runner",
+		"sourceCut": "97d00f23c92c00dd5d3d6c86a7206453f61672ecdad6bdcab6a09ca0e0dac14f",
+		"sourceRevision": "24422874beda7d4418d8c007ff1ae328f05d045f",
+		"taskIndependence": "same-task-family-current-scope"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "1eca229d-1b6b-5d26-a82f-7e7726bdab89"
+}
