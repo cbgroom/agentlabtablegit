@@ -1,0 +1,27 @@
+{
+	"deleted": false,
+	"key": "intervention-35160136225-timeout-feedback",
+	"recorded_at_unix_ms": 1789600433665,
+	"row": {
+		"agentKind": "pi",
+		"checkpointId": "checkpoint-35160136225-turn-1",
+		"controlValue": {
+			"evidence": "none",
+			"verificationCadenceGuidance": false
+		},
+		"difficultyId": "difficulty-35160136225-timeout-feedback",
+		"frozen": ["native-session-lineage","task-demand","provider-reasoning","behavior-oracle","tool-policy"],
+		"id": "intervention-35160136225-timeout-feedback",
+		"model": "glm-5.3-flash",
+		"schema": "agentlab.difficulty_intervention.v1",
+		"status": "completed",
+		"variable": "timeoutFeedbackOnly",
+		"variantValue": {
+			"evidence": "timeout-feedback",
+			"verificationCadenceGuidance": false
+		}
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "ddaf8da3-acd0-5e91-af0d-ea34348ff1aa"
+}
