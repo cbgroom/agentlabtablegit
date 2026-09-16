@@ -1,0 +1,23 @@
+{
+	"deleted": false,
+	"key": "evidence-35055305802-decision-package",
+	"recorded_at_unix_ms": 1789532954578,
+	"row": {
+		"byteLength": 3457,
+		"id": "evidence-35055305802-decision-package",
+		"kind": "harness-decision-package",
+		"metadata": {
+			"scenario": "cache-durability",
+			"taskId": "case-cache-durability-subject-v1"
+		},
+		"producerRun": "35055305802",
+		"public": true,
+		"schema": "agentlab.evidence_ref.v1",
+		"sha256": "49a739cc72c28e16b96519a55895e2e4a526cf36df7fd40a13ad0b5e6d95f1f7",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+		"uri": "https://github.com/yxsicd/agentlabrelease/actions/runs/35055305802#decision-package.json"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "13de1dfe-850e-5b0c-9528-c9f39af9e5b5"
+}
