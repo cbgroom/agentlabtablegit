@@ -1,12 +1,13 @@
 {
 	"deleted": false,
 	"key": "intervention-35053215222-timeout-feedback",
-	"recorded_at_unix_ms": 1789530972324,
+	"recorded_at_unix_ms": 1789576950342,
 	"row": {
 		"agentKind": "pi",
 		"checkpointId": "checkpoint-35053215222-turn-1",
 		"controlValue": {
-			"evidence": "none"
+			"evidence": "none",
+			"verificationCadenceGuidance": false
 		},
 		"difficultyId": "difficulty-35053215222-timeout-feedback",
 		"frozen": ["native-session-lineage","task-demand","provider-reasoning","behavior-oracle","tool-policy"],
@@ -14,12 +15,13 @@
 		"model": "glm-5.3-flash",
 		"schema": "agentlab.difficulty_intervention.v1",
 		"status": "completed",
-		"variable": "timeoutFeedbackOnly",
+		"variable": "timeoutFeedbackWithVerificationCadence",
 		"variantValue": {
-			"evidence": "timeout-feedback"
+			"evidence": "timeout-feedback",
+			"verificationCadenceGuidance": true
 		}
 	},
-	"row_version": 1,
+	"row_version": 2,
 	"schema": "mcpgit.table-row.v1",
-	"transaction_id": "ffe437b5-899e-5399-97c6-9e10cdbf042e"
+	"transaction_id": "2dd66249-0fa1-5aa1-a925-edda158319b4"
 }

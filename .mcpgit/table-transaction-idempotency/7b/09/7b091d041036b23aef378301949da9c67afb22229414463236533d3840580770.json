@@ -1,0 +1,5 @@
+{
+  "schema": "mcpgit.table-idempotency-pointer.v1",
+  "idempotency_key": "agentlab-cadence-backfill-20260916",
+  "transaction_id": "2dd66249-0fa1-5aa1-a925-edda158319b4"
+}
