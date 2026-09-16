@@ -1,0 +1,121 @@
+{
+  "schema": "mcpgit.table.v2",
+  "key_field": "id",
+  "fields": {
+    "confidenceNote": {
+      "type": "text",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "contradictionCount": {
+      "type": "integer",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "contradictionRefs": {
+      "type": "array",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "firstSupportedRevision": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "id": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "key",
+      "projection": "default"
+    },
+    "independenceSummary": {
+      "type": "json",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "latestEvaluatedRevision": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "metadata": {
+      "type": "json",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "scope": {
+      "type": "json",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "statement": {
+      "type": "text",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "status": {
+      "type": "string",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "supportCount": {
+      "type": "integer",
+      "required": true,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "supportRefs": {
+      "type": "array",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    },
+    "updatedAt": {
+      "type": "string",
+      "required": false,
+      "source": null,
+      "role": "value",
+      "projection": "default"
+    }
+  },
+  "required_fields": [
+    "contradictionCount",
+    "firstSupportedRevision",
+    "id",
+    "latestEvaluatedRevision",
+    "scope",
+    "statement",
+    "status",
+    "supportCount"
+  ],
+  "indexes": [
+    {
+      "name": "by_status",
+      "field": "status"
+    }
+  ],
+  "description": "Current machine-readable AgentLab research claims derived from structured evidence."
+}
