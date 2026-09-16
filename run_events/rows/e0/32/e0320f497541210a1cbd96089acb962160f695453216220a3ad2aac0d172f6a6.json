@@ -1,0 +1,18 @@
+{
+	"deleted": false,
+	"key": "35081399817-000003",
+	"recorded_at_unix_ms": 1789553474627,
+	"row": {
+		"id": "35081399817-000003",
+		"kind": "evidence_persisted",
+		"payload": {},
+		"phase": "evidence-persisted",
+		"runId": "35081399817",
+		"sequence": 3,
+		"summary": "Immutable experiment facts were committed to agentlabtablegit and read back.",
+		"timestamp": "2026-09-16T10:11:10.128464+00:00"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "4c960b2b-b3d8-5a98-bf81-929c70ce4f5c"
+}
