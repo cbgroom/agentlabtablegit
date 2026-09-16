@@ -1,0 +1,32 @@
+{
+	"deleted": false,
+	"key": "claim-compiler-feedback-focused-repair-000003",
+	"recorded_at_unix_ms": 1789599379042,
+	"row": {
+		"claimId": "claim-compiler-feedback-focused-repair",
+		"contradictionAdded": [],
+		"fromStatus": "strongly-supported-current-scope",
+		"id": "claim-compiler-feedback-focused-repair-000003",
+		"kind": "independence-updated",
+		"metadata": {
+			"changedFields": ["independenceSummary"]
+		},
+		"metricsAfter": {
+			"contradictionCount": 0,
+			"supportCount": 8
+		},
+		"metricsBefore": {
+			"contradictionCount": 0,
+			"supportCount": 8
+		},
+		"sequence": 3,
+		"sourceRevision": "2f8bea6f3b6bdacab5db20d6fddb1cfeb6f94005",
+		"summary": "已有实验的独立性信息得到更完整的结构化刻画；支持/反例集合未变化。",
+		"supportAdded": [],
+		"timestamp": "2026-09-16T22:56:17.573615+00:00",
+		"toStatus": "strongly-supported-current-scope"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "9f658573-271d-59a0-b42f-86f11b6a818f"
+}

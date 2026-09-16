@@ -1,7 +1,7 @@
 {
 	"deleted": false,
 	"key": "claim-timeout-feedback-action-start",
-	"recorded_at_unix_ms": 1789597330514,
+	"recorded_at_unix_ms": 1789599379042,
 	"row": {
 		"confidenceNote": "证据支持“有明显帮助”，但不支持“已经稳定”；当前完整成功仅 2/11。",
 		"contradictionCount": 4,
@@ -15,14 +15,18 @@
 				"same-checkpoint-new-rollout": 6
 			},
 			"evidenceCount": 11,
-			"note": "Evidence diversity is derived only from structured checkpoint lineage. Runner independence is unknown until explicitly encoded.",
+			"note": "Code/session diversity is derived from checkpoint lineage. Runner diversity is counted only when execution_environments contains an explicit runnerIdentity for that run.",
+			"runnerClassCounts": {
+				"unknown-not-encoded": 11
+			},
 			"runnerIndependence": "unknown-not-encoded",
 			"status": "classified-from-checkpoint-lineage",
 			"taskIndependence": "same-task-family-current-scope",
+			"uniqueExecutionEnvironments": 0,
 			"uniqueNativeSessions": 5,
 			"uniqueSourceCuts": 1
 		},
-		"latestEvaluatedRevision": "829ac6cca62c73e3ca85843ac4bf3ac248e2ae4a",
+		"latestEvaluatedRevision": "2f8bea6f3b6bdacab5db20d6fddb1cfeb6f94005",
 		"metadata": {
 			"family": "timeout-feedback",
 			"legacyCadenceMetadataIncomplete": true
@@ -37,9 +41,9 @@
 		"status": "supported-but-variable",
 		"supportCount": 7,
 		"supportRefs": ["decision-34996520525-timeout-feedback","decision-35031489607-timeout-feedback","decision-35032213735-timeout-feedback","decision-35053212824-timeout-feedback","decision-35053215222-timeout-feedback","decision-35055305802-timeout-feedback","decision-35055831604-timeout-feedback"],
-		"updatedAt": "2026-09-16T16:53:12.060437+00:00"
+		"updatedAt": "2026-09-16T22:56:17.573615+00:00"
 	},
-	"row_version": 2,
+	"row_version": 3,
 	"schema": "mcpgit.table-row.v1",
-	"transaction_id": "a37ace71-ec7e-58c4-8d50-106eed12a687"
+	"transaction_id": "9f658573-271d-59a0-b42f-86f11b6a818f"
 }

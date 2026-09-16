@@ -1,7 +1,7 @@
 {
 	"deleted": false,
 	"key": "claim-compiler-feedback-focused-repair",
-	"recorded_at_unix_ms": 1789597330514,
+	"recorded_at_unix_ms": 1789599379042,
 	"row": {
 		"confidenceNote": "当前范围内 8/8 完整成功；结论仅适用于行为已经正确、问题明确定位到编译层的局部修复场景。",
 		"contradictionCount": 0,
@@ -15,14 +15,18 @@
 				"same-checkpoint-new-rollout": 4
 			},
 			"evidenceCount": 8,
-			"note": "Evidence diversity is derived only from structured checkpoint lineage. Runner independence is unknown until explicitly encoded.",
+			"note": "Code/session diversity is derived from checkpoint lineage. Runner diversity is counted only when execution_environments contains an explicit runnerIdentity for that run.",
+			"runnerClassCounts": {
+				"unknown-not-encoded": 8
+			},
 			"runnerIndependence": "unknown-not-encoded",
 			"status": "classified-from-checkpoint-lineage",
 			"taskIndependence": "same-task-family-current-scope",
+			"uniqueExecutionEnvironments": 0,
 			"uniqueNativeSessions": 4,
 			"uniqueSourceCuts": 4
 		},
-		"latestEvaluatedRevision": "829ac6cca62c73e3ca85843ac4bf3ac248e2ae4a",
+		"latestEvaluatedRevision": "2f8bea6f3b6bdacab5db20d6fddb1cfeb6f94005",
 		"metadata": {
 			"family": "compiler-feedback"
 		},
@@ -36,9 +40,9 @@
 		"status": "strongly-supported-current-scope",
 		"supportCount": 8,
 		"supportRefs": ["decision-35013587600-compiler-feedback","decision-35015165145-compiler-feedback","decision-35017807349-compiler-feedback","decision-35017813318-compiler-feedback","decision-35030197620-compiler-feedback","decision-35030798337-compiler-feedback","decision-35030815942-compiler-feedback","decision-35031774457-compiler-feedback"],
-		"updatedAt": "2026-09-16T16:53:12.060437+00:00"
+		"updatedAt": "2026-09-16T22:56:17.573615+00:00"
 	},
-	"row_version": 2,
+	"row_version": 3,
 	"schema": "mcpgit.table-row.v1",
-	"transaction_id": "a37ace71-ec7e-58c4-8d50-106eed12a687"
+	"transaction_id": "9f658573-271d-59a0-b42f-86f11b6a818f"
 }
