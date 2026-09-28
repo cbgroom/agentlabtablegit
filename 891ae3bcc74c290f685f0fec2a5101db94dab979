@@ -1,0 +1,75 @@
+{
+	"deleted": false,
+	"key": "skill-scope-hms-cordova-iap-cordova-plugin-hms-location",
+	"recorded_at_unix_ms": 1790568401948,
+	"row": {
+		"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-location",
+		"kind": "plugin",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["cordova-plugin-hms-location/example/cordova/package.json","cordova-plugin-hms-location/example/ionic/package.json","cordova-plugin-hms-location/ionic-native/dist/ngx/package.json","cordova-plugin-hms-location/ionic-native/dist/package.json","cordova-plugin-hms-location/package.json","cordova-plugin-hms-location/plugin.xml"],
+			"codeLineCount": 12067,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "----",
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "490b5c70e94bec59c1400a1bd385a04b184ac7f6",
+					"path": "cordova-plugin-hms-location/LICENSE"
+				},
+				{
+					"gitBlobOid": "b7b457b6491558681ba7416c6f94da9e665f97fc",
+					"path": "cordova-plugin-hms-location/README.md"
+				},
+				{
+					"gitBlobOid": "490b5c70e94bec59c1400a1bd385a04b184ac7f6",
+					"path": "cordova-plugin-hms-location/example/cordova/LICENSE"
+				}
+			],
+			"externalDependencies": ["@angular/common","@angular/core","@angular/core/testing","@angular/forms","@angular/platform-browser","@angular/platform-browser-dynamic","@angular/platform-browser-dynamic/testing","@angular/router","@awesome-cordova-plugins/core","@awesome-cordova-plugins/splash-screen/ngx","@awesome-cordova-plugins/status-bar/ngx","@hmscore/ionic-native-hms-location/ngx","@ionic/angular","android.app.Activity","android.app.ActivityManager","android.app.Notification","android.app.NotificationChannel","android.app.NotificationManager","android.app.PendingIntent","android.content.BroadcastReceiver","android.content.Context","android.content.Intent","android.content.IntentSender","android.content.SharedPreferences","android.content.pm.PackageManager","android.graphics.Bitmap","android.graphics.BitmapFactory","android.graphics.Color","android.location.Location","android.net.ConnectivityManager","android.net.NetworkInfo","android.net.Uri","android.os.Build","android.os.Looper","android.util.Log","android.webkit.JavascriptInterface","android.webkit.WebView","android.webkit.WebViewClient","android.widget.Toast","androidx.core.app.NotificationCompat","androidx.core.app.NotificationManagerCompat","com.huawei.agconnect.config.AGConnectServicesConfig","com.huawei.hmf.tasks.Task","com.huawei.hms.common.ResolvableApiException","com.huawei.hms.cordova.location.basef.CordovaBaseModule","com.huawei.hms.cordova.location.basef.CordovaEvent","com.huawei.hms.cordova.location.basef.CordovaMethod","com.huawei.hms.cordova.location.basef.HMSLog","com.huawei.hms.cordova.location.basef.handler.CorPack","com.huawei.hms.cordova.location.basef.handler.CordovaController","com.huawei.hms.cordova.location.basef.handler.Promise","com.huawei.hms.cordova.location.helpers.LocationBroadcastReceiver","com.huawei.hms.cordova.location.helpers.LocationCallbackHandler","com.huawei.hms.cordova.location.services.ActivityIdentificationService","com.huawei.hms.cordova.location.services.CoordinateConversionService","com.huawei.hms.cordova.location.services.FusedLocationService","com.huawei.hms.cordova.location.services.GeocoderService","com.huawei.hms.cordova.location.services.GeofenceService","com.huawei.hms.cordova.location.services.PluginService","com.huawei.hms.cordova.location.utils.Constants","com.huawei.hms.cordova.location.utils.CordovaUtils","com.huawei.hms.cordova.location.utils.Exceptions","com.huawei.hms.cordova.location.utils.LocationUtils","com.huawei.hms.cordova.location.utils.json.JSONToObject","com.huawei.hms.cordova.location.utils.json.ObjectToJSON","com.huawei.hms.location.ActivityConversionData","com.huawei.hms.location.ActivityConversionInfo","com.huawei.hms.location.ActivityConversionRequest","com.huawei.hms.location.ActivityConversionResponse","com.huawei.hms.location.ActivityIdentification","com.huawei.hms.location.ActivityIdentificationData","com.huawei.hms.location.ActivityIdentificationResponse","com.huawei.hms.location.FusedLocationProviderClient","com.huawei.hms.location.Geofence","com.huawei.hms.location.GeofenceData","com.huawei.hms.location.GeofenceErrorCodes","com.huawei.hms.location.GeofenceRequest","com.huawei.hms.location.GetFromLocationNameRequest","com.huawei.hms.location.GetFromLocationRequest","com.huawei.hms.location.HWLocation","com.huawei.hms.location.LocationAvailability","com.huawei.hms.location.LocationCallback","com.huawei.hms.location.LocationEnhanceService","com.huawei.hms.location.LocationRequest","com.huawei.hms.location.LocationResult","com.huawei.hms.location.LocationServices","com.huawei.hms.location.LocationSettingsRequest","com.huawei.hms.location.LocationSettingsResponse","com.huawei.hms.location.LocationSettingsStates","com.huawei.hms.location.LocationSettingsStatusCodes","com.huawei.hms.location.LogConfig","com.huawei.hms.location.NavigationRequest","com.huawei.hms.location.NavigationResult","com.huawei.hms.location.SettingsClient","com.huawei.hms.support.api.entity.location.coordinate.LonLat","com.huawei.hms.support.hianalytics.HiAnalyticsUtils","com.huawei.hms.utils.HMSBIInitializer","cordova","java.io.IOException","java.lang.annotation.ElementType"],
+			"externalDependencyCount": 128,
+			"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-location",
+			"kind": "plugin",
+			"languages": {
+				"bat": 1,
+				"css": 1,
+				"gradle": 3,
+				"html": 18,
+				"java": 30,
+				"js": 27,
+				"json": 12,
+				"map": 10,
+				"md": 5,
+				"no-extension": 6,
+				"properties": 2,
+				"scss": 10,
+				"ts": 62,
+				"xml": 3
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "cordova-plugin-hms-location",
+			"repository": "https://github.com/HMS-Core/hms-cordova-plugin.git",
+			"repositoryId": "hms-cordova-iap",
+			"responsibility": "Maintain the complete Cordova plugin package rooted at cordova-plugin-hms-location, including JS/TS, native bridge, metadata, examples, and generated distributions.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 148,
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9",
+			"sourceTreeOid": "51a14d55393617e1c80b922187fc9c4ee798df60",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "cordova-plugin-monorepo",
+			"testEntrypoints": ["cordova-plugin-hms-location/example/ionic/e2e/src/app.e2e-spec.ts","cordova-plugin-hms-location/example/ionic/src/app/activity-conversion/activity-conversion.page.spec.ts","cordova-plugin-hms-location/example/ionic/src/app/activity-identification/activity-identification.page.spec.ts","cordova-plugin-hms-location/example/ionic/src/app/app.component.spec.ts","cordova-plugin-hms-location/example/ionic/src/app/coordinate-conversion/coordinate-conversion.page.spec.ts","cordova-plugin-hms-location/example/ionic/src/app/geocoder/geocoder.page.spec.ts","cordova-plugin-hms-location/example/ionic/src/app/geofence/geofence.page.spec.ts","cordova-plugin-hms-location/example/ionic/src/app/home/home.page.spec.ts","cordova-plugin-hms-location/example/ionic/src/app/location/location.page.spec.ts","cordova-plugin-hms-location/example/ionic/tsconfig.spec.json"],
+			"testFileCount": 10,
+			"trackedFileCount": 190
+		},
+		"payloadSha256": "3de43e2434d548af4c7992e720a869a3f3895610f5b569b5061d58f7b29be166",
+		"repositoryId": "hms-cordova-iap",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3ffbd707-f9eb-589d-8867-f1c181de8df6"
+}

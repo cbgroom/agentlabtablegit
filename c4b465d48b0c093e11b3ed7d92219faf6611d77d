@@ -1,0 +1,73 @@
+{
+	"deleted": false,
+	"key": "skill-scope-hms-cordova-iap-cordova-plugin-hms-ml",
+	"recorded_at_unix_ms": 1790568401948,
+	"row": {
+		"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-ml",
+		"kind": "plugin",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["cordova-plugin-hms-ml/ionic-native/dist/ngx/package.json","cordova-plugin-hms-ml/ionic-native/dist/package.json","cordova-plugin-hms-ml/package.json","cordova-plugin-hms-ml/plugin.xml"],
+			"codeLineCount": 37855,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "----",
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "490b5c70e94bec59c1400a1bd385a04b184ac7f6",
+					"path": "cordova-plugin-hms-ml/LICENSE"
+				},
+				{
+					"gitBlobOid": "7210aa96bd3e6b2e0ad8417d83c5f80a1aaec4b7",
+					"path": "cordova-plugin-hms-ml/README.md"
+				},
+				{
+					"gitBlobOid": "c997004ebca9af9e366be9240242e247ff466019",
+					"path": "cordova-plugin-hms-ml/THIRD PARTY OPEN SOURCE SOFTWARE NOTICE.txt"
+				}
+			],
+			"externalDependencies": ["@angular/core","@ionic-native/core","@ionic-native/hms-ml","android.Manifest","android.app.Activity","android.content.Context","android.content.Intent","android.content.pm.PackageManager","android.content.res.Configuration","android.content.res.Resources","android.graphics.Bitmap","android.graphics.BitmapFactory","android.graphics.Canvas","android.graphics.Color","android.graphics.Matrix","android.graphics.Paint","android.graphics.Paint.Style","android.graphics.Path","android.graphics.Point","android.graphics.Rect","android.graphics.RectF","android.graphics.Typeface","android.hardware.Camera","android.media.MediaMetadataRetriever","android.net.ConnectivityManager","android.net.NetworkInfo","android.net.Uri","android.os.Bundle","android.provider.MediaStore","android.speech.RecognizerIntent","android.util.AttributeSet","android.util.Base64","android.util.Log","android.util.Pair","android.util.SparseArray","android.view.LayoutInflater","android.view.MotionEvent","android.view.SurfaceHolder","android.view.SurfaceView","android.view.View","android.view.ViewGroup","android.widget.AbsListView","android.widget.BaseAdapter","android.widget.GridView","android.widget.ListView","android.widget.TextView","androidx.annotation.NonNull","androidx.annotation.Nullable","com.facebook.drawee.backends.pipeline.Fresco","com.facebook.drawee.view.SimpleDraweeView","com.google.gson.Gson","com.google.gson.JsonObject","com.huawei.agconnect.config.AGConnectServicesConfig","com.huawei.hmf.tasks.Continuation","com.huawei.hmf.tasks.OnFailureListener","com.huawei.hmf.tasks.OnSuccessListener","com.huawei.hmf.tasks.Task","com.huawei.hms.common.size.Size","com.huawei.hms.cordova.mlkit.HMSMLPlugin","com.huawei.hms.cordova.mlkit.camera.GraphicOverlay","com.huawei.hms.cordova.mlkit.camera.LensEnginePreview","com.huawei.hms.cordova.mlkit.common.MLHMSAnalyzer","com.huawei.hms.cordova.mlkit.common.MLHMSApplication","com.huawei.hms.cordova.mlkit.common.MLHMSCompositeAnalyzer","com.huawei.hms.cordova.mlkit.common.MLHMSFrame","com.huawei.hms.cordova.mlkit.common.MLHMSLensEngine","com.huawei.hms.cordova.mlkit.helpers.CordovaErrors","com.huawei.hms.cordova.mlkit.helpers.CordovaHelpers","com.huawei.hms.cordova.mlkit.helpers.MLLivenessCaptureErrors","com.huawei.hms.cordova.mlkit.helpers.PluginLayout","com.huawei.hms.cordova.mlkit.helpers.PluginLayout.InitialProps","com.huawei.hms.cordova.mlkit.helpers.PxToPixelConverter","com.huawei.hms.cordova.mlkit.interfaces.HMSProvider","com.huawei.hms.cordova.mlkit.interfaces.JSONMapper","com.huawei.hms.cordova.mlkit.logger.HMSLogger","com.huawei.hms.cordova.mlkit.logger.HMSMethod","com.huawei.hms.cordova.mlkit.providers.custommodel.MLCustomModel","com.huawei.hms.cordova.mlkit.providers.facebodyproviders.face.ML3DFaceGraphic","com.huawei.hms.cordova.mlkit.providers.facebodyproviders.face.MLFaceGraphic","com.huawei.hms.cordova.mlkit.providers.facebodyproviders.face.MLStillFaceAnalyser","com.huawei.hms.cordova.mlkit.providers.facebodyproviders.faceverification.MLStillFaceVerificationAnalyser","com.huawei.hms.cordova.mlkit.providers.facebodyproviders.gesture.MLGestureGraphic","com.huawei.hms.cordova.mlkit.providers.facebodyproviders.gesture.MLStillGestureAnalyser","com.huawei.hms.cordova.mlkit.providers.facebodyproviders.handkeypoint.MLHandKeypointGraphic","com.huawei.hms.cordova.mlkit.providers.facebodyproviders.handkeypoint.MLStillHandKeypointAnalyser","com.huawei.hms.cordova.mlkit.providers.facebodyproviders.livenessdetection.MLLivenessDetectionAnalyser","com.huawei.hms.cordova.mlkit.providers.facebodyproviders.skeleton.MLSkeletonGraphic","com.huawei.hms.cordova.mlkit.providers.facebodyproviders.skeleton.MLSkeletonUtils","com.huawei.hms.cordova.mlkit.providers.facebodyproviders.skeleton.MLStillSkeletonAnalyser","com.huawei.hms.cordova.mlkit.providers.imageproviders.classification.MLImageClassificationAnalyser","com.huawei.hms.cordova.mlkit.providers.imageproviders.documentskewcorrection.MLDocumentSkewCorrectionAnalyser","com.huawei.hms.cordova.mlkit.providers.imageproviders.imagesuperresolution.MLImageSuperResolutionAnalyser","com.huawei.hms.cordova.mlkit.providers.imageproviders.imgseg.MLImageSegmentationAnalyser","com.huawei.hms.cordova.mlkit.providers.imageproviders.imgseg.MLSegmentGraphic","com.huawei.hms.cordova.mlkit.providers.imageproviders.landmark.MLImageLandMarkAnalyser","com.huawei.hms.cordova.mlkit.providers.imageproviders.object.MLImageObjectAnalyser","com.huawei.hms.cordova.mlkit.providers.imageproviders.object.MLObjectGraphic","com.huawei.hms.cordova.mlkit.providers.imageproviders.product.MLProductVisionAnalyser","com.huawei.hms.cordova.mlkit.providers.imageproviders.product.MLRealProductBean","com.huawei.hms.cordova.mlkit.providers.imageproviders.scenedetection.MLSceneDetectionGraphic"],
+			"externalDependencyCount": 348,
+			"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-ml",
+			"kind": "plugin",
+			"languages": {
+				"gradle": 1,
+				"java": 92,
+				"jpg": 3,
+				"js": 14,
+				"json": 4,
+				"map": 9,
+				"md": 2,
+				"no-extension": 3,
+				"png": 5,
+				"ts": 21,
+				"txt": 1,
+				"xml": 6
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "cordova-plugin-hms-ml",
+			"repository": "https://github.com/HMS-Core/hms-cordova-plugin.git",
+			"repositoryId": "hms-cordova-iap",
+			"responsibility": "Maintain the complete Cordova plugin package rooted at cordova-plugin-hms-ml, including JS/TS, native bridge, metadata, examples, and generated distributions.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 127,
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9",
+			"sourceTreeOid": "51a14d55393617e1c80b922187fc9c4ee798df60",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "cordova-plugin-monorepo",
+			"testEntrypoints": [],
+			"testFileCount": 0,
+			"trackedFileCount": 161
+		},
+		"payloadSha256": "5f7b751ab29641c852ab2b4c3f1c045f35cd1c8029e60430566b285f8f24ab8c",
+		"repositoryId": "hms-cordova-iap",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3ffbd707-f9eb-589d-8867-f1c181de8df6"
+}

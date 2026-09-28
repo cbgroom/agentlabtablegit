@@ -1,0 +1,77 @@
+{
+	"deleted": false,
+	"key": "skill-scope-hms-cordova-iap-cordova-plugin-hms-mlimage",
+	"recorded_at_unix_ms": 1790568401948,
+	"row": {
+		"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-mlimage",
+		"kind": "plugin",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["cordova-plugin-hms-mlimage/example/cordova/package.json","cordova-plugin-hms-mlimage/example/ionic/package.json","cordova-plugin-hms-mlimage/ionic-native/dist/ngx/package.json","cordova-plugin-hms-mlimage/ionic-native/dist/package.json","cordova-plugin-hms-mlimage/package.json","cordova-plugin-hms-mlimage/plugin.xml"],
+			"codeLineCount": 22574,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "----",
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "490b5c70e94bec59c1400a1bd385a04b184ac7f6",
+					"path": "cordova-plugin-hms-mlimage/LICENSE"
+				},
+				{
+					"gitBlobOid": "bc14e29d38f31aa7f898e31d7516df8138f52806",
+					"path": "cordova-plugin-hms-mlimage/OpenSourceSoftwareNotice.html"
+				},
+				{
+					"gitBlobOid": "062c537bda747a31339f730a68afd557ada61b99",
+					"path": "cordova-plugin-hms-mlimage/README.md"
+				}
+			],
+			"externalDependencies": ["@angular/common","@angular/core","@angular/core/testing","@angular/forms","@angular/platform-browser","@angular/platform-browser-dynamic","@angular/platform-browser-dynamic/testing","@angular/router","@hmscore/ionic-native-hms-mlimage/ngx","@ionic-native/core","@ionic-native/file-chooser/ngx","@ionic-native/splash-screen/ngx","@ionic-native/status-bar/ngx","@ionic/angular","android.app.Activity","android.content.Context","android.content.Intent","android.content.pm.PackageManager","android.content.res.Configuration","android.content.res.Resources","android.graphics.Bitmap","android.graphics.BitmapFactory","android.graphics.Canvas","android.graphics.Color","android.graphics.Matrix","android.graphics.Paint","android.graphics.Paint.Style","android.graphics.Path","android.graphics.Point","android.graphics.Rect","android.graphics.RectF","android.graphics.Typeface","android.hardware.Camera","android.net.ConnectivityManager","android.net.NetworkInfo","android.net.Uri","android.os.Bundle","android.provider.MediaStore","android.util.AttributeSet","android.util.Base64","android.util.Log","android.util.SparseArray","android.view.LayoutInflater","android.view.MotionEvent","android.view.SurfaceHolder","android.view.SurfaceView","android.view.View","android.view.ViewGroup","android.widget.AbsListView","android.widget.BaseAdapter","android.widget.GridView","android.widget.ListView","android.widget.TextView","androidx.annotation.NonNull","androidx.annotation.Nullable","com.facebook.drawee.backends.pipeline.Fresco","com.facebook.drawee.view.SimpleDraweeView","com.google.gson.Gson","com.huawei.agconnect.config.AGConnectServicesConfig","com.huawei.hmf.tasks.Continuation","com.huawei.hmf.tasks.OnFailureListener","com.huawei.hmf.tasks.OnSuccessListener","com.huawei.hmf.tasks.Task","com.huawei.hms.common.size.Size","com.huawei.hms.cordova.mlimage.basef.CordovaBaseModule","com.huawei.hms.cordova.mlimage.basef.CordovaEvent","com.huawei.hms.cordova.mlimage.basef.CordovaMethod","com.huawei.hms.cordova.mlimage.basef.HMSLog","com.huawei.hms.cordova.mlimage.basef.handler.CorPack","com.huawei.hms.cordova.mlimage.basef.handler.CordovaController","com.huawei.hms.cordova.mlimage.basef.handler.Promise","com.huawei.hms.cordova.mlimage.camera.GraphicOverlay","com.huawei.hms.cordova.mlimage.camera.LensEnginePreview","com.huawei.hms.cordova.mlimage.common.HMSMLApplication","com.huawei.hms.cordova.mlimage.common.HMSMLCompositeAnalyzer","com.huawei.hms.cordova.mlimage.common.HMSMLFrame","com.huawei.hms.cordova.mlimage.common.HMSMLLensEngine","com.huawei.hms.cordova.mlimage.helpers.CordovaErrors","com.huawei.hms.cordova.mlimage.helpers.CordovaHelpers","com.huawei.hms.cordova.mlimage.helpers.PluginLayout","com.huawei.hms.cordova.mlimage.helpers.PluginLayout.InitialProps","com.huawei.hms.cordova.mlimage.helpers.PxToPixelConverter","com.huawei.hms.cordova.mlimage.interfaces.JSONMapper","com.huawei.hms.cordova.mlimage.providers.composite.face.ML3DFaceGraphic","com.huawei.hms.cordova.mlimage.providers.composite.face.MLFaceGraphic","com.huawei.hms.cordova.mlimage.providers.composite.gesture.MLGestureGraphic","com.huawei.hms.cordova.mlimage.providers.composite.handkeypoint.MLHandKeypointGraphic","com.huawei.hms.cordova.mlimage.providers.composite.skeleton.MLSkeletonGraphic","com.huawei.hms.cordova.mlimage.providers.composite.skeleton.MLSkeletonUtils","com.huawei.hms.cordova.mlimage.providers.custommodel.MLCustomModel","com.huawei.hms.cordova.mlimage.providers.imageproviders.classification.MLImageClassificationAnalyser","com.huawei.hms.cordova.mlimage.providers.imageproviders.documentskewcorrection.MLDocumentSkewCorrectionAnalyser","com.huawei.hms.cordova.mlimage.providers.imageproviders.imagesuperresolution.MLImageSuperResolutionAnalyser","com.huawei.hms.cordova.mlimage.providers.imageproviders.imgseg.MLImageSegmentationAnalyser","com.huawei.hms.cordova.mlimage.providers.imageproviders.imgseg.MLSegmentGraphic","com.huawei.hms.cordova.mlimage.providers.imageproviders.landmark.MLImageLandMarkAnalyser","com.huawei.hms.cordova.mlimage.providers.imageproviders.object.MLImageObjectAnalyser","com.huawei.hms.cordova.mlimage.providers.imageproviders.object.MLObjectGraphic","com.huawei.hms.cordova.mlimage.providers.imageproviders.product.MLProductVisionAnalyser","com.huawei.hms.cordova.mlimage.providers.imageproviders.product.MLRealProductBean"],
+			"externalDependencyCount": 272,
+			"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-mlimage",
+			"kind": "plugin",
+			"languages": {
+				"bat": 1,
+				"css": 1,
+				"gradle": 2,
+				"html": 31,
+				"java": 67,
+				"jpg": 3,
+				"js": 25,
+				"json": 13,
+				"map": 5,
+				"md": 4,
+				"no-extension": 7,
+				"png": 16,
+				"properties": 2,
+				"scss": 16,
+				"ts": 77,
+				"xml": 8
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "cordova-plugin-hms-mlimage",
+			"repository": "https://github.com/HMS-Core/hms-cordova-plugin.git",
+			"repositoryId": "hms-cordova-iap",
+			"responsibility": "Maintain the complete Cordova plugin package rooted at cordova-plugin-hms-mlimage, including JS/TS, native bridge, metadata, examples, and generated distributions.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 217,
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9",
+			"sourceTreeOid": "51a14d55393617e1c80b922187fc9c4ee798df60",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "cordova-plugin-monorepo",
+			"testEntrypoints": ["cordova-plugin-hms-mlimage/example/ionic/e2e/src/app.e2e-spec.ts","cordova-plugin-hms-mlimage/example/ionic/src/app/app.component.spec.ts","cordova-plugin-hms-mlimage/example/ionic/src/app/classify/classify.page.spec.ts","cordova-plugin-hms-mlimage/example/ionic/src/app/composite/composite.page.spec.ts","cordova-plugin-hms-mlimage/example/ionic/src/app/custommodel/custommodel.page.spec.ts","cordova-plugin-hms-mlimage/example/ionic/src/app/documentskewcorrection/documentskewcorrection.page.spec.ts","cordova-plugin-hms-mlimage/example/ionic/src/app/home/home.page.spec.ts","cordova-plugin-hms-mlimage/example/ionic/src/app/imgseg/imgseg.page.spec.ts","cordova-plugin-hms-mlimage/example/ionic/src/app/imgsuperresolution/imgsuperresolution.page.spec.ts","cordova-plugin-hms-mlimage/example/ionic/src/app/landmark/landmark.page.spec.ts","cordova-plugin-hms-mlimage/example/ionic/src/app/live/live.page.spec.ts","cordova-plugin-hms-mlimage/example/ionic/src/app/object/object.page.spec.ts","cordova-plugin-hms-mlimage/example/ionic/src/app/product/product.page.spec.ts","cordova-plugin-hms-mlimage/example/ionic/src/app/stillscene/stillscene.page.spec.ts","cordova-plugin-hms-mlimage/example/ionic/src/app/textimagesuperresolution/textimagesuperresolution.page.spec.ts","cordova-plugin-hms-mlimage/example/ionic/tsconfig.spec.json"],
+			"testFileCount": 16,
+			"trackedFileCount": 278
+		},
+		"payloadSha256": "68b4acbb495149d53e036ee7b6737da4951ff5f3362d2eb9fbb645b1fb0f0f5e",
+		"repositoryId": "hms-cordova-iap",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3ffbd707-f9eb-589d-8867-f1c181de8df6"
+}
