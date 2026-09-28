@@ -1,0 +1,77 @@
+{
+	"deleted": false,
+	"key": "skill-scope-hms-cordova-iap-cordova-plugin-hms-adsprime",
+	"recorded_at_unix_ms": 1790568393252,
+	"row": {
+		"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-adsprime",
+		"kind": "plugin",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["cordova-plugin-hms-adsprime/example/cordova/package.json","cordova-plugin-hms-adsprime/example/ionic/package.json","cordova-plugin-hms-adsprime/ionic-native/dist/ngx/package.json","cordova-plugin-hms-adsprime/ionic-native/dist/package.json","cordova-plugin-hms-adsprime/package.json","cordova-plugin-hms-adsprime/plugin.xml"],
+			"codeLineCount": 19472,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "----",
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "490b5c70e94bec59c1400a1bd385a04b184ac7f6",
+					"path": "cordova-plugin-hms-adsprime/LICENSE"
+				},
+				{
+					"gitBlobOid": "4e981da4c84e4dad6c11528022846ae9612d77a2",
+					"path": "cordova-plugin-hms-adsprime/README.md"
+				},
+				{
+					"gitBlobOid": "490b5c70e94bec59c1400a1bd385a04b184ac7f6",
+					"path": "cordova-plugin-hms-adsprime/example/cordova/LICENSE"
+				}
+			],
+			"externalDependencies": ["@angular/common","@angular/core","@angular/core/testing","@angular/forms","@angular/platform-browser","@angular/platform-browser-dynamic","@angular/platform-browser-dynamic/testing","@angular/router","@awesome-cordova-plugins/core","@awesome-cordova-plugins/splash-screen/ngx","@awesome-cordova-plugins/status-bar/ngx","@hmscore/ionic-native-hms-adsprime/ngx","@ionic/angular","android.app.Activity","android.app.Dialog","android.content.Context","android.content.pm.ActivityInfo","android.content.pm.PackageManager","android.content.res.Resources","android.graphics.Color","android.graphics.drawable.ColorDrawable","android.location.Location","android.net.ConnectivityManager","android.net.NetworkInfo","android.os.Bundle","android.os.RemoteException","android.util.AttributeSet","android.util.Log","android.view.View","android.view.ViewGroup","android.view.ViewGroup.LayoutParams","android.view.ViewGroup.MarginLayoutParams","android.webkit.JavascriptInterface","android.webkit.WebView","android.widget.Button","android.widget.CheckBox","android.widget.FrameLayout","android.widget.ImageView","android.widget.ProgressBar","android.widget.RelativeLayout","android.widget.TextView","com.huawei.agconnect.config.AGConnectServicesConfig","com.huawei.hms.ads.AdListener","com.huawei.hms.ads.AdParam","com.huawei.hms.ads.AdSize","com.huawei.hms.ads.AdvertiserInfo","com.huawei.hms.ads.AppDownloadButton","com.huawei.hms.ads.AppDownloadButtonStyle","com.huawei.hms.ads.AppDownloadStatus","com.huawei.hms.ads.AppInfo","com.huawei.hms.ads.AudioFocusType","com.huawei.hms.ads.AutoPlayNetType","com.huawei.hms.ads.BannerAdSize","com.huawei.hms.ads.BiddingInfo","com.huawei.hms.ads.BiddingParam","com.huawei.hms.ads.HwAds","com.huawei.hms.ads.InterstitialAd","com.huawei.hms.ads.MediaMuteListener","com.huawei.hms.ads.RequestOptions","com.huawei.hms.ads.VideoConfiguration","com.huawei.hms.ads.VideoOperator","com.huawei.hms.ads.VideoOperator.VideoLifecycleListener","com.huawei.hms.ads.banner.BannerView","com.huawei.hms.ads.consent.bean.AdProvider","com.huawei.hms.ads.consent.constant.ConsentStatus","com.huawei.hms.ads.consent.constant.DebugNeedConsent","com.huawei.hms.ads.consent.inter.Consent","com.huawei.hms.ads.consent.inter.ConsentUpdateListener","com.huawei.hms.ads.identifier.AdIdVerifyException","com.huawei.hms.ads.identifier.AdvertisingIdClient","com.huawei.hms.ads.installreferrer.api.InstallReferrerClient","com.huawei.hms.ads.installreferrer.api.InstallReferrerStateListener","com.huawei.hms.ads.installreferrer.api.ReferrerDetails","com.huawei.hms.ads.instreamad.InstreamAd","com.huawei.hms.ads.instreamad.InstreamAdLoadListener","com.huawei.hms.ads.instreamad.InstreamAdLoader","com.huawei.hms.ads.instreamad.InstreamMediaChangeListener","com.huawei.hms.ads.instreamad.InstreamMediaStateListener","com.huawei.hms.ads.instreamad.InstreamView","com.huawei.hms.ads.nativead.DislikeAdListener","com.huawei.hms.ads.nativead.DislikeAdReason","com.huawei.hms.ads.nativead.MediaView","com.huawei.hms.ads.nativead.NativeAd","com.huawei.hms.ads.nativead.NativeAdConfiguration","com.huawei.hms.ads.nativead.NativeAdLoader","com.huawei.hms.ads.nativead.NativeView","com.huawei.hms.ads.reward.OnMetadataChangedListener","com.huawei.hms.ads.reward.Reward","com.huawei.hms.ads.reward.RewardAd","com.huawei.hms.ads.reward.RewardAdListener","com.huawei.hms.ads.reward.RewardAdLoadListener","com.huawei.hms.ads.reward.RewardAdStatusListener","com.huawei.hms.ads.reward.RewardVerifyConfig","com.huawei.hms.ads.splash.SplashAd","com.huawei.hms.ads.splash.SplashAdDisplayListener","com.huawei.hms.ads.splash.SplashView","com.huawei.hms.ads.splash.SplashView.SplashAdLoadListener","com.huawei.hms.ads.vast.adapter.SdkFactory","com.huawei.hms.ads.vast.adapter.VastSdkConfiguration","com.huawei.hms.ads.vast.application.requestinfo.CreativeMatchStrategy"],
+			"externalDependencyCount": 182,
+			"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-adsprime",
+			"kind": "plugin",
+			"languages": {
+				"bat": 1,
+				"css": 1,
+				"gradle": 2,
+				"html": 8,
+				"java": 46,
+				"js": 23,
+				"json": 12,
+				"map": 14,
+				"md": 4,
+				"no-extension": 6,
+				"png": 4,
+				"properties": 1,
+				"scss": 4,
+				"svg": 1,
+				"ts": 47,
+				"xml": 14
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "cordova-plugin-hms-adsprime",
+			"repository": "https://github.com/HMS-Core/hms-cordova-plugin.git",
+			"repositoryId": "hms-cordova-iap",
+			"responsibility": "Maintain the complete Cordova plugin package rooted at cordova-plugin-hms-adsprime, including JS/TS, native bridge, metadata, examples, and generated distributions.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 129,
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9",
+			"sourceTreeOid": "51a14d55393617e1c80b922187fc9c4ee798df60",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "cordova-plugin-monorepo",
+			"testEntrypoints": ["cordova-plugin-hms-adsprime/example/ionic/e2e/src/app.e2e-spec.ts","cordova-plugin-hms-adsprime/example/ionic/src/app/app.component.spec.ts","cordova-plugin-hms-adsprime/example/ionic/src/app/home/home.page.spec.ts","cordova-plugin-hms-adsprime/example/ionic/tsconfig.spec.json"],
+			"testFileCount": 4,
+			"trackedFileCount": 188
+		},
+		"payloadSha256": "9cc7922202f80e9a4094116a19e1478bfb358d331c872b3ad3bf9a34795f5b34",
+		"repositoryId": "hms-cordova-iap",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "de9e3b23-e5a1-545e-bea4-c003a602ec54"
+}

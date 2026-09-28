@@ -1,0 +1,54 @@
+{
+	"deleted": false,
+	"key": "skill-scope-harmony-iap-client-entry-src-main-ets-pages-entrypage-ets",
+	"recorded_at_unix_ms": 1790568393252,
+	"row": {
+		"id": "skill-scope-harmony-iap-client-entry-src-main-ets-pages-entrypage-ets",
+		"kind": "source-unit",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": [],
+			"codeLineCount": 68,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": null,
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "926fa6e4c7ed2be446856c282805d86b1a5db3a5",
+					"path": "entry/src/main/ets/pages/EntryPage.ets"
+				}
+			],
+			"externalDependencies": ["@kit.ArkUI"],
+			"externalDependencyCount": 1,
+			"id": "skill-scope-harmony-iap-client-entry-src-main-ets-pages-entrypage-ets",
+			"kind": "source-unit",
+			"languages": {
+				"ets": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "entry/src/main/ets/pages/EntryPage.ets",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/iapkit-sample-clientdemo-arkts.git",
+			"repositoryId": "harmony-iap-client",
+			"responsibility": "Maintain the application behavior owned by entry/src/main/ets/pages/EntryPage.ets and its callers, state transitions, and IAP contract.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 1,
+			"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3",
+			"sourceTreeOid": "418b08c0b5de0e08c3ab7840986f93e6fa622a88",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-small-app-source-units",
+			"testEntrypoints": [],
+			"testFileCount": 0,
+			"trackedFileCount": 1
+		},
+		"payloadSha256": "f6a4d384323ec98a632ef05541f54940ed7a34ceb7fb2b2013e5bff5eae0e08e",
+		"repositoryId": "harmony-iap-client",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "de9e3b23-e5a1-545e-bea4-c003a602ec54"
+}

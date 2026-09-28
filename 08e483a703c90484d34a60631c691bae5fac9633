@@ -1,0 +1,68 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-xperf-scroll-jank",
+	"recorded_at_unix_ms": 1790568393252,
+	"row": {
+		"id": "skill-scope-guide-snippets-xperf-scroll-jank",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["xperf/scroll_jank/build-profile.json5","xperf/scroll_jank/entry/build-profile.json5"],
+			"codeLineCount": 210,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": null,
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "xperf/scroll_jank/.gitignore"
+				},
+				{
+					"gitBlobOid": "7413e1dba67862ffcd9648993a917d2dff48f19d",
+					"path": "xperf/scroll_jank/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "88041c331670c425d03958bdce1d47f84de5f27b",
+					"path": "xperf/scroll_jank/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 6,
+			"id": "skill-scope-guide-snippets-xperf-scroll-jank",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 7,
+				"json": 9,
+				"json5": 11,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "xperf/scroll_jank",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at xperf/scroll_jank; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 9,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["xperf/scroll_jank/entry/src/ohosTest/ets/test/Ability.test.ets","xperf/scroll_jank/entry/src/ohosTest/ets/test/List.test.ets","xperf/scroll_jank/entry/src/ohosTest/module.json5","xperf/scroll_jank/entry/src/test/List.test.ets","xperf/scroll_jank/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 37
+		},
+		"payloadSha256": "537a7bac0e6d134492afbe4db5f1c4d2a1fdf14dd69c89e3435843afbdf16f93",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "de9e3b23-e5a1-545e-bea4-c003a602ec54"
+}

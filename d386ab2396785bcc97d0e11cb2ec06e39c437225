@@ -1,0 +1,64 @@
+{
+	"deleted": false,
+	"key": "skill-scope-harmony-iap-client-entry-build",
+	"recorded_at_unix_ms": 1790568393252,
+	"row": {
+		"id": "skill-scope-harmony-iap-client-entry-build",
+		"kind": "module-build",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["entry/build-profile.json5"],
+			"codeLineCount": 2,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": null,
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "e2713a2779c5a3e0eb879efe6115455592caeea5",
+					"path": "entry/.gitignore"
+				},
+				{
+					"gitBlobOid": "f8f03407f77914b43168aeca6bb0929efd6700b4",
+					"path": "entry/build-profile.json5"
+				},
+				{
+					"gitBlobOid": "80e4ec5b81689f238c34614b167a0b9e9c83e8d9",
+					"path": "entry/hvigorfile.ts"
+				}
+			],
+			"externalDependencies": ["@ohos/hvigor-ohos-plugin"],
+			"externalDependencyCount": 1,
+			"id": "skill-scope-harmony-iap-client-entry-build",
+			"kind": "module-build",
+			"languages": {
+				"json5": 3,
+				"no-extension": 1,
+				"ts": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "entry/_build",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/iapkit-sample-clientdemo-arkts.git",
+			"repositoryId": "harmony-iap-client",
+			"responsibility": "Maintain the tracked repository support boundary entry/_build.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 1,
+			"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3",
+			"sourceTreeOid": "418b08c0b5de0e08c3ab7840986f93e6fa622a88",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-small-app-source-units",
+			"testEntrypoints": [],
+			"testFileCount": 0,
+			"trackedFileCount": 5
+		},
+		"payloadSha256": "3c668e54b3f7cf21d658779c898193a6cfe6494dee16fcea34999cabca523fea",
+		"repositoryId": "harmony-iap-client",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "de9e3b23-e5a1-545e-bea4-c003a602ec54"
+}

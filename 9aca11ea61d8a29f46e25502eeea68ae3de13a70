@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-vibrator-vibratorcapisamples",
+	"recorded_at_unix_ms": 1790568393252,
+	"row": {
+		"id": "skill-scope-guide-snippets-vibrator-vibratorcapisamples",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Vibrator/VibratorCapiSamples/build-profile.json5","Vibrator/VibratorCapiSamples/entry/build-profile.json5","Vibrator/VibratorCapiSamples/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 653,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本样例展示了vibrator模块capi接口的使用样例，包含在时间间隔内震动、自定义震动以及停止震动接口",
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Vibrator/VibratorCapiSamples/.gitignore"
+				},
+				{
+					"gitBlobOid": "ac79d524eca9f8f2f4989eb62dc82c257be1b9d1",
+					"path": "Vibrator/VibratorCapiSamples/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "bdf5185b5d9a50e5c231cff43a565bdd955c718d",
+					"path": "Vibrator/VibratorCapiSamples/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.LocalizationKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.app.ability.Want","@ohos.application.abilityDelegatorRegistry","@ohos.hilog","@ohos/hvigor-ohos-plugin","@ohos/hypium","fcntl.h","libentry.so","rawfile/raw_file_manager.h","sensors/vibrator.h","sys/stat.h","thread","unistd.h"],
+			"externalDependencyCount": 19,
+			"id": "skill-scope-guide-snippets-vibrator-vibratorcapisamples",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 1,
+				"ets": 9,
+				"json": 10,
+				"json5": 11,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Vibrator/VibratorCapiSamples",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Vibrator/VibratorCapiSamples; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 13,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Vibrator/VibratorCapiSamples/entry/src/ohosTest/ets/test/Ability.test.ets","Vibrator/VibratorCapiSamples/entry/src/ohosTest/ets/test/List.test.ets","Vibrator/VibratorCapiSamples/entry/src/ohosTest/ets/test/VibratorCapiSample.test.ets","Vibrator/VibratorCapiSamples/entry/src/ohosTest/module.json5","Vibrator/VibratorCapiSamples/entry/src/test/List.test.ets","Vibrator/VibratorCapiSamples/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 45
+		},
+		"payloadSha256": "e292211560d8efb8a39e2311ce255dc702ecfd8d40bbc432ef582378a98a3ebe",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "de9e3b23-e5a1-545e-bea4-c003a602ec54"
+}

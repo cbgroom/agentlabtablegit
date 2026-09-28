@@ -1,35 +1,35 @@
 {
 	"deleted": false,
-	"key": "skill-scope-guide-snippets-usb-usbmanagersample",
-	"recorded_at_unix_ms": 1790568390228,
+	"key": "skill-scope-guide-snippets-usb-usbmanagerserialsample",
+	"recorded_at_unix_ms": 1790568393252,
 	"row": {
-		"id": "skill-scope-guide-snippets-usb-usbmanagersample",
+		"id": "skill-scope-guide-snippets-usb-usbmanagerserialsample",
 		"kind": "sample-project",
 		"payload": {
 			"assetClass": "reusable-knowledge",
 			"automaticPromotion": false,
-			"buildEntrypoints": ["USB/USBManagerSample/build-profile.json5","USB/USBManagerSample/entry/build-profile.json5"],
-			"codeLineCount": 963,
+			"buildEntrypoints": ["USB/USBManagerSerialSample/build-profile.json5","USB/USBManagerSerialSample/entry/build-profile.json5"],
+			"codeLineCount": 651,
 			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
-			"documentedPurpose": "本示例主要展示了USB设备管理以及四种基本传输方式：<br>",
-			"documentedTitle": "USBManagerSample",
+			"documentedPurpose": "本示例主要展示了USB串口通信管理以及串口配置管理：<br>",
+			"documentedTitle": "USBManagerSerialSample",
 			"evidence": [
 				{
 					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
-					"path": "USB/USBManagerSample/.gitignore"
+					"path": "USB/USBManagerSerialSample/.gitignore"
 				},
 				{
-					"gitBlobOid": "b3c9ad05398730528d0c1e3394156b5404447848",
-					"path": "USB/USBManagerSample/AppScope/app.json5"
+					"gitBlobOid": "027f04932100510a8f579dbe06344336bdc41b28",
+					"path": "USB/USBManagerSerialSample/AppScope/app.json5"
 				},
 				{
-					"gitBlobOid": "c406455798d24cbdaaf269a957c2043d1c8000c6",
-					"path": "USB/USBManagerSample/AppScope/resources/base/element/string.json"
+					"gitBlobOid": "69efa2a0cd5092c114be9a5df0a534efc071532f",
+					"path": "USB/USBManagerSerialSample/AppScope/resources/base/element/string.json"
 				}
 			],
 			"externalDependencies": ["@kit.AbilityKit","@kit.ArkTS","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.app.ability.abilityDelegatorRegistry","@ohos.deviceInfo","@ohos.resourceManager","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
 			"externalDependencyCount": 12,
-			"id": "skill-scope-guide-snippets-usb-usbmanagersample",
+			"id": "skill-scope-guide-snippets-usb-usbmanagerserialsample",
 			"kind": "sample-project",
 			"languages": {
 				"ets": 7,
@@ -43,10 +43,10 @@
 				"txt": 1
 			},
 			"ownershipPlane": "target-operations",
-			"pathBoundary": "USB/USBManagerSample",
+			"pathBoundary": "USB/USBManagerSerialSample",
 			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
 			"repositoryId": "guide-snippets",
-			"responsibility": "Maintain the independently buildable Harmony sample rooted at USB/USBManagerSample; keep its modules, tests, resources, and SDK contract together.",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at USB/USBManagerSerialSample; keep its modules, tests, resources, and SDK contract together.",
 			"schema": "agentlab.maintainer_scope_skill.v1",
 			"skillLayer": "instance",
 			"sourceFileCount": 9,
@@ -55,16 +55,16 @@
 			"stage": "repository-scope",
 			"status": "source-supported",
 			"strategy": "harmony-sample-project-corpus",
-			"testEntrypoints": ["USB/USBManagerSample/entry/src/ohosTest/ets/test/Ability.test.ets","USB/USBManagerSample/entry/src/ohosTest/ets/test/List.test.ets","USB/USBManagerSample/entry/src/ohosTest/module.json5","USB/USBManagerSample/entry/src/test/List.test.ets","USB/USBManagerSample/entry/src/test/LocalUnit.test.ets"],
+			"testEntrypoints": ["USB/USBManagerSerialSample/entry/src/ohosTest/ets/test/Ability.test.ets","USB/USBManagerSerialSample/entry/src/ohosTest/ets/test/List.test.ets","USB/USBManagerSerialSample/entry/src/ohosTest/module.json5","USB/USBManagerSerialSample/entry/src/test/List.test.ets","USB/USBManagerSerialSample/entry/src/test/LocalUnit.test.ets"],
 			"testFileCount": 5,
 			"trackedFileCount": 39
 		},
-		"payloadSha256": "3a795cdee2bfed069006e763db3476972e07dcd680a34febb600160557145a9a",
+		"payloadSha256": "76efb75b008b2f7068adc8f3977cca725c785a40b382c2bf91952109638d295c",
 		"repositoryId": "guide-snippets",
 		"schema": "agentlab.maintainer_scope_skill.v1",
 		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
 	},
 	"row_version": 1,
 	"schema": "mcpgit.table-row.v1",
-	"transaction_id": "55eea14f-2491-50e8-b5c7-629f48b0ba96"
+	"transaction_id": "de9e3b23-e5a1-545e-bea4-c003a602ec54"
 }

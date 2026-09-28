@@ -1,0 +1,76 @@
+{
+	"deleted": false,
+	"key": "skill-scope-hms-cordova-iap-cordova-plugin-hms-account",
+	"recorded_at_unix_ms": 1790568393252,
+	"row": {
+		"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-account",
+		"kind": "plugin",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["cordova-plugin-hms-account/example/cordova/package.json","cordova-plugin-hms-account/example/ionic/package.json","cordova-plugin-hms-account/ionic-native/dist/ngx/package.json","cordova-plugin-hms-account/ionic-native/dist/package.json","cordova-plugin-hms-account/package.json","cordova-plugin-hms-account/plugin.xml"],
+			"codeLineCount": 8205,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "?color=%23007EC6&style=for-the-badge\" alt=\"downloads\"></a>",
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "490b5c70e94bec59c1400a1bd385a04b184ac7f6",
+					"path": "cordova-plugin-hms-account/LICENSE"
+				},
+				{
+					"gitBlobOid": "df41fb6a0bd23673d1040277e146b09d77181d01",
+					"path": "cordova-plugin-hms-account/README.md"
+				},
+				{
+					"gitBlobOid": "fe8225d0e8af0d33b38f9a50b7cce07f43982c70",
+					"path": "cordova-plugin-hms-account/example/cordova/.docs/images/config.PNG"
+				}
+			],
+			"externalDependencies": ["@angular/common","@angular/core","@angular/core/testing","@angular/forms","@angular/platform-browser","@angular/platform-browser-dynamic","@angular/platform-browser-dynamic/testing","@angular/router","@awesome-cordova-plugins/core","@awesome-cordova-plugins/splash-screen/ngx","@awesome-cordova-plugins/status-bar/ngx","@hmscore/ionic-native-hms-account/ngx","@ionic/angular","android.accounts.Account","android.app.Activity","android.content.BroadcastReceiver","android.content.Context","android.content.Intent","android.content.IntentFilter","android.content.pm.PackageManager","android.content.pm.Signature","android.graphics.Bitmap","android.net.ConnectivityManager","android.net.NetworkInfo","android.os.Bundle","android.util.Base64","android.util.Log","com.huawei.agconnect.config.AGConnectServicesConfig","com.huawei.hmf.tasks.OnFailureListener","com.huawei.hmf.tasks.OnSuccessListener","com.huawei.hmf.tasks.Task","com.huawei.hms.common.ApiException","com.huawei.hms.common.api.CommonStatusCodes","com.huawei.hms.cordova.HMSAccount","com.huawei.hms.cordova.OnActivityResultCallback","com.huawei.hms.cordova.account.HMSAuthManager","com.huawei.hms.cordova.account.HMSAuthService","com.huawei.hms.cordova.basef.CordovaBaseModule","com.huawei.hms.cordova.basef.CordovaEvent","com.huawei.hms.cordova.basef.CordovaMethod","com.huawei.hms.cordova.basef.HMSLog","com.huawei.hms.cordova.basef.handler.CorPack","com.huawei.hms.cordova.basef.handler.CordovaController","com.huawei.hms.cordova.basef.handler.Promise","com.huawei.hms.cordova.exceptions.NullMessageDigestException","com.huawei.hms.cordova.exceptions.NullServiceException","com.huawei.hms.cordova.exceptions.TimeOutException","com.huawei.hms.cordova.helpers.Constants","com.huawei.hms.cordova.helpers.HMSCordovaException","com.huawei.hms.cordova.helpers.SMSBroadcastReceiver","com.huawei.hms.cordova.hwid.HMSHuaweiIdAuthTool","com.huawei.hms.cordova.hwid.HMSNetworkTool","com.huawei.hms.cordova.hwid.HMSReadSMSManager","com.huawei.hms.cordova.utils.ExceptionUtils","com.huawei.hms.cordova.utils.HMSAccountUtils","com.huawei.hms.support.account.AccountAuthManager","com.huawei.hms.support.account.request.AccountAuthParams","com.huawei.hms.support.account.request.AccountAuthParamsHelper","com.huawei.hms.support.account.result.AccountIcon","com.huawei.hms.support.account.result.AuthAccount","com.huawei.hms.support.account.service.AccountAuthService","com.huawei.hms.support.api.client.Status","com.huawei.hms.support.api.entity.auth.Scope","com.huawei.hms.support.feature.result.AbstractAuthAccount","com.huawei.hms.support.feature.service.AuthService","com.huawei.hms.support.hianalytics.HiAnalyticsUtils","com.huawei.hms.support.hwid.HuaweiIdAuthManager","com.huawei.hms.support.hwid.common.HuaweiIdAuthException","com.huawei.hms.support.hwid.request.HuaweiIdAuthParams","com.huawei.hms.support.hwid.request.HuaweiIdAuthParamsHelper","com.huawei.hms.support.hwid.result.AuthHuaweiId","com.huawei.hms.support.hwid.service.HuaweiIdAuthService","com.huawei.hms.support.hwid.tools.HuaweiIdAuthTool","com.huawei.hms.support.hwid.tools.NetworkTool","com.huawei.hms.support.sms.ReadSmsManager","com.huawei.hms.support.sms.common.ReadSmsConstant","com.huawei.hms.utils.HMSBIInitializer","cordova","java.io.ByteArrayOutputStream","java.lang.annotation.ElementType","java.lang.annotation.Retention","java.lang.annotation.RetentionPolicy","java.lang.annotation.Target","java.lang.ref.WeakReference","java.lang.reflect.InvocationTargetException","java.lang.reflect.Method","java.nio.charset.StandardCharsets","java.security.MessageDigest","java.security.NoSuchAlgorithmException","java.util.ArrayList","java.util.Arrays","java.util.Collections","java.util.HashMap","java.util.HashSet","java.util.Iterator","java.util.List","java.util.Map","java.util.Objects","java.util.Set","org.apache.cordova.CallbackContext"],
+			"externalDependencyCount": 117,
+			"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-account",
+			"kind": "plugin",
+			"languages": {
+				"bat": 1,
+				"css": 1,
+				"gradle": 2,
+				"html": 4,
+				"java": 27,
+				"js": 20,
+				"json": 12,
+				"map": 11,
+				"md": 4,
+				"no-extension": 6,
+				"png": 8,
+				"properties": 2,
+				"scss": 4,
+				"ts": 41,
+				"xml": 4
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "cordova-plugin-hms-account",
+			"repository": "https://github.com/HMS-Core/hms-cordova-plugin.git",
+			"repositoryId": "hms-cordova-iap",
+			"responsibility": "Maintain the complete Cordova plugin package rooted at cordova-plugin-hms-account, including JS/TS, native bridge, metadata, examples, and generated distributions.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 97,
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9",
+			"sourceTreeOid": "51a14d55393617e1c80b922187fc9c4ee798df60",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "cordova-plugin-monorepo",
+			"testEntrypoints": ["cordova-plugin-hms-account/example/ionic/e2e/src/app.e2e-spec.ts","cordova-plugin-hms-account/example/ionic/src/app/app.component.spec.ts","cordova-plugin-hms-account/example/ionic/src/app/home/home.page.spec.ts","cordova-plugin-hms-account/example/ionic/tsconfig.spec.json"],
+			"testFileCount": 4,
+			"trackedFileCount": 147
+		},
+		"payloadSha256": "4c3bba477b56a0d9e674c918203b092043af1f9b1d3276750b1308820cd3d5fb",
+		"repositoryId": "hms-cordova-iap",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "de9e3b23-e5a1-545e-bea4-c003a602ec54"
+}

@@ -1,0 +1,65 @@
+{
+	"deleted": false,
+	"key": "skill-scope-harmony-iap-client-root",
+	"recorded_at_unix_ms": 1790568393252,
+	"row": {
+		"id": "skill-scope-harmony-iap-client-root",
+		"kind": "repository-support",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["build-profile.json5"],
+			"codeLineCount": 2,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "IAP Kit（应用内支付服务）为开发者提供便捷的应用内支付体验和简便的接入流程，让开发者聚焦应用本身的业务能力，助力开发者的商业变现。开发者应用可通过使用IAP Kit提供的系统级支付API快速启动IAP收银台，即可实现应用内支付。",
+			"documentedTitle": "实现应用内支付服务-客户端",
+			"evidence": [
+				{
+					"gitBlobOid": "ddb8c226965def321c2c096708e656fc5f4f3fd1",
+					"path": ".gitignore"
+				},
+				{
+					"gitBlobOid": "b2cc02977d74631a63703f33a1ae6c1f94d81219",
+					"path": "build-profile.json5"
+				},
+				{
+					"gitBlobOid": "73bfab4e997c8d4aea53b22fdd7f10112b30987f",
+					"path": "hvigor/hvigor-config.json5"
+				}
+			],
+			"externalDependencies": ["@ohos/hvigor-ohos-plugin"],
+			"externalDependencyCount": 1,
+			"id": "skill-scope-harmony-iap-client-root",
+			"kind": "repository-support",
+			"languages": {
+				"json5": 3,
+				"md": 2,
+				"no-extension": 1,
+				"ts": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": ".",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/iapkit-sample-clientdemo-arkts.git",
+			"repositoryId": "harmony-iap-client",
+			"responsibility": "Maintain repository-wide build, policy, documentation, and release support files.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 1,
+			"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3",
+			"sourceTreeOid": "418b08c0b5de0e08c3ab7840986f93e6fa622a88",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-small-app-source-units",
+			"testEntrypoints": [],
+			"testFileCount": 0,
+			"trackedFileCount": 7
+		},
+		"payloadSha256": "c5221737778c2c1cf1e9415d57ea79dabe05d3391e800d3d2e2bfd0386fe528a",
+		"repositoryId": "harmony-iap-client",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "de9e3b23-e5a1-545e-bea4-c003a602ec54"
+}

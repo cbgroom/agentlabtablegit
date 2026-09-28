@@ -1,0 +1,54 @@
+{
+	"deleted": false,
+	"key": "skill-scope-harmony-iap-client-entry-src-main-ets-entryability-entryability-ets",
+	"recorded_at_unix_ms": 1790568393252,
+	"row": {
+		"id": "skill-scope-harmony-iap-client-entry-src-main-ets-entryability-entryability-ets",
+		"kind": "source-unit",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": [],
+			"codeLineCount": 56,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": null,
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "df542b2cf57be6d93fe0b3aaf62a25c3d5e03f68",
+					"path": "entry/src/main/ets/entryability/EntryAbility.ets"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit"],
+			"externalDependencyCount": 3,
+			"id": "skill-scope-harmony-iap-client-entry-src-main-ets-entryability-entryability-ets",
+			"kind": "source-unit",
+			"languages": {
+				"ets": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "entry/src/main/ets/entryability/EntryAbility.ets",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/iapkit-sample-clientdemo-arkts.git",
+			"repositoryId": "harmony-iap-client",
+			"responsibility": "Maintain the application behavior owned by entry/src/main/ets/entryability/EntryAbility.ets and its callers, state transitions, and IAP contract.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 1,
+			"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3",
+			"sourceTreeOid": "418b08c0b5de0e08c3ab7840986f93e6fa622a88",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-small-app-source-units",
+			"testEntrypoints": [],
+			"testFileCount": 0,
+			"trackedFileCount": 1
+		},
+		"payloadSha256": "d830b101b93f35b60c57ef157264c5de75a8654fb78f2e422ab3fa34b4356da6",
+		"repositoryId": "harmony-iap-client",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "de9e3b23-e5a1-545e-bea4-c003a602ec54"
+}
