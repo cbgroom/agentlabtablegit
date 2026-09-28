@@ -1,0 +1,56 @@
+{
+	"deleted": false,
+	"key": "agent-analysis-harmony-pc-entry-hap-shell",
+	"recorded_at_unix_ms": 1790568413622,
+	"row": {
+		"id": "agent-analysis-harmony-pc-entry-hap-shell",
+		"kind": "analysis",
+		"payload": {
+			"agentProposal": {
+				"automaticPromotion": false,
+				"schema": "agentlab.maintainer_skill_fact_proposal.v1",
+				"sourceAssessmentSha256": "0c7bb0e3b4173affc93534071d2d73726dad2f67c685b1deeefad8e24438861d"
+			},
+			"dimensions": ["behavior","boundary","relations","responsibility"],
+			"evidence": [
+				{
+					"gitBlobOid": "a0c79a6f6d15885ff5816321d36faeb851d0ee60",
+					"path": "products/pc/src/main/module.json5"
+				},
+				{
+					"gitBlobOid": "fb58dacbdd20e58a4d8760cb8a26066153747e17",
+					"path": "products/pc/src/main/ets/pcability/PcAbility.ets"
+				},
+				{
+					"gitBlobOid": "8b62b3d24ef1eacfd145463eaefbd809cd4e3edf",
+					"path": "products/pc/src/main/ets/pcformability/PcFormAbility.ets"
+				},
+				{
+					"gitBlobOid": "7721fe9708ae89bb46d33b51f2de681fd04a3dd5",
+					"path": "products/pc/src/main/ets/page/PcMainPage.ets"
+				},
+				{
+					"gitBlobOid": "e992b00acced34594f646f008c1a94c9bbdec2e1",
+					"path": "products/pc/src/main/resources/base/profile/form_config.json"
+				},
+				{
+					"gitBlobOid": "f0a6e7c157fb6f98b26d0eebaa52db38caca4e10",
+					"path": "features/abilitycommon/src/main/ets/abilityhelper/BaseAbilityHelper.ets"
+				}
+			],
+			"id": "agent-analysis-harmony-pc-entry-hap-shell",
+			"interpretation": "products/pc is the entry-type HAP of the 2-in-1 product: module.json5 declares type 'entry', mainElement 'PcAbility', deviceTypes ['2in1'], form extension PhoneFormAbility (PcFormAbility.ets), PcBackupAbility, and four permissions. Responsibility: PC app shell - PcAbility sets IS_SIDEBAR_LAYOUT=true and delegates all lifecycle callbacks to BaseAbilityHelper from @ohos/abilitycommon; router_map maps 'MainPage' to PcMainPage.ets, which hosts HomeView in HdsSideBar/HdsNavDestination, tracks breakpoints and handles double back-press. Boundary: form_config.json binds widget, ArticleServiceCard, LockScreenCard, LockScreenCardLG to card sources; build-profile.json5 sets stageMode, obfuscation rules and eight targets; oh-package.json5 pins local file: deps (@ohos/common, @ohos/abilitycommon incl. deep import .../widget/viewmodel/UpdateFormData, @ohos/commonbusiness, @ohos/widgetcommon). Behavior per source: PcFormAbility routes ArticleServiceCard to UpdateFormData.init and hmos_3d_live_widget to FormRdbHelper.insertForm, schedules a 6-unit refresh in onFormEvent, cleans up in onRemoveForm; backup_config.json enables backup/restore; hypium tests are scaffolds.",
+			"kind": "analysis",
+			"limitations": ["The claim that the 'pc' HAP builds successfully with the eight targets declared in build-profile.json5 and applies obfuscation-rules.txt as intended is unproved: no build was executed and the hvigor pipeline was not exercised.","Claims that the form 6-unit refresh scheduling in onFormEvent, FormRdbHelper persistence, and appRecovery crash restart behave correctly at runtime on a 2-in-1 device are unproved; they rest solely on reading source, not on device or emulator observation.","The claim that the referenced exports from workspace dependencies (e.g. WidgetCardComponent and PC_ABILITY in WidgetCard.ets, TABS_LIST and HomeView from @ohos/abilitycommon) resolve under the pinned file: dependency versions is unproved because no compiler or type-checker was run over the workspace."],
+			"repositoryId": "code-workshop",
+			"scopeSkillIds": ["skill-scope-code-workshop-products-pc"],
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+		},
+		"payloadSha256": "f0bbe229362d5af20a38b9d41a70104c67c6cbaa98a6b3b8f97e75781ce1f7e5",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "573877f7-ff0b-56ab-8d8f-b0053adeb9ff"
+}
