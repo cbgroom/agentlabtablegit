@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkweb-managewebpageinteracts",
+	"recorded_at_unix_ms": 1790568359400,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkweb-managewebpageinteracts",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkWeb/ManageWebPageInteracts/build-profile.json5","ArkWeb/ManageWebPageInteracts/entry/build-profile.json5","ArkWeb/ManageWebPageInteracts/entry2/build-profile.json5"],
+			"codeLineCount": 1236,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "1. 实现对以下指南文档中 https://docs.openharmony.cn/pages/v5.0/zh-cn/application-dev/web/web-nested-scrolling.md 示例代码片段的工程化，保证指南中示例代码与sample工程文件同源。",
+			"documentedTitle": "entry:",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkWeb/ManageWebPageInteracts/.gitignore"
+				},
+				{
+					"gitBlobOid": "ce3d05eda7baad507acf0e8de81df905cdf32d67",
+					"path": "ArkWeb/ManageWebPageInteracts/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "be8d935f6276f0e2833fde78d0f8320e6447b4f7",
+					"path": "ArkWeb/ManageWebPageInteracts/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.ArkWeb","@kit.CoreFileKit","@kit.IMEKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 9,
+			"id": "skill-scope-guide-snippets-arkweb-managewebpageinteracts",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 18,
+				"html": 4,
+				"json": 13,
+				"json5": 15,
+				"md": 2,
+				"no-extension": 3,
+				"png": 13,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkWeb/ManageWebPageInteracts",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkWeb/ManageWebPageInteracts; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 25,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkWeb/ManageWebPageInteracts/entry/src/ohosTest/ets/test/Ability.test.ets","ArkWeb/ManageWebPageInteracts/entry/src/ohosTest/ets/test/List.test.ets","ArkWeb/ManageWebPageInteracts/entry/src/ohosTest/module.json5","ArkWeb/ManageWebPageInteracts/entry/src/test/List.test.ets","ArkWeb/ManageWebPageInteracts/entry/src/test/LocalUnit.test.ets","ArkWeb/ManageWebPageInteracts/entry2/src/ohosTest/ets/test/Ability.test.ets","ArkWeb/ManageWebPageInteracts/entry2/src/ohosTest/ets/test/List.test.ets","ArkWeb/ManageWebPageInteracts/entry2/src/ohosTest/module.json5","ArkWeb/ManageWebPageInteracts/entry2/src/test/List.test.ets","ArkWeb/ManageWebPageInteracts/entry2/src/test/LocalUnit.test.ets"],
+			"testFileCount": 10,
+			"trackedFileCount": 73
+		},
+		"payloadSha256": "69d41db390a45a9db447088843dce24e84ace63d74d8c9d64655da48d60b5ffc",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "43560bfd-cc6d-555c-a6ae-9bf0ad1c49d3"
+}

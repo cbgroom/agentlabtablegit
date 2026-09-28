@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkweb-usesamelayerrender",
+	"recorded_at_unix_ms": 1790568359400,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkweb-usesamelayerrender",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkWeb/UseSameLayerRender/build-profile.json5","ArkWeb/UseSameLayerRender/entry/build-profile.json5"],
+			"codeLineCount": 1912,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "1. 本工程主要实现指南文档[同层渲染](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/web-same-layer)中示例代码片段的工程化，主要目标是实现指南中示例代码需要与sample工程文件同源。",
+			"documentedTitle": "同层渲染",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkWeb/UseSameLayerRender/.gitignore"
+				},
+				{
+					"gitBlobOid": "5b18054bf88655b05cb4d3f97880b8a465aaa700",
+					"path": "ArkWeb/UseSameLayerRender/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "030dffd09fc244d49ff44a13c13f61872c724578",
+					"path": "ArkWeb/UseSameLayerRender/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.ArkWeb","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.MediaKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 10,
+			"id": "skill-scope-guide-snippets-arkweb-usesamelayerrender",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 13,
+				"html": 5,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 7,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkWeb/UseSameLayerRender",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkWeb/UseSameLayerRender; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 20,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkWeb/UseSameLayerRender/entry/src/ohosTest/ets/test/Ability.test.ets","ArkWeb/UseSameLayerRender/entry/src/ohosTest/ets/test/List.test.ets","ArkWeb/UseSameLayerRender/entry/src/ohosTest/module.json5","ArkWeb/UseSameLayerRender/entry/src/test/List.test.ets","ArkWeb/UseSameLayerRender/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 51
+		},
+		"payloadSha256": "76872239af2fd2c81d72d68cf03f31f53a674c23a3fc51c126bba26da1b6bbf4",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "43560bfd-cc6d-555c-a6ae-9bf0ad1c49d3"
+}
