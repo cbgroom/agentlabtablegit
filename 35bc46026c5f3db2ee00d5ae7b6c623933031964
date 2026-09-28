@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-hms-cordova-iap-cordova-plugin-hms-iap-example-ionic",
+	"recorded_at_unix_ms": 1790568396225,
+	"row": {
+		"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-iap-example-ionic",
+		"kind": "iap-layer",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["cordova-plugin-hms-iap/example/ionic/package.json"],
+			"codeLineCount": 1332,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "- [1. Introduction](#1-introduction)",
+			"documentedTitle": "HMS IAP Ionic Demo",
+			"evidence": [
+				{
+					"gitBlobOid": "6bd321b20997fe44c207c59c1cb88306ab493e43",
+					"path": "cordova-plugin-hms-iap/example/ionic/.docs/images/add_products.png"
+				},
+				{
+					"gitBlobOid": "565b2cdff31589c8ab4f100e76268c68fd3e23a7",
+					"path": "cordova-plugin-hms-iap/example/ionic/.docs/images/enable_inapp.png"
+				},
+				{
+					"gitBlobOid": "8d6f43ab09d22d25bc4ed4e5ed9fe57247be8613",
+					"path": "cordova-plugin-hms-iap/example/ionic/.docs/images/products.png"
+				}
+			],
+			"externalDependencies": ["@angular/common","@angular/core","@angular/core/testing","@angular/forms","@angular/platform-browser","@angular/platform-browser-dynamic","@angular/platform-browser-dynamic/testing","@angular/router","@awesome-cordova-plugins/splash-screen/ngx","@awesome-cordova-plugins/status-bar/ngx","@hmscore/ionic-native-hms-iap/ngx","@ionic/angular","protractor","zone.js/dist/zone","zone.js/dist/zone-testing"],
+			"externalDependencyCount": 15,
+			"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-iap-example-ionic",
+			"kind": "iap-layer",
+			"languages": {
+				"html": 3,
+				"js": 2,
+				"json": 8,
+				"md": 1,
+				"no-extension": 2,
+				"png": 3,
+				"scss": 4,
+				"ts": 16
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "cordova-plugin-hms-iap/example/ionic",
+			"repository": "https://github.com/HMS-Core/hms-cordova-plugin.git",
+			"repositoryId": "hms-cordova-iap",
+			"responsibility": "Maintain the Cordova IAP layer cordova-plugin-hms-iap/example/ionic and its cross-layer contract with adjacent IAP scope Skills.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 25,
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9",
+			"sourceTreeOid": "51a14d55393617e1c80b922187fc9c4ee798df60",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "cordova-plugin-monorepo",
+			"testEntrypoints": ["cordova-plugin-hms-iap/example/ionic/e2e/src/app.e2e-spec.ts","cordova-plugin-hms-iap/example/ionic/src/app/app.component.spec.ts","cordova-plugin-hms-iap/example/ionic/src/app/home/home.page.spec.ts","cordova-plugin-hms-iap/example/ionic/tsconfig.spec.json"],
+			"testFileCount": 4,
+			"trackedFileCount": 39
+		},
+		"payloadSha256": "2e3f2660002538546039ceba04823b3e9535bb80bfec61ec4e81fcf363ac6177",
+		"repositoryId": "hms-cordova-iap",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "b27bb9e7-b387-54b2-8852-b1b16208406a"
+}

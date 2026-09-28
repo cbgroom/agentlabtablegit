@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-hms-cordova-iap-cordova-plugin-hms-iap-example-cordova",
+	"recorded_at_unix_ms": 1790568396225,
+	"row": {
+		"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-iap-example-cordova",
+		"kind": "iap-layer",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["cordova-plugin-hms-iap/example/cordova/package.json"],
+			"codeLineCount": 360,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "- [1. Introduction](#1-introduction)",
+			"documentedTitle": "HMS IAP Cordova Demo",
+			"evidence": [
+				{
+					"gitBlobOid": "6bd321b20997fe44c207c59c1cb88306ab493e43",
+					"path": "cordova-plugin-hms-iap/example/cordova/.docs/images/add_products.png"
+				},
+				{
+					"gitBlobOid": "565b2cdff31589c8ab4f100e76268c68fd3e23a7",
+					"path": "cordova-plugin-hms-iap/example/cordova/.docs/images/enable_inapp.png"
+				},
+				{
+					"gitBlobOid": "8d6f43ab09d22d25bc4ed4e5ed9fe57247be8613",
+					"path": "cordova-plugin-hms-iap/example/cordova/.docs/images/products.png"
+				}
+			],
+			"externalDependencies": [],
+			"externalDependencyCount": 0,
+			"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-iap-example-cordova",
+			"kind": "iap-layer",
+			"languages": {
+				"css": 1,
+				"html": 1,
+				"js": 1,
+				"json": 1,
+				"md": 1,
+				"no-extension": 1,
+				"png": 3,
+				"xml": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "cordova-plugin-hms-iap/example/cordova",
+			"repository": "https://github.com/HMS-Core/hms-cordova-plugin.git",
+			"repositoryId": "hms-cordova-iap",
+			"responsibility": "Maintain the Cordova IAP layer cordova-plugin-hms-iap/example/cordova and its cross-layer contract with adjacent IAP scope Skills.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 3,
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9",
+			"sourceTreeOid": "51a14d55393617e1c80b922187fc9c4ee798df60",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "cordova-plugin-monorepo",
+			"testEntrypoints": [],
+			"testFileCount": 0,
+			"trackedFileCount": 10
+		},
+		"payloadSha256": "806ada7cd01da605b69992c322cb1a8ae9d2d85d4ec434dce92c2d9e259dcc36",
+		"repositoryId": "hms-cordova-iap",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "b27bb9e7-b387-54b2-8852-b1b16208406a"
+}

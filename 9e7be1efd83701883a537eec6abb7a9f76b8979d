@@ -1,0 +1,77 @@
+{
+	"deleted": false,
+	"key": "skill-scope-hms-cordova-iap-cordova-plugin-hms-health",
+	"recorded_at_unix_ms": 1790568396225,
+	"row": {
+		"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-health",
+		"kind": "plugin",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["cordova-plugin-hms-health/example/cordova/package.json","cordova-plugin-hms-health/example/ionic/package.json","cordova-plugin-hms-health/ionic-native/dist/ngx/package.json","cordova-plugin-hms-health/ionic-native/dist/package.json","cordova-plugin-hms-health/package.json","cordova-plugin-hms-health/plugin.xml"],
+			"codeLineCount": 20468,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "---",
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "490b5c70e94bec59c1400a1bd385a04b184ac7f6",
+					"path": "cordova-plugin-hms-health/LICENSE"
+				},
+				{
+					"gitBlobOid": "f8aba7ce3c263e80f51ab1d909376187d52fdb34",
+					"path": "cordova-plugin-hms-health/README.md"
+				},
+				{
+					"gitBlobOid": "490b5c70e94bec59c1400a1bd385a04b184ac7f6",
+					"path": "cordova-plugin-hms-health/example/cordova/LICENSE"
+				}
+			],
+			"externalDependencies": ["@angular/common","@angular/core","@angular/core/testing","@angular/forms","@angular/platform-browser","@angular/platform-browser-dynamic","@angular/platform-browser-dynamic/testing","@angular/router","@hmscore/ionic-native-hms-health/ngx","@ionic-native/core","@ionic-native/splash-screen/ngx","@ionic-native/status-bar/ngx","@ionic/angular","android.accounts.Account","android.app.Activity","android.app.Notification","android.app.NotificationChannel","android.app.NotificationManager","android.app.PendingIntent","android.app.Service","android.content.ComponentName","android.content.Context","android.content.Intent","android.content.pm.PackageManager","android.graphics.BitmapFactory","android.net.ConnectivityManager","android.net.NetworkInfo","android.os.Build","android.os.Handler","android.os.HandlerThread","android.os.IBinder","android.os.Message","android.util.Log","androidx.core.app.NotificationCompat","com.huawei.agconnect.config.AGConnectServicesConfig","com.huawei.hmf.tasks.OnFailureListener","com.huawei.hmf.tasks.OnSuccessListener","com.huawei.hmf.tasks.Task","com.huawei.hms.common.ApiException","com.huawei.hms.cordova.health.HMSHealth","com.huawei.hms.cordova.health.OnActivityResultCallback","com.huawei.hms.cordova.health.basef.CordovaBaseModule","com.huawei.hms.cordova.health.basef.CordovaEvent","com.huawei.hms.cordova.health.basef.CordovaMethod","com.huawei.hms.cordova.health.basef.HMSLog","com.huawei.hms.cordova.health.basef.handler.CorPack","com.huawei.hms.cordova.health.basef.handler.CordovaController","com.huawei.hms.cordova.health.basef.handler.Promise","com.huawei.hms.cordova.health.constants.Constants","com.huawei.hms.cordova.health.modules.ActivityRecordController","com.huawei.hms.cordova.health.modules.AppInfo","com.huawei.hms.cordova.health.modules.AuthController","com.huawei.hms.cordova.health.modules.AutoRecorderController","com.huawei.hms.cordova.health.modules.ConsentsController","com.huawei.hms.cordova.health.modules.DataController","com.huawei.hms.cordova.health.modules.DeviceInfo","com.huawei.hms.cordova.health.modules.HealthRecordController","com.huawei.hms.cordova.health.modules.SettingsController","com.huawei.hms.cordova.health.utils.Constants","com.huawei.hms.cordova.health.utils.Error","com.huawei.hms.cordova.health.utils.HMSAccountUtils","com.huawei.hms.cordova.health.utils.JSONUtils","com.huawei.hms.cordova.health.utils.Utils","com.huawei.hms.hihealth.ActivityRecordsController","com.huawei.hms.hihealth.HiHealthStatusCodes","com.huawei.hms.hihealth.HuaweiHiHealth","com.huawei.hms.hihealth.SettingController","com.huawei.hms.hihealth.data.ActivityRecord","com.huawei.hms.hihealth.data.ActivitySummary","com.huawei.hms.hihealth.data.AppInfo","com.huawei.hms.hihealth.data.DataCollector","com.huawei.hms.hihealth.data.DataType","com.huawei.hms.hihealth.data.DeviceInfo","com.huawei.hms.hihealth.data.Field","com.huawei.hms.hihealth.data.Group","com.huawei.hms.hihealth.data.HealthDataTypes","com.huawei.hms.hihealth.data.HealthRecord","com.huawei.hms.hihealth.data.MapValue","com.huawei.hms.hihealth.data.PaceSummary","com.huawei.hms.hihealth.data.SamplePoint","com.huawei.hms.hihealth.data.SampleSet","com.huawei.hms.hihealth.data.ScopeLangItem","com.huawei.hms.hihealth.data.Value","com.huawei.hms.hihealth.options.ActivityRecordDeleteOptions","com.huawei.hms.hihealth.options.ActivityRecordInsertOptions","com.huawei.hms.hihealth.options.ActivityRecordReadOptions","com.huawei.hms.hihealth.options.DataTypeAddOptions","com.huawei.hms.hihealth.options.DeleteOptions","com.huawei.hms.hihealth.options.HealthRecordDeleteOptions","com.huawei.hms.hihealth.options.HealthRecordInsertOptions","com.huawei.hms.hihealth.options.HealthRecordReadOptions","com.huawei.hms.hihealth.options.HealthRecordUpdateOptions","com.huawei.hms.hihealth.options.OnActivityRecordListener","com.huawei.hms.hihealth.options.OnSamplePointListener","com.huawei.hms.hihealth.options.ReadOptions","com.huawei.hms.hihealth.options.UpdateOptions","com.huawei.hms.hihealth.result.ActivityRecordReply","com.huawei.hms.hihealth.result.HealthKitAuthResult","com.huawei.hms.hihealth.result.HealthRecordReply","com.huawei.hms.hihealth.result.ReadReply"],
+			"externalDependencyCount": 145,
+			"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-health",
+			"kind": "plugin",
+			"languages": {
+				"bat": 1,
+				"css": 1,
+				"gradle": 2,
+				"html": 4,
+				"java": 33,
+				"js": 11,
+				"json": 13,
+				"map": 3,
+				"md": 4,
+				"no-extension": 7,
+				"png": 1,
+				"properties": 2,
+				"scss": 4,
+				"svg": 1,
+				"ts": 25,
+				"xml": 3
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "cordova-plugin-hms-health",
+			"repository": "https://github.com/HMS-Core/hms-cordova-plugin.git",
+			"repositoryId": "hms-cordova-iap",
+			"responsibility": "Maintain the complete Cordova plugin package rooted at cordova-plugin-hms-health, including JS/TS, native bridge, metadata, examples, and generated distributions.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 78,
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9",
+			"sourceTreeOid": "51a14d55393617e1c80b922187fc9c4ee798df60",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "cordova-plugin-monorepo",
+			"testEntrypoints": ["cordova-plugin-hms-health/example/ionic/e2e/src/app.e2e-spec.ts","cordova-plugin-hms-health/example/ionic/src/app/app.component.spec.ts","cordova-plugin-hms-health/example/ionic/src/app/home/home.page.spec.ts","cordova-plugin-hms-health/example/ionic/tsconfig.spec.json"],
+			"testFileCount": 4,
+			"trackedFileCount": 115
+		},
+		"payloadSha256": "074266225c7452925c3fe71b60f1087af01fce0bd3aff9d912b67c8f0d7efc21",
+		"repositoryId": "hms-cordova-iap",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "b27bb9e7-b387-54b2-8852-b1b16208406a"
+}

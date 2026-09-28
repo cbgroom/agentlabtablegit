@@ -1,0 +1,77 @@
+{
+	"deleted": false,
+	"key": "skill-scope-hms-cordova-iap-cordova-plugin-hms-dtm",
+	"recorded_at_unix_ms": 1790568396225,
+	"row": {
+		"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-dtm",
+		"kind": "plugin",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["cordova-plugin-hms-dtm/example/cordova/package.json","cordova-plugin-hms-dtm/example/ionic/package.json","cordova-plugin-hms-dtm/ionic-native/dist/ngx/package.json","cordova-plugin-hms-dtm/ionic-native/dist/package.json","cordova-plugin-hms-dtm/package.json","cordova-plugin-hms-dtm/plugin.xml"],
+			"codeLineCount": 3464,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "----",
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "490b5c70e94bec59c1400a1bd385a04b184ac7f6",
+					"path": "cordova-plugin-hms-dtm/LICENSE"
+				},
+				{
+					"gitBlobOid": "e9d0e19e34405113e70bfda75ce647f9abc6fcd4",
+					"path": "cordova-plugin-hms-dtm/README.md"
+				},
+				{
+					"gitBlobOid": "9b5505d56731162ee585298b9e6ea1b78445f059",
+					"path": "cordova-plugin-hms-dtm/example/cordova/.docs/images/EventNameVariable.PNG"
+				}
+			],
+			"externalDependencies": ["@angular/common","@angular/core","@angular/core/testing","@angular/forms","@angular/platform-browser","@angular/platform-browser-dynamic","@angular/platform-browser-dynamic/testing","@angular/router","@hmscore/ionic-native-hms-dtm/ngx","@ionic-native/core","@ionic-native/hms-dtm","@ionic-native/splash-screen/ngx","@ionic-native/status-bar/ngx","@ionic/angular","android.app.Activity","android.content.ContentProvider","android.content.ContentValues","android.content.Context","android.content.Intent","android.content.pm.PackageManager","android.database.Cursor","android.net.ConnectivityManager","android.net.NetworkInfo","android.net.Uri","android.os.Bundle","android.util.Log","com.huawei.agconnect.config.AGConnectServicesConfig","com.huawei.hms.analytics.HiAnalytics","com.huawei.hms.analytics.HiAnalyticsInstance","com.huawei.hms.cordova.dtm.HMSDTM","com.huawei.hms.cordova.dtm.HMSDTMModule","com.huawei.hms.cordova.dtm.basef.CordovaBaseModule","com.huawei.hms.cordova.dtm.basef.CordovaEvent","com.huawei.hms.cordova.dtm.basef.CordovaMethod","com.huawei.hms.cordova.dtm.basef.HMSLog","com.huawei.hms.cordova.dtm.basef.handler.CorPack","com.huawei.hms.cordova.dtm.basef.handler.CordovaController","com.huawei.hms.cordova.dtm.basef.handler.Promise","com.huawei.hms.dtm.ICustomTag","com.huawei.hms.dtm.ICustomVariable","com.huawei.hms.support.hianalytics.HiAnalyticsUtils","com.huawei.hms.utils.HMSBIInitializer","java.lang.annotation.ElementType","java.lang.annotation.Retention","java.lang.annotation.RetentionPolicy","java.lang.annotation.Target","java.lang.ref.WeakReference","java.lang.reflect.InvocationTargetException","java.lang.reflect.Method","java.util.ArrayList","java.util.Arrays","java.util.Collections","java.util.HashMap","java.util.Iterator","java.util.List","java.util.Locale","java.util.Map","org.apache.cordova.CallbackContext","org.apache.cordova.CordovaInterface","org.apache.cordova.CordovaPlugin","org.apache.cordova.CordovaWebView","org.apache.cordova.PluginResult","org.json.JSONArray","org.json.JSONException","org.json.JSONObject","protractor","rxjs","static android.os.Build.DEVICE","static org.apache.cordova.PluginResult.Status.OK","tslib","zone.js/dist/zone","zone.js/dist/zone-testing"],
+			"externalDependencyCount": 72,
+			"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-dtm",
+			"kind": "plugin",
+			"languages": {
+				"bat": 1,
+				"css": 1,
+				"gradle": 2,
+				"html": 4,
+				"java": 18,
+				"jpg": 2,
+				"js": 10,
+				"json": 13,
+				"map": 2,
+				"md": 4,
+				"no-extension": 6,
+				"png": 20,
+				"properties": 1,
+				"scss": 4,
+				"ts": 23,
+				"xml": 3
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "cordova-plugin-hms-dtm",
+			"repository": "https://github.com/HMS-Core/hms-cordova-plugin.git",
+			"repositoryId": "hms-cordova-iap",
+			"responsibility": "Maintain the complete Cordova plugin package rooted at cordova-plugin-hms-dtm, including JS/TS, native bridge, metadata, examples, and generated distributions.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 60,
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9",
+			"sourceTreeOid": "51a14d55393617e1c80b922187fc9c4ee798df60",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "cordova-plugin-monorepo",
+			"testEntrypoints": ["cordova-plugin-hms-dtm/example/ionic/e2e/src/app.e2e-spec.ts","cordova-plugin-hms-dtm/example/ionic/src/app/app.component.spec.ts","cordova-plugin-hms-dtm/example/ionic/src/app/home/home.page.spec.ts","cordova-plugin-hms-dtm/example/ionic/tsconfig.spec.json"],
+			"testFileCount": 4,
+			"trackedFileCount": 114
+		},
+		"payloadSha256": "7419c28019919d661af2e963658bdf5d49d2cd6f3b36408e5ba62ba17fb6b704",
+		"repositoryId": "hms-cordova-iap",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "b27bb9e7-b387-54b2-8852-b1b16208406a"
+}
