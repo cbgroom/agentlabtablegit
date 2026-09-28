@@ -1,0 +1,71 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuiwindowpipsamples-windowpip",
+	"recorded_at_unix_ms": 1790568355827,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuiwindowpipsamples-windowpip",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUIWindowPipSamples/WindowPip/build-profile.json5","ArkUIWindowPipSamples/WindowPip/entry/build-profile.json5","ArkUIWindowPipSamples/WindowPip/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 3401,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例基于媒体服务和ArkUI的基本能力，通过XComponent、typeNode和NDK几种不同的方式来实现视频播放、手动和自动拉起画中画、画中画窗口控制视频播放和暂停等功能。",
+			"documentedTitle": "实现画中画效果",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkUIWindowPipSamples/WindowPip/.gitignore"
+				},
+				{
+					"gitBlobOid": "6bceeef43b4f189418dd4f3d1ed85f5d8f9ae8d7",
+					"path": "ArkUIWindowPipSamples/WindowPip/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "75a8bcbbda2194c1a88411f69ce7c6339a3f22bb",
+					"path": "ArkUIWindowPipSamples/WindowPip/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.MediaKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.app.ability.abilityDelegatorRegistry","@ohos.app.ability.common","@ohos.base","@ohos.hilog","@ohos.multimedia.media","@ohos.resourceManager","@ohos/hvigor-ohos-plugin","@ohos/hypium","cstddef","cstdint","cstdio","libentry.so","string"],
+			"externalDependencyCount": 20,
+			"id": "skill-scope-guide-snippets-arkuiwindowpipsamples-windowpip",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 1,
+				"ets": 22,
+				"gif": 1,
+				"json": 9,
+				"json5": 11,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUIWindowPipSamples/WindowPip",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUIWindowPipSamples/WindowPip; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 26,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUIWindowPipSamples/WindowPip/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUIWindowPipSamples/WindowPip/entry/src/ohosTest/ets/test/List.test.ets","ArkUIWindowPipSamples/WindowPip/entry/src/ohosTest/ets/test/WindowPip.test.ets","ArkUIWindowPipSamples/WindowPip/entry/src/ohosTest/module.json5","ArkUIWindowPipSamples/WindowPip/entry/src/test/List.test.ets","ArkUIWindowPipSamples/WindowPip/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 58
+		},
+		"payloadSha256": "ff72986995f7afb802dda6f7a5b894810a0c9ccf9c82b9553b3acc06948189a7",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "c77f7c27-b60f-50e4-b629-19b21ca700f3"
+}

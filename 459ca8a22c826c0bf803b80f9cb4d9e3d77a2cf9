@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-videoplayer",
+	"recorded_at_unix_ms": 1790568355827,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-videoplayer",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/VideoPlayer/build-profile.json5","ArkUISample/VideoPlayer/entry/build-profile.json5"],
+			"codeLineCount": 1297,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例通过使用[ArkUI指南文档](https://gitcode.com/openharmony/docs/tree/master/zh-cn/application-dev/ui)中各场景的开发示例，展示在工程中，帮助开发者更好地理解ArkUI提供的组件及组件属性并合理使用。该工程中展示的代码详细描述可查如下链接：",
+			"documentedTitle": "ArkUI视频播放指南文档示例",
+			"evidence": [
+				{
+					"gitBlobOid": "9c880ec351db4c1eb9653a8a22f3fba4c7305398",
+					"path": "ArkUISample/VideoPlayer/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "c9714762a18d22e9926c25f32a89a5683f78cf2f",
+					"path": "ArkUISample/VideoPlayer/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "ArkUISample/VideoPlayer/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.MediaKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.hilog","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 10,
+			"id": "skill-scope-guide-snippets-arkuisample-videoplayer",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 20,
+				"json": 10,
+				"json5": 10,
+				"md": 2,
+				"mp4": 1,
+				"png": 8,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/VideoPlayer",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/VideoPlayer; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 22,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/VideoPlayer/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/VideoPlayer/entry/src/ohosTest/ets/test/Index.test.ets","ArkUISample/VideoPlayer/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/VideoPlayer/entry/src/ohosTest/module.json5","ArkUISample/VideoPlayer/entry/src/test/List.test.ets","ArkUISample/VideoPlayer/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 54
+		},
+		"payloadSha256": "fecd8d89c811a2da3b147c0d8dfb49ef24035e85d6913a25c06d659b9c9f4ab9",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "c77f7c27-b60f-50e4-b629-19b21ca700f3"
+}

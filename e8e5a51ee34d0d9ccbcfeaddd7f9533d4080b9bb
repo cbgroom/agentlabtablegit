@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-uiutilscanbeobserved",
+	"recorded_at_unix_ms": 1790568355827,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-uiutilscanbeobserved",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/UIUtilsCanBeObserved/build-profile.json5","ArkUISample/UIUtilsCanBeObserved/entry/build-profile.json5"],
+			"codeLineCount": 3916,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "开发和调试过程中，开发者会遇到：修改对象的值UI页面不刷新的问题，在较为复杂的业务中排查起来很不方便。因此提供[canBeObserved接口](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-arkui/js-apis-stateManagement.md#canbeobserved23)，开发者使用该接口不仅可以判断对象是否为可被观察的对象，还可以获取到对象关联的组件信息。",
+			"documentedTitle": "canBeObserved接口：判断对象是否为可被观察对象",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkUISample/UIUtilsCanBeObserved/.gitignore"
+				},
+				{
+					"gitBlobOid": "5f9f03e92cc1ba8375ce6107abcf2d97288aea85",
+					"path": "ArkUISample/UIUtilsCanBeObserved/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "42cfadbae1ab3048e93286eba727d546bad47531",
+					"path": "ArkUISample/UIUtilsCanBeObserved/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.router","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 8,
+			"id": "skill-scope-guide-snippets-arkuisample-uiutilscanbeobserved",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 36,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 7,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/UIUtilsCanBeObserved",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/UIUtilsCanBeObserved; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 38,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/UIUtilsCanBeObserved/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/UIUtilsCanBeObserved/entry/src/ohosTest/ets/test/CanBeObserved.test.ets","ArkUISample/UIUtilsCanBeObserved/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/UIUtilsCanBeObserved/entry/src/ohosTest/module.json5","ArkUISample/UIUtilsCanBeObserved/entry/src/test/List.test.ets","ArkUISample/UIUtilsCanBeObserved/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 69
+		},
+		"payloadSha256": "d411ebee765857bde4595bd3ca558e2d2420b79637b76de68beb4eadc5058599",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "c77f7c27-b60f-50e4-b629-19b21ca700f3"
+}

@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-wrapbuilder",
+	"recorded_at_unix_ms": 1790568355827,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-wrapbuilder",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/wrapbuilder/build-profile.json5","ArkUISample/wrapbuilder/entry/build-profile.json5"],
+			"codeLineCount": 780,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "当在一个struct内使用多个全局@Builder函数实现UI的不同效果时，代码维护将变得非常困难，且页面不够整洁。此时，可以使用wrapBuilder封装全局@Builder。",
+			"documentedTitle": "com.samples.wrapbuilder",
+			"evidence": [
+				{
+					"gitBlobOid": "297fa8372a43cdd17ce850971906387fee3f75d0",
+					"path": "ArkUISample/wrapbuilder/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "37dd2449ed7cf9f82804167c598c08d95cc6d4b2",
+					"path": "ArkUISample/wrapbuilder/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "ArkUISample/wrapbuilder/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 7,
+			"id": "skill-scope-guide-snippets-arkuisample-wrapbuilder",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 14,
+				"json": 10,
+				"json5": 10,
+				"md": 3,
+				"no-extension": 1,
+				"png": 8,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/wrapbuilder",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/wrapbuilder; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 16,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/wrapbuilder/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/wrapbuilder/entry/src/ohosTest/ets/test/Index.test.ets","ArkUISample/wrapbuilder/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/wrapbuilder/entry/src/ohosTest/module.json5","ArkUISample/wrapbuilder/entry/src/ohosTest/ohosTest.md","ArkUISample/wrapbuilder/entry/src/test/List.test.ets","ArkUISample/wrapbuilder/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 7,
+			"trackedFileCount": 49
+		},
+		"payloadSha256": "c37534b849fa838523768bf95b5317e1a3565382b95a4d3c4d540264ce59b600",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "c77f7c27-b60f-50e4-b629-19b21ca700f3"
+}

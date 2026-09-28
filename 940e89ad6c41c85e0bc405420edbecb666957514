@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkweb-arkwebdebuggingwithdevtools",
+	"recorded_at_unix_ms": 1790568355827,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkweb-arkwebdebuggingwithdevtools",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkWeb/ArkWebDebuggingWithDevtools/build-profile.json5","ArkWeb/ArkWebDebuggingWithDevtools/entry/build-profile.json5"],
+			"codeLineCount": 412,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "1. Web组件支持使用DevTools工具调试前端页面。DevTools是Web前端开发调试工具，支持在电脑上调试移动设备前端页面。开发者通过[setWebDebuggingAccess()](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-arkweb/arkts-apis-webview-WebviewController.md#setwebdebuggingaccess)接口开启Web组件前端页面调试能力，使用DevTools在电脑上调试移动前端网页，设备需为4.1.0及以上版本。",
+			"documentedTitle": "使用DevTools工具调试前端页面",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkWeb/ArkWebDebuggingWithDevtools/.gitignore"
+				},
+				{
+					"gitBlobOid": "b79608b1aa3d18dff5d07675f1350892a46e6ab1",
+					"path": "ArkWeb/ArkWebDebuggingWithDevtools/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "a2c0e83b5679dfc3c51794e5cbbc049bae05b728",
+					"path": "ArkWeb/ArkWebDebuggingWithDevtools/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.ArkWeb","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 9,
+			"id": "skill-scope-guide-snippets-arkweb-arkwebdebuggingwithdevtools",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 9,
+				"jpg": 1,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 1,
+				"png": 6,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkWeb/ArkWebDebuggingWithDevtools",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkWeb/ArkWebDebuggingWithDevtools; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 11,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkWeb/ArkWebDebuggingWithDevtools/entry/src/ohosTest/ets/test/Ability.test.ets","ArkWeb/ArkWebDebuggingWithDevtools/entry/src/ohosTest/ets/test/List.test.ets","ArkWeb/ArkWebDebuggingWithDevtools/entry/src/ohosTest/module.json5","ArkWeb/ArkWebDebuggingWithDevtools/entry/src/test/List.test.ets","ArkWeb/ArkWebDebuggingWithDevtools/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 41
+		},
+		"payloadSha256": "6c9a5b2c4e478cb8cfaf934beb51b0162cc055c7c17b6221cd5d5114791cfacd",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "c77f7c27-b60f-50e4-b629-19b21ca700f3"
+}

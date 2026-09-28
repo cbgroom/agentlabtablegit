@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-windowmetadatasample",
+	"recorded_at_unix_ms": 1790568355827,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-windowmetadatasample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/WindowMetaDataSample/build-profile.json5","ArkUISample/WindowMetaDataSample/entry/build-profile.json5"],
+			"codeLineCount": 177,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例主要展示了窗口metadata标签相关功能，实现配置主窗口默认大小和位置、是否移除启动页、主窗启动时是否已最大化状态显示等功能",
+			"documentedTitle": "窗口元数据配置",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkUISample/WindowMetaDataSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "ea24e89192498184f2a8fb9d69bee5c1e6776d12",
+					"path": "ArkUISample/WindowMetaDataSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "9ab79b5a77c9e4715c14d3a63a10a9391c205a35",
+					"path": "ArkUISample/WindowMetaDataSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 6,
+			"id": "skill-scope-guide-snippets-arkuisample-windowmetadatasample",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 7,
+				"json": 9,
+				"json5": 11,
+				"md": 1,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/WindowMetaDataSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/WindowMetaDataSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 9,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/WindowMetaDataSample/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/WindowMetaDataSample/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/WindowMetaDataSample/entry/src/ohosTest/module.json5","ArkUISample/WindowMetaDataSample/entry/src/test/List.test.ets","ArkUISample/WindowMetaDataSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 38
+		},
+		"payloadSha256": "58818cac5030af5913bcc5cef15e7ff4d7a6b3b4318de57f43d690f2ef82e510",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "c77f7c27-b60f-50e4-b629-19b21ca700f3"
+}
