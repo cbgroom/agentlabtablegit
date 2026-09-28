@@ -1,0 +1,71 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-mindsporelitekit-mindsporelitecdemo",
+	"recorded_at_unix_ms": 1790568378678,
+	"row": {
+		"id": "skill-scope-guide-snippets-mindsporelitekit-mindsporelitecdemo",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["MindSporeLiteKit/MindSporeLiteCDemo/build-profile.json5","MindSporeLiteKit/MindSporeLiteCDemo/entry/build-profile.json5","MindSporeLiteKit/MindSporeLiteCDemo/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 959,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本文基于MindSpore Lite提供的[Native API](https://docs.openharmony.cn/pages/v4.1/zh-cn/application-dev/reference/apis-mindspore-lite-kit/_mind_spore.md)，实现“图像分类”示例程序，来演示端侧部署的流程。",
+			"documentedTitle": "**基于**Native**接口的MindSpore Lite应用开发**",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "MindSporeLiteKit/MindSporeLiteCDemo/.gitignore"
+				},
+				{
+					"gitBlobOid": "89d7b154e10b91213259760cb49d65ee24ffd43a",
+					"path": "MindSporeLiteKit/MindSporeLiteCDemo/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "8621f2cb1ffab4ad01f456206c2dc8be37bf0e25",
+					"path": "MindSporeLiteKit/MindSporeLiteCDemo/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.ImageKit","@kit.MediaLibraryKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.app.ability.Want","@ohos.app.ability.abilityDelegatorRegistry","@ohos.base","@ohos.hilog","@ohos/hvigor-ohos-plugin","@ohos/hypium","cstdlib","hilog/log.h","iostream","libentry.so","mindspore/context.h","mindspore/model.h","mindspore/status.h","mindspore/tensor.h","mindspore/types.h","rawfile/raw_file_manager.h","sstream"],
+			"externalDependencyCount": 25,
+			"id": "skill-scope-guide-snippets-mindsporelitekit-mindsporelitecdemo",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 1,
+				"ets": 9,
+				"json": 12,
+				"json5": 11,
+				"md": 2,
+				"ms": 1,
+				"no-extension": 2,
+				"png": 8,
+				"ts": 4,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "MindSporeLiteKit/MindSporeLiteCDemo",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at MindSporeLiteKit/MindSporeLiteCDemo; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 14,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["MindSporeLiteKit/MindSporeLiteCDemo/entry/src/ohosTest/ets/test/Ability.test.ets","MindSporeLiteKit/MindSporeLiteCDemo/entry/src/ohosTest/ets/test/List.test.ets","MindSporeLiteKit/MindSporeLiteCDemo/entry/src/ohosTest/ets/utils/Logger.ts","MindSporeLiteKit/MindSporeLiteCDemo/entry/src/ohosTest/ets/utils/ResourceUtil.ets","MindSporeLiteKit/MindSporeLiteCDemo/entry/src/ohosTest/module.json5","MindSporeLiteKit/MindSporeLiteCDemo/entry/src/ohosTest/resources/base/element/color.json","MindSporeLiteKit/MindSporeLiteCDemo/entry/src/ohosTest/resources/base/element/string.json","MindSporeLiteKit/MindSporeLiteCDemo/entry/src/ohosTest/resources/base/media/icon.png","MindSporeLiteKit/MindSporeLiteCDemo/entry/src/ohosTest/resources/base/profile/test_pages.json","MindSporeLiteKit/MindSporeLiteCDemo/entry/src/test/List.test.ets","MindSporeLiteKit/MindSporeLiteCDemo/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 11,
+			"trackedFileCount": 52
+		},
+		"payloadSha256": "d950796a1fb570eb1c88477152647acfbfa4a4c239290eba2f5b3212346fc8b4",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "ecfa26e5-4dcb-5221-a72a-620746acf656"
+}

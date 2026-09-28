@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-pasteboard-pasteboard-ndk-sample",
+	"recorded_at_unix_ms": 1790568378678,
+	"row": {
+		"id": "skill-scope-guide-snippets-pasteboard-pasteboard-ndk-sample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["pasteboard/pasteboard_NDK_sample/build-profile.json5","pasteboard/pasteboard_NDK_sample/entry/build-profile.json5","pasteboard/pasteboard_NDK_sample/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 807,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例通过使用[剪贴板指南文档](https://gitcode.com/openharmony/docs/tree/master/zh-cn/application-dev/basic-services/pasteboard)中NDK场景的开发示例，展示在工程中，帮助开发者更好地理解剪贴板模块代码合理使用。该工程中展示的代码详细描述可查如下链接：",
+			"documentedTitle": "使用场景",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "pasteboard/pasteboard_NDK_sample/.gitignore"
+				},
+				{
+					"gitBlobOid": "73e81c8a3a59465571b0d60f91b2fab1f6ca23d7",
+					"path": "pasteboard/pasteboard_NDK_sample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "4b84bfe00e7d9bee13fb7cd4c55676d1cb36e674",
+					"path": "pasteboard/pasteboard_NDK_sample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkData","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","accesstoken/ability_access_control.h","cstdio","cstring","database/pasteboard/oh_pasteboard.h","database/pasteboard/oh_pasteboard_err_code.h","database/udmf/udmf.h","database/udmf/udmf_meta.h","database/udmf/uds.h","hilog/log.h","libentry.so"],
+			"externalDependencyCount": 18,
+			"id": "skill-scope-guide-snippets-pasteboard-pasteboard-ndk-sample",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 1,
+				"ets": 8,
+				"json": 9,
+				"json5": 11,
+				"md": 2,
+				"no-extension": 2,
+				"png": 6,
+				"ts": 3,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "pasteboard/pasteboard_NDK_sample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at pasteboard/pasteboard_NDK_sample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 12,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["pasteboard/pasteboard_NDK_sample/entry/src/ohosTest/ets/test/Ability.test.ets","pasteboard/pasteboard_NDK_sample/entry/src/ohosTest/ets/test/List.test.ets","pasteboard/pasteboard_NDK_sample/entry/src/ohosTest/module.json5","pasteboard/pasteboard_NDK_sample/entry/src/test/List.test.ets","pasteboard/pasteboard_NDK_sample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 43
+		},
+		"payloadSha256": "2cb33b0d08bf9c94c96e2974982ba63b7bfd694db7a28d61229433b8ac846097",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "ecfa26e5-4dcb-5221-a72a-620746acf656"
+}

@@ -1,0 +1,67 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-otabackup",
+	"recorded_at_unix_ms": 1790568378678,
+	"row": {
+		"id": "skill-scope-guide-snippets-otabackup",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["OtaBackup/build-profile.json5"],
+			"codeLineCount": 6,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "OtaBackup 部件示例 Sample，应用接入数据备份恢复需要通过配置BackupExtensionAbility实现。",
+			"documentedTitle": "OtaBackup",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "OtaBackup/.gitignore"
+				},
+				{
+					"gitBlobOid": "740d1f8f1afd992f40e5e926a437cd6a98382d97",
+					"path": "OtaBackup/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "20f1b0832d957eec262b31d998c6e8030b803d7f",
+					"path": "OtaBackup/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@ohos/hvigor-ohos-plugin"],
+			"externalDependencyCount": 1,
+			"id": "skill-scope-guide-snippets-otabackup",
+			"kind": "sample-project",
+			"languages": {
+				"json": 2,
+				"json5": 6,
+				"md": 1,
+				"no-extension": 1,
+				"png": 2,
+				"ts": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "OtaBackup",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at OtaBackup; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 1,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": [],
+			"testFileCount": 0,
+			"trackedFileCount": 13
+		},
+		"payloadSha256": "f993bae6d3af95fcb9dc5c69730b199bcd7a85f7d2908bf9ed7cfdec4703dd61",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "ecfa26e5-4dcb-5221-a72a-620746acf656"
+}

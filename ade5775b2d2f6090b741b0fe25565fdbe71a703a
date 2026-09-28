@@ -1,0 +1,71 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-performanceanalysiskit-hilog",
+	"recorded_at_unix_ms": 1790568378678,
+	"row": {
+		"id": "skill-scope-guide-snippets-performanceanalysiskit-hilog",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["PerformanceAnalysisKit/Hilog/build-profile.json5","PerformanceAnalysisKit/Hilog/entry/build-profile.json5","PerformanceAnalysisKit/Hilog/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 343,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例主要展示了使用HiLog打印日志相关的功能，在应用开发过程中，可在关键代码处输出日志信息。在运行应用后，通过查看日志信息来分析应用执行情况（如应用是否正常运行、代码运行时序、运行逻辑分支是否正常等）。",
+			"documentedTitle": "使用HiLog打印日志",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "PerformanceAnalysisKit/Hilog/.gitignore"
+				},
+				{
+					"gitBlobOid": "bf1020b33496325f02644731457f67dea8e0a7af",
+					"path": "PerformanceAnalysisKit/Hilog/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "ffde311434c2bd7a86d8e057d860177635dd44cc",
+					"path": "PerformanceAnalysisKit/Hilog/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin","libentry.so"],
+			"externalDependencyCount": 6,
+			"id": "skill-scope-guide-snippets-performanceanalysiskit-hilog",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 1,
+				"ets": 4,
+				"jpeg": 1,
+				"json": 8,
+				"json5": 9,
+				"md": 2,
+				"no-extension": 2,
+				"png": 4,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "PerformanceAnalysisKit/Hilog",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at PerformanceAnalysisKit/Hilog; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 8,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": [],
+			"testFileCount": 0,
+			"trackedFileCount": 36
+		},
+		"payloadSha256": "79b73de530406c40021451c7f213d391da9358cb812de05e9a56e93bd18e7137",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "ecfa26e5-4dcb-5221-a72a-620746acf656"
+}
