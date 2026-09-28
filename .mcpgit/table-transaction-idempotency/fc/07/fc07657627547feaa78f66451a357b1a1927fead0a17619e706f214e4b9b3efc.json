@@ -1,5 +1,0 @@
-{
-  "schema": "mcpgit.table-idempotency-pointer.v1",
-  "idempotency_key": "daf2910f-00e5-435d-b8bc-22961a3c8011",
-  "transaction_id": "daf2910f-00e5-435d-b8bc-22961a3c8011"
-}
