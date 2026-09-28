@@ -1,0 +1,67 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkgraphics3d",
+	"recorded_at_unix_ms": 1790568319838,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkgraphics3d",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkGraphics3D/build-profile.json5"],
+			"codeLineCount": 21,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例通过 ArkGraphics 3D 的接口，利用轻量级的 3D 引擎和渲染管线，实现了 3D 场景创建、3D 场景资源创建和 3D 动画创建。",
+			"documentedTitle": "ArkGraphics 3D",
+			"evidence": [
+				{
+					"gitBlobOid": "ea27eaff8c3ecef3e9ebe6399a5f9073cd962a7b",
+					"path": "ArkGraphics3D/.gitignore"
+				},
+				{
+					"gitBlobOid": "2a2fc64855bea3030a8066d67f3bec55e500e921",
+					"path": "ArkGraphics3D/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "64d50a205bd8227bb17db7c6805f2e86f81e658f",
+					"path": "ArkGraphics3D/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@ohos/hvigor-ohos-plugin"],
+			"externalDependencyCount": 1,
+			"id": "skill-scope-guide-snippets-arkgraphics3d",
+			"kind": "sample-project",
+			"languages": {
+				"json": 1,
+				"json5": 5,
+				"md": 2,
+				"no-extension": 1,
+				"png": 5,
+				"ts": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkGraphics3D",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkGraphics3D; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 1,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": [],
+			"testFileCount": 0,
+			"trackedFileCount": 15
+		},
+		"payloadSha256": "23f6cf80b6e46989c5ace9f3fe9ad052468f1c06fe53221df5fdc1f56b2557d3",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "67dfefbc-0f93-5713-a302-75eb52c06916"
+}

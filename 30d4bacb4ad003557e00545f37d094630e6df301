@@ -1,0 +1,72 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkgraphics2d-drawing",
+	"recorded_at_unix_ms": 1790568319838,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkgraphics2d-drawing",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkGraphics2D/Drawing/ArkTSDrawing/build-profile.json5","ArkGraphics2D/Drawing/ArkTSDrawing/entry/build-profile.json5","ArkGraphics2D/Drawing/ArkTSGraphicsDraw/build-profile.json5","ArkGraphics2D/Drawing/ArkTSGraphicsDraw/entry/build-profile.json5","ArkGraphics2D/Drawing/NDKAPIDrawing/build-profile.json5","ArkGraphics2D/Drawing/NDKAPIDrawing/entry/build-profile.json5","ArkGraphics2D/Drawing/NDKAPIDrawing/entry/src/main/cpp/CMakeLists.txt","ArkGraphics2D/Drawing/NDKDrawing/build-profile.json5","ArkGraphics2D/Drawing/NDKDrawing/entry/build-profile.json5","ArkGraphics2D/Drawing/NDKDrawing/entry/src/main/cpp/CMakeLists.txt","ArkGraphics2D/Drawing/NDKGraphicsDraw/build-profile.json5","ArkGraphics2D/Drawing/NDKGraphicsDraw/entry/build-profile.json5","ArkGraphics2D/Drawing/NDKGraphicsDraw/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 12505,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本工程主要实现了对以下指南文档中[访问控制概述](https://docs.openharmony.cn/pages/v5.0/zh-cn/application-dev/security/AccessToken/access-token-overview.md)示例代码片段的工程化，主要目标是实现指南中示例代码需要与sample工程文件同源。",
+			"documentedTitle": "使用Drawing实现图形绘制与显示（ArkTS）",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkGraphics2D/Drawing/ArkTSDrawing/.gitignore"
+				},
+				{
+					"gitBlobOid": "8633c11d6b7325d2674c1ba106e36dd80f1ce199",
+					"path": "ArkGraphics2D/Drawing/ArkTSDrawing/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "ca0ae1186dd237222874b85a60877356922c7703",
+					"path": "ArkGraphics2D/Drawing/ArkTSDrawing/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkGraphics2D","@kit.ArkTS","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.ImageKit","@kit.LocalizationKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.UiTest","@ohos.app.ability.AbilityConstant","@ohos.app.ability.UIAbility","@ohos.app.ability.Want","@ohos.app.ability.abilityDelegatorRegistry","@ohos.application.testRunner","@ohos.hilog","@ohos.router","@ohos.window","@ohos/hvigor-ohos-plugin","@ohos/hypium","EGL/egl.h","EGL/eglext.h","GLES3/gl3.h","ace/xcomponent/native_interface_xcomponent.h","arpa/nameser.h","bits/alltypes.h","cstdint","hilog/log.h","js_native_api.h","js_native_api_types.h","map","multimedia/image_framework/image/pixelmap_native.h","multimedia/image_framework/image_pixel_map_mdk.h","native_buffer/native_buffer.h","native_display_soloist/native_display_soloist.h","native_drawing/drawing_bitmap.h","native_drawing/drawing_brush.h","native_drawing/drawing_canvas.h","native_drawing/drawing_color.h","native_drawing/drawing_color_filter.h","native_drawing/drawing_filter.h","native_drawing/drawing_font.h","native_drawing/drawing_font_collection.h","native_drawing/drawing_gpu_context.h","native_drawing/drawing_image.h","native_drawing/drawing_image_filter.h","native_drawing/drawing_mask_filter.h","native_drawing/drawing_matrix.h","native_drawing/drawing_path.h","native_drawing/drawing_path_effect.h","native_drawing/drawing_pen.h","native_drawing/drawing_pixel_map.h","native_drawing/drawing_point.h","native_drawing/drawing_rect.h","native_drawing/drawing_region.h","native_drawing/drawing_round_rect.h","native_drawing/drawing_sampling_options.h","native_drawing/drawing_shader_effect.h","native_drawing/drawing_surface.h","native_drawing/drawing_text_blob.h","native_drawing/drawing_text_typography.h","native_drawing/drawing_types.h","native_window/external_window.h","string","sys/mman.h","unordered_map","window_manager/oh_display_manager.h"],
+			"externalDependencyCount": 68,
+			"id": "skill-scope-guide-snippets-arkgraphics2d-drawing",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 19,
+				"ets": 65,
+				"h": 11,
+				"jpeg": 26,
+				"json": 40,
+				"json5": 59,
+				"md": 10,
+				"no-extension": 15,
+				"png": 31,
+				"ts": 18,
+				"txt": 8
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkGraphics2D/Drawing",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkGraphics2D/Drawing; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 113,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkGraphics2D/Drawing/ArkTSDrawing/entry/src/ohosTest/ets/test/DrawingAbility.test.ets","ArkGraphics2D/Drawing/ArkTSDrawing/entry/src/ohosTest/ets/test/List.test.ets","ArkGraphics2D/Drawing/ArkTSDrawing/entry/src/ohosTest/module.json5","ArkGraphics2D/Drawing/ArkTSDrawing/entry/src/test/List.test.ets","ArkGraphics2D/Drawing/ArkTSDrawing/entry/src/test/LocalUnit.test.ets","ArkGraphics2D/Drawing/ArkTSGraphicsDraw/entry/src/ohosTest/ets/test/Ability.test.ets","ArkGraphics2D/Drawing/ArkTSGraphicsDraw/entry/src/ohosTest/ets/test/List.test.ets","ArkGraphics2D/Drawing/ArkTSGraphicsDraw/entry/src/ohosTest/ets/utils/Logger.ets","ArkGraphics2D/Drawing/ArkTSGraphicsDraw/entry/src/ohosTest/module.json5","ArkGraphics2D/Drawing/NDKAPIDrawing/entry/src/ohosTest/ets/test/Ability.test.ets","ArkGraphics2D/Drawing/NDKAPIDrawing/entry/src/ohosTest/ets/test/List.test.ets","ArkGraphics2D/Drawing/NDKAPIDrawing/entry/src/ohosTest/ets/utils/Logger.ets","ArkGraphics2D/Drawing/NDKAPIDrawing/entry/src/ohosTest/module.json5","ArkGraphics2D/Drawing/NDKDrawing/entry/src/ohosTest/ets/test/DrawingAbility.test.ets","ArkGraphics2D/Drawing/NDKDrawing/entry/src/ohosTest/ets/test/List.test.ets","ArkGraphics2D/Drawing/NDKDrawing/entry/src/ohosTest/ets/testability/TestAbility.ets","ArkGraphics2D/Drawing/NDKDrawing/entry/src/ohosTest/ets/testability/pages/Index.ets","ArkGraphics2D/Drawing/NDKDrawing/entry/src/ohosTest/ets/testrunner/OpenHarmonyTestRunner.ets","ArkGraphics2D/Drawing/NDKDrawing/entry/src/ohosTest/ets/testrunner/OpenHarmonyTestRunner.ts","ArkGraphics2D/Drawing/NDKDrawing/entry/src/ohosTest/module.json5","ArkGraphics2D/Drawing/NDKDrawing/entry/src/ohosTest/resources/base/element/color.json","ArkGraphics2D/Drawing/NDKDrawing/entry/src/ohosTest/resources/base/element/string.json","ArkGraphics2D/Drawing/NDKDrawing/entry/src/ohosTest/resources/base/media/icon.png","ArkGraphics2D/Drawing/NDKDrawing/entry/src/ohosTest/resources/base/profile/test_pages.json","ArkGraphics2D/Drawing/NDKDrawing/entry/src/test/List.test.ets","ArkGraphics2D/Drawing/NDKDrawing/entry/src/test/LocalUnit.test.ets","ArkGraphics2D/Drawing/NDKGraphicsDraw/entry/src/ohosTest/ets/test/Ability.test.ets","ArkGraphics2D/Drawing/NDKGraphicsDraw/entry/src/ohosTest/ets/test/List.test.ets","ArkGraphics2D/Drawing/NDKGraphicsDraw/entry/src/ohosTest/ets/utils/Logger.ets","ArkGraphics2D/Drawing/NDKGraphicsDraw/entry/src/ohosTest/module.json5"],
+			"testFileCount": 30,
+			"trackedFileCount": 302
+		},
+		"payloadSha256": "4478a580b8a91f8e99d1e75b33c93f4da667854f6d94f44036f0463ffcbf9cbf",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "67dfefbc-0f93-5713-a302-75eb52c06916"
+}

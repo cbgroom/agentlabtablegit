@@ -1,0 +1,72 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkgraphics2d-ndknativeimage",
+	"recorded_at_unix_ms": 1790568319838,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkgraphics2d-ndknativeimage",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkGraphics2D/NdkNativeImage/build-profile.json5","ArkGraphics2D/NdkNativeImage/entry/build-profile.json5","ArkGraphics2D/NdkNativeImage/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 1813,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例主要演示如何在 OpenHarmony 系统中，使用 Native C++ 代码，通过 `OH_NativeImage`、`OH_NativeWindow` 和 `OH_NativeVSync` API，实现一个从左到右循环渐变的动态动画效果。示例展示了如何创建 `OH_NativeWindow` 实例、使用 `OH_NativeImage` 处理图像数据、接收 VSync 信号、映射缓冲区内存、逐像素绘制动态渐变动画，以及在屏幕上呈现该动画。",
+			"documentedTitle": "基于NdkNativeImage的平滑渐变动画效果",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkGraphics2D/NdkNativeImage/.gitignore"
+				},
+				{
+					"gitBlobOid": "faac748f6288adb4e4f0a62ceb69d440b0b42d6c",
+					"path": "ArkGraphics2D/NdkNativeImage/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "0165b1d0bc896dd230547bdabe050612680e0ccd",
+					"path": "ArkGraphics2D/NdkNativeImage/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.app.ability.abilityDelegatorRegistry","@ohos/hvigor-ohos-plugin","@ohos/hypium","EGL/egl.h","EGL/eglext.h","GLES2/gl2.h","GLES2/gl2ext.h","ace/xcomponent/native_interface_xcomponent.h","algorithm","atomic","cerrno","cmath","common/common.h","condition_variable","cstdint","functional","hilog/log.h","iostream","memory","mutex","native_buffer/native_buffer.h","native_image/native_image.h","native_vsync/native_vsync.h","native_window/external_window.h","poll.h","sys/mman.h","thread","unistd.h","vector"],
+			"externalDependencyCount": 34,
+			"id": "skill-scope-guide-snippets-arkgraphics2d-ndknativeimage",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 4,
+				"ets": 9,
+				"h": 4,
+				"jpg": 1,
+				"json": 8,
+				"json5": 13,
+				"md": 1,
+				"no-extension": 2,
+				"png": 4,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkGraphics2D/NdkNativeImage",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkGraphics2D/NdkNativeImage; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 20,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkGraphics2D/NdkNativeImage/entry/src/ohosTest/ets/test/Ability.test.ets","ArkGraphics2D/NdkNativeImage/entry/src/ohosTest/ets/test/List.test.ets","ArkGraphics2D/NdkNativeImage/entry/src/ohosTest/ets/test/NdkNativeImage.test.ets","ArkGraphics2D/NdkNativeImage/entry/src/ohosTest/module.json5","ArkGraphics2D/NdkNativeImage/entry/src/test/List.test.ets","ArkGraphics2D/NdkNativeImage/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 51
+		},
+		"payloadSha256": "16f5fe355e3ef1a68d354d6939bc884b222f88ce3597ad9ee587567200a2d744",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "67dfefbc-0f93-5713-a302-75eb52c06916"
+}
