@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-corefile-fileapifilesample",
+	"recorded_at_unix_ms": 1790568365627,
+	"row": {
+		"id": "skill-scope-guide-snippets-corefile-fileapifilesample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["CoreFile/FileApiFileSample/build-profile.json5","CoreFile/FileApiFileSample/entry/build-profile.json5"],
+			"codeLineCount": 862,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本实例主要介绍几种常用文件操作的示例，如创建、读写、删除、移动、复制、获取属性、设置数据安全等级等操作。",
+			"documentedTitle": "应用文件访问（ArKTS）和设置分布式文件数据等级",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "CoreFile/FileApiFileSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "bfba1d9c16eca751e1a3d82e459c1347508bde71",
+					"path": "CoreFile/FileApiFileSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "ff11c764dd11cf430a4547d81f0d17391d69e4b5",
+					"path": "CoreFile/FileApiFileSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkTS","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 9,
+			"id": "skill-scope-guide-snippets-corefile-fileapifilesample",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 7,
+				"json": 9,
+				"json5": 9,
+				"md": 2,
+				"no-extension": 2,
+				"png": 7,
+				"ts": 3,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "CoreFile/FileApiFileSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at CoreFile/FileApiFileSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 10,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["CoreFile/FileApiFileSample/entry/src/ohosTest/ets/common/Logger.ts","CoreFile/FileApiFileSample/entry/src/ohosTest/ets/test/Ability.test.ets","CoreFile/FileApiFileSample/entry/src/ohosTest/ets/test/List.test.ets","CoreFile/FileApiFileSample/entry/src/ohosTest/module.json5","CoreFile/FileApiFileSample/entry/src/test/List.test.ets","CoreFile/FileApiFileSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 40
+		},
+		"payloadSha256": "c7db64c65fe671a5f0e2c3f2cf9d2c5c3f06e6241d11a05931e57042283ef82d",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "66303902-99d0-5579-90ea-3757f6174da4"
+}

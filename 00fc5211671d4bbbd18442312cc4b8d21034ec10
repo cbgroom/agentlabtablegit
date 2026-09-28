@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-calendar-calendarevent",
+	"recorded_at_unix_ms": 1790568365627,
+	"row": {
+		"id": "skill-scope-guide-snippets-calendar-calendarevent",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Calendar/CalendarEvent/build-profile.json5","Calendar/CalendarEvent/entry/build-profile.json5"],
+			"codeLineCount": 644,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "日程指特定的事件或者活动安排，日程管理即对这些事件、活动进行规划和控制，能更有效地利用相关资源、提高生产力和效率，使人们更好地管理时间和任务。",
+			"documentedTitle": "CalendarEvent",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Calendar/CalendarEvent/.gitignore"
+				},
+				{
+					"gitBlobOid": "1e60bfe78cea398e0e060a73bd33f7a7bc164b73",
+					"path": "Calendar/CalendarEvent/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "7775c478186dd86a16553f23a980d8c638be4b64",
+					"path": "Calendar/CalendarEvent/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CalendarKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.app.ability.abilityDelegatorRegistry","@ohos.deviceInfo","@ohos.resourceManager","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 12,
+			"id": "skill-scope-guide-snippets-calendar-calendarevent",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 7,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 9,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Calendar/CalendarEvent",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Calendar/CalendarEvent; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 9,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Calendar/CalendarEvent/entry/src/ohosTest/ets/test/Ability.test.ets","Calendar/CalendarEvent/entry/src/ohosTest/ets/test/List.test.ets","Calendar/CalendarEvent/entry/src/ohosTest/module.json5","Calendar/CalendarEvent/entry/src/test/List.test.ets","Calendar/CalendarEvent/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 42
+		},
+		"payloadSha256": "fa5674e58b13b3afa788a8379ea46053134749eccc42cc84e13c99e98c682cf3",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "66303902-99d0-5579-90ea-3757f6174da4"
+}

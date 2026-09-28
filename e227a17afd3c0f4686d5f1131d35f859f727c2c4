@@ -1,54 +1,55 @@
 {
 	"deleted": false,
-	"key": "skill-scope-guide-snippets-bmssample-hsptohar",
-	"recorded_at_unix_ms": 1790568362330,
+	"key": "skill-scope-guide-snippets-bmssample-integratedhsp",
+	"recorded_at_unix_ms": 1790568365627,
 	"row": {
-		"id": "skill-scope-guide-snippets-bmssample-hsptohar",
+		"id": "skill-scope-guide-snippets-bmssample-integratedhsp",
 		"kind": "sample-project",
 		"payload": {
 			"assetClass": "reusable-knowledge",
 			"automaticPromotion": false,
-			"buildEntrypoints": ["bmsSample/HspToHar/build-profile.json5","bmsSample/HspToHar/entry/build-profile.json5","bmsSample/HspToHar/library/build-profile.json5"],
-			"codeLineCount": 284,
+			"buildEntrypoints": ["bmsSample/IntegratedHsp/build-profile.json5","bmsSample/IntegratedHsp/entry/build-profile.json5","bmsSample/IntegratedHsp/library/build-profile.json5"],
+			"codeLineCount": 264,
 			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
-			"documentedPurpose": "本示例通过相关设置配置变更，将HSP转化成HAR包",
-			"documentedTitle": "HSP转HAR指导指南文档示例",
+			"documentedPurpose": "本示例通过相关配置调整，将HSP转化成集成态HSP，编译产物tgz包，提供给entry集成使用。",
+			"documentedTitle": "集成态HSP文档示例",
 			"evidence": [
 				{
 					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
-					"path": "bmsSample/HspToHar/.gitignore"
+					"path": "bmsSample/IntegratedHsp/.gitignore"
 				},
 				{
 					"gitBlobOid": "a50d135b37fc66f067d0a6081ecf9e8f299a7286",
-					"path": "bmsSample/HspToHar/AppScope/app.json5"
+					"path": "bmsSample/IntegratedHsp/AppScope/app.json5"
 				},
 				{
-					"gitBlobOid": "8e0db8681e3d1d66e60f5796a1adb4c488aa25ff",
-					"path": "bmsSample/HspToHar/AppScope/resources/base/element/string.json"
+					"gitBlobOid": "631e63d71dfb584feec33c5075d4343c6c9e50d2",
+					"path": "bmsSample/IntegratedHsp/AppScope/resources/base/element/string.json"
 				}
 			],
 			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin"],
 			"externalDependencyCount": 5,
-			"id": "skill-scope-guide-snippets-bmssample-hsptohar",
+			"id": "skill-scope-guide-snippets-bmssample-integratedhsp",
 			"kind": "sample-project",
 			"languages": {
-				"ets": 7,
-				"json": 11,
+				"ets": 6,
+				"json": 12,
 				"json5": 11,
 				"md": 2,
 				"no-extension": 3,
-				"png": 5,
+				"png": 6,
+				"tgz": 1,
 				"ts": 3,
 				"txt": 3
 			},
 			"ownershipPlane": "target-operations",
-			"pathBoundary": "bmsSample/HspToHar",
+			"pathBoundary": "bmsSample/IntegratedHsp",
 			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
 			"repositoryId": "guide-snippets",
-			"responsibility": "Maintain the independently buildable Harmony sample rooted at bmsSample/HspToHar; keep its modules, tests, resources, and SDK contract together.",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at bmsSample/IntegratedHsp; keep its modules, tests, resources, and SDK contract together.",
 			"schema": "agentlab.maintainer_scope_skill.v1",
 			"skillLayer": "instance",
-			"sourceFileCount": 10,
+			"sourceFileCount": 9,
 			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
 			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
 			"stage": "repository-scope",
@@ -56,14 +57,14 @@
 			"strategy": "harmony-sample-project-corpus",
 			"testEntrypoints": [],
 			"testFileCount": 0,
-			"trackedFileCount": 45
+			"trackedFileCount": 47
 		},
-		"payloadSha256": "0be318efeacadedd88b4c9a8402c26a00396e01fa498f2e01d9b85b12d5dfd5e",
+		"payloadSha256": "6a90fec938d3c30d69da7e6c5e819f496e92a19631336c7bb2e24f7e81247921",
 		"repositoryId": "guide-snippets",
 		"schema": "agentlab.maintainer_scope_skill.v1",
 		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
 	},
 	"row_version": 1,
 	"schema": "mcpgit.table-row.v1",
-	"transaction_id": "b8f7cdf7-e3de-5340-a3c5-8dfcca04e7ff"
+	"transaction_id": "66303902-99d0-5579-90ea-3757f6174da4"
 }

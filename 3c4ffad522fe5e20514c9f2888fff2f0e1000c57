@@ -1,0 +1,71 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-corefile-ndkappfilesample",
+	"recorded_at_unix_ms": 1790568365627,
+	"row": {
+		"id": "skill-scope-guide-snippets-corefile-ndkappfilesample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["CoreFile/NDKAppFileSample/build-profile.json5","CoreFile/NDKAppFileSample/entry/build-profile.json5","CoreFile/NDKAppFileSample/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 560,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本实例主要实现了使用C++的方式去访问应用沙箱目录下的文件，使用接口FileManagement_ErrCode OH_FileIO_GetFileLocation(char *uri, int uriLength, FileIO_FileLocation *location),接口的详细说明请参考：FileIO。主要实现的功能是：使用文件uri作为入参，调用C语言函数去访问应用文件，并确定文件的存储位置。该工程中展示的代码详细描述可查如下链接。",
+			"documentedTitle": "应用文件访问（C++）",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "CoreFile/NDKAppFileSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "089e8345e9c895c6ae4c940f5da3da4847971c2a",
+					"path": "CoreFile/NDKAppFileSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "42807f9a7ded386aef72f7d636ade1e532944576",
+					"path": "CoreFile/NDKAppFileSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkTS","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","cstdio","cstring","filemanagement/fileio/oh_fileio.h","libentry.so","string"],
+			"externalDependencyCount": 13,
+			"id": "skill-scope-guide-snippets-corefile-ndkappfilesample",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 1,
+				"ets": 6,
+				"jpg": 2,
+				"json": 8,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 4,
+				"ts": 5,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "CoreFile/NDKAppFileSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at CoreFile/NDKAppFileSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 12,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["CoreFile/NDKAppFileSample/entry/src/ohosTest/ets/common/Logger.ts","CoreFile/NDKAppFileSample/entry/src/ohosTest/ets/test/Index.test.ets","CoreFile/NDKAppFileSample/entry/src/ohosTest/ets/test/List.test.ets","CoreFile/NDKAppFileSample/entry/src/ohosTest/module.json5"],
+			"testFileCount": 4,
+			"trackedFileCount": 42
+		},
+		"payloadSha256": "631048e736b50bce93b15d32d6c1ac0b4c06f6925f48e3f262df3e0cb48a7b0f",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "66303902-99d0-5579-90ea-3757f6174da4"
+}

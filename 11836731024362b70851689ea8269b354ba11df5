@@ -1,35 +1,35 @@
 {
 	"deleted": false,
-	"key": "skill-scope-guide-snippets-bmssample-appclone",
-	"recorded_at_unix_ms": 1790568362330,
+	"key": "skill-scope-guide-snippets-bmssample-multiinstance",
+	"recorded_at_unix_ms": 1790568365627,
 	"row": {
-		"id": "skill-scope-guide-snippets-bmssample-appclone",
+		"id": "skill-scope-guide-snippets-bmssample-multiinstance",
 		"kind": "sample-project",
 		"payload": {
 			"assetClass": "reusable-knowledge",
 			"automaticPromotion": false,
-			"buildEntrypoints": ["bmsSample/AppClone/build-profile.json5","bmsSample/AppClone/entry/build-profile.json5"],
+			"buildEntrypoints": ["bmsSample/Multiinstance/build-profile.json5","bmsSample/Multiinstance/entry/build-profile.json5"],
 			"codeLineCount": 174,
 			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
-			"documentedPurpose": "本示例通过配置app.json5配置文件multiAppMode字段，配置应用分身。",
-			"documentedTitle": "创建应用分身指南文档示例",
+			"documentedPurpose": "本示例通过配置app.json5配置文件multiAppMode字段，配置多实例的应用，多实例模式。该标签仅支持2in1设备。",
+			"documentedTitle": "创建应用多实例指南文档示例",
 			"evidence": [
 				{
 					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
-					"path": "bmsSample/AppClone/.gitignore"
+					"path": "bmsSample/Multiinstance/.gitignore"
 				},
 				{
-					"gitBlobOid": "42bc8ea7411b7ac3fb91161a0333a71deae8bb21",
-					"path": "bmsSample/AppClone/AppScope/app.json5"
+					"gitBlobOid": "09930c8635c963d98f1ee90e08eae922d613848a",
+					"path": "bmsSample/Multiinstance/AppScope/app.json5"
 				},
 				{
-					"gitBlobOid": "1b7880df82f5d62fe8a9334af673088d0913a5b9",
-					"path": "bmsSample/AppClone/AppScope/resources/base/element/string.json"
+					"gitBlobOid": "6e3fccbce26a8c0bf18e0dcb1f55635b819c1e07",
+					"path": "bmsSample/Multiinstance/AppScope/resources/base/element/string.json"
 				}
 			],
 			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin"],
 			"externalDependencyCount": 5,
-			"id": "skill-scope-guide-snippets-bmssample-appclone",
+			"id": "skill-scope-guide-snippets-bmssample-multiinstance",
 			"kind": "sample-project",
 			"languages": {
 				"ets": 3,
@@ -42,10 +42,10 @@
 				"txt": 1
 			},
 			"ownershipPlane": "target-operations",
-			"pathBoundary": "bmsSample/AppClone",
+			"pathBoundary": "bmsSample/Multiinstance",
 			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
 			"repositoryId": "guide-snippets",
-			"responsibility": "Maintain the independently buildable Harmony sample rooted at bmsSample/AppClone; keep its modules, tests, resources, and SDK contract together.",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at bmsSample/Multiinstance; keep its modules, tests, resources, and SDK contract together.",
 			"schema": "agentlab.maintainer_scope_skill.v1",
 			"skillLayer": "instance",
 			"sourceFileCount": 5,
@@ -58,12 +58,12 @@
 			"testFileCount": 0,
 			"trackedFileCount": 33
 		},
-		"payloadSha256": "354716f65761125cdf98a4ea45a69adb556df0539b8617ddf29b2a7587003c53",
+		"payloadSha256": "ce255e23b5d791e4464b2c1b5578a207eab0d678d92baabc5286135e29b3ab40",
 		"repositoryId": "guide-snippets",
 		"schema": "agentlab.maintainer_scope_skill.v1",
 		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
 	},
 	"row_version": 1,
 	"schema": "mcpgit.table-row.v1",
-	"transaction_id": "b8f7cdf7-e3de-5340-a3c5-8dfcca04e7ff"
+	"transaction_id": "66303902-99d0-5579-90ea-3757f6174da4"
 }

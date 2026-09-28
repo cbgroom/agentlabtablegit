@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-corefile-environmentsample",
+	"recorded_at_unix_ms": 1790568365627,
+	"row": {
+		"id": "skill-scope-guide-snippets-corefile-environmentsample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["CoreFile/EnvironmentSample/build-profile.json5","CoreFile/EnvironmentSample/entry/build-profile.json5"],
+			"codeLineCount": 538,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本实例主要实现了通过 ArkTS 接口获取并访问公共目录。",
+			"documentedTitle": "获取并使用公共目录",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "CoreFile/EnvironmentSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "af43d1d2a2802e9f6393db289f46fcac3e42f901",
+					"path": "CoreFile/EnvironmentSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "8c8f9dc89d70fee1a7e572ca6194c7cd294a0da8",
+					"path": "CoreFile/EnvironmentSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 8,
+			"id": "skill-scope-guide-snippets-corefile-environmentsample",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 7,
+				"jpg": 2,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 3,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "CoreFile/EnvironmentSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at CoreFile/EnvironmentSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 10,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["CoreFile/EnvironmentSample/entry/src/ohosTest/ets/common/Logger.ts","CoreFile/EnvironmentSample/entry/src/ohosTest/ets/test/Ability.test.ets","CoreFile/EnvironmentSample/entry/src/ohosTest/ets/test/List.test.ets","CoreFile/EnvironmentSample/entry/src/ohosTest/module.json5","CoreFile/EnvironmentSample/entry/src/test/List.test.ets","CoreFile/EnvironmentSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 41
+		},
+		"payloadSha256": "e23f10e4e5742e3a43f03ec1f27f9420fff4e6c048df8096e9f71231f56c73b9",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "66303902-99d0-5579-90ea-3757f6174da4"
+}
