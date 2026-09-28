@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-ability-dynamicisolationprocess",
+	"recorded_at_unix_ms": 1790568309927,
+	"row": {
+		"id": "skill-scope-guide-snippets-ability-dynamicisolationprocess",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Ability/DynamicIsolationProcess/build-profile.json5","Ability/DynamicIsolationProcess/entry/build-profile.json5"],
+			"codeLineCount": 531,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例展示了[动态指定进程](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/application-models/process-model-stage.md)的配置与使用方法：",
+			"documentedTitle": "动态指定进程",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Ability/DynamicIsolationProcess/.gitignore"
+				},
+				{
+					"gitBlobOid": "8be35f5c6bc53ce5be137e935ada6ab25e248197",
+					"path": "Ability/DynamicIsolationProcess/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "4f9697b033ec3c20ae36b60bc802a02b4671fd1d",
+					"path": "Ability/DynamicIsolationProcess/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.UiTest","@ohos.app.ability.AbilityStage","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 9,
+			"id": "skill-scope-guide-snippets-ability-dynamicisolationprocess",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 11,
+				"json": 10,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Ability/DynamicIsolationProcess",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Ability/DynamicIsolationProcess; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 13,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Ability/DynamicIsolationProcess/entry/src/ohosTest/ets/test/Ability.test.ets","Ability/DynamicIsolationProcess/entry/src/ohosTest/ets/test/List.test.ets","Ability/DynamicIsolationProcess/entry/src/ohosTest/module.json5","Ability/DynamicIsolationProcess/entry/src/test/List.test.ets","Ability/DynamicIsolationProcess/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 43
+		},
+		"payloadSha256": "670d4d11bb91c04571d97cfcea6dfc9145a3f357c92dcab44a5e7309caf39692",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "10692a54-5e33-52c9-a094-da979f1dc503"
+}

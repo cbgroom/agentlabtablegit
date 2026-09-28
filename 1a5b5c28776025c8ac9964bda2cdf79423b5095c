@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-ability-appstartup",
+	"recorded_at_unix_ms": 1790568309927,
+	"row": {
+		"id": "skill-scope-guide-snippets-ability-appstartup",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Ability/AppStartup/build-profile.json5","Ability/AppStartup/entry/build-profile.json5","Ability/AppStartup/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 1108,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "应用启动时通常需要执行一系列初始化启动任务，如果将启动任务都放在HAP的UIAbility组件的onCreate生命周期中，那么只能在主线程中依次执行，不但影响应用的启动速度，而且当启动任务过多时，任务之间复杂的依赖关系还会使得代码难以维护。",
+			"documentedTitle": "应用启动框架AppStartup",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Ability/AppStartup/.gitignore"
+				},
+				{
+					"gitBlobOid": "56d879ec40e0e441a8406aafe867c69186cdc4e8",
+					"path": "Ability/AppStartup/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "c1ad6d8b0f9f8fd12f926f4a44569b63f6d360f9",
+					"path": "Ability/AppStartup/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos.app.ability.abilityDelegatorRegistry","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 8,
+			"id": "skill-scope-guide-snippets-ability-appstartup",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 6,
+				"ets": 15,
+				"json": 12,
+				"json5": 17,
+				"md": 2,
+				"no-extension": 1,
+				"png": 7,
+				"ts": 8,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Ability/AppStartup",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Ability/AppStartup; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 29,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Ability/AppStartup/entry/src/ohosTest/ets/test/Ability.test.ets","Ability/AppStartup/entry/src/ohosTest/ets/test/List.test.ets","Ability/AppStartup/entry/src/ohosTest/module.json5","Ability/AppStartup/entry/src/ohosTest/syscap.json","Ability/AppStartup/entry/src/test/List.test.ets","Ability/AppStartup/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 70
+		},
+		"payloadSha256": "4e89e6b4da261a266bf95ff7fb520247e278a94755254eb79bd9955f8b8a38b6",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "10692a54-5e33-52c9-a094-da979f1dc503"
+}

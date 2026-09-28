@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-ability-embeddeduiextensionability",
+	"recorded_at_unix_ms": 1790568309927,
+	"row": {
+		"id": "skill-scope-guide-snippets-ability-embeddeduiextensionability",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Ability/EmbeddedUIExtensionAbility/build-profile.json5","Ability/EmbeddedUIExtensionAbility/entry/build-profile.json5"],
+			"codeLineCount": 524,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "[EmbeddedUIExtensionAbility](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-ability-kit/js-apis-app-ability-embeddedUIExtensionAbility.md)是EMBEDDED_UI类型的[ExtensionAbility](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-ability-kit/js-apis-app-ability-extensionAbility.md)组件，提供了跨进程界面嵌入的能力。",
+			"documentedTitle": "EmbeddedUIExtensionAbility",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Ability/EmbeddedUIExtensionAbility/.gitignore"
+				},
+				{
+					"gitBlobOid": "2ae960c00ea4f9bb24bfacf71c4a408ba01e5a8e",
+					"path": "Ability/EmbeddedUIExtensionAbility/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "6e273b77f75875a9b361f0bb06adc938d17b4842",
+					"path": "Ability/EmbeddedUIExtensionAbility/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.UiTest","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 9,
+			"id": "skill-scope-guide-snippets-ability-embeddeduiextensionability",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 10,
+				"json": 11,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Ability/EmbeddedUIExtensionAbility",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Ability/EmbeddedUIExtensionAbility; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 12,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Ability/EmbeddedUIExtensionAbility/entry/src/ohosTest/ets/test/Ability.test.ets","Ability/EmbeddedUIExtensionAbility/entry/src/ohosTest/ets/test/List.test.ets","Ability/EmbeddedUIExtensionAbility/entry/src/ohosTest/module.json5","Ability/EmbeddedUIExtensionAbility/entry/src/ohosTest/syscap.json","Ability/EmbeddedUIExtensionAbility/entry/src/test/List.test.ets","Ability/EmbeddedUIExtensionAbility/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 43
+		},
+		"payloadSha256": "f9b6a53e6ef5df480a6470fd5d2960f46717e85e8292b7bd251950d9ae8b0c52",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "10692a54-5e33-52c9-a094-da979f1dc503"
+}

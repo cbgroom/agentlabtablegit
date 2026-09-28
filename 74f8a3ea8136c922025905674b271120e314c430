@@ -1,0 +1,64 @@
+{
+	"deleted": false,
+	"key": "skill-scope-code-workshop-appscope",
+	"recorded_at_unix_ms": 1790568309927,
+	"row": {
+		"id": "skill-scope-code-workshop-appscope",
+		"kind": "module",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": [],
+			"codeLineCount": 0,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": null,
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "20a7cb8ad618125d312058f48e360aca2adfbf9b",
+					"path": "AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "4b6910087c23f01bc5797c216a8d28935fd870e1",
+					"path": "AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "ab180cdfef55bcd5248e3aef53bad8d621a6443a",
+					"path": "AppScope/resources/base/media/hmos_layered_image.json"
+				}
+			],
+			"externalDependencies": [],
+			"externalDependencyCount": 0,
+			"id": "skill-scope-code-workshop-appscope",
+			"kind": "module",
+			"languages": {
+				"json": 4,
+				"json5": 1,
+				"png": 3
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "AppScope",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/sample_in_harmonyos.git",
+			"repositoryId": "code-workshop",
+			"responsibility": "Maintain the Harmony module rooted at AppScope, including its build manifest, source, resources, and tests.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 0,
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+			"sourceTreeOid": "ab156e6aa2fc9c64f400ee119e142fded5573271",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-multi-product-modules",
+			"testEntrypoints": [],
+			"testFileCount": 0,
+			"trackedFileCount": 8
+		},
+		"payloadSha256": "4a43d628e52bbbaf70c6d3919d358832bc07aa58c5192bd416ec329dcc9201ca",
+		"repositoryId": "code-workshop",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "10692a54-5e33-52c9-a094-da979f1dc503"
+}

@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-ability-applinking",
+	"recorded_at_unix_ms": 1790568309927,
+	"row": {
+		"id": "skill-scope-guide-snippets-ability-applinking",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Ability/AppLinking/build-profile.json5","Ability/AppLinking/entry/build-profile.json5"],
+			"codeLineCount": 451,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "应用间跳转主要有App Linking和Deep Linking两种方式。以下主要讲解使用[App Linking应用间跳转](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/application-models/app-linking-startup.md)方式：",
+			"documentedTitle": "App Linking应用间跳转",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Ability/AppLinking/.gitignore"
+				},
+				{
+					"gitBlobOid": "9594896730261656ec30be17563aab812cf5d733",
+					"path": "Ability/AppLinking/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "0864daa0eed66e0272cd3b18180e23aa9321ad32",
+					"path": "Ability/AppLinking/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkTS","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.app.ability.common","@ohos.base","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 10,
+			"id": "skill-scope-guide-snippets-ability-applinking",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 9,
+				"json": 11,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Ability/AppLinking",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Ability/AppLinking; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 11,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Ability/AppLinking/entry/src/ohosTest/ets/test/Ability.test.ets","Ability/AppLinking/entry/src/ohosTest/ets/test/List.test.ets","Ability/AppLinking/entry/src/ohosTest/module.json5","Ability/AppLinking/entry/src/ohosTest/syscap.json","Ability/AppLinking/entry/src/test/List.test.ets","Ability/AppLinking/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 42
+		},
+		"payloadSha256": "921fe3bda7249c54cbc0fe5e0a6efa3d231ff7d68725bd66bfd74b3540654557",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "10692a54-5e33-52c9-a094-da979f1dc503"
+}

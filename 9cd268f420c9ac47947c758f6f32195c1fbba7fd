@@ -1,0 +1,73 @@
+{
+	"deleted": false,
+	"key": "skill-scope-code-workshop-features-componentlibrary",
+	"recorded_at_unix_ms": 1790568309927,
+	"row": {
+		"id": "skill-scope-code-workshop-features-componentlibrary",
+		"kind": "module",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["features/componentlibrary/build-profile.json5"],
+			"codeLineCount": 16743,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": null,
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "e2713a2779c5a3e0eb879efe6115455592caeea5",
+					"path": "features/componentlibrary/.gitignore"
+				},
+				{
+					"gitBlobOid": "f83f2a1fa0a9e8acec79c87afd27221f4d468b40",
+					"path": "features/componentlibrary/Index.ets"
+				},
+				{
+					"gitBlobOid": "697dff23e224373edb713dc2b8a08ed7341d5b4c",
+					"path": "features/componentlibrary/build-profile.json5"
+				}
+			],
+			"externalDependencies": [",built_in:","@kit.AbilityKit","@kit.ArkData","@kit.ArkGraphics2D","@kit.ArkUI","@kit.BasicServicesKit","@kit.CameraKit","@kit.CoreFileKit","@kit.CoreSpeechKit","@kit.ImageKit","@kit.MediaLibraryKit","@kit.Penkit","@kit.PerformanceAnalysisKit","@kit.SpeechKit","@kit.TelephonyKit","@kit.UIDesignKit","@ohos/common","@ohos/commonbusiness","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 20,
+			"id": "skill-scope-code-workshop-features-componentlibrary",
+			"kind": "module",
+			"languages": {
+				"css": 3,
+				"ets": 206,
+				"html": 1,
+				"js": 4,
+				"json": 11,
+				"json5": 4,
+				"no-extension": 1,
+				"pcm": 1,
+				"png": 11,
+				"ts": 1,
+				"ttf": 1,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "features/componentlibrary",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/sample_in_harmonyos.git",
+			"repositoryId": "code-workshop",
+			"responsibility": "Maintain the Harmony module rooted at features/componentlibrary, including its build manifest, source, resources, and tests.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 215,
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+			"sourceTreeOid": "ab156e6aa2fc9c64f400ee119e142fded5573271",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-multi-product-modules",
+			"testEntrypoints": ["features/componentlibrary/src/ohosTest/ets/test/Ability.test.ets","features/componentlibrary/src/ohosTest/ets/test/List.test.ets","features/componentlibrary/src/ohosTest/module.json5","features/componentlibrary/src/test/List.test.ets","features/componentlibrary/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 246
+		},
+		"payloadSha256": "e9feca2078d1d8369b5949798fdd03f857cf8330f106fa725e6f4f48adc236bb",
+		"repositoryId": "code-workshop",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "10692a54-5e33-52c9-a094-da979f1dc503"
+}
