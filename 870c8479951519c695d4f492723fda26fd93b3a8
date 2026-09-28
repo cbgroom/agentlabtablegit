@@ -1,0 +1,71 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-layoutsample",
+	"recorded_at_unix_ms": 1790568342283,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-layoutsample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/LayoutSample/build-profile.json5","ArkUISample/LayoutSample/entry/build-profile.json5","ArkUISample/LayoutSample/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 5989,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本项目基于HarmonyOS ArkUI框架，展示了ArkUI中多种布局组件布局约束的使用方法。项目包括了Native C++实现和ArkTS的编码实现，为开发者提供了多种布局学习资源。",
+			"documentedTitle": "ArkUI Layout Sample",
+			"evidence": [
+				{
+					"gitBlobOid": "90a375fe824258695ebe04cabd24e8e613ceaa88",
+					"path": "ArkUISample/LayoutSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "f57f402192699e4179d139e1d9edf6b864e4d07c",
+					"path": "ArkUISample/LayoutSample/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "ArkUISample/LayoutSample/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","arkui/native_interface.h","arkui/native_node.h","arkui/native_node_napi.h","arkui/native_type.h","cassert","cstdint","functional","hilog/log.h","js_native_api.h","js_native_api_types.h","libentry.so","list","memory","nodes/ArkUIBaseNode.h","ostream","string","unordered_map","vector"],
+			"externalDependencyCount": 24,
+			"id": "skill-scope-guide-snippets-arkuisample-layoutsample",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 3,
+				"ets": 27,
+				"gif": 1,
+				"h": 31,
+				"json": 10,
+				"json5": 11,
+				"md": 1,
+				"png": 5,
+				"ts": 4,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/LayoutSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/LayoutSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 65,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/LayoutSample/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/LayoutSample/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/LayoutSample/entry/src/ohosTest/module.json5","ArkUISample/LayoutSample/entry/src/test/List.test.ets","ArkUISample/LayoutSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 95
+		},
+		"payloadSha256": "f8cc4360fa60f1d5dcd8b59902489119ffb59481e6b19b88b15f79720da0529c",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "108bbdfb-6cfb-5b1f-b97a-d9326f3cd054"
+}

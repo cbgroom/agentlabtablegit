@@ -1,0 +1,68 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-internationalization",
+	"recorded_at_unix_ms": 1790568342283,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-internationalization",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/internationalization/build-profile.json5","ArkUISample/internationalization/entry/build-profile.json5"],
+			"codeLineCount": 685,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例展示了[UI国际化](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/ui/arkts-internationalization.md)的使用方法：",
+			"documentedTitle": "UI国际化指南文档示例",
+			"evidence": [
+				{
+					"gitBlobOid": "59d96e63072cd7388b11907355c4e511e9ba76c6",
+					"path": "ArkUISample/internationalization/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "fef4fbc4a184b66c06120428383d3692fb02e4f5",
+					"path": "ArkUISample/internationalization/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "ArkUISample/internationalization/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 8,
+			"id": "skill-scope-guide-snippets-arkuisample-internationalization",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 13,
+				"json": 10,
+				"json5": 10,
+				"md": 2,
+				"png": 7,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/internationalization",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/internationalization; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 15,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/internationalization/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/internationalization/entry/src/ohosTest/ets/test/Index.test.ets","ArkUISample/internationalization/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/internationalization/entry/src/ohosTest/module.json5","ArkUISample/internationalization/entry/src/test/List.test.ets","ArkUISample/internationalization/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 45
+		},
+		"payloadSha256": "e86e0efc3fdd39149b4bad88909c07bfa2867a29869cc53b5ad17e9db4a032b7",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "108bbdfb-6cfb-5b1f-b97a-d9326f3cd054"
+}

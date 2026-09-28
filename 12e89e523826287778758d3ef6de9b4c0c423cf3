@@ -1,0 +1,71 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-nativenodenapi",
+	"recorded_at_unix_ms": 1790568342283,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-nativenodenapi",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/NativeNodeNapi/native_node_napi/build-profile.json5","ArkUISample/NativeNodeNapi/native_node_napi/entry/build-profile.json5","ArkUISample/NativeNodeNapi/native_node_napi/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 4731,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例基于[native_node.h](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-arkui/capi-native-node-h.md)、[native_node_napi.h](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-arkui/capi-native-node-napi-h.md)展示了如何通过调用CAPI提供的相关方法来获取、设置navigation组件等组件的相关属性和信息，以及将ArkTS侧创建的DrawableDescriptor对象映射到native侧的ArkUI_DrawableDescriptor。",
+			"documentedTitle": "Native_node_napi",
+			"evidence": [
+				{
+					"gitBlobOid": "bdf31a37e01ac463ba1438372cb142f729a5915b",
+					"path": "ArkUISample/NativeNodeNapi/native_node_napi/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "9e206b8fdfe2a67f400fc8016966544b37f1dde0",
+					"path": "ArkUISample/NativeNodeNapi/native_node_napi/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "ArkUISample/NativeNodeNapi/native_node_napi/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","AbilityKit/ability_base/want.h","ace/xcomponent/native_interface_xcomponent.h","algorithm","arkui/native_animate.h","arkui/native_interface.h","arkui/native_node.h","arkui/native_node_napi.h","arkui/native_type.h","arkui/styled_string.h","cassert","cstdint","cstring","functional","hilog/log.h","js_native_api.h","js_native_api_types.h","libentry.so","list","memory","napi/native_api.h","string","unordered_map"],
+			"externalDependencyCount": 29,
+			"id": "skill-scope-guide-snippets-arkuisample-nativenodenapi",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 5,
+				"ets": 29,
+				"h": 12,
+				"jpg": 1,
+				"json": 10,
+				"json5": 10,
+				"md": 2,
+				"png": 6,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/NativeNodeNapi",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/NativeNodeNapi; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 49,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/NativeNodeNapi/native_node_napi/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NativeNodeNapi/native_node_napi/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NativeNodeNapi/native_node_napi/entry/src/ohosTest/module.json5","ArkUISample/NativeNodeNapi/native_node_napi/entry/src/test/List.test.ets","ArkUISample/NativeNodeNapi/native_node_napi/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 80
+		},
+		"payloadSha256": "3f2e724c6139e36a9d38306db10fd082e6e2f89cabd0b7299096ebff27f5c97d",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "108bbdfb-6cfb-5b1f-b97a-d9326f3cd054"
+}

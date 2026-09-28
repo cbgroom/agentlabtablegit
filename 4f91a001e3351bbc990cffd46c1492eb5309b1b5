@@ -1,0 +1,73 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-nativeformexample",
+	"recorded_at_unix_ms": 1790568342283,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-nativeformexample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/NativeFormExample/build-profile.json5","ArkUISample/NativeFormExample/entry/build-profile.json5","ArkUISample/NativeFormExample/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 2476,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例展示了如何创建Button\\Checkbox\\CheckboxGroup\\Slider\\Toggle\\Radio等表单类组件，配置其样式、属性等功能，构建基础展示页面。该工程中展示的接口详细描述可查如下链接：",
+			"documentedTitle": "Native_node_Sample",
+			"evidence": [
+				{
+					"gitBlobOid": "0ba4f3d65f059733f5014a76c34dae1ef9cd999f",
+					"path": "ArkUISample/NativeFormExample/.gitignore"
+				},
+				{
+					"gitBlobOid": "6796de226d7aabb18cc992ea5e21ee05fb442005",
+					"path": "ArkUISample/NativeFormExample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "8830e4e8edbab1dc27623166384f95d02dad4b12",
+					"path": "ArkUISample/NativeFormExample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","arkui/native_animate.h","arkui/native_interface.h","arkui/native_node.h","arkui/native_node_napi.h","arkui/native_type.h","cassert","cstddef","cstdint","functional","hilog/log.h","libentry.so","list","map","memory","mutex","napi/native_api.h","string","unordered_map"],
+			"externalDependencyCount": 25,
+			"id": "skill-scope-guide-snippets-arkuisample-nativeformexample",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 2,
+				"ets": 14,
+				"h": 12,
+				"jpg": 6,
+				"json": 10,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 6,
+				"svg": 1,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/NativeFormExample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/NativeFormExample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 31,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/NativeFormExample/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NativeFormExample/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NativeFormExample/entry/src/ohosTest/ets/test/Public.test.ets","ArkUISample/NativeFormExample/entry/src/ohosTest/module.json5","ArkUISample/NativeFormExample/entry/src/test/List.test.ets","ArkUISample/NativeFormExample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 70
+		},
+		"payloadSha256": "5d0a51524f8defb441c72bb1af4da2a3d545f9e9e3d6f578069ce3d9535d49f6",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "108bbdfb-6cfb-5b1f-b97a-d9326f3cd054"
+}

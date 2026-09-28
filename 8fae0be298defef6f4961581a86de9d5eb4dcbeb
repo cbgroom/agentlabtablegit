@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-nativedisplaybasicsample",
+	"recorded_at_unix_ms": 1790568342283,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-nativedisplaybasicsample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/NativeDisplayBasicSample/build-profile.json5","ArkUISample/NativeDisplayBasicSample/entry/build-profile.json5","ArkUISample/NativeDisplayBasicSample/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 689,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例主要展示了OH_DisplayManager屏幕管理模块用于提供屏幕的信息查询、屏幕状态变化监听、折叠设备的折叠状态变化监听等能力，应用可根据对应的屏幕信息、屏幕状态变化、屏幕折叠状态适配不同的UI界面显示。",
+			"documentedTitle": "屏幕管理NativeApi基础使用示例",
+			"evidence": [
+				{
+					"gitBlobOid": "70da54af318a2d7138df607bd1846266881226e7",
+					"path": "ArkUISample/NativeDisplayBasicSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "1421e449a794afbb7f461d6146a7e8e290ad32e9",
+					"path": "ArkUISample/NativeDisplayBasicSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "a9be5fbd57a8eb327341a44702bd68736b9d1a9a",
+					"path": "ArkUISample/NativeDisplayBasicSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","hilog/log.h","libnativedisplay.so","window_manager/oh_display_info.h","window_manager/oh_display_manager.h"],
+			"externalDependencyCount": 10,
+			"id": "skill-scope-guide-snippets-arkuisample-nativedisplaybasicsample",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 1,
+				"ets": 8,
+				"json": 9,
+				"json5": 11,
+				"md": 1,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/NativeDisplayBasicSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/NativeDisplayBasicSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 12,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/NativeDisplayBasicSample/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NativeDisplayBasicSample/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NativeDisplayBasicSample/entry/src/ohosTest/module.json5","ArkUISample/NativeDisplayBasicSample/entry/src/test/List.test.ets","ArkUISample/NativeDisplayBasicSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 42
+		},
+		"payloadSha256": "cd1124219b02e791d815603fa0b50794af3c5c7d9a6fb16d726836701ab70bcd",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "108bbdfb-6cfb-5b1f-b97a-d9326f3cd054"
+}
