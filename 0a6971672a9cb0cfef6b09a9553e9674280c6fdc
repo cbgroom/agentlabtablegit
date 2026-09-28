@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-arktsmvvmsample",
+	"recorded_at_unix_ms": 1790568329844,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-arktsmvvmsample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/ArktsMvvmSample/build-profile.json5","ArkUISample/ArktsMvvmSample/entry/build-profile.json5"],
+			"codeLineCount": 1382,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例展示了[MVVM模式](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/ui/state-management/arkts-mvvm.md)的使用方法：",
+			"documentedTitle": "MVVM模式（V1）",
+			"evidence": [
+				{
+					"gitBlobOid": "f63eab87effe72fe1e40c1d65ca364cc7360e5ab",
+					"path": "ArkUISample/ArktsMvvmSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "d891776f551e30953535f256fcd764095e04bd6b",
+					"path": "ArkUISample/ArktsMvvmSample/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "ArkUISample/ArktsMvvmSample/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkTS","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.app.ability.abilityDelegatorRegistry","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 9,
+			"id": "skill-scope-guide-snippets-arkuisample-arktsmvvmsample",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 20,
+				"gif": 5,
+				"json": 11,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 1,
+				"png": 7,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/ArktsMvvmSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/ArktsMvvmSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 22,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/ArktsMvvmSample/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/ArktsMvvmSample/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/ArktsMvvmSample/entry/src/ohosTest/module.json5","ArkUISample/ArktsMvvmSample/entry/src/test/List.test.ets","ArkUISample/ArktsMvvmSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 59
+		},
+		"payloadSha256": "ac1a55bbad7fb9919395f8d93e720a20a1a096ac07e66326a9d4f2b496e4db2b",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "5d358b72-1db0-54f1-bbad-7c49d08d81f2"
+}
