@@ -1,0 +1,72 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-media-screencapture",
+	"recorded_at_unix_ms": 1790568375725,
+	"row": {
+		"id": "skill-scope-guide-snippets-media-screencapture",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Media/ScreenCapture/ScreenCaptureSample/build-profile.json5","Media/ScreenCapture/ScreenCaptureSample/entry/build-profile.json5","Media/ScreenCapture/ScreenCaptureSample/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 3016,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "录屏Sample调用了媒体AVScreenCapture组件提供的接口能力，提供屏幕捕获的功能，包含：",
+			"documentedTitle": "录屏Sample",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Media/ScreenCapture/ScreenCaptureSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "b409266e20a53ae353c37684b0348f27cb4c832e",
+					"path": "Media/ScreenCapture/ScreenCaptureSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "a0e0f994dc6eee5c453fca24771359bb7ff37c92",
+					"path": "Media/ScreenCapture/ScreenCaptureSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.MediaKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.abilityAccessCtrl","@ohos.app.ability.Want","@ohos.app.ability.abilityDelegatorRegistry","@ohos.app.ability.common","@ohos.base","@ohos.file.fs","@ohos.router","@ohos/hvigor-ohos-plugin","@ohos/hypium","AbilityKit/ability_runtime/application_context.h","ace/xcomponent/native_interface_xcomponent.h","atomic","bits/alltypes.h","condition_variable","cstdint","cstdio","fcntl.h","fstream","iostream","libentry.so","map","multimedia/player_framework/native_avbuffer.h","multimedia/player_framework/native_avcapability.h","multimedia/player_framework/native_avcodec_base.h","multimedia/player_framework/native_avcodec_videoencoder.h","multimedia/player_framework/native_avformat.h","multimedia/player_framework/native_avmuxer.h","multimedia/player_framework/native_avscreen_capture.h","multimedia/player_framework/native_avscreen_capture_base.h","multimedia/player_framework/native_avscreen_capture_errors.h","mutex","native_buffer/native_buffer.h","queue","string","thread","unistd.h","unordered_map","vector","window_manager/oh_display_info.h","window_manager/oh_display_manager.h"],
+			"externalDependencyCount": 47,
+			"id": "skill-scope-guide-snippets-media-screencapture",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 3,
+				"ets": 16,
+				"h": 4,
+				"jpg": 4,
+				"json": 9,
+				"json5": 11,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Media/ScreenCapture",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Media/ScreenCapture; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 26,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Media/ScreenCapture/ScreenCaptureSample/entry/src/ohosTest/ets/test/Ability.test.ets","Media/ScreenCapture/ScreenCaptureSample/entry/src/ohosTest/ets/test/List.test.ets","Media/ScreenCapture/ScreenCaptureSample/entry/src/ohosTest/module.json5","Media/ScreenCapture/ScreenCaptureSample/entry/src/test/List.test.ets","Media/ScreenCapture/ScreenCaptureSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 61
+		},
+		"payloadSha256": "fb6675fb46c7a664ec528c7b8792428bbab45e93251df7c40117172b286e3caa",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "07d9b169-3f91-5ceb-9764-58ac71408eee"
+}

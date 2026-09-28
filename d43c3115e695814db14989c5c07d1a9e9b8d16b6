@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-medialibrarykit-savebuttonsample",
+	"recorded_at_unix_ms": 1790568375725,
+	"row": {
+		"id": "skill-scope-guide-snippets-medialibrarykit-savebuttonsample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["MediaLibraryKit/SaveButtonSample/build-profile.json5","MediaLibraryKit/SaveButtonSample/entry/build-profile.json5"],
+			"codeLineCount": 784,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例展示了如何在不需要ohos.permission.WRITE_IMAGEVIDEO权限的情况下将媒体资产（图片和视频）保存到图库。通过使用SaveButton安全组件和授权弹窗，应用可以安全地将媒体文件保存到用户的图库中。",
+			"documentedTitle": "保存媒体库资源示例",
+			"evidence": [
+				{
+					"gitBlobOid": "ea27eaff8c3ecef3e9ebe6399a5f9073cd962a7b",
+					"path": "MediaLibraryKit/SaveButtonSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "66d9056b8faab6ca73cfc10b1052306ae389789c",
+					"path": "MediaLibraryKit/SaveButtonSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "fa4bfd3e378ddbc1d3f71b03d5f9965c97aac2d8",
+					"path": "MediaLibraryKit/SaveButtonSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkData","@kit.ArkUI","@kit.CoreFileKit","@kit.MediaLibraryKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 8,
+			"id": "skill-scope-guide-snippets-medialibrarykit-savebuttonsample",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 10,
+				"jpg": 5,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "MediaLibraryKit/SaveButtonSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at MediaLibraryKit/SaveButtonSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 12,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["MediaLibraryKit/SaveButtonSample/entry/src/ohosTest/ets/test/Ability.test.ets","MediaLibraryKit/SaveButtonSample/entry/src/ohosTest/ets/test/List.test.ets","MediaLibraryKit/SaveButtonSample/entry/src/ohosTest/module.json5","MediaLibraryKit/SaveButtonSample/entry/src/test/List.test.ets","MediaLibraryKit/SaveButtonSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 46
+		},
+		"payloadSha256": "36d494d90d11b6b4211a73bc4604416bd09106450e0dabf63be0caab31049dd6",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "07d9b169-3f91-5ceb-9764-58ac71408eee"
+}

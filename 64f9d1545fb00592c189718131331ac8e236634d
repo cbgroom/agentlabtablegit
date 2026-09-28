@@ -1,0 +1,71 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-medialibrarykit-systemalbumusagesample",
+	"recorded_at_unix_ms": 1790568375725,
+	"row": {
+		"id": "skill-scope-guide-snippets-medialibrarykit-systemalbumusagesample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["MediaLibraryKit/SystemAlbumUsageSample/build-profile.json5","MediaLibraryKit/SystemAlbumUsageSample/entry/build-profile.json5"],
+			"codeLineCount": 897,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "photoAccessHelper模块提供了用户相册管理的API，包括创建或删除用户相册、向用户相册添加图片和视频，以及从用户相册中删除图片和视频。为确保应用运行效率，大多数PhotoAccessHelper API都是以回调或promise模式异步实现的。",
+			"documentedTitle": "管理用户相册",
+			"evidence": [
+				{
+					"gitBlobOid": "ea27eaff8c3ecef3e9ebe6399a5f9073cd962a7b",
+					"path": "MediaLibraryKit/SystemAlbumUsageSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "4603a127be6bbee2aa9af5e1cf9ff5af3c75aaa1",
+					"path": "MediaLibraryKit/SystemAlbumUsageSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "732a3a88b19e5fdcdf7b99a096687abd2fac19f7",
+					"path": "MediaLibraryKit/SystemAlbumUsageSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkData","@kit.ArkUI","@kit.CoreFileKit","@kit.MediaLibraryKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 9,
+			"id": "skill-scope-guide-snippets-medialibrarykit-systemalbumusagesample",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 15,
+				"jpg": 1,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"mp4": 1,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "MediaLibraryKit/SystemAlbumUsageSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at MediaLibraryKit/SystemAlbumUsageSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 17,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["MediaLibraryKit/SystemAlbumUsageSample/entry/src/ohosTest/ets/Provider.ets","MediaLibraryKit/SystemAlbumUsageSample/entry/src/ohosTest/ets/test/GetFavoriteObject.test.ets","MediaLibraryKit/SystemAlbumUsageSample/entry/src/ohosTest/ets/test/GetMediaFromFavorites.test.ets","MediaLibraryKit/SystemAlbumUsageSample/entry/src/ohosTest/ets/test/GetVideoAlbum.test.ets","MediaLibraryKit/SystemAlbumUsageSample/entry/src/ohosTest/ets/test/GetVideosFromVideoAlbum.test.ets","MediaLibraryKit/SystemAlbumUsageSample/entry/src/ohosTest/ets/test/List.test.ets","MediaLibraryKit/SystemAlbumUsageSample/entry/src/ohosTest/module.json5","MediaLibraryKit/SystemAlbumUsageSample/entry/src/test/List.test.ets","MediaLibraryKit/SystemAlbumUsageSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 9,
+			"trackedFileCount": 48
+		},
+		"payloadSha256": "b491cb090646e56dd1907009eeadeec35ef4e72a6bff72a368cfde254203260a",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "07d9b169-3f91-5ceb-9764-58ac71408eee"
+}

@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-media-picker",
+	"recorded_at_unix_ms": 1790568375725,
+	"row": {
+		"id": "skill-scope-guide-snippets-media-picker",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Media/Picker/AlbumPickerComponentSample/build-profile.json5","Media/Picker/AlbumPickerComponentSample/entry/build-profile.json5","Media/Picker/PhotoPickerComponentSample/build-profile.json5","Media/Picker/PhotoPickerComponentSample/entry/build-profile.json5","Media/Picker/PickerControllerEditSample/build-profile.json5","Media/Picker/PickerControllerEditSample/entry/build-profile.json5","Media/Picker/PickerMediaLibrarySample/build-profile.json5","Media/Picker/PickerMediaLibrarySample/entry/build-profile.json5","Media/Picker/RecentPhotoComponentSample/build-profile.json5","Media/Picker/RecentPhotoComponentSample/entry/build-profile.json5","Media/Picker/SmartPicker/build-profile.json5","Media/Picker/SmartPicker/entry/build-profile.json5"],
+			"codeLineCount": 4359,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例旨在演示如何使用AlbumPicker组件访问相册列表，主要展示通过组件方式使用AlbumPicker进行相册选择功能，帮助开发者快速掌握AlbumPicker组件的使用方法。",
+			"documentedTitle": "使用AlbumPicker组件访问相册列表",
+			"evidence": [
+				{
+					"gitBlobOid": "bc0eb02184b098c83ec2fd0d4b4743e4660f3168",
+					"path": "Media/Picker/AlbumPickerComponentSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "3c712962da3c2751c2b9ddb53559afcbd2b54a02",
+					"path": "Media/Picker/AlbumPickerComponentSample/AppScope/resources/base/element/color.json"
+				},
+				{
+					"gitBlobOid": "3364a026380d21e09817849276ef279465ac9d56",
+					"path": "Media/Picker/AlbumPickerComponentSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkData","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.MediaLibraryKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.file.AlbumPickerComponent","@ohos.file.PhotoPickerComponent","@ohos.file.RecentPhotoComponent","@ohos.file.photoAccessHelper","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 14,
+			"id": "skill-scope-guide-snippets-media-picker",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 31,
+				"json": 34,
+				"json5": 54,
+				"md": 12,
+				"no-extension": 6,
+				"png": 11,
+				"ts": 12,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Media/Picker",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Media/Picker; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 43,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Media/Picker/AlbumPickerComponentSample/entry/src/ohosTest/ets/test/AlbumPickerComponentSample.test.ets","Media/Picker/AlbumPickerComponentSample/entry/src/ohosTest/ets/test/List.test.ets","Media/Picker/AlbumPickerComponentSample/entry/src/ohosTest/module.json5","Media/Picker/PhotoPickerComponentSample/entry/src/ohosTest/ets/test/List.test.ets","Media/Picker/PhotoPickerComponentSample/entry/src/ohosTest/ets/test/PhotoPickerComponentSample.test.ets","Media/Picker/PhotoPickerComponentSample/entry/src/ohosTest/module.json5","Media/Picker/PickerControllerEditSample/entry/src/ohosTest/ets/test/List.test.ets","Media/Picker/PickerControllerEditSample/entry/src/ohosTest/ets/test/PickerControllerEditSample.test.ets","Media/Picker/PickerControllerEditSample/entry/src/ohosTest/module.json5","Media/Picker/PickerMediaLibrarySample/entry/src/ohosTest/ets/test/List.test.ets","Media/Picker/PickerMediaLibrarySample/entry/src/ohosTest/ets/test/PickerMediaLibrarySample.test.ets","Media/Picker/PickerMediaLibrarySample/entry/src/ohosTest/module.json5","Media/Picker/RecentPhotoComponentSample/entry/src/ohosTest/ets/test/List.test.ets","Media/Picker/RecentPhotoComponentSample/entry/src/ohosTest/ets/test/RecentPhotoComponentSample.test.ets","Media/Picker/RecentPhotoComponentSample/entry/src/ohosTest/module.json5","Media/Picker/SmartPicker/entry/src/ohosTest/ets/test/Ability.test.ets","Media/Picker/SmartPicker/entry/src/ohosTest/ets/test/List.test.ets","Media/Picker/SmartPicker/entry/src/ohosTest/module.json5","Media/Picker/SmartPicker/entry/src/test/List.test.ets","Media/Picker/SmartPicker/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 20,
+			"trackedFileCount": 161
+		},
+		"payloadSha256": "3abc2aefeea759147f344eb84e853a4bc8da02d42d4d1717903bcd6688bcd672",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "07d9b169-3f91-5ceb-9764-58ac71408eee"
+}

@@ -1,0 +1,71 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-mediakit-videoprocessing",
+	"recorded_at_unix_ms": 1790568375725,
+	"row": {
+		"id": "skill-scope-guide-snippets-mediakit-videoprocessing",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["MediaKit/VideoProcessing/build-profile.json5","MediaKit/VideoProcessing/entry/build-profile.json5","MediaKit/VideoProcessing/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 3148,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本场景解决方案主要面向视频编辑相关开发人员，指导开发者使用VideoProcessing对视频进行缩放增强，动态元数据生成，色彩空间转换的操作。",
+			"documentedTitle": "使用VideoProcessing对视频处理",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "MediaKit/VideoProcessing/.gitignore"
+				},
+				{
+					"gitBlobOid": "e7707eab9176cb8ff58ff37b7fb597b95b740f92",
+					"path": "MediaKit/VideoProcessing/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "15e5e70e5602cad72b623429bd36a7424964ec6e",
+					"path": "MediaKit/VideoProcessing/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.ImageKit","@kit.MediaKit","@kit.MediaLibraryKit","@kit.PerformanceAnalysisKit","@ohos.base","@ohos/hvigor-ohos-plugin","ace/xcomponent/native_interface_xcomponent.h","atomic","cerrno","condition_variable","cstdint","hilog/log.h","js_native_api.h","js_native_api_types.h","libplayer.so","memory","multimedia/player_framework/native_avbuffer.h","multimedia/player_framework/native_avcodec_base.h","multimedia/player_framework/native_avcodec_videoencoder.h","multimedia/player_framework/native_averrors.h","mutex","napi/native_api.h","native_buffer/buffer_common.h","native_buffer/native_buffer.h","native_window/external_window.h","ohaudio/native_audiorenderer.h","ohaudio/native_audiostreambuilder.h","queue","string","sys/mman.h","sys/poll.h","thread","unistd.h","unordered_map","uv.h"],
+			"externalDependencyCount": 39,
+			"id": "skill-scope-guide-snippets-mediakit-videoprocessing",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 8,
+				"ets": 7,
+				"h": 11,
+				"json": 9,
+				"json5": 9,
+				"md": 1,
+				"no-extension": 3,
+				"png": 5,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "MediaKit/VideoProcessing",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at MediaKit/VideoProcessing; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 29,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": [],
+			"testFileCount": 0,
+			"trackedFileCount": 58
+		},
+		"payloadSha256": "c6e8797ce5be89e1fd84c567458d2f7aeaefd1f0a4b86904104fd0cad9940e65",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "07d9b169-3f91-5ceb-9764-58ac71408eee"
+}

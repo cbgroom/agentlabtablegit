@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-medialibrarykit-requestmediaassetscppsample",
+	"recorded_at_unix_ms": 1790568375725,
+	"row": {
+		"id": "skill-scope-guide-snippets-medialibrarykit-requestmediaassetscppsample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["MediaLibraryKit/RequestMediaAssetsCppSample/build-profile.json5","MediaLibraryKit/RequestMediaAssetsCppSample/entry/build-profile.json5","MediaLibraryKit/RequestMediaAssetsCppSample/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 517,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例展示了如何使用MediaAssetManager请求媒体资源。通过Native API，开发者可以创建MediaAssetManager实例、配置请求策略、请求图片资源，并在必要时取消请求。",
+			"documentedTitle": "使用MediaAssetManager请求媒体资源示例",
+			"evidence": [
+				{
+					"gitBlobOid": "ea27eaff8c3ecef3e9ebe6399a5f9073cd962a7b",
+					"path": "MediaLibraryKit/RequestMediaAssetsCppSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "5f38af8f8d82393c0f65c486c7a5d91d0e05ae95",
+					"path": "MediaLibraryKit/RequestMediaAssetsCppSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "1e0c753bdf461871adb14f5d8a36263db659f35b",
+					"path": "MediaLibraryKit/RequestMediaAssetsCppSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","cstdio","cstring","libentry.so"],
+			"externalDependencyCount": 10,
+			"id": "skill-scope-guide-snippets-medialibrarykit-requestmediaassetscppsample",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 1,
+				"ets": 9,
+				"json": 9,
+				"json5": 11,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "MediaLibraryKit/RequestMediaAssetsCppSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at MediaLibraryKit/RequestMediaAssetsCppSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 13,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["MediaLibraryKit/RequestMediaAssetsCppSample/entry/src/ohosTest/ets/test/List.test.ets","MediaLibraryKit/RequestMediaAssetsCppSample/entry/src/ohosTest/ets/test/RequestMediaAssets.test.ets","MediaLibraryKit/RequestMediaAssetsCppSample/entry/src/ohosTest/module.json5","MediaLibraryKit/RequestMediaAssetsCppSample/entry/src/test/List.test.ets","MediaLibraryKit/RequestMediaAssetsCppSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 44
+		},
+		"payloadSha256": "0e6fb04328812c50d60bfc3a09214635716e12450e784a3f48d8a0d2e7860d10",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "07d9b169-3f91-5ceb-9764-58ac71408eee"
+}

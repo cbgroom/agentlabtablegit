@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-medialibrarykit-useralbumusagesample",
+	"recorded_at_unix_ms": 1790568375725,
+	"row": {
+		"id": "skill-scope-guide-snippets-medialibrarykit-useralbumusagesample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["MediaLibraryKit/UserAlbumUsageSample/build-profile.json5","MediaLibraryKit/UserAlbumUsageSample/entry/build-profile.json5"],
+			"codeLineCount": 1135,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "photoAccessHelper模块提供了用户相册管理的API，包括创建或删除用户相册、向用户相册添加图片和视频，以及从用户相册中删除图片和视频。为确保应用运行效率，大多数PhotoAccessHelper API都是以回调或promise模式异步实现的。",
+			"documentedTitle": "管理用户相册",
+			"evidence": [
+				{
+					"gitBlobOid": "ea27eaff8c3ecef3e9ebe6399a5f9073cd962a7b",
+					"path": "MediaLibraryKit/UserAlbumUsageSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "b9f3fb561cb4286601677246fe9efb9dc102a051",
+					"path": "MediaLibraryKit/UserAlbumUsageSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "c5624b0ed14387ae0b4e6d5ab086a2b1bad00488",
+					"path": "MediaLibraryKit/UserAlbumUsageSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkData","@kit.ArkUI","@kit.CoreFileKit","@kit.MediaLibraryKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 9,
+			"id": "skill-scope-guide-snippets-medialibrarykit-useralbumusagesample",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 17,
+				"jpg": 1,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "MediaLibraryKit/UserAlbumUsageSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at MediaLibraryKit/UserAlbumUsageSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 19,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["MediaLibraryKit/UserAlbumUsageSample/entry/src/ohosTest/ets/Provider.ets","MediaLibraryKit/UserAlbumUsageSample/entry/src/ohosTest/ets/test/AddMediaToUserAlbum.test.ets","MediaLibraryKit/UserAlbumUsageSample/entry/src/ohosTest/ets/test/GetMediaFromUserAlbum.test.ets","MediaLibraryKit/UserAlbumUsageSample/entry/src/ohosTest/ets/test/GetUserAlbum.test.ets","MediaLibraryKit/UserAlbumUsageSample/entry/src/ohosTest/ets/test/List.test.ets","MediaLibraryKit/UserAlbumUsageSample/entry/src/ohosTest/ets/test/RemoveMediaFromUserAlbum.test.ets","MediaLibraryKit/UserAlbumUsageSample/entry/src/ohosTest/ets/test/RenameUserAlbum.test.ets","MediaLibraryKit/UserAlbumUsageSample/entry/src/ohosTest/module.json5","MediaLibraryKit/UserAlbumUsageSample/entry/src/test/List.test.ets","MediaLibraryKit/UserAlbumUsageSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 10,
+			"trackedFileCount": 49
+		},
+		"payloadSha256": "f987d5b00eeca1a2b4c9b346c803d1d7f82c305ef5fe60de4effefe67313c02f",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "07d9b169-3f91-5ceb-9764-58ac71408eee"
+}

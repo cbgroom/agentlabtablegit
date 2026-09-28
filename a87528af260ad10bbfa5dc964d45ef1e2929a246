@@ -1,0 +1,78 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-media-image",
+	"recorded_at_unix_ms": 1790568375725,
+	"row": {
+		"id": "skill-scope-guide-snippets-media-image",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Media/Image/ImageArkTSSample/build-profile.json5","Media/Image/ImageArkTSSample/entry/build-profile.json5","Media/Image/ImageNativeSample/build-profile.json5","Media/Image/ImageNativeSample/entry/build-profile.json5","Media/Image/ImageNativeSample/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 11409,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "此Sample为开发指南中图片**开发指导(ArkTS)**章节中部分示例代码的工程。包含图片编解码，图片接收，内存分配，图片转码、图片Exif信息和图片XMP元数据的相关操作。",
+			"documentedTitle": "Image开发指导(ArkTS)",
+			"evidence": [
+				{
+					"gitBlobOid": "2586a84c91af3145f25d564ae56742162cc7510a",
+					"path": "Media/Image/ImageArkTSSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "2e9e049bb2fe137d33485a78b2c66e69c7ac3105",
+					"path": "Media/Image/ImageArkTSSample/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "Media/Image/ImageArkTSSample/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CameraKit","@kit.CoreFileKit","@kit.ImageKit","@kit.LocalizationKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.app.ability.abilityDelegatorRegistry","@ohos.app.ability.common","@ohos.arkui.UIContext","@ohos.deviceInfo","@ohos.display","@ohos.file.fs","@ohos.graphics.hdrCapability","@ohos.hilog","@ohos.inputMethod","@ohos.multimedia.camera","@ohos.multimedia.image","@ohos.resourceManager","@ohos/hvigor-ohos-plugin","@ohos/hypium","condition_variable","cstring","hilog/log.h","imageKits.h","js_native_api_types.h","libentry.so","multimedia/image_framework/image/image_common.h","multimedia/image_framework/image/image_native.h","multimedia/image_framework/image/image_packer_native.h","multimedia/image_framework/image/image_receiver_native.h","multimedia/image_framework/image/image_source_native.h","multimedia/image_framework/image/picture_native.h","multimedia/image_framework/image/pixelmap_native.h","mutex","napi/native_api.h","set","string"],
+			"externalDependencyCount": 40,
+			"id": "skill-scope-guide-snippets-media-image",
+			"kind": "sample-project",
+			"languages": {
+				"bmp": 1,
+				"cpp": 7,
+				"ets": 54,
+				"gif": 1,
+				"h": 2,
+				"heic": 2,
+				"ico": 1,
+				"jpeg": 2,
+				"jpg": 4,
+				"json": 20,
+				"json5": 22,
+				"md": 2,
+				"png": 19,
+				"svg": 1,
+				"ts": 5,
+				"txt": 3,
+				"webp": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Media/Image",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Media/Image; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 68,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Media/Image/ImageArkTSSample/entry/src/ohosTest/ets/test/Ability.test.ets","Media/Image/ImageArkTSSample/entry/src/ohosTest/ets/test/Allocator.test.ets","Media/Image/ImageArkTSSample/entry/src/ohosTest/ets/test/Codec.test.ets","Media/Image/ImageArkTSSample/entry/src/ohosTest/ets/test/Exif.test.ets","Media/Image/ImageArkTSSample/entry/src/ohosTest/ets/test/List.test.ets","Media/Image/ImageArkTSSample/entry/src/ohosTest/ets/test/Receiver.test.ets","Media/Image/ImageArkTSSample/entry/src/ohosTest/ets/test/Transcoding.test.ets","Media/Image/ImageArkTSSample/entry/src/ohosTest/module.json5","Media/Image/ImageArkTSSample/entry/src/test/List.test.ets","Media/Image/ImageArkTSSample/entry/src/test/LocalUnit.test.ets","Media/Image/ImageNativeSample/entry/src/ohosTest/ets/test/Ability.test.ets","Media/Image/ImageNativeSample/entry/src/ohosTest/ets/test/Exif.test.ets","Media/Image/ImageNativeSample/entry/src/ohosTest/ets/test/Gif.test.ets","Media/Image/ImageNativeSample/entry/src/ohosTest/ets/test/ImageSource.test.ets","Media/Image/ImageNativeSample/entry/src/ohosTest/ets/test/List.test.ets","Media/Image/ImageNativeSample/entry/src/ohosTest/ets/test/Picture.test.ets","Media/Image/ImageNativeSample/entry/src/ohosTest/ets/test/Receiver.test.ets","Media/Image/ImageNativeSample/entry/src/ohosTest/module.json5","Media/Image/ImageNativeSample/entry/src/test/List.test.ets","Media/Image/ImageNativeSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 20,
+			"trackedFileCount": 147
+		},
+		"payloadSha256": "8a17d38d4dc5386e1a02ccd33a31aae1138e8285174b3217f3a84b7a531a10b9",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "07d9b169-3f91-5ceb-9764-58ac71408eee"
+}
