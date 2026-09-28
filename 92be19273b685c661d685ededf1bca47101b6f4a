@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-bmssample-deflateandinflate",
+	"recorded_at_unix_ms": 1790568362330,
+	"row": {
+		"id": "skill-scope-guide-snippets-bmssample-deflateandinflate",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["bmsSample/DeflateAndInflate/build-profile.json5","bmsSample/DeflateAndInflate/entry/build-profile.json5"],
+			"codeLineCount": 706,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例通过调用zlib的api接口，测试压缩功能。",
+			"documentedTitle": "压缩与解压文档示例",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "bmsSample/DeflateAndInflate/.gitignore"
+				},
+				{
+					"gitBlobOid": "a50d135b37fc66f067d0a6081ecf9e8f299a7286",
+					"path": "bmsSample/DeflateAndInflate/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "1a059d5c5e84f3f42cc276620037317418d4eb69",
+					"path": "bmsSample/DeflateAndInflate/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin"],
+			"externalDependencyCount": 6,
+			"id": "skill-scope-guide-snippets-bmssample-deflateandinflate",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 7,
+				"json": 9,
+				"json5": 8,
+				"md": 2,
+				"no-extension": 2,
+				"png": 6,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "bmsSample/DeflateAndInflate",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at bmsSample/DeflateAndInflate; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 9,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": [],
+			"testFileCount": 0,
+			"trackedFileCount": 37
+		},
+		"payloadSha256": "e04c10990215c75bda96b64304099772408a76705519e600590602ec2ce79204",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "b8f7cdf7-e3de-5340-a3c5-8dfcca04e7ff"
+}

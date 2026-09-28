@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-bmssample-hartohsp",
+	"recorded_at_unix_ms": 1790568362330,
+	"row": {
+		"id": "skill-scope-guide-snippets-bmssample-hartohsp",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["bmsSample/HarToHsp/build-profile.json5","bmsSample/HarToHsp/entry/build-profile.json5","bmsSample/HarToHsp/library/build-profile.json5"],
+			"codeLineCount": 282,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例通过相关设置配置变更，将HAR转化成HSP包",
+			"documentedTitle": "HAR转HSP指导指南文档示例",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "bmsSample/HarToHsp/.gitignore"
+				},
+				{
+					"gitBlobOid": "a50d135b37fc66f067d0a6081ecf9e8f299a7286",
+					"path": "bmsSample/HarToHsp/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "a15a5f14962aa506f6beb70d309def2ad93cb83e",
+					"path": "bmsSample/HarToHsp/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin"],
+			"externalDependencyCount": 5,
+			"id": "skill-scope-guide-snippets-bmssample-hartohsp",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 6,
+				"json": 12,
+				"json5": 11,
+				"md": 2,
+				"no-extension": 3,
+				"png": 5,
+				"ts": 3,
+				"txt": 3
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "bmsSample/HarToHsp",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at bmsSample/HarToHsp; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 9,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": [],
+			"testFileCount": 0,
+			"trackedFileCount": 45
+		},
+		"payloadSha256": "990c69cbb3a62c358753bbca23a1eb70ce7fe03a1ae9ed02165289c76583a517",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "b8f7cdf7-e3de-5340-a3c5-8dfcca04e7ff"
+}

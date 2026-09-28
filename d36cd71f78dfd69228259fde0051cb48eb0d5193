@@ -1,0 +1,74 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-backgroundtaskskit-workscheduler",
+	"recorded_at_unix_ms": 1790568362330,
+	"row": {
+		"id": "skill-scope-guide-snippets-backgroundtaskskit-workscheduler",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["BackGroundTasksKit/WorkScheduler/build-profile.json5","BackGroundTasksKit/WorkScheduler/entry/build-profile.json5"],
+			"codeLineCount": 665,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例使用[@ohos.WorkSchedulerExtensionAbility](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-backgroundtasks-kit/js-apis-WorkSchedulerExtensionAbility.md),[@ohos.resourceschedule.workScheduler](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-backgroundtasks-kit/js-apis-resourceschedule-workScheduler.md) 等接口，实现了申请延迟任务、取消延迟任务的功能。",
+			"documentedTitle": "延迟任务调度",
+			"evidence": [
+				{
+					"gitBlobOid": "3085efd0b45b6e92641a1c5f5fa6daa7f1526da2",
+					"path": "BackGroundTasksKit/WorkScheduler/.gitignore"
+				},
+				{
+					"gitBlobOid": "14203acc19780640a81072a57d1ce239da62dc90",
+					"path": "BackGroundTasksKit/WorkScheduler/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "a871119faddc6e34b0e94a170a1d83d2b6603c02",
+					"path": "BackGroundTasksKit/WorkScheduler/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BackgroundTasksKit","@kit.BasicServicesKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.app.ability.AbilityConstant","@ohos.app.ability.UIAbility","@ohos.app.ability.Want","@ohos.app.ability.abilityDelegatorRegistry","@ohos.application.testRunner","@ohos.hilog","@ohos.window","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 15,
+			"id": "skill-scope-guide-snippets-backgroundtaskskit-workscheduler",
+			"kind": "sample-project",
+			"languages": {
+				"bat": 3,
+				"ets": 10,
+				"jar": 1,
+				"json": 15,
+				"json5": 9,
+				"md": 2,
+				"no-extension": 3,
+				"p12": 1,
+				"p7b": 2,
+				"pem": 3,
+				"png": 7,
+				"ts": 4,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "BackGroundTasksKit/WorkScheduler",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at BackGroundTasksKit/WorkScheduler; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 14,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["BackGroundTasksKit/WorkScheduler/entry/src/ohosTest/ets/test/Ability.test.ets","BackGroundTasksKit/WorkScheduler/entry/src/ohosTest/ets/test/List.test.ets","BackGroundTasksKit/WorkScheduler/entry/src/ohosTest/ets/testability/TestAbility.ets","BackGroundTasksKit/WorkScheduler/entry/src/ohosTest/ets/testability/pages/Index.ets","BackGroundTasksKit/WorkScheduler/entry/src/ohosTest/ets/testrunner/OpenHarmonyTestRunner.ts","BackGroundTasksKit/WorkScheduler/entry/src/ohosTest/ets/utils/Logger.ts","BackGroundTasksKit/WorkScheduler/entry/src/ohosTest/module.json5","BackGroundTasksKit/WorkScheduler/entry/src/ohosTest/resources/base/element/color.json","BackGroundTasksKit/WorkScheduler/entry/src/ohosTest/resources/base/element/string.json","BackGroundTasksKit/WorkScheduler/entry/src/ohosTest/resources/base/media/icon.png","BackGroundTasksKit/WorkScheduler/entry/src/ohosTest/resources/base/profile/test_pages.json","BackGroundTasksKit/WorkScheduler/entry/src/ohosTest/resources/en/element/string.json","BackGroundTasksKit/WorkScheduler/entry/src/ohosTest/resources/zh/element/string.json"],
+			"testFileCount": 13,
+			"trackedFileCount": 61
+		},
+		"payloadSha256": "2f851a6303bbc3acedc274d69ca6b21b5a4906a930036372d89cae03621fee71",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "b8f7cdf7-e3de-5340-a3c5-8dfcca04e7ff"
+}

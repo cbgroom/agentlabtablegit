@@ -1,0 +1,71 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkweb-webscrolldemo",
+	"recorded_at_unix_ms": 1790568362330,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkweb-webscrolldemo",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkWeb/WebScrollDemo/build-profile.json5","ArkWeb/WebScrollDemo/entry/build-profile.json5"],
+			"codeLineCount": 797,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本工程主要实现了对以下指南文档中 [Web页面显示内容滚动](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/web/web-content-scrolling.md) 示例代码片段的工程化，主要目标是实现指南中示例代码需要与sample工程文件同源。",
+			"documentedTitle": "Web页面显示内容滚动",
+			"evidence": [
+				{
+					"gitBlobOid": "d0b05866e5c2b4dbde09fc0f9091b09493f92b81",
+					"path": "ArkWeb/WebScrollDemo/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "4b65c17b74cdd9458897ac377b884d95f09d1324",
+					"path": "ArkWeb/WebScrollDemo/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "ArkWeb/WebScrollDemo/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.ArkWeb","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.router","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 10,
+			"id": "skill-scope-guide-snippets-arkweb-webscrolldemo",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 8,
+				"gif": 6,
+				"html": 1,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"png": 5,
+				"svg": 1,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkWeb/WebScrollDemo",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkWeb/WebScrollDemo; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 11,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkWeb/WebScrollDemo/entry/src/ohosTest/ets/test/Ability.test.ets","ArkWeb/WebScrollDemo/entry/src/ohosTest/ets/test/List.test.ets","ArkWeb/WebScrollDemo/entry/src/ohosTest/module.json5","ArkWeb/WebScrollDemo/entry/src/test/List.test.ets","ArkWeb/WebScrollDemo/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 45
+		},
+		"payloadSha256": "744c25cde4e42af8a8382b0120ccaffeeea22cdfd2b36457238f9832e2819de3",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "b8f7cdf7-e3de-5340-a3c5-8dfcca04e7ff"
+}

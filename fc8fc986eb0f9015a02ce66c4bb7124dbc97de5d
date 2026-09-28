@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-backgroundtaskskit-nativetransienttask",
+	"recorded_at_unix_ms": 1790568362330,
+	"row": {
+		"id": "skill-scope-guide-snippets-backgroundtaskskit-nativetransienttask",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["BackGroundTasksKit/NativeTransientTask/build-profile.json5","BackGroundTasksKit/NativeTransientTask/entry/build-profile.json5","BackGroundTasksKit/NativeTransientTask/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 795,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例主要展示后台任务中的短时任务。",
+			"documentedTitle": "短时任务",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "BackGroundTasksKit/NativeTransientTask/.gitignore"
+				},
+				{
+					"gitBlobOid": "b2995904199d43e94ba26b67669023cc937a2c76",
+					"path": "BackGroundTasksKit/NativeTransientTask/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "2acc0945fde5a013ff2049125bc7258fd2697424",
+					"path": "BackGroundTasksKit/NativeTransientTask/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BackgroundTasksKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.app.ability.AbilityConstant","@ohos.app.ability.UIAbility","@ohos.app.ability.Want","@ohos.app.ability.abilityDelegatorRegistry","@ohos.application.testRunner","@ohos.hilog","@ohos.window","@ohos/hvigor-ohos-plugin","@ohos/hypium","libentry.so"],
+			"externalDependencyCount": 16,
+			"id": "skill-scope-guide-snippets-backgroundtaskskit-nativetransienttask",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 1,
+				"ets": 9,
+				"json": 12,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 8,
+				"ts": 4,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "BackGroundTasksKit/NativeTransientTask",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at BackGroundTasksKit/NativeTransientTask; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 14,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["BackGroundTasksKit/NativeTransientTask/entry/src/ohosTest/ets/TestRunner/OpenHarmonyTestRunner.ts","BackGroundTasksKit/NativeTransientTask/entry/src/ohosTest/ets/test/Ability.test.ets","BackGroundTasksKit/NativeTransientTask/entry/src/ohosTest/ets/test/List.test.ets","BackGroundTasksKit/NativeTransientTask/entry/src/ohosTest/ets/testability/TestAbility.ets","BackGroundTasksKit/NativeTransientTask/entry/src/ohosTest/ets/testability/pages/Index.ets","BackGroundTasksKit/NativeTransientTask/entry/src/ohosTest/module.json5","BackGroundTasksKit/NativeTransientTask/entry/src/ohosTest/resources/base/element/color.json","BackGroundTasksKit/NativeTransientTask/entry/src/ohosTest/resources/base/element/string.json","BackGroundTasksKit/NativeTransientTask/entry/src/ohosTest/resources/base/media/icon.png","BackGroundTasksKit/NativeTransientTask/entry/src/ohosTest/resources/base/profile/test_pages.json","BackGroundTasksKit/NativeTransientTask/entry/src/test/List.test.ets","BackGroundTasksKit/NativeTransientTask/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 12,
+			"trackedFileCount": 50
+		},
+		"payloadSha256": "b6b7893e37251ef601fc68136a81f37a805961a39c59d142b26b9f97917c5b0c",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "b8f7cdf7-e3de-5340-a3c5-8dfcca04e7ff"
+}
