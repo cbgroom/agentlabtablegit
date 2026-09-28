@@ -1,0 +1,77 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-media-avplayer",
+	"recorded_at_unix_ms": 1790568372001,
+	"row": {
+		"id": "skill-scope-guide-snippets-media-avplayer",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Media/AVPlayer/AVPlayerArkTSAudio/build-profile.json5","Media/AVPlayer/AVPlayerArkTSAudio/entry/build-profile.json5","Media/AVPlayer/AVPlayerArkTSMediaSource/build-profile.json5","Media/AVPlayer/AVPlayerArkTSMediaSource/entry/build-profile.json5","Media/AVPlayer/AVPlayerArkTSPlayWithCache/build-profile.json5","Media/AVPlayer/AVPlayerArkTSPlayWithCache/entry/build-profile.json5","Media/AVPlayer/AVPlayerArkTSStreamingMedia/build-profile.json5","Media/AVPlayer/AVPlayerArkTSStreamingMedia/entry/build-profile.json5","Media/AVPlayer/AVPlayerArkTSSubtitle/build-profile.json5","Media/AVPlayer/AVPlayerArkTSSubtitle/entry/build-profile.json5","Media/AVPlayer/AVPlayerArkTSURL/build-profile.json5","Media/AVPlayer/AVPlayerArkTSURL/entry/build-profile.json5","Media/AVPlayer/AVPlayerArkTSVideo/build-profile.json5","Media/AVPlayer/AVPlayerArkTSVideo/entry/build-profile.json5","Media/AVPlayer/AVPlayerNDK/build-profile.json5","Media/AVPlayer/AVPlayerNDK/entry/build-profile.json5","Media/AVPlayer/AVPlayerNDK/entry/src/main/cpp/CMakeLists.txt","Media/AVPlayer/AVPlayerNDKAudio/build-profile.json5","Media/AVPlayer/AVPlayerNDKAudio/entry/build-profile.json5","Media/AVPlayer/AVPlayerNDKAudio/entry/src/main/cpp/CMakeLists.txt","Media/AVPlayer/AVPlayerNDKStreamingMedia/build-profile.json5","Media/AVPlayer/AVPlayerNDKStreamingMedia/entry/build-profile.json5","Media/AVPlayer/AVPlayerNDKStreamingMedia/entry/src/main/cpp/CMakeLists.txt","Media/AVPlayer/AVPlayerNDKSubtitle/build-profile.json5","Media/AVPlayer/AVPlayerNDKSubtitle/entry/build-profile.json5","Media/AVPlayer/AVPlayerNDKSubtitle/entry/src/main/cpp/CMakeLists.txt","Media/AVPlayer/AVPlayerNDKVideo/build-profile.json5","Media/AVPlayer/AVPlayerNDKVideo/entry/build-profile.json5","Media/AVPlayer/AVPlayerNDKVideo/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 13482,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例为媒体->Media Kit(媒体服务)->[使用AVPlayer播放音频(ArkTS)](https://gitee.com/openharmony/docs/blob/master/zh-cn/application-dev/media/media/using-avplayer-for-playback.md)的配套示例工程。",
+			"documentedTitle": "AVPlayerArkTSAudio",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Media/AVPlayer/AVPlayerArkTSAudio/.gitignore"
+				},
+				{
+					"gitBlobOid": "0d8e0e680eb7a96800eea18ccd23fcbb07d8010b",
+					"path": "Media/AVPlayer/AVPlayerArkTSAudio/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "9bd649bf9faec5bad912a356ad14b05d3ea84bd7",
+					"path": "Media/AVPlayer/AVPlayerArkTSAudio/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkTS","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.MediaKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.app.ability.abilityDelegatorRegistry","@ohos.display","@ohos.events.emitter","@ohos.multimedia.media","@ohos.net.http","@ohos/hvigor-ohos-plugin","@ohos/hypium","ace/xcomponent/native_interface_xcomponent.h","hilog/log.h","js_native_api.h","libentry.so","multimedia/player_framework/avplayer.h","rawfile/raw_file.h","rawfile/raw_file_manager.h","string"],
+			"externalDependencyCount": 23,
+			"id": "skill-scope-guide-snippets-media-avplayer",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 5,
+				"ets": 90,
+				"jpeg": 8,
+				"jpg": 2,
+				"json": 108,
+				"json5": 114,
+				"m3u8": 3,
+				"md": 24,
+				"mp3": 6,
+				"mp4": 8,
+				"no-extension": 24,
+				"png": 62,
+				"srt": 2,
+				"svg": 24,
+				"ts": 29,
+				"txt": 17
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Media/AVPlayer",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Media/AVPlayer; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 124,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Media/AVPlayer/AVPlayerArkTSAudio/entry/src/ohosTest/ets/test/Ability.test.ets","Media/AVPlayer/AVPlayerArkTSAudio/entry/src/ohosTest/ets/test/List.test.ets","Media/AVPlayer/AVPlayerArkTSAudio/entry/src/ohosTest/module.json5","Media/AVPlayer/AVPlayerArkTSAudio/entry/src/test/List.test.ets","Media/AVPlayer/AVPlayerArkTSAudio/entry/src/test/LocalUnit.test.ets","Media/AVPlayer/AVPlayerArkTSMediaSource/entry/src/ohosTest/ets/test/Ability.test.ets","Media/AVPlayer/AVPlayerArkTSMediaSource/entry/src/ohosTest/ets/test/List.test.ets","Media/AVPlayer/AVPlayerArkTSMediaSource/entry/src/ohosTest/module.json5","Media/AVPlayer/AVPlayerArkTSMediaSource/entry/src/test/List.test.ets","Media/AVPlayer/AVPlayerArkTSMediaSource/entry/src/test/LocalUnit.test.ets","Media/AVPlayer/AVPlayerArkTSPlayWithCache/entry/src/ohosTest/ets/test/Ability.test.ets","Media/AVPlayer/AVPlayerArkTSPlayWithCache/entry/src/ohosTest/ets/test/List.test.ets","Media/AVPlayer/AVPlayerArkTSPlayWithCache/entry/src/ohosTest/module.json5","Media/AVPlayer/AVPlayerArkTSPlayWithCache/entry/src/test/List.test.ets","Media/AVPlayer/AVPlayerArkTSPlayWithCache/entry/src/test/LocalUnit.test.ets","Media/AVPlayer/AVPlayerArkTSStreamingMedia/entry/src/ohosTest/ets/test/Ability.test.ets","Media/AVPlayer/AVPlayerArkTSStreamingMedia/entry/src/ohosTest/ets/test/List.test.ets","Media/AVPlayer/AVPlayerArkTSStreamingMedia/entry/src/ohosTest/module.json5","Media/AVPlayer/AVPlayerArkTSStreamingMedia/entry/src/test/List.test.ets","Media/AVPlayer/AVPlayerArkTSStreamingMedia/entry/src/test/LocalUnit.test.ets","Media/AVPlayer/AVPlayerArkTSSubtitle/entry/src/ohosTest/ets/test/Ability.test.ets","Media/AVPlayer/AVPlayerArkTSSubtitle/entry/src/ohosTest/ets/test/List.test.ets","Media/AVPlayer/AVPlayerArkTSSubtitle/entry/src/ohosTest/module.json5","Media/AVPlayer/AVPlayerArkTSSubtitle/entry/src/test/List.test.ets","Media/AVPlayer/AVPlayerArkTSSubtitle/entry/src/test/LocalUnit.test.ets","Media/AVPlayer/AVPlayerArkTSURL/entry/src/ohosTest/ets/test/Ability.test.ets","Media/AVPlayer/AVPlayerArkTSURL/entry/src/ohosTest/ets/test/List.test.ets","Media/AVPlayer/AVPlayerArkTSURL/entry/src/ohosTest/module.json5","Media/AVPlayer/AVPlayerArkTSURL/entry/src/test/List.test.ets","Media/AVPlayer/AVPlayerArkTSURL/entry/src/test/LocalUnit.test.ets","Media/AVPlayer/AVPlayerArkTSVideo/entry/src/ohosTest/ets/test/Ability.test.ets","Media/AVPlayer/AVPlayerArkTSVideo/entry/src/ohosTest/ets/test/List.test.ets","Media/AVPlayer/AVPlayerArkTSVideo/entry/src/ohosTest/module.json5","Media/AVPlayer/AVPlayerArkTSVideo/entry/src/test/List.test.ets","Media/AVPlayer/AVPlayerArkTSVideo/entry/src/test/LocalUnit.test.ets","Media/AVPlayer/AVPlayerNDK/entry/src/ohosTest/ets/test/Ability.test.ets","Media/AVPlayer/AVPlayerNDK/entry/src/ohosTest/ets/test/List.test.ets","Media/AVPlayer/AVPlayerNDK/entry/src/ohosTest/module.json5","Media/AVPlayer/AVPlayerNDK/entry/src/test/List.test.ets","Media/AVPlayer/AVPlayerNDK/entry/src/test/LocalUnit.test.ets","Media/AVPlayer/AVPlayerNDKAudio/entry/src/ohosTest/ets/test/Ability.test.ets","Media/AVPlayer/AVPlayerNDKAudio/entry/src/ohosTest/ets/test/List.test.ets","Media/AVPlayer/AVPlayerNDKAudio/entry/src/ohosTest/module.json5","Media/AVPlayer/AVPlayerNDKAudio/entry/src/test/List.test.ets","Media/AVPlayer/AVPlayerNDKAudio/entry/src/test/LocalUnit.test.ets","Media/AVPlayer/AVPlayerNDKStreamingMedia/entry/src/ohosTest/ets/test/Ability.test.ets","Media/AVPlayer/AVPlayerNDKStreamingMedia/entry/src/ohosTest/ets/test/List.test.ets","Media/AVPlayer/AVPlayerNDKStreamingMedia/entry/src/ohosTest/module.json5","Media/AVPlayer/AVPlayerNDKStreamingMedia/entry/src/test/List.test.ets","Media/AVPlayer/AVPlayerNDKStreamingMedia/entry/src/test/LocalUnit.test.ets","Media/AVPlayer/AVPlayerNDKSubtitle/entry/src/ohosTest/ets/test/Ability.test.ets","Media/AVPlayer/AVPlayerNDKSubtitle/entry/src/ohosTest/ets/test/List.test.ets","Media/AVPlayer/AVPlayerNDKSubtitle/entry/src/ohosTest/module.json5","Media/AVPlayer/AVPlayerNDKSubtitle/entry/src/test/List.test.ets","Media/AVPlayer/AVPlayerNDKSubtitle/entry/src/test/LocalUnit.test.ets","Media/AVPlayer/AVPlayerNDKVideo/entry/src/ohosTest/ets/test/Ability.test.ets","Media/AVPlayer/AVPlayerNDKVideo/entry/src/ohosTest/ets/test/List.test.ets","Media/AVPlayer/AVPlayerNDKVideo/entry/src/ohosTest/module.json5","Media/AVPlayer/AVPlayerNDKVideo/entry/src/test/List.test.ets","Media/AVPlayer/AVPlayerNDKVideo/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 60,
+			"trackedFileCount": 526
+		},
+		"payloadSha256": "a7ce0cc078c413131654746bdfcf4ec40dd9a50534d2b6193fe24f2190f06ebd",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3d6396a7-6d14-5a85-89fb-d4a8c28eb2a5"
+}

@@ -1,0 +1,71 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-international-internationalization",
+	"recorded_at_unix_ms": 1790568372001,
+	"row": {
+		"id": "skill-scope-guide-snippets-international-internationalization",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["International/Internationalization/build-profile.json5","International/Internationalization/entry/build-profile.json5"],
+			"codeLineCount": 1944,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例依照指南 开发->应用框架->Localization Kit（本地化开发服务）->[本地化开发服务（应用国际化）](https://gitee.com/openharmony/docs/tree/OpenHarmony-5.0.1-Release/zh-cn/application-dev/internationalization)进行编写。",
+			"documentedTitle": "国际化Internationalization",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "International/Internationalization/.gitignore"
+				},
+				{
+					"gitBlobOid": "789ce3dec92fed62e2d085120c42a1f787485a95",
+					"path": "International/Internationalization/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "999cd2ffc592f588885f354853a12461aa7f682b",
+					"path": "International/Internationalization/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.LocalizationKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.hilog","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 10,
+			"id": "skill-scope-guide-snippets-international-internationalization",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 18,
+				"jpg": 4,
+				"json": 17,
+				"json5": 9,
+				"md": 2,
+				"no-extension": 2,
+				"png": 4,
+				"svg": 2,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "International/Internationalization",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at International/Internationalization; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 20,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["International/Internationalization/entry/src/ohosTest/ets/test/I18n.test.ets","International/Internationalization/entry/src/ohosTest/ets/test/List.test.ets","International/Internationalization/entry/src/ohosTest/module.json5","International/Internationalization/entry/src/test/List.test.ets","International/Internationalization/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 61
+		},
+		"payloadSha256": "d47072c01d547005e149af043c2e8df14ca27b8bebc210194be0a210fb4f5d36",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3d6396a7-6d14-5a85-89fb-d4a8c28eb2a5"
+}

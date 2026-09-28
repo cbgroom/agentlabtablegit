@@ -1,0 +1,77 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-media-audio",
+	"recorded_at_unix_ms": 1790568372001,
+	"row": {
+		"id": "skill-scope-guide-snippets-media-audio",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Media/Audio/AudioCaptureSampleJS/build-profile.json5","Media/Audio/AudioCaptureSampleJS/entry/build-profile.json5","Media/Audio/AudioCapturerSampleC/build-profile.json5","Media/Audio/AudioCapturerSampleC/entry/build-profile.json5","Media/Audio/AudioCapturerSampleC/entry/src/main/cpp/CMakeLists.txt","Media/Audio/AudioMusicPlayer/build-profile.json5","Media/Audio/AudioMusicPlayer/entry/build-profile.json5","Media/Audio/AudioMusicPlayer/entry/src/main/cpp/CMakeLists.txt","Media/Audio/AudioRendererSampleC/build-profile.json5","Media/Audio/AudioRendererSampleC/entry/build-profile.json5","Media/Audio/AudioRendererSampleC/entry/src/main/cpp/CMakeLists.txt","Media/Audio/AudioRendererSampleJS/build-profile.json5","Media/Audio/AudioRendererSampleJS/entry/build-profile.json5","Media/Audio/AudioRoutingAndVolumeSample/build-profile.json5","Media/Audio/AudioRoutingAndVolumeSample/entry/build-profile.json5","Media/Audio/AudioRoutingManagerSampleJS/build-profile.json5","Media/Audio/AudioRoutingManagerSampleJS/entry/build-profile.json5","Media/Audio/AudioSessionSampleC/build-profile.json5","Media/Audio/AudioSessionSampleC/entry/build-profile.json5","Media/Audio/AudioSessionSampleC/entry/src/main/cpp/CMakeLists.txt","Media/Audio/AudioSessionSampleJS/build-profile.json5","Media/Audio/AudioSessionSampleJS/entry/build-profile.json5","Media/Audio/AudioSuiteSample/build-profile.json5","Media/Audio/AudioSuiteSample/entry/build-profile.json5","Media/Audio/AudioSuiteSample/entry/src/main/cpp/CMakeLists.txt","Media/Audio/Midi/build-profile.json5","Media/Audio/Midi/entry/build-profile.json5","Media/Audio/Midi/entry/src/main/cpp/CMakeLists.txt","Media/Audio/SystemSoundPlayer/build-profile.json5","Media/Audio/SystemSoundPlayer/entry/build-profile.json5","Media/Audio/VoipCallSampleJS/build-profile.json5","Media/Audio/VoipCallSampleJS/entry/build-profile.json5"],
+			"codeLineCount": 36337,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例基于AudioRender、AudioCapturer、AVPlayer以及CallServiceKit等能力，实现了音频录制、管理麦克风、音频录制流管理以及音频低时延耳返等功能，包含了功能调用接口的完整链路。",
+			"documentedTitle": "实现音频录制功能",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Media/Audio/AudioCaptureSampleJS/.gitignore"
+				},
+				{
+					"gitBlobOid": "02e14fba2e646d86166447488188b104168fecbc",
+					"path": "Media/Audio/AudioCaptureSampleJS/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "1080233f01384411ec684b58955cb8808746fdd3",
+					"path": "Media/Audio/AudioCaptureSampleJS/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AVSessionKit","@kit.AbilityKit","@kit.ArkData","@kit.ArkGraphics2D","@kit.ArkTS","@kit.ArkUI","@kit.AudioKit","@kit.BackgroundTasksKit","@kit.BasicServicesKit","@kit.ConnectivityKit","@kit.CoreFileKit","@kit.CryptoArchitectureKit","@kit.ImageKit","@kit.LocalizationKit","@kit.MediaKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.UiTest","@ohos.abilityAccessCtrl","@ohos.app.ability.AbilityConstant","@ohos.app.ability.UIAbility","@ohos.app.ability.Want","@ohos.app.ability.abilityDelegatorRegistry","@ohos.app.ability.common","@ohos.application.testRunner","@ohos.arkui.UIContext","@ohos.base","@ohos.data.preferences","@ohos.display","@ohos.file.fs","@ohos.hilog","@ohos.window","@ohos/hvigor-ohos-plugin","@ohos/hypium","C:\\\\routingmanager_arkts\\\\audiorenderer_arkts\\\\entry\\\\src\\\\hypium","algorithm","atomic","chrono","cmath","condition_variable","cstdint","cstdio","cstring","fcntl.h","hilog/log.h","js_native_api.h","js_native_api_types.h","libentry.so","map","memory","mutex","node_api.h","ohaudio/native_audio_resource_manager.h","ohaudio/native_audiocapturer.h","ohaudio/native_audiorenderer.h","ohaudio/native_audiostreambuilder.h","ohaudiosuite/native_audio_converter.h","ohaudiosuite/native_audio_suite_base.h","ohaudiosuite/native_audio_suite_engine.h","queue","sstream","string","thread","unistd.h","uv.h","vector"],
+			"externalDependencyCount": 66,
+			"id": "skill-scope-guide-snippets-media-audio",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 16,
+				"ets": 163,
+				"h": 10,
+				"jpg": 13,
+				"json": 127,
+				"json5": 129,
+				"lrc": 1,
+				"md": 26,
+				"no-extension": 22,
+				"ogg": 1,
+				"pcm": 8,
+				"png": 115,
+				"svg": 47,
+				"ts": 35,
+				"txt": 19,
+				"wav": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Media/Audio",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Media/Audio; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 224,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Media/Audio/AudioCaptureSampleJS/entry/src/ohosTest/ets/test/Ability.test.ets","Media/Audio/AudioCaptureSampleJS/entry/src/ohosTest/ets/test/AudioCapturerTest.test.ets","Media/Audio/AudioCaptureSampleJS/entry/src/ohosTest/ets/test/AudioLoopbackTest.test.ets","Media/Audio/AudioCaptureSampleJS/entry/src/ohosTest/ets/test/AudioStreamManager.test.ets","Media/Audio/AudioCaptureSampleJS/entry/src/ohosTest/ets/test/List.test.ets","Media/Audio/AudioCaptureSampleJS/entry/src/ohosTest/ets/test/macManager.test.ets","Media/Audio/AudioCaptureSampleJS/entry/src/ohosTest/module.json5","Media/Audio/AudioCaptureSampleJS/entry/src/test/List.test.ets","Media/Audio/AudioCaptureSampleJS/entry/src/test/LocalUnit.test.ets","Media/Audio/AudioCapturerSampleC/entry/src/ohosTest/ets/test/Ability.test.ets","Media/Audio/AudioCapturerSampleC/entry/src/ohosTest/ets/test/AudioCapture.test.ets","Media/Audio/AudioCapturerSampleC/entry/src/ohosTest/ets/test/List.test.ets","Media/Audio/AudioCapturerSampleC/entry/src/ohosTest/module.json5","Media/Audio/AudioCapturerSampleC/entry/src/test/List.test.ets","Media/Audio/AudioCapturerSampleC/entry/src/test/LocalUnit.test.ets","Media/Audio/AudioMusicPlayer/entry/src/ohosTest/ets/TestRunner/OpenHarmonyTestRunner.ts","Media/Audio/AudioMusicPlayer/entry/src/ohosTest/ets/test/Ability.test.ets","Media/Audio/AudioMusicPlayer/entry/src/ohosTest/ets/test/List.test.ets","Media/Audio/AudioMusicPlayer/entry/src/ohosTest/ets/testability/TestAbility.ets","Media/Audio/AudioMusicPlayer/entry/src/ohosTest/ets/testability/pages/Index.ets","Media/Audio/AudioMusicPlayer/entry/src/ohosTest/module.json5","Media/Audio/AudioMusicPlayer/entry/src/ohosTest/resources/base/element/color.json","Media/Audio/AudioMusicPlayer/entry/src/ohosTest/resources/base/element/string.json","Media/Audio/AudioMusicPlayer/entry/src/ohosTest/resources/base/profile/test_pages.json","Media/Audio/AudioMusicPlayer/entry/src/test/List.test.ets","Media/Audio/AudioMusicPlayer/entry/src/test/LocalUnit.test.ets","Media/Audio/AudioRendererSampleC/entry/src/ohosTest/ets/test/Ability.test.ets","Media/Audio/AudioRendererSampleC/entry/src/ohosTest/ets/test/List.test.ets","Media/Audio/AudioRendererSampleC/entry/src/ohosTest/ets/test/Renderer.test.ets","Media/Audio/AudioRendererSampleC/entry/src/ohosTest/module.json5","Media/Audio/AudioRendererSampleC/entry/src/test/List.test.ets","Media/Audio/AudioRendererSampleC/entry/src/test/LocalUnit.test.ets","Media/Audio/AudioRendererSampleJS/entry/src/ohosTest/ets/test/Ability.test.ets","Media/Audio/AudioRendererSampleJS/entry/src/ohosTest/ets/test/List.test.ets","Media/Audio/AudioRendererSampleJS/entry/src/ohosTest/ets/test/haptic.test.ets","Media/Audio/AudioRendererSampleJS/entry/src/ohosTest/ets/test/renderer.test.ets","Media/Audio/AudioRendererSampleJS/entry/src/ohosTest/module.json5","Media/Audio/AudioRendererSampleJS/entry/src/test/List.test.ets","Media/Audio/AudioRendererSampleJS/entry/src/test/LocalUnit.test.ets","Media/Audio/AudioRoutingAndVolumeSample/entry/src/ohosTest/ets/test/Ability.test.ets","Media/Audio/AudioRoutingAndVolumeSample/entry/src/ohosTest/ets/test/List.test.ets","Media/Audio/AudioRoutingAndVolumeSample/entry/src/ohosTest/module.json5","Media/Audio/AudioRoutingAndVolumeSample/entry/src/test/List.test.ets","Media/Audio/AudioRoutingAndVolumeSample/entry/src/test/LocalUnit.test.ets","Media/Audio/AudioRoutingManagerSampleJS/entry/src/ohosTest/ets/test/Ability.test.ets","Media/Audio/AudioRoutingManagerSampleJS/entry/src/ohosTest/ets/test/FindAndListenAudioInputDevice.test.ets","Media/Audio/AudioRoutingManagerSampleJS/entry/src/ohosTest/ets/test/FindAndListenAudioOutputDevice.test.ets","Media/Audio/AudioRoutingManagerSampleJS/entry/src/ohosTest/ets/test/InputDeviceRoutingSwitching.test.ets","Media/Audio/AudioRoutingManagerSampleJS/entry/src/ohosTest/ets/test/List.test.ets","Media/Audio/AudioRoutingManagerSampleJS/entry/src/ohosTest/ets/test/ListenDeviceByAudioSession.test.ets","Media/Audio/AudioRoutingManagerSampleJS/entry/src/ohosTest/ets/test/OutputDeviceChangePause.test.ets","Media/Audio/AudioRoutingManagerSampleJS/entry/src/ohosTest/module.json5","Media/Audio/AudioRoutingManagerSampleJS/entry/src/test/List.test.ets","Media/Audio/AudioRoutingManagerSampleJS/entry/src/test/LocalUnit.test.ets","Media/Audio/AudioSessionSampleC/entry/src/ohosTest/ets/test/Ability.test.ets","Media/Audio/AudioSessionSampleC/entry/src/ohosTest/ets/test/List.test.ets","Media/Audio/AudioSessionSampleC/entry/src/ohosTest/ets/test/audiosession.test.ets","Media/Audio/AudioSessionSampleC/entry/src/ohosTest/module.json5","Media/Audio/AudioSessionSampleC/entry/src/test/List.test.ets","Media/Audio/AudioSessionSampleC/entry/src/test/LocalUnit.test.ets","Media/Audio/AudioSessionSampleJS/entry/src/ohosTest/ets/test/Ability.test.ets","Media/Audio/AudioSessionSampleJS/entry/src/ohosTest/ets/test/AudioSession.test.ets","Media/Audio/AudioSessionSampleJS/entry/src/ohosTest/ets/test/List.test.ets","Media/Audio/AudioSessionSampleJS/entry/src/ohosTest/module.json5","Media/Audio/AudioSessionSampleJS/entry/src/test/List.test.ets","Media/Audio/AudioSessionSampleJS/entry/src/test/LocalUnit.test.ets","Media/Audio/AudioSuiteSample/entry/src/ohosTest/ets/test/Ability.test.ets","Media/Audio/AudioSuiteSample/entry/src/ohosTest/ets/test/List.test.ets","Media/Audio/AudioSuiteSample/entry/src/ohosTest/module.json5","Media/Audio/AudioSuiteSample/entry/src/test/List.test.ets","Media/Audio/AudioSuiteSample/entry/src/test/LocalUnit.test.ets","Media/Audio/Midi/entry/src/ohosTest/ets/TestRunner/OpenHarmonyTestRunner.ts","Media/Audio/Midi/entry/src/ohosTest/ets/test/Ability.test.ets","Media/Audio/Midi/entry/src/ohosTest/ets/test/List.test.ets","Media/Audio/Midi/entry/src/ohosTest/ets/testability/TestAbility.ets","Media/Audio/Midi/entry/src/ohosTest/ets/testability/pages/Index.ets","Media/Audio/Midi/entry/src/ohosTest/ets/utils/Logger.ts","Media/Audio/Midi/entry/src/ohosTest/module.json5","Media/Audio/Midi/entry/src/ohosTest/resources/base/element/color.json","Media/Audio/Midi/entry/src/ohosTest/resources/base/element/string.json","Media/Audio/Midi/entry/src/ohosTest/resources/base/media/icon.png","Media/Audio/Midi/entry/src/ohosTest/resources/base/profile/test_pages.json","Media/Audio/Midi/entry/src/test/List.test.ets","Media/Audio/Midi/entry/src/test/LocalUnit.test.ets","Media/Audio/SystemSoundPlayer/entry/src/ohosTest/ets/test/Ability.test.ets","Media/Audio/SystemSoundPlayer/entry/src/ohosTest/ets/test/List.test.ets","Media/Audio/SystemSoundPlayer/entry/src/ohosTest/module.json5","Media/Audio/SystemSoundPlayer/entry/src/test/List.test.ets","Media/Audio/SystemSoundPlayer/entry/src/test/LocalUnit.test.ets","Media/Audio/VoipCallSampleJS/entry/src/ohosTest/ets/test/Ability.test.ets","Media/Audio/VoipCallSampleJS/entry/src/ohosTest/ets/test/List.test.ets","Media/Audio/VoipCallSampleJS/entry/src/ohosTest/ets/test/VoIpDemoForAudioCapturer.test.ets","Media/Audio/VoipCallSampleJS/entry/src/ohosTest/ets/test/VoIpDemoForAudioRenderer.test.ets","Media/Audio/VoipCallSampleJS/entry/src/ohosTest/module.json5","Media/Audio/VoipCallSampleJS/entry/src/test/List.test.ets","Media/Audio/VoipCallSampleJS/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 96,
+			"trackedFileCount": 733
+		},
+		"payloadSha256": "3b226408567f5ba849f2a5ede842261b7d48f7a1f457e3f128ffa41694e03f37",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3d6396a7-6d14-5a85-89fb-d4a8c28eb2a5"
+}

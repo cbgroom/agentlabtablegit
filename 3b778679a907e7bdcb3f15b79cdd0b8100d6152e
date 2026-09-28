@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-mechanickit-mechanicmanagersample",
+	"recorded_at_unix_ms": 1790568372001,
+	"row": {
+		"id": "skill-scope-guide-snippets-mechanickit-mechanicmanagersample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["MechanicKit/MechanicManagerSample/build-profile.json5","MechanicKit/MechanicManagerSample/entry/build-profile.json5"],
+			"codeLineCount": 1175,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例主要展示了通过Mechanic Kit开发，支持使用机械体设备控制器，提供更丰富的拍摄体验，如人脸智能跟踪和自动构图等专业功能。使用[@ohos.distributedHardware.mechanicManager](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-mechanic-kit/js-apis-mechanicManager.md)等接口，智能拍摄跟踪功能通过机械体设备可实现人脸和物体的自动化跟踪，提升拍摄质量和用户体验，助力开发者构建更智能、高效的拍摄解决方案。使用手机作为控制终端，可以通过精确的参数设置调整云台或机械臂等设备的角度和运动轨迹，帮助快速构建控制机械体设备的应用。",
+			"documentedTitle": "机械体设备控制开发",
+			"evidence": [
+				{
+					"gitBlobOid": "fa24ba44d148699c87cb559f541651a48af4d5dc",
+					"path": "MechanicKit/MechanicManagerSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "a5ad0600c53773bc4e32e3c353a0495b4296c140",
+					"path": "MechanicKit/MechanicManagerSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "8cf76b291586efeb8f075f2d35acacee9236915e",
+					"path": "MechanicKit/MechanicManagerSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.MechanicKit","@kit.PerformanceAnalysisKit","@ohos.distributedHardware.mechanicManager","@ohos.hilog","@ohos.router","@ohos/hvigor-ohos-plugin","@ohos/hypium","@system.prompt"],
+			"externalDependencyCount": 12,
+			"id": "skill-scope-guide-snippets-mechanickit-mechanicmanagersample",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 11,
+				"json": 9,
+				"json5": 11,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "MechanicKit/MechanicManagerSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at MechanicKit/MechanicManagerSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 13,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["MechanicKit/MechanicManagerSample/entry/src/ohosTest/ets/test/Ability.test.ets","MechanicKit/MechanicManagerSample/entry/src/ohosTest/ets/test/List.test.ets","MechanicKit/MechanicManagerSample/entry/src/ohosTest/module.json5","MechanicKit/MechanicManagerSample/entry/src/test/List.test.ets","MechanicKit/MechanicManagerSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 43
+		},
+		"payloadSha256": "44279f4cb852d921b75459ee3ed0631af6b31288eba704fe189d8dde8a2d04df",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3d6396a7-6d14-5a85-89fb-d4a8c28eb2a5"
+}

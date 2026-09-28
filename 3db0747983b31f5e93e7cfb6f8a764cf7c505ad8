@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-form-reloadformsdoc",
+	"recorded_at_unix_ms": 1790568372001,
+	"row": {
+		"id": "skill-scope-guide-snippets-form-reloadformsdoc",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Form/ReloadFormsDoc/build-profile.json5","Form/ReloadFormsDoc/entry/build-profile.json5"],
+			"codeLineCount": 444,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本工程主要实现了对以下指南文档中 [卡片提供方批量请求刷新卡片内容](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/form/arkts-ui-widget-active-refresh.md#%E5%8D%A1%E7%89%87%E6%8F%90%E4%BE%9B%E6%96%B9%E6%89%B9%E9%87%8F%E8%AF%B7%E6%B1%82%E5%88%B7%E6%96%B0%E5%8D%A1%E7%89%87%E5%86%85%E5%AE%B9) 示例代码片段的工程化，主要目标是实现指南中示例代码需要与sample工程文件同源。",
+			"documentedTitle": "卡片使用方主动刷新卡片内容（仅对系统应用开放）",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Form/ReloadFormsDoc/.gitignore"
+				},
+				{
+					"gitBlobOid": "2b9797f8bf1af43772fc18f008243eededc2985d",
+					"path": "Form/ReloadFormsDoc/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "7fdf1a783c648679646bb1da9a894f7387bc2494",
+					"path": "Form/ReloadFormsDoc/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.FormKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 8,
+			"id": "skill-scope-guide-snippets-form-reloadformsdoc",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 9,
+				"gif": 1,
+				"json": 10,
+				"json5": 11,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Form/ReloadFormsDoc",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Form/ReloadFormsDoc; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 11,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Form/ReloadFormsDoc/entry/src/ohosTest/ets/test/Ability.test.ets","Form/ReloadFormsDoc/entry/src/ohosTest/ets/test/List.test.ets","Form/ReloadFormsDoc/entry/src/ohosTest/module.json5","Form/ReloadFormsDoc/entry/src/test/List.test.ets","Form/ReloadFormsDoc/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 43
+		},
+		"payloadSha256": "b51279727efe8ae7ef66b170879d135d1f9226db1c57c1a0c7ed5d05ea7a2c4e",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3d6396a7-6d14-5a85-89fb-d4a8c28eb2a5"
+}

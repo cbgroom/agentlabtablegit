@@ -1,0 +1,72 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-inputmethod-kikainputmethod",
+	"recorded_at_unix_ms": 1790568372001,
+	"row": {
+		"id": "skill-scope-guide-snippets-inputmethod-kikainputmethod",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["InputMethod/KikaInputMethod/build-profile.json5","InputMethod/KikaInputMethod/entry/build-profile.json5","InputMethod/KikaInputMethod/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 4309,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例使用[inputMethodEngine](https://gitee.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-ime-kit/js-apis-inputmethodengine.md)实现一个轻量级输入法应用kikaInput，支持在运行OpenHarmony OS的智能终端上。",
+			"documentedTitle": "Kika输入法应用",
+			"evidence": [
+				{
+					"gitBlobOid": "cc5a4ab89994c646b97d1438462047992956c1af",
+					"path": "InputMethod/KikaInputMethod/.gitignore"
+				},
+				{
+					"gitBlobOid": "2a47410fa593ddffbed3d0a6d7a60ab6d4b37feb",
+					"path": "InputMethod/KikaInputMethod/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "d12496343cdc824766764223e45a85df2225a1d3",
+					"path": "InputMethod/KikaInputMethod/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.IMEKit","@kit.InputKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.app.ability.AbilityConstant","@ohos.app.ability.UIAbility","@ohos.app.ability.Want","@ohos.app.ability.abilityDelegatorRegistry","@ohos.application.testRunner","@ohos.base","@ohos.hilog","@ohos.inputMethod","@ohos.window","@ohos/hvigor-ohos-plugin","@ohos/hypium","codecvt","libentry.so","locale","thread"],
+			"externalDependencyCount": 22,
+			"id": "skill-scope-guide-snippets-inputmethod-kikainputmethod",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 1,
+				"ets": 27,
+				"jpg": 4,
+				"json": 14,
+				"json5": 9,
+				"md": 2,
+				"no-extension": 2,
+				"png": 10,
+				"svg": 17,
+				"ts": 5,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "InputMethod/KikaInputMethod",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at InputMethod/KikaInputMethod; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 33,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["InputMethod/KikaInputMethod/entry/src/ohosTest/ets/TestRunner/OpenHarmonyTestRunner.ts","InputMethod/KikaInputMethod/entry/src/ohosTest/ets/test/Ability.test.ets","InputMethod/KikaInputMethod/entry/src/ohosTest/ets/test/List.test.ets","InputMethod/KikaInputMethod/entry/src/ohosTest/ets/testability/TestAbility.ets","InputMethod/KikaInputMethod/entry/src/ohosTest/ets/testability/pages/Index.ets","InputMethod/KikaInputMethod/entry/src/ohosTest/ets/util/Logger.ts","InputMethod/KikaInputMethod/entry/src/ohosTest/module.json5","InputMethod/KikaInputMethod/entry/src/ohosTest/resources/base/element/color.json","InputMethod/KikaInputMethod/entry/src/ohosTest/resources/base/element/string.json","InputMethod/KikaInputMethod/entry/src/ohosTest/resources/base/media/icon.png","InputMethod/KikaInputMethod/entry/src/ohosTest/resources/base/profile/test_pages.json"],
+			"testFileCount": 11,
+			"trackedFileCount": 92
+		},
+		"payloadSha256": "62a1e7e2f6c018e5a90014ee1911b5411a2df7e944f1f785552db6c223a5eb77",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3d6396a7-6d14-5a85-89fb-d4a8c28eb2a5"
+}
