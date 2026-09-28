@@ -1,0 +1,64 @@
+{
+	"deleted": false,
+	"key": "agent-analysis-widgetcommon-har-form-card-library",
+	"recorded_at_unix_ms": 1790569758286,
+	"row": {
+		"id": "agent-analysis-widgetcommon-har-form-card-library",
+		"kind": "analysis",
+		"payload": {
+			"agentProposal": {
+				"automaticPromotion": false,
+				"schema": "agentlab.maintainer_skill_fact_proposal.v1",
+				"sourceAssessmentSha256": "ad2e4bd7d7491bcffe92eb6a9b867d5e708e3e7c1c085674693b0f64a6cff607"
+			},
+			"dimensions": ["behavior","boundary","relations","responsibility"],
+			"evidence": [
+				{
+					"gitBlobOid": "a688b90d3e7fcdd284f862d2663cda178cb7ed00",
+					"path": "features/widgetcommon/Index.ets"
+				},
+				{
+					"gitBlobOid": "1a81618a5718f3be5659054e342aa5479ce7b188",
+					"path": "features/widgetcommon/src/main/module.json5"
+				},
+				{
+					"gitBlobOid": "20e757cfbb2a4bc6e70c009dbb4c256abd165fbf",
+					"path": "features/widgetcommon/oh-package.json5"
+				},
+				{
+					"gitBlobOid": "cbbceaa45d5008cae9436833db816d36aadf2c47",
+					"path": "features/widgetcommon/src/main/ets/component/ArticleCardComponent.ets"
+				},
+				{
+					"gitBlobOid": "e1b4dfc425dad964721e797ec9dadc52c75f3ba6",
+					"path": "features/widgetcommon/src/main/ets/viewmodel/WidgetViewModel.ets"
+				},
+				{
+					"gitBlobOid": "5bd9abaa4efd576ad1069e262d836efb5d89b930",
+					"path": "features/widgetcommon/src/main/ets/component/WidgetLiveFormCodeComponent.ets"
+				},
+				{
+					"gitBlobOid": "47ba5a42980145d496f574edb4e9488a7bd47af5",
+					"path": "products/phone/src/main/ets/widget/pages/ArticleServiceCard.ets"
+				},
+				{
+					"gitBlobOid": "165fc1615ee8618b4cb6a622f144a9a707eee99f",
+					"path": "features/widgetcommon/src/test/LocalUnit.test.ets"
+				}
+			],
+			"id": "agent-analysis-widgetcommon-har-form-card-library",
+			"interpretation": "features/widgetcommon is a HarmonyOS static library (\"har\", module @ohos/widgetcommon) holding form-card UI reused by products: phone and pc depend on it via \"file:../../features/widgetcommon\" and their card pages (e.g. ArticleServiceCard.ets) instantiate its structs. Index.ets is the sole public surface: six card components (ArticleCard, LockScreenCard, LockScreenCardLG, WidgetCard, WidgetLiveCardCode, WidgetStaticCard), view models/types, constants, ALL_ARTICLE_LISTS content. Contract: expose or retire API only via Index.ets; components are @Component structs configured by abilityName and fire postCardAction router/message events carrying FormCardEnum tags, formId and articleInfo, so FormCardEnum values and param names are a cross-module contract with @ohos/common and product form abilities; ArticleCardComponent reads host LocalStorage keys 'cardList'/'formId'; components reference app.* resource ids that must stay consistent with src/main/resources; tests are scaffold placeholders, so regressions surface only in review. Cross-kit imports (@kit.ArkUI, FormKit, SensorServiceKit, BasicServicesKit) stay confined to live-widget animation and formProvider helpers.",
+			"kind": "analysis",
+			"limitations": ["The claim that the postCardAction params (FormCardEnum values, 'cardFrom', 'formId', 'articleInfo', 'requestOverFlow') are consumed by the products' form abilities is inferred from matching literal strings in source, not proven by tracing runtime dispatch, since no compiled or executed entry was observed.","The claim that ALL_ARTICLE_LISTS detailsUrl entries resolve to real bundled article pages inside the products is unproved: the H5/content packages referenced by those relative paths were not located or validated within this checkout.","The statement that LocalStorage keys 'cardList' and 'formId' are populated by the hosting card pages is based on reading the @LocalStorageProp declarations only; the producers of those keys in each product were not verified."],
+			"repositoryId": "code-workshop",
+			"scopeSkillIds": ["skill-scope-code-workshop-features-widgetcommon"],
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+		},
+		"payloadSha256": "ee83b3f51aa3cff191515b19abfbc3d1501ed60c7c6320569975995335bb07a2",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "5e34cbb2-c37c-5ba9-a7c3-7afd40edfc9e"
+}
