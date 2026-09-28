@@ -1,0 +1,74 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-chat",
+	"recorded_at_unix_ms": 1790568333123,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-chat",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/Chat/build-profile.json5","ArkUISample/Chat/features/chatlist/build-profile.json5","ArkUISample/Chat/products/phone/entry/build-profile.json5"],
+			"codeLineCount": 3828,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "Chat instance application",
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "486a23256c437b811b5647e40517a35964f60dc6",
+					"path": "ArkUISample/Chat/.gitattributes"
+				},
+				{
+					"gitBlobOid": "130efdf8bca60e123c27a59931ea0240dcfce516",
+					"path": "ArkUISample/Chat/.gitignore"
+				},
+				{
+					"gitBlobOid": "7848eb1eb54046281cf7f0cb48383ca39ad3709d",
+					"path": "ArkUISample/Chat/AppScope/app.json5"
+				}
+			],
+			"externalDependencies": ["@ohos.UiTest","@ohos.app.ability.AbilityConstant","@ohos.app.ability.UIAbility","@ohos.app.ability.Want","@ohos.app.ability.abilityDelegatorRegistry","@ohos.app.ability.common","@ohos.application.testRunner","@ohos.base","@ohos.file.fs","@ohos.hiTraceMeter","@ohos.hilog","@ohos.multimedia.image","@ohos.net.http","@ohos.promptAction","@ohos.request","@ohos.router","@ohos.taskpool","@ohos.util","@ohos.window","@ohos.worker","@ohos.zlib","@ohos/chatlist","@ohos/chatlist/src/main/ets/utils/ChatListJsonData","@ohos/chatlist/src/main/ets/utils/Constants","@ohos/chatlist/src/main/ets/utils/DataFactory","@ohos/chatlist/src/main/ets/utils/FriendMomentJsonUrl","@ohos/chatlist/src/main/ets/utils/Logger","@ohos/chatlist/src/main/ets/utils/PageConstants","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 30,
+			"id": "skill-scope-guide-snippets-arkuisample-chat",
+			"kind": "sample-project",
+			"languages": {
+				"bat": 1,
+				"ets": 28,
+				"jpeg": 7,
+				"jpg": 152,
+				"json": 18,
+				"json5": 12,
+				"md": 3,
+				"no-extension": 5,
+				"png": 118,
+				"svg": 38,
+				"ts": 7,
+				"txt": 1,
+				"zip": 4
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/Chat",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/Chat; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 35,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/Chat/products/phone/entry/src/ohosTest/ets/TestRunner/OpenHarmonyTestRunner.ts","ArkUISample/Chat/products/phone/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/Chat/products/phone/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/Chat/products/phone/entry/src/ohosTest/ets/testability/TestAbility.ets","ArkUISample/Chat/products/phone/entry/src/ohosTest/ets/testability/pages/Index.ets","ArkUISample/Chat/products/phone/entry/src/ohosTest/ets/util/Logger.ets","ArkUISample/Chat/products/phone/entry/src/ohosTest/module.json5","ArkUISample/Chat/products/phone/entry/src/ohosTest/resources/base/element/color.json","ArkUISample/Chat/products/phone/entry/src/ohosTest/resources/base/element/string.json","ArkUISample/Chat/products/phone/entry/src/ohosTest/resources/base/media/icon.png","ArkUISample/Chat/products/phone/entry/src/ohosTest/resources/base/profile/test_pages.json"],
+			"testFileCount": 11,
+			"trackedFileCount": 394
+		},
+		"payloadSha256": "f80d4d50d05f8a913da4a0376ad65ed5d6d41d0b36399b1e665d459cd1ef03b1",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "d075c0eb-a3c5-5694-bd0e-9ac31a17445d"
+}

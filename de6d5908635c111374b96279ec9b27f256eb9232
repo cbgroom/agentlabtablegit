@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-buildercomponent",
+	"recorded_at_unix_ms": 1790568333123,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-buildercomponent",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/BuilderComponent/build-profile.json5","ArkUISample/BuilderComponent/entry/build-profile.json5"],
+			"codeLineCount": 3392,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例通过使用[@Builder装饰器：自定义构建函数](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/ui/state-management/arkts-builder.md)中各场景开发实例，主要展示了Builder装饰器的使用方法和一些常见的使用场景以及问题场景，便于开发者学习与理解。",
+			"documentedTitle": "@Builder装饰器：自定义构建函数",
+			"evidence": [
+				{
+					"gitBlobOid": "5dd26f2b5b8394e045e5828309080c371cc0e333",
+					"path": "ArkUISample/BuilderComponent/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "92392d0ef256abb0b667841de5804d222181f548",
+					"path": "ArkUISample/BuilderComponent/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "ArkUISample/BuilderComponent/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.app.ability.abilityDelegatorRegistry","@ohos.application.testRunner","@ohos.hilog","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 10,
+			"id": "skill-scope-guide-snippets-arkuisample-buildercomponent",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 34,
+				"json": 11,
+				"json5": 9,
+				"md": 2,
+				"no-extension": 1,
+				"png": 7,
+				"ts": 3,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/BuilderComponent",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/BuilderComponent; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 37,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/BuilderComponent/entry/src/ohosTest/ets/test/BuilderGuidesTest.test.ets","ArkUISample/BuilderComponent/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/BuilderComponent/entry/src/ohosTest/ets/testrunner/OpenHarmonyTestRunner.ts","ArkUISample/BuilderComponent/entry/src/ohosTest/module.json5"],
+			"testFileCount": 4,
+			"trackedFileCount": 68
+		},
+		"payloadSha256": "c99558d50069219cd57cf8aee9d255b7b155b5d53c201e8c69f7296008a02c6a",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "d075c0eb-a3c5-5694-bd0e-9ac31a17445d"
+}

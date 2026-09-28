@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-arktsnewcomputed",
+	"recorded_at_unix_ms": 1790568333123,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-arktsnewcomputed",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/ArktsNewComputed/build-profile.json5","ArkUISample/ArktsNewComputed/entry/build-profile.json5"],
+			"codeLineCount": 1110,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例通过使用[ArkUI指南文档](https://gitcode.com/openharmony/docs/tree/master/zh-cn/application-dev/ui)中各场景的开发示例，展示在工程中，帮助开发者更好地理解ArkUI提供的组件及组件属性并合理使用。该工程中展示的代码详细描述可查如下链接：",
+			"documentedTitle": "@Computed装饰器：计算属性",
+			"evidence": [
+				{
+					"gitBlobOid": "1b1e474d9d6169a90a6e0b87b65f952fbbf3ae06",
+					"path": "ArkUISample/ArktsNewComputed/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "b21daab8c4bb8e3374c0a36d1ca6289378c62984",
+					"path": "ArkUISample/ArktsNewComputed/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "ArkUISample/ArktsNewComputed/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.hilog","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 8,
+			"id": "skill-scope-guide-snippets-arkuisample-arktsnewcomputed",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 16,
+				"json": 11,
+				"json5": 10,
+				"md": 1,
+				"no-extension": 1,
+				"png": 10,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/ArktsNewComputed",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/ArktsNewComputed; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 18,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/ArktsNewComputed/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/ArktsNewComputed/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/ArktsNewComputed/entry/src/ohosTest/ets/test/index.test.ets","ArkUISample/ArktsNewComputed/entry/src/ohosTest/module.json5","ArkUISample/ArktsNewComputed/entry/src/ohosTest/syscap.json","ArkUISample/ArktsNewComputed/entry/src/test/List.test.ets","ArkUISample/ArktsNewComputed/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 7,
+			"trackedFileCount": 52
+		},
+		"payloadSha256": "6086be524479145f0c58b8e06de2bae666dccf57dc6ac0c55bd0ef61c474eb02",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "d075c0eb-a3c5-5694-bd0e-9ac31a17445d"
+}

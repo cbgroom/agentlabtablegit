@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-arktsuserattributeupdater",
+	"recorded_at_unix_ms": 1790568333123,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-arktsuserattributeupdater",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/ArkTSUserAttributeUpdater/build-profile.json5","ArkUISample/ArkTSUserAttributeUpdater/entry/build-profile.json5"],
+			"codeLineCount": 542,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本工程主要实现了[属性更新器 (AttributeUpdater)](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/ui/arkts-user-defined-extension-attributeUpdater.md)指南文档中示例代码片段的工程化，主要目标是实现指南中示例代码需要与sample工程文件同源。",
+			"documentedTitle": "属性更新器 (AttributeUpdater)",
+			"evidence": [
+				{
+					"gitBlobOid": "08d606210b3993e8f1f4535767bb3459b7b1d208",
+					"path": "ArkUISample/ArkTSUserAttributeUpdater/.gitignore"
+				},
+				{
+					"gitBlobOid": "6af8f2c0e040235cd11b63707388c8667e5f81f7",
+					"path": "ArkUISample/ArkTSUserAttributeUpdater/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "9f74cb6fac90fe7f5c4fca342a65e446f7caf67f",
+					"path": "ArkUISample/ArkTSUserAttributeUpdater/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.app.ability.abilityDelegatorRegistry","@ohos.hilog","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 9,
+			"id": "skill-scope-guide-snippets-arkuisample-arktsuserattributeupdater",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 10,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 4,
+				"ts": 3,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/ArkTSUserAttributeUpdater",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/ArkTSUserAttributeUpdater; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 13,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/ArkTSUserAttributeUpdater/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/ArkTSUserAttributeUpdater/entry/src/ohosTest/ets/test/UserAttributeUpdaterAbility.test.ets","ArkUISample/ArkTSUserAttributeUpdater/entry/src/ohosTest/module.json5","ArkUISample/ArkTSUserAttributeUpdater/entry/src/test/List.test.ets","ArkUISample/ArkTSUserAttributeUpdater/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 41
+		},
+		"payloadSha256": "29bbf8d0448384af3d6132f9567db89ab79fffce3985b10e73255d050dd3e583",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "d075c0eb-a3c5-5694-bd0e-9ac31a17445d"
+}
