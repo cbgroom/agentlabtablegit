@@ -1,8 +1,5 @@
 {
-  "schema": "mcpgit.resolved-table-definition.v2",
-  "format": "json_rows",
-  "layout": "sha256_prefix2",
-  "root": "program_facts",
+  "schema": "mcpgit.table.v2",
   "key_field": "id",
   "fields": {
     "id": {
@@ -81,5 +78,5 @@
       "field": "roundIndex"
     }
   ],
-  "description": "Revision-bound semantic and program-analysis facts."
+  "description": "Multi-round Maintainer Skill refinement lineage."
 }
