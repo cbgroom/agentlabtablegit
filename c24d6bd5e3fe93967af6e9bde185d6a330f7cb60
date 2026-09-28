@@ -1,0 +1,52 @@
+{
+	"deleted": false,
+	"key": "agent-analysis-harmony-entry-hap-form-and-liveform-provider",
+	"recorded_at_unix_ms": 1790625879902,
+	"row": {
+		"id": "agent-analysis-harmony-entry-hap-form-and-liveform-provider",
+		"kind": "analysis",
+		"payload": {
+			"agentProposal": {
+				"automaticPromotion": false,
+				"schema": "agentlab.maintainer_skill_fact_proposal.v1",
+				"sourceAssessmentSha256": "bf23af221ae713e3648b983508f56618984bd8c9c9aee2282271e2594137e8b4"
+			},
+			"dimensions": ["behavior","boundary","relations","responsibility"],
+			"evidence": [
+				{
+					"gitBlobOid": "d3933d02ff8774cd4dd8d5a043cfef56aadecdbe",
+					"path": "products/phone/src/main/module.json5"
+				},
+				{
+					"gitBlobOid": "7de7167bb64a8a6e9176d40f19bf984aaeaa772f",
+					"path": "products/phone/src/main/ets/phoneformability/PhoneFormAbility.ets"
+				},
+				{
+					"gitBlobOid": "74b24d246990fddaf69655e0123ecb389343b28a",
+					"path": "products/phone/src/main/ets/uiextensionability/pages/Index.ets"
+				},
+				{
+					"gitBlobOid": "4427c7a1b1f0ca90c8c233f08fcfd1a42a2f17e5",
+					"path": "products/phone/src/main/resources/base/profile/form_config.json"
+				},
+				{
+					"gitBlobOid": "42499e95830d996734e11bb72c37dae230ba3250",
+					"path": "products/phone/src/main/ets/entryability/EntryAbility.ets"
+				}
+			],
+			"id": "agent-analysis-harmony-entry-hap-form-and-liveform-provider",
+			"interpretation": "products/phone is the entry HAP of a multi-module HarmonyOS sample. module.json5 declares EntryAbility, PhoneFormAbility (FormExtensionAbility), and a liveForm UIExtensionAbility; all ETS code delegates to sibling modules (@ohos/common, @ohos/abilitycommon, @ohos/commonbusiness, @ohos/widgetcommon), so its wiring (srcEntry paths, $profile/$string/$media references, onAddForm form names matching form_config.json, runtimeOnly packages) must stay in lockstep with them. Behavior: EntryAbility forwards lifecycle callbacks to BaseAbilityHelper; router_map builds MainPage (double-tap back-press to background, per-tab status-bar recoloring); main_pages registers SplashPage and live-form page Index, whose gyroscope parallax card reads rect/radius from LocalStorage and cancels overflow on click; PhoneFormAbility persists live-widget forms via FormRdbHelper and requests 3500 ms overflow animation. Contract: module.json5, form_config.json, router_map, main_pages, shortcuts_config, build-profile, and oh-package dependencies form one coupled unit; edits to sibling exports, form names, page paths, or permissions must be paired, which template tests do not catch.",
+			"kind": "analysis",
+			"limitations": ["I did not compile, build, or run the module: the claim that the declared srcEntry files, hvigor hapTasks pipeline, and eight buildProfile targets compile and package successfully is inferred from file presence and naming, not verified execution.","The exact semantics of delegated behavior (BaseAbilityHelper lifecycle steps, UpdateFormData, FormRdbHelper storage schema, SplashView/HomeView rendering, WidgetStaticCard/LockScreenCardComponent drawing) live in sibling modules outside the products/phone boundary that I did not fully read, so cross-module contract details beyond the import statements shown here are unproved.","Static-only analysis: runtime claims such as gyroscope parallax actually animating, requestOverflow displaying the 3500 ms live-card animation on a device, shortcut wants resolving, and scheduledUpdateTime/updateDuration refresh cadence being honored are source-code inferences, not observed behavior.","The parameter-driven shortcut routing ('shortCutKey' to SampleListPage/ComponentListPage/ArticleListPage) is only established by the strings in shortcuts_config.json; the receiving navigation code that interprets shortCutKey resides outside this scope and was not verified."],
+			"repositoryId": "code-workshop",
+			"scopeSkillIds": ["skill-scope-code-workshop-products-phone"],
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+		},
+		"payloadSha256": "bb5d0f76c89a88fdab742d17ffffe55a85151fcd39ad09c9a063b30c0a1578a2",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "a510735b-b103-58fd-a753-2be7ca106afc"
+}
