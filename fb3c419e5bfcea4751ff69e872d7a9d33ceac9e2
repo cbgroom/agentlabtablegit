@@ -1,8 +1,5 @@
 {
-  "schema": "mcpgit.resolved-table-definition.v2",
-  "format": "json_rows",
-  "layout": "sha256_prefix2",
-  "root": "maintainer_scope_skills",
+  "schema": "mcpgit.table.v2",
   "key_field": "id",
   "fields": {
     "id": {
@@ -81,5 +78,5 @@
       "field": "roundIndex"
     }
   ],
-  "description": "Exact-source, scope-level Maintainer Skills."
+  "description": "Revision-bound semantic and program-analysis facts."
 }
