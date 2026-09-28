@@ -1,0 +1,52 @@
+{
+	"deleted": false,
+	"key": "agent-analysis-distributed-ability-connection-collab-entry",
+	"recorded_at_unix_ms": 1790573677159,
+	"row": {
+		"id": "agent-analysis-distributed-ability-connection-collab-entry",
+		"kind": "analysis",
+		"payload": {
+			"agentProposal": {
+				"automaticPromotion": false,
+				"schema": "agentlab.maintainer_skill_fact_proposal.v1",
+				"sourceAssessmentSha256": "2c08a3a3dcfc68218003c3e0bb79fd5813bfe9dae7c48d8ae3f297da072e17bc"
+			},
+			"dimensions": ["behavior","boundary","relations","responsibility"],
+			"evidence": [
+				{
+					"gitBlobOid": "a6bc7a4c2076ef1e30c87ed814e7d8f7c3c22b7e",
+					"path": "DistributedCollab/entry/src/main/ets/pages/Index.ets"
+				},
+				{
+					"gitBlobOid": "988a093b0a45c6f6f7877606050ef888ae72735c",
+					"path": "DistributedCollab/entry/src/main/ets/entryability/EntryAbility.ets"
+				},
+				{
+					"gitBlobOid": "67273aa6e30514237ea5f8e720023057d0af3de6",
+					"path": "DistributedCollab/entry/src/main/module.json5"
+				},
+				{
+					"gitBlobOid": "49291ea87bc9a94bb57858f8a317b498e960cba0",
+					"path": "DistributedCollab/build-profile.json5"
+				},
+				{
+					"gitBlobOid": "10cda399b0aec3099b257299a57d284393e4e55a",
+					"path": "DistributedCollab/entry/oh-package.json5"
+				}
+			],
+			"id": "agent-analysis-distributed-ability-connection-collab-entry",
+			"interpretation": "Buildable 'entry' module of the DistributedCollab sample: page Index.ets plus UIAbility EntryAbility.ets showing cross-device collaboration via the abilityConnectionManager API. Responsibility: keep manifest, page registry, resources, stub Hypium tests, and both sources coherent. Entry chain: module.json5 mainElement EntryAbility loads 'pages/Index' (main_pages.json) via onWindowStageCreate; parent build-profile.json5 binds module 'entry' at ./entry, so manifest, page profile, and parent module table must stay aligned. Relations flow via AppStorage: EntryAbility writes sessionId/isConnected/receiveMessage from connection callbacks; Index reads them with @StorageLink. Both files duplicate on(connect/disconnect/receiveMessage/receiveData) registration and UTF-8 TextDecoder decoding, so callback changes must be mirrored. Behavior is button-driven: createAbilityConnectionSession -> connect -> sendMessage/sendData -> destroyAbilityConnectionSession, plus inbound onCollaborate accepting via collabToken. Cautions: Index requests CAMERA/MICROPHONE/media permissions absent from module.json5, and bundleNames differ ('com.example.remotephotodemo' vs PeerInfo 'com.example.myapplication').",
+			"kind": "analysis",
+			"limitations": ["Unproved that distributedDeviceManager.createDeviceManager('com.example.remotephotodemo') succeeds at runtime: it is a system API gated by permissions and no execution was observed; only the try/catch with hilog logging is evidenced in Index.ets.","Unproved that the AppStorage key 'pixelMap' bound by @StorageLink in Index.ets is ever written: no producer of that key exists anywhere inside the scope, so the binding may be dead or fed from outside the boundary.","Unproved whether the PeerInfo bundleName 'com.example.myapplication' matches the actually installed peer HAP; the sample's own device-manager bundleName differs and no packaging config in scope confirms either name.","Unproved that the module builds or that the Hypium suites (Ability.test.ets, LocalUnit.test.ets) pass: they are stub assertContain cases and no build or test run was performed."],
+			"repositoryId": "guide-snippets",
+			"scopeSkillIds": ["skill-scope-guide-snippets-distributedcollab-entry"],
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+		},
+		"payloadSha256": "3e0fa4ff0dd11030e117f8f6b156766e72e017dbc6811f134466716d5228f44b",
+		"repositoryId": "guide-snippets",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "7da4e206-d05b-5d87-bcd4-d7bcce7c68c0"
+}
