@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-persistentstorage",
+	"recorded_at_unix_ms": 1790568348924,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-persistentstorage",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/PersistentStorage/build-profile.json5","ArkUISample/PersistentStorage/entry/build-profile.json5"],
+			"codeLineCount": 956,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例展示了PersistentStorage使用，PersistentStorage将选定的AppStorage属性保留在设备磁盘上。应用程序通过API，以决定哪些属性应借助PersistentStorage持久化。PersistentStorage和AppStorage中的属性建立了双向同步，UI和业务逻辑不直接访问PersistentStorage中的属性，所有属性访问都是对AppStorage的访问，AppStorage中的更改会自动同步到PersistentStorage。",
+			"documentedTitle": "arkts-persiststorage",
+			"evidence": [
+				{
+					"gitBlobOid": "b9f72258b4f588ecdcf3c5f51a65885721d524d5",
+					"path": "ArkUISample/PersistentStorage/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "ffedc6bd02af083549d98c45dc6cabcb31277d5b",
+					"path": "ArkUISample/PersistentStorage/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "ArkUISample/PersistentStorage/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 7,
+			"id": "skill-scope-guide-snippets-arkuisample-persistentstorage",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 15,
+				"json": 10,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 1,
+				"png": 8,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/PersistentStorage",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/PersistentStorage; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 17,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/PersistentStorage/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/PersistentStorage/entry/src/ohosTest/ets/test/Index.test.ets","ArkUISample/PersistentStorage/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/PersistentStorage/entry/src/ohosTest/module.json5","ArkUISample/PersistentStorage/entry/src/ohosTest/ohosTest.md","ArkUISample/PersistentStorage/entry/src/test/List.test.ets","ArkUISample/PersistentStorage/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 7,
+			"trackedFileCount": 49
+		},
+		"payloadSha256": "c98a731736819140548b58d21653fcbd7b888dc9e74cdb551fb4379fe69e70a2",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "1db79bd6-c563-5ab8-a87f-a24572be38c0"
+}

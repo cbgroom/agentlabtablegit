@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-ndkscopetask",
+	"recorded_at_unix_ms": 1790568348924,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-ndkscopetask",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/NdkScopeTask/build-profile.json5","ArkUISample/NdkScopeTask/entry/build-profile.json5","ArkUISample/NdkScopeTask/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 658,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "此示例展示了如何使用OH_ArkUI_RunTaskInScope接口实现多窗口场景下的跨实例组件操作。通过动态切换执行上下文，确保在页面PageB中安全地修改页面PageA创建的组件属性，避免因实例上下文不匹配导致的接口调用异常。",
+			"documentedTitle": "OH_ArkUI_RunTaskInScope跨实例组件操作示例",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkUISample/NdkScopeTask/.gitignore"
+				},
+				{
+					"gitBlobOid": "78a78152075305aec1099c01b26265cb060d0c58",
+					"path": "ArkUISample/NdkScopeTask/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "b735f66f9c1835a5d9bec953e16c7ddea056033b",
+					"path": "ArkUISample/NdkScopeTask/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","arkui/native_interface.h","arkui/native_node.h","arkui/native_node_napi.h","hilog/log.h","libentry.so"],
+			"externalDependencyCount": 12,
+			"id": "skill-scope-guide-snippets-arkuisample-ndkscopetask",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 1,
+				"ets": 10,
+				"json": 10,
+				"json5": 11,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/NdkScopeTask",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/NdkScopeTask; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 14,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/NdkScopeTask/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NdkScopeTask/entry/src/ohosTest/ets/test/Interface.test.ets","ArkUISample/NdkScopeTask/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NdkScopeTask/entry/src/ohosTest/module.json5","ArkUISample/NdkScopeTask/entry/src/test/List.test.ets","ArkUISample/NdkScopeTask/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 46
+		},
+		"payloadSha256": "fd684618637fa4c226fb4f46c0d2bfb2110c2a58c1ceef35ae142c87d7c54bae",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "1db79bd6-c563-5ab8-a87f-a24572be38c0"
+}

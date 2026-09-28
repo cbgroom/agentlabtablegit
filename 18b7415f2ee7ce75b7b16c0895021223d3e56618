@@ -1,0 +1,72 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-ndkswipersample",
+	"recorded_at_unix_ms": 1790568348924,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-ndkswipersample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/NDKSwiperSample/build-profile.json5","ArkUISample/NDKSwiperSample/entry/build-profile.json5","ArkUISample/NDKSwiperSample/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 594,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本工程以`ArkUI (C-API)`的方式实现[使用滑块视图容器](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/ui/ndk-swiper.md)，演示滑块视图容器组件原生节点的创建、显示效果属性设置、页面切换事件监听与ETS侧对接。",
+			"documentedTitle": "使用网格",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkUISample/NDKSwiperSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "7d923d2fd24a5fe472701d10e7908cad22b76186",
+					"path": "ArkUISample/NDKSwiperSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "127b72c6d6ee6510cdc6d7d92805347a129a7f63",
+					"path": "ArkUISample/NDKSwiperSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","arkui/native_interface.h","arkui/native_node.h","arkui/native_node_napi.h","arkui/native_type.h","hilog/log.h","libentry.so"],
+			"externalDependencyCount": 12,
+			"id": "skill-scope-guide-snippets-arkuisample-ndkswipersample",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 2,
+				"ets": 8,
+				"h": 1,
+				"jpg": 1,
+				"json": 10,
+				"json5": 11,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/NDKSwiperSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/NDKSwiperSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 14,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/NDKSwiperSample/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NDKSwiperSample/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NDKSwiperSample/entry/src/ohosTest/module.json5","ArkUISample/NDKSwiperSample/entry/src/test/List.test.ets","ArkUISample/NDKSwiperSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 47
+		},
+		"payloadSha256": "4fb39ef6f7ac9dc10af1e1c1263929a55dd0531b16c7024b9308f375782e2292",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "1db79bd6-c563-5ab8-a87f-a24572be38c0"
+}

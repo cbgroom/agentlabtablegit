@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-persistencev2",
+	"recorded_at_unix_ms": 1790568348924,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-persistencev2",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/PersistenceV2/build-profile.json5","ArkUISample/PersistenceV2/entry/build-profile.json5"],
+			"codeLineCount": 1030,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "PersistenceV2提供状态变量持久化能力，开发者可以通过globalConnect绑定同一个key，在状态变量变化和应用冷启动时，实现持久化能力。在API version 23之前，不支持@Sendable，",
+			"documentedTitle": "PersistenceV2 API：PersistenceV2持久化能力增强",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkUISample/PersistenceV2/.gitignore"
+				},
+				{
+					"gitBlobOid": "cc5bffab6115469ab11e4d16bc8ec07298d36444",
+					"path": "ArkUISample/PersistenceV2/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "b4603d79a615e90a4f2b9d90e76444064f174c61",
+					"path": "ArkUISample/PersistenceV2/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkTS","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.router","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 9,
+			"id": "skill-scope-guide-snippets-arkuisample-persistencev2",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 14,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 7,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/PersistenceV2",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/PersistenceV2; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 16,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/PersistenceV2/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/PersistenceV2/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/PersistenceV2/entry/src/ohosTest/module.json5","ArkUISample/PersistenceV2/entry/src/test/List.test.ets","ArkUISample/PersistenceV2/entry/src/test/LocalUnit.test.ets","ArkUISample/PersistenceV2/entry/src/test/PersistenceV2.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 47
+		},
+		"payloadSha256": "42279be7ef82f41aba29b1f4c4ddd6eaecc09d269671a5eb5cb0a014ad62371a",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "1db79bd6-c563-5ab8-a87f-a24572be38c0"
+}

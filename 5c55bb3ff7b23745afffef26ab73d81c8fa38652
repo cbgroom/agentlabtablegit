@@ -1,0 +1,80 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-newtype",
+	"recorded_at_unix_ms": 1790568348924,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-newtype",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/NewType/build-profile.json5","ArkUISample/NewType/entry/build-profile.json5"],
+			"codeLineCount": 597,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例展示了在一个Stage模型中，开发基于ArkTS UI的@Type装饰器：标记类属性的类型的应用，具体可参考[@Type装饰器：标记类属性的类型](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/ui/state-management/arkts-new-type.md)。",
+			"documentedTitle": "@Type装饰器：标记类属性的类型",
+			"evidence": [
+				{
+					"gitBlobOid": "3bdfe879f3e53023d32b6da004b8417c1981b50c",
+					"path": "ArkUISample/NewType/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "44e246bfeea8bc284272965f41f70ceed997df0c",
+					"path": "ArkUISample/NewType/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "ArkUISample/NewType/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","@ohos:app.ability.AbilityConstant","@ohos:app.ability.ConfigurationConstant","@ohos:app.ability.UIAbility","@ohos:app.ability.Want","@ohos:application.BackupExtensionAbility","@ohos:arkui.StateManagement","@ohos:hilog","@ohos:window"],
+			"externalDependencyCount": 15,
+			"id": "skill-scope-guide-snippets-arkuisample-newtype",
+			"kind": "sample-project",
+			"languages": {
+				"abc": 1,
+				"cache": 1,
+				"ets": 10,
+				"h": 1,
+				"hap": 1,
+				"index": 1,
+				"info": 1,
+				"json": 34,
+				"json5": 10,
+				"linter": 1,
+				"map": 3,
+				"md": 2,
+				"msgpack": 5,
+				"no-extension": 2,
+				"png": 13,
+				"protobin": 4,
+				"sc": 1,
+				"ts": 5,
+				"txt": 4
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/NewType",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/NewType; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 16,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/NewType/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NewType/entry/src/ohosTest/ets/test/Index.test.ets","ArkUISample/NewType/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NewType/entry/src/ohosTest/module.json5","ArkUISample/NewType/entry/src/test/List.test.ets","ArkUISample/NewType/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 100
+		},
+		"payloadSha256": "1f80bd936a6537a228be1a1020fde925e6f64b8e1b1befd70e0ca6440fb88049",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "1db79bd6-c563-5ab8-a87f-a24572be38c0"
+}
