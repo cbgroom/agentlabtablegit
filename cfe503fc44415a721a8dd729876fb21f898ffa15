@@ -1,0 +1,56 @@
+{
+	"deleted": false,
+	"key": "agent-analysis-agent-extension-agent-card-callback-service",
+	"recorded_at_unix_ms": 1790584428603,
+	"row": {
+		"id": "agent-analysis-agent-extension-agent-card-callback-service",
+		"kind": "analysis",
+		"payload": {
+			"agentProposal": {
+				"automaticPromotion": false,
+				"schema": "agentlab.maintainer_skill_fact_proposal.v1",
+				"sourceAssessmentSha256": "ace1316a4546f8ffd2cf97d1a443b26f05793a8a16eefdd6c3201fa0cf70135d"
+			},
+			"dimensions": ["behavior","boundary","relations","responsibility"],
+			"evidence": [
+				{
+					"gitBlobOid": "f98fa9be18455eaa02dc11d4882e794f42a8764d",
+					"path": "Ability/AgentExtensionAbility/entry/src/main/ets/agentextability/AgentExtAbility.ets"
+				},
+				{
+					"gitBlobOid": "8b1d1364318801b2ad7a23a0e59e1b167809e8bb",
+					"path": "Ability/AgentExtensionAbility/entry/src/main/module.json5"
+				},
+				{
+					"gitBlobOid": "f4ff2e66ed5f76cac4160ba054225262efda0e90",
+					"path": "Ability/AgentExtensionAbility/entry/src/main/resources/base/profile/agent_config.json"
+				},
+				{
+					"gitBlobOid": "70cd486b7449a4a3660e363be8d6f667abde8b2c",
+					"path": "Ability/AgentExtensionAbility/build-profile.json5"
+				},
+				{
+					"gitBlobOid": "6bce18d3f28f8561603e39ed9e4b3dbc9b2d1682",
+					"path": "Ability/AgentExtensionAbility/README_zh.md"
+				},
+				{
+					"gitBlobOid": "f345da0c91b43fd7bc5a9e091fe38781b8f414f3",
+					"path": "Ability/AgentExtensionAbility/entry/src/ohosTest/ets/test/Ability.test.ets"
+				}
+			],
+			"id": "agent-analysis-agent-extension-agent-card-callback-service",
+			"interpretation": "Mechanism: exported class AgentExtAbility subclasses AgentExtensionAbility from @kit.AbilityKit and implements the host-facing callbacks onCreate/onConnect/onDisconnect/onData/onAuth/onDestroy, caching one common.AgentHostProxy on connect and clearing it on disconnect; onData replies via proxy.sendData and onAuth calls proxy.authorize, both try/catch-logged. Wiring: module.json5 registers an extensionAbilities entry (name AgentExtAbility, type \"agent\", exported true, srcEntry ./ets/agentextability/AgentExtAbility.ets) with metadata ohos.extension.agent pointing at $profile:agent_config; agent_config.json supplies one agentCard advertising the service's skills, modes and capabilities. build-profile.json5 pins SDK 6.1.1(24), matching README's API-24 claim, so callback signatures, profile schema and SDK pins must evolve together. Contract: keep srcEntry, type, exported flag and metadata resource name consistent with the .ets and profile; the .ets carries doc snippet markers that edits must not break; the UIAbility/Index page is only the carrier app and ohosTest merely starts EntryAbility with trivial assertions, so callback behavior has no test coverage and must be guarded by review.",
+			"kind": "analysis",
+			"limitations": ["AgentExtAbility.ets casts errors with (err as BusinessError) without importing BusinessError; whether that compiles cleanly under the pinned SDK 6.1.1(24) is unproved because no compiler or hvigor build was run.","The claim that a system agent host consumes the agentCard in agent_config.json and drives onAuth/onData over AgentHostProxy is unproved: it rests on module.json5 metadata and documentation, not on device-side execution or traces.","README_zh.md points at an OpenHarmony doc URL and a sparse-checkout recipe for a different repository (applications_app_samples); their continued agreement with this checkout is unverified.","The trivial ohosTest assertions (expect(1).assertEqual(1)) cannot establish extension behavior; whether the declared test entrypoints exercise the agent callbacks at all is unproved."],
+			"repositoryId": "guide-snippets",
+			"scopeSkillIds": ["skill-scope-guide-snippets-ability-agentextensionability"],
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+		},
+		"payloadSha256": "6ec988cbb203679b0142c2e024bd022f65ca5b0104ad30885d83b022d4235a11",
+		"repositoryId": "guide-snippets",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "1b29ee36-54a4-55eb-b53e-0d21dd5193e4"
+}
