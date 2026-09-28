@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-security-assetstorekit",
+	"recorded_at_unix_ms": 1790568387014,
+	"row": {
+		"id": "skill-scope-guide-snippets-security-assetstorekit",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Security/AssetStoreKit/AssetStoreArkTS/build-profile.json5","Security/AssetStoreKit/AssetStoreArkTS/entry/build-profile.json5","Security/AssetStoreKit/AssetStoreNdk/build-profile.json5","Security/AssetStoreKit/AssetStoreNdk/entry/build-profile.json5","Security/AssetStoreKit/AssetStoreNdk/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 2121,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "Asset Store Kit (ASSET for short) provides a series of open APIs to securely store and manage short sensitive data, including but not limited to passwords (accounts/passwords), tokens (application credentials), and important plaintext (such as bank card numbers).",
+			"documentedTitle": "Asset Store Kit Development (ArkTS)",
+			"evidence": [
+				{
+					"gitBlobOid": "99212d17bf66b240dfdae3e43e6bb37315d8cfb2",
+					"path": "Security/AssetStoreKit/AssetStoreArkTS/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "f5ec105027da1aaaf7d29c0eb99bca11e436cf06",
+					"path": "Security/AssetStoreKit/AssetStoreArkTS/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "a39445dc87828b76fed6d2ec470dd455c45319e3",
+					"path": "Security/AssetStoreKit/AssetStoreArkTS/AppScope/resources/base/media/app_icon.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkTS","@kit.ArkUI","@kit.AssetStoreKit","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.UserAuthenticationKit","@ohos/hvigor-ohos-plugin","libentry.so","string.h"],
+			"externalDependencyCount": 11,
+			"id": "skill-scope-guide-snippets-security-assetstorekit",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 1,
+				"ets": 25,
+				"json": 14,
+				"json5": 15,
+				"md": 4,
+				"no-extension": 2,
+				"png": 12,
+				"ts": 5,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Security/AssetStoreKit",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Security/AssetStoreKit; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 31,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": [],
+			"testFileCount": 0,
+			"trackedFileCount": 79
+		},
+		"payloadSha256": "4cda83e896497cac3d99cb3a4ea6ab89ae5c551146d1d469dfb28852c67810d7",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "89e4d72c-230f-564a-8c83-b658151cac60"
+}

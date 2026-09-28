@@ -1,0 +1,76 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-security-dataprotectionkit",
+	"recorded_at_unix_ms": 1790568387014,
+	"row": {
+		"id": "skill-scope-guide-snippets-security-dataprotectionkit",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Security/DataProtectionKit/DLP/build-profile.json5","Security/DataProtectionKit/DLP/entry/build-profile.json5","Security/DataProtectionKit/DlpCApiTest/build-profile.json5","Security/DataProtectionKit/DlpCApiTest/entry/build-profile.json5","Security/DataProtectionKit/DlpCApiTest/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 2449,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例是一个安全类App，使用[@ohos.dlpPermission](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/security/DataProtectionKit/dlp-guidelines.md) 接口展示了在eTS中常用接口的调用。",
+			"documentedTitle": "DLP",
+			"evidence": [
+				{
+					"gitBlobOid": "fbabf771011fe78f9919db0b1195ab6cadffc2b0",
+					"path": "Security/DataProtectionKit/DLP/.gitignore"
+				},
+				{
+					"gitBlobOid": "80f737f450954cecd36c2a30d47860ed1636f7bf",
+					"path": "Security/DataProtectionKit/DLP/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "3db2959d25cb1823737aef9d2b1db7ed3fadeb49",
+					"path": "Security/DataProtectionKit/DLP/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkTS","@kit.ArkUI","@kit.CoreFileKit","@kit.DataProtectionKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.abilityAccessCtrl","@ohos.app.ability.AbilityConstant","@ohos.app.ability.UIAbility","@ohos.app.ability.Want","@ohos.app.ability.abilityDelegatorRegistry","@ohos.app.ability.common","@ohos.application.testRunner","@ohos.base","@ohos.file.picker","@ohos.hilog","@ohos.inputMethod","@ohos.resourceManager","@ohos.window","@ohos/hvigor-ohos-plugin","@ohos/hypium","@system.app","cstdint","cstdlib","libentry.so"],
+			"externalDependencyCount": 26,
+			"id": "skill-scope-guide-snippets-security-dataprotectionkit",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 1,
+				"ets": 14,
+				"hap": 2,
+				"jpeg": 4,
+				"jpg": 2,
+				"json": 20,
+				"json5": 19,
+				"md": 4,
+				"no-extension": 3,
+				"png": 17,
+				"properties": 1,
+				"svg": 13,
+				"tgz": 1,
+				"ts": 9,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Security/DataProtectionKit",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Security/DataProtectionKit; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 24,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Security/DataProtectionKit/DLP/entry/src/ohosTest/ets/test/Ability.test.ets","Security/DataProtectionKit/DLP/entry/src/ohosTest/ets/test/List.test.ets","Security/DataProtectionKit/DLP/entry/src/ohosTest/ets/test/Logger.ts","Security/DataProtectionKit/DLP/entry/src/ohosTest/ets/testability/TestAbility.ets","Security/DataProtectionKit/DLP/entry/src/ohosTest/ets/testability/pages/Index.ets","Security/DataProtectionKit/DLP/entry/src/ohosTest/ets/testrunner/OpenHarmonyTestRunner.ts","Security/DataProtectionKit/DLP/entry/src/ohosTest/module.json5","Security/DataProtectionKit/DLP/entry/src/ohosTest/resources/base/element/color.json","Security/DataProtectionKit/DLP/entry/src/ohosTest/resources/base/element/string.json","Security/DataProtectionKit/DLP/entry/src/ohosTest/resources/base/media/icon.png","Security/DataProtectionKit/DLP/entry/src/ohosTest/resources/base/profile/test_pages.json","Security/DataProtectionKit/DlpCApiTest/entry/src/ohosTest/ets/test/Ability.test.ets","Security/DataProtectionKit/DlpCApiTest/entry/src/ohosTest/ets/test/List.test.ets","Security/DataProtectionKit/DlpCApiTest/entry/src/ohosTest/module.json5"],
+			"testFileCount": 14,
+			"trackedFileCount": 112
+		},
+		"payloadSha256": "5d28f5e00fa9e110e044d1e76f077d7c9e675bbe5301c44ec1f3108e05d32c71",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "89e4d72c-230f-564a-8c83-b658151cac60"
+}
