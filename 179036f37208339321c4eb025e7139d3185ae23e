@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-selectionservice-selectionappsample",
+	"recorded_at_unix_ms": 1790568390228,
+	"row": {
+		"id": "skill-scope-guide-snippets-selectionservice-selectionappsample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["SelectionService/SelectionAppSample/build-profile.json5","SelectionService/SelectionAppSample/entry/build-profile.json5"],
+			"codeLineCount": 696,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例通过提供[划词服务指南文档](https://gitcode.com/openharmony/docs/tree/master/zh-cn/application-dev/basic-services/selectionInput)中ArkTS场景的开发示例，帮助开发者更好地理解划词服务模块代码的使用。该工程中展示的代码详细描述可查如下链接：",
+			"documentedTitle": " 划词应用开发示例",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "SelectionService/SelectionAppSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "dbfd4a19319c0b41896674174f58dd192859a7ad",
+					"path": "SelectionService/SelectionAppSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "f241a97bf4feaaee99bc7f4cbf6fda0c9b4ba5e5",
+					"path": "SelectionService/SelectionAppSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.IPCKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.app.ability.abilityDelegatorRegistry","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 10,
+			"id": "skill-scope-guide-snippets-selectionservice-selectionappsample",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 11,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 6,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "SelectionService/SelectionAppSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at SelectionService/SelectionAppSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 13,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["SelectionService/SelectionAppSample/entry/src/ohosTest/ets/test/Ability.test.ets","SelectionService/SelectionAppSample/entry/src/ohosTest/ets/test/List.test.ets","SelectionService/SelectionAppSample/entry/src/ohosTest/module.json5","SelectionService/SelectionAppSample/entry/src/test/List.test.ets","SelectionService/SelectionAppSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 43
+		},
+		"payloadSha256": "8175386cb5473aa2c805a0c3ecb1724a8d1b6bd83849ca9b23f1bfd9f117ee11",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "55eea14f-2491-50e8-b5c7-629f48b0ba96"
+}

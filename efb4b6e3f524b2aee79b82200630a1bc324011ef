@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-stationary-metadatabinding",
+	"recorded_at_unix_ms": 1790568390228,
+	"row": {
+		"id": "skill-scope-guide-snippets-stationary-metadatabinding",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Stationary/MetadataBinding/build-profile.json5","Stationary/MetadataBinding/entry/build-profile.json5"],
+			"codeLineCount": 399,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "1.MetadataBinding（记忆链接）指由第三方应用提供[App Linking链接](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/applinking-introduction)，系统将当前用户浏览的内容与App Linking链接进行关联并保存的功能。",
+			"documentedTitle": " MetadataBinding服务",
+			"evidence": [
+				{
+					"gitBlobOid": "3df720bd8182027eb16c1c437f9339300e597754",
+					"path": "Stationary/MetadataBinding/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "c9deadf58e8532d1d0871e058056baa3ce88eefb",
+					"path": "Stationary/MetadataBinding/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "Stationary/MetadataBinding/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.MultimodalAwarenessKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 9,
+			"id": "skill-scope-guide-snippets-stationary-metadatabinding",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 7,
+				"jpg": 4,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 1,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Stationary/MetadataBinding",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Stationary/MetadataBinding; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 9,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Stationary/MetadataBinding/entry/src/ohosTest/ets/test/Ability.test.ets","Stationary/MetadataBinding/entry/src/ohosTest/ets/test/List.test.ets","Stationary/MetadataBinding/entry/src/ohosTest/module.json5","Stationary/MetadataBinding/entry/src/test/List.test.ets","Stationary/MetadataBinding/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 41
+		},
+		"payloadSha256": "48e4057ec02208c81867d7c64f5b58b3d1713110b5e1336dc58f91c5a8342499",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "55eea14f-2491-50e8-b5c7-629f48b0ba96"
+}

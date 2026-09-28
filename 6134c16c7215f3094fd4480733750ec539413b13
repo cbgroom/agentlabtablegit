@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-sensor-sensorcapisamples",
+	"recorded_at_unix_ms": 1790568390228,
+	"row": {
+		"id": "skill-scope-guide-snippets-sensor-sensorcapisamples",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Sensor/SensorCapiSamples/build-profile.json5","Sensor/SensorCapiSamples/entry/build-profile.json5","Sensor/SensorCapiSamples/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 816,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本样例展示了sensor模块capi接口的使用样例，包含订阅、去订阅、获取传感器信息以及各种实例的创建与销毁等接口功能",
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Sensor/SensorCapiSamples/.gitignore"
+				},
+				{
+					"gitBlobOid": "9f4a34f683bceafed0748c232d26cb6529168393",
+					"path": "Sensor/SensorCapiSamples/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "32a7810241ccce22ce4083b91765198d20b831f3",
+					"path": "Sensor/SensorCapiSamples/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.app.ability.Want","@ohos.application.abilityDelegatorRegistry","@ohos.hilog","@ohos/hvigor-ohos-plugin","@ohos/hypium","libentry.so","thread"],
+			"externalDependencyCount": 13,
+			"id": "skill-scope-guide-snippets-sensor-sensorcapisamples",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 1,
+				"ets": 9,
+				"json": 9,
+				"json5": 11,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Sensor/SensorCapiSamples",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Sensor/SensorCapiSamples; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 13,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Sensor/SensorCapiSamples/entry/src/ohosTest/ets/test/Ability.test.ets","Sensor/SensorCapiSamples/entry/src/ohosTest/ets/test/List.test.ets","Sensor/SensorCapiSamples/entry/src/ohosTest/ets/test/SensorCapiSample.test.ets","Sensor/SensorCapiSamples/entry/src/ohosTest/module.json5","Sensor/SensorCapiSamples/entry/src/test/List.test.ets","Sensor/SensorCapiSamples/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 44
+		},
+		"payloadSha256": "dfa6c96c0e529783d61ebdc51fd89cb46b48d57cd150d0642ef18c05b75e8b1b",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "55eea14f-2491-50e8-b5c7-629f48b0ba96"
+}

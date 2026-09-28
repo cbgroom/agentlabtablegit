@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-serial-serialmanagersample",
+	"recorded_at_unix_ms": 1790568390228,
+	"row": {
+		"id": "skill-scope-guide-snippets-serial-serialmanagersample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Serial/SerialManagerSample/build-profile.json5","Serial/SerialManagerSample/entry/build-profile.json5"],
+			"codeLineCount": 804,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例主要展示了串口管理相关的功能，使用[@ohos.busManager.serial](https://gitcode.com/openharmony/interface_sdk-js/blob/master/api/@ohos.busManager.serial.d.ts)中的接口，实现了获取串口列表、打开/关闭串口、数据读写、监听数据接收、刷新缓冲区、等待写入完成以及信号控制等功能。",
+			"documentedTitle": "串口管理",
+			"evidence": [
+				{
+					"gitBlobOid": "8bd64fa00ff3a71184706e05161ff50d9f7c8dfc",
+					"path": "Serial/SerialManagerSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "a9554a32920a03d6578f718dcd928494eb296513",
+					"path": "Serial/SerialManagerSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "bf2d6b1a877ba36b40d1a37d0d07e44590c6ebc2",
+					"path": "Serial/SerialManagerSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.app.ability.abilityDelegatorRegistry","@ohos.deviceInfo","@ohos.resourceManager","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 10,
+			"id": "skill-scope-guide-snippets-serial-serialmanagersample",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 6,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 6,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Serial/SerialManagerSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Serial/SerialManagerSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 8,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Serial/SerialManagerSample/entry/src/ohosTest/ets/test/Ability.test.ets","Serial/SerialManagerSample/entry/src/ohosTest/ets/test/List.test.ets","Serial/SerialManagerSample/entry/src/ohosTest/module.json5","Serial/SerialManagerSample/entry/src/test/List.test.ets","Serial/SerialManagerSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 38
+		},
+		"payloadSha256": "b4ee00215100ea7e59e95cf9ab5f65798b7a60c0a43c0cbda17a36cf8fc7528a",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "55eea14f-2491-50e8-b5c7-629f48b0ba96"
+}

@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-security-requestuserauthorization",
+	"recorded_at_unix_ms": 1790568390228,
+	"row": {
+		"id": "skill-scope-guide-snippets-security-requestuserauthorization",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Security/RequestUserAuthorization/build-profile.json5","Security/RequestUserAuthorization/entry/build-profile.json5"],
+			"codeLineCount": 803,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例使用@ohos.abilityAccessCtrl，展示了应用申请权限场景。",
+			"documentedTitle": "向用户申请权限",
+			"evidence": [
+				{
+					"gitBlobOid": "08d606210b3993e8f1f4535767bb3459b7b1d208",
+					"path": "Security/RequestUserAuthorization/.gitignore"
+				},
+				{
+					"gitBlobOid": "ac059f9d34f1cc2bd4b026c15c02f3b2cc95eb8c",
+					"path": "Security/RequestUserAuthorization/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "7a5157cd1da7dacd3a5ad9306e07882ab049f582",
+					"path": "Security/RequestUserAuthorization/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.app.ability.abilityDelegatorRegistry","@ohos.hilog","@ohos.router","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 11,
+			"id": "skill-scope-guide-snippets-security-requestuserauthorization",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 11,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 8,
+				"ts": 3,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Security/RequestUserAuthorization",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Security/RequestUserAuthorization; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 14,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Security/RequestUserAuthorization/entry/src/ohosTest/ets/test/Ability.test.ets","Security/RequestUserAuthorization/entry/src/ohosTest/ets/test/List.test.ets","Security/RequestUserAuthorization/entry/src/ohosTest/ets/utils/Logger.ts","Security/RequestUserAuthorization/entry/src/ohosTest/module.json5","Security/RequestUserAuthorization/entry/src/ohosTest/resources/base/element/string.json","Security/RequestUserAuthorization/entry/src/test/List.test.ets","Security/RequestUserAuthorization/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 7,
+			"trackedFileCount": 46
+		},
+		"payloadSha256": "a495d5b9698f05477110ee9700d568d9b901096d9ce3327cf865a64a8aa0e7a1",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "55eea14f-2491-50e8-b5c7-629f48b0ba96"
+}

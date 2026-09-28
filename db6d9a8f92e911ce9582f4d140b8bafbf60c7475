@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-stationary-userstatus",
+	"recorded_at_unix_ms": 1790568390228,
+	"row": {
+		"id": "skill-scope-guide-snippets-stationary-userstatus",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Stationary/UserStatus/build-profile.json5","Stationary/UserStatus/entry/build-profile.json5"],
+			"codeLineCount": 333,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "1.UserStatus（用户状态感知）模块提供用户感知能力，可以感知到操作者特定状态，例如：检测用户年龄组。",
+			"documentedTitle": " UserStatus服务",
+			"evidence": [
+				{
+					"gitBlobOid": "44f9d5de189ca1ad2ec220eacc24b30e59600f8c",
+					"path": "Stationary/UserStatus/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "1007f4c74ab0e48fc2022104657cb6761b970c4b",
+					"path": "Stationary/UserStatus/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "Stationary/UserStatus/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 7,
+			"id": "skill-scope-guide-snippets-stationary-userstatus",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 7,
+				"jpg": 3,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 1,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Stationary/UserStatus",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Stationary/UserStatus; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 9,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Stationary/UserStatus/entry/src/ohosTest/ets/test/Ability.test.ets","Stationary/UserStatus/entry/src/ohosTest/ets/test/List.test.ets","Stationary/UserStatus/entry/src/ohosTest/module.json5","Stationary/UserStatus/entry/src/test/List.test.ets","Stationary/UserStatus/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 40
+		},
+		"payloadSha256": "130c866147a97f12525b0bc44a983317223eed8cc6098b346e37460388e2cc76",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "55eea14f-2491-50e8-b5c7-629f48b0ba96"
+}
