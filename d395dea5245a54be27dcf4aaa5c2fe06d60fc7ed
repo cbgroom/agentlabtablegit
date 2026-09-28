@@ -1,0 +1,52 @@
+{
+	"deleted": false,
+	"key": "agent-analysis-serial-port-demo-app",
+	"recorded_at_unix_ms": 1790579714266,
+	"row": {
+		"id": "agent-analysis-serial-port-demo-app",
+		"kind": "analysis",
+		"payload": {
+			"agentProposal": {
+				"automaticPromotion": false,
+				"schema": "agentlab.maintainer_skill_fact_proposal.v1",
+				"sourceAssessmentSha256": "7984192fede7d31ad99200dd41095f446a36e00713ef3d98890d48117586d8b7"
+			},
+			"dimensions": ["behavior","boundary","relations","responsibility"],
+			"evidence": [
+				{
+					"gitBlobOid": "f3736563a11f0085a4892755911bf69a1a400e81",
+					"path": "Serial/SerialManagerSample/entry/src/main/ets/pages/Index.ets"
+				},
+				{
+					"gitBlobOid": "c0d2995c73b1e83406e6a1f1dab0cd28beccb735",
+					"path": "Serial/SerialManagerSample/entry/src/main/ets/entryability/EntryAbility.ets"
+				},
+				{
+					"gitBlobOid": "c48d58d953a44e8c0ee42c32e99f9df2cd1d0874",
+					"path": "Serial/SerialManagerSample/entry/src/ohosTest/ets/test/Ability.test.ets"
+				},
+				{
+					"gitBlobOid": "bf877d7014c9384596c8c7c67b1b17fbc78b551b",
+					"path": "Serial/SerialManagerSample/entry/src/main/module.json5"
+				},
+				{
+					"gitBlobOid": "1898d94f58d6128ab712be2c68acc7c98e9ab9ce",
+					"path": "Serial/SerialManagerSample/entry/src/main/resources/base/profile/main_pages.json"
+				}
+			],
+			"id": "agent-analysis-serial-port-demo-app",
+			"interpretation": "Serial/SerialManagerSample is a HarmonyOS Stage-model sample app (single entry module, bundle com.samples.serialmanagersample, SDK 26.0.0) whose contract is to keep the serial-port demo aligned with the @kit.BasicServicesKit serial API it documents. Index.ets is the whole feature: each button handler wraps one SDK call (getSerialPortList, portInfo, open with SerialConfigs, write, onDataRead/offDataRead, flush, drain, RTS/CTS/DTR/DSR control, sendBrk, close). Shared state is `port` (first enumerated port) plus `dataCallback`/`disconnectedCallback`; every handler guards on `!this.port`, logs with TAG '[SerialSample]', and testClose() nulls `port`. EntryAbility only loads 'pages/Index', registered in main_pages.json; EntryAbility is mainElement in module.json5. The boundary is this tree: oh-package.json5 has no runtime dependencies, the SDK contract lives in the external @ohos.busManager.serial d.ts cited by README, and the [Start/End] doc-snippet markers in Index.ets must survive edits. ohosTest Ability.test.ets drives the buttons by visible text via UiTest Driver, so renaming buttons breaks those cases; its bundleName must stay in sync with module.json5 and Index.ets.",
+			"kind": "analysis",
+			"limitations": ["The project was never built or executed in this analysis; claims that it compiles against API 26 SDK, that @kit.BasicServicesKit exposes the serial namespace, and that it works on 2in1 devices with an attached USB serial device rest on source text and README assertions only.","The ohosTest cases in Ability.test.ets contain no expect() assertions and only click buttons by text; the 'Pass' results recorded in ohosTest.md are unproved and cannot be reproduced from the tree alone, and whether the UI driver reliably finds scrolled-off buttons is unknown.","README usage steps 3-12 say each demo 'auto-closes' the port after the operation, but the Index.ets handlers leave the port open until the close button is pressed; whether the README is outdated or describes intended behavior is unproved, as is the existence of the code/DocsSample/Serial/SerialManagerSample path in the README's sparse-checkout instructions for a different repository."],
+			"repositoryId": "guide-snippets",
+			"scopeSkillIds": ["skill-scope-guide-snippets-serial-serialmanagersample"],
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+		},
+		"payloadSha256": "2c22e5fdeea7e23b2179964c9c3cf09fb0acd366fc954c231526a6da001bccf9",
+		"repositoryId": "guide-snippets",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "0e8a748b-48d4-5e5f-9676-5bbc99552b11"
+}
