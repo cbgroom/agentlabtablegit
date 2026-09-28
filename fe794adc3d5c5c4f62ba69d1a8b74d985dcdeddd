@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-driverdevelopmentkit-driverdemo",
+	"recorded_at_unix_ms": 1790568368786,
+	"row": {
+		"id": "skill-scope-guide-snippets-driverdevelopmentkit-driverdemo",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["DriverDevelopmentKit/DriverDemo/build-profile.json5","DriverDevelopmentKit/DriverDemo/entry/build-profile.json5","DriverDevelopmentKit/DriverDemo/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 467,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例主要展示了通过DriverDevelopmentKit开发驱动服务，使用[@ohos.driver.deviceManager](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-driverdevelopment-kit/js-apis-driver-deviceManager.md) 、[@ohos.app.ability.DriverExtensionAbility](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-driverdevelopment-kit/js-apis-app-ability-driverExtensionAbility.md) 、[@ohos.rpc](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/referenc",
+			"documentedTitle": "驱动开发服务",
+			"evidence": [
+				{
+					"gitBlobOid": "8aa0419d18a172c1c7b91aa32994a07dc8eeb5a8",
+					"path": "DriverDevelopmentKit/DriverDemo/.gitignore"
+				},
+				{
+					"gitBlobOid": "81b8f648734a9d7f64bbe76a52f8ac7011bed473",
+					"path": "DriverDevelopmentKit/DriverDemo/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "d52f4e34ae12bff20106cbb05e6d94d57b2985b2",
+					"path": "DriverDevelopmentKit/DriverDemo/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.DriverDevelopmentKit","@kit.IPCKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 9,
+			"id": "skill-scope-guide-snippets-driverdevelopmentkit-driverdemo",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 1,
+				"ets": 8,
+				"json": 9,
+				"json5": 11,
+				"md": 1,
+				"no-extension": 2,
+				"png": 7,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "DriverDevelopmentKit/DriverDemo",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at DriverDevelopmentKit/DriverDemo; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 12,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["DriverDevelopmentKit/DriverDemo/entry/src/ohosTest/ets/test/Ability.test.ets","DriverDevelopmentKit/DriverDemo/entry/src/ohosTest/ets/test/List.test.ets","DriverDevelopmentKit/DriverDemo/entry/src/ohosTest/module.json5","DriverDevelopmentKit/DriverDemo/entry/src/test/List.test.ets","DriverDevelopmentKit/DriverDemo/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 44
+		},
+		"payloadSha256": "a87697dc33cf9be285eabcfcc7d64c1b187987b5a3c45fa19f41d537145eddfe",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "ccae9abd-1de2-5aba-ab48-3972f8005101"
+}

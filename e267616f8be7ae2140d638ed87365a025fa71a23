@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-distributedappdev-distributedsoftbusconversationdemo",
+	"recorded_at_unix_ms": 1790568368786,
+	"row": {
+		"id": "skill-scope-guide-snippets-distributedappdev-distributedsoftbusconversationdemo",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["DistributedAppDev/DistributedSoftbusConversationDemo/build-profile.json5","DistributedAppDev/DistributedSoftbusConversationDemo/entry/build-profile.json5"],
+			"codeLineCount": 537,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例主要展示了分布式软总线会话相关的功能，使用[@ohos.distributedServiceKit](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-distributedservice-kit/js-apis-conversation-sys.md)",
+			"documentedTitle": "分布式软总线会话",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "DistributedAppDev/DistributedSoftbusConversationDemo/.gitignore"
+				},
+				{
+					"gitBlobOid": "21b5c2799cda1a34c5b5a3f3f7dfe7f03c044376",
+					"path": "DistributedAppDev/DistributedSoftbusConversationDemo/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "ce6be855f9ad8d170e7f413546b1651683fbc75c",
+					"path": "DistributedAppDev/DistributedSoftbusConversationDemo/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.DistributedServiceKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 9,
+			"id": "skill-scope-guide-snippets-distributedappdev-distributedsoftbusconversationdemo",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 7,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 6,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "DistributedAppDev/DistributedSoftbusConversationDemo",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at DistributedAppDev/DistributedSoftbusConversationDemo; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 9,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["DistributedAppDev/DistributedSoftbusConversationDemo/entry/src/ohosTest/ets/test/Ability.test.ets","DistributedAppDev/DistributedSoftbusConversationDemo/entry/src/ohosTest/ets/test/List.test.ets","DistributedAppDev/DistributedSoftbusConversationDemo/entry/src/ohosTest/module.json5","DistributedAppDev/DistributedSoftbusConversationDemo/entry/src/test/List.test.ets","DistributedAppDev/DistributedSoftbusConversationDemo/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 39
+		},
+		"payloadSha256": "d3af46a93135d40cc6dcd550b43fcfc84ea9bca6a559af36ef11d8edcab688b5",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "ccae9abd-1de2-5aba-ab48-3972f8005101"
+}

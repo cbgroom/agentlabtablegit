@@ -1,0 +1,71 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-corefile-userfile",
+	"recorded_at_unix_ms": 1790568368786,
+	"row": {
+		"id": "skill-scope-guide-snippets-corefile-userfile",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["CoreFile/UserFile/FileShareDevelopment_C/build-profile.json5","CoreFile/UserFile/FileShareDevelopment_C/entry/build-profile.json5","CoreFile/UserFile/FileShareDevelopment_C/entry/src/main/cpp/CMakeLists.txt","CoreFile/UserFile/FileUriDevelopment_C/build-profile.json5","CoreFile/UserFile/FileUriDevelopment_C/entry/build-profile.json5","CoreFile/UserFile/FileUriDevelopment_C/entry/src/main/cpp/CMakeLists.txt","CoreFile/UserFile/SavingUserFiles/build-profile.json5","CoreFile/UserFile/SavingUserFiles/entry/build-profile.json5","CoreFile/UserFile/SelectingUserFiles/build-profile.json5","CoreFile/UserFile/SelectingUserFiles/entry/build-profile.json5","CoreFile/UserFile/UserFileURI/build-profile.json5","CoreFile/UserFile/UserFileURI/entry/build-profile.json5"],
+			"codeLineCount": 3286,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "该工程提供了关于文件URI的基本操作，对外提供了URI与沙箱路径之间互相转换、远端URI判定、获取URI所在目录路径的URI等接口，方便用户将文件URI与沙箱路径相互转换。该工程中展示的代码详细描述可查如下链接。",
+			"documentedTitle": "FileUri开发指导(C/C++)",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "CoreFile/UserFile/FileShareDevelopment_C/.gitignore"
+				},
+				{
+					"gitBlobOid": "b4c2f451bcd9d09fd4a31e44418e01cebae0e2e2",
+					"path": "CoreFile/UserFile/FileShareDevelopment_C/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "a2fbd05b2af882f42e60d6e1776e60f680392ee4",
+					"path": "CoreFile/UserFile/FileShareDevelopment_C/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkData","@kit.ArkTS","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.MediaLibraryKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.app.ability.common","@ohos/hvigor-ohos-plugin","@ohos/hypium","cstring","filemanagement/file_uri/oh_file_uri.h","filemanagement/fileshare/oh_file_share.h","hilog/log.h","iostream","libentry.so"],
+			"externalDependencyCount": 18,
+			"id": "skill-scope-guide-snippets-corefile-userfile",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 2,
+				"ets": 29,
+				"jpeg": 5,
+				"json": 42,
+				"json5": 44,
+				"md": 9,
+				"no-extension": 10,
+				"png": 21,
+				"ts": 16,
+				"txt": 7
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "CoreFile/UserFile",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at CoreFile/UserFile; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 47,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["CoreFile/UserFile/FileShareDevelopment_C/entry/src/ohosTest/ets/test/Ability.test.ets","CoreFile/UserFile/FileShareDevelopment_C/entry/src/ohosTest/ets/test/List.test.ets","CoreFile/UserFile/FileShareDevelopment_C/entry/src/ohosTest/module.json5","CoreFile/UserFile/FileShareDevelopment_C/entry/src/test/List.test.ets","CoreFile/UserFile/FileShareDevelopment_C/entry/src/test/LocalUnit.test.ets","CoreFile/UserFile/FileUriDevelopment_C/entry/src/ohosTest/ets/test/Ability.test.ets","CoreFile/UserFile/FileUriDevelopment_C/entry/src/ohosTest/ets/test/List.test.ets","CoreFile/UserFile/FileUriDevelopment_C/entry/src/ohosTest/module.json5","CoreFile/UserFile/SavingUserFiles/entry/src/ohosTest/ets/test/Ability.test.ets","CoreFile/UserFile/SavingUserFiles/entry/src/ohosTest/ets/test/List.test.ets","CoreFile/UserFile/SavingUserFiles/entry/src/ohosTest/module.json5","CoreFile/UserFile/SelectingUserFiles/entry/src/ohosTest/ets/test/Ability.test.ets","CoreFile/UserFile/SelectingUserFiles/entry/src/ohosTest/ets/test/List.test.ets","CoreFile/UserFile/SelectingUserFiles/entry/src/ohosTest/module.json5","CoreFile/UserFile/UserFileURI/entry/src/ohosTest/ets/test/Ability.test.ets","CoreFile/UserFile/UserFileURI/entry/src/ohosTest/ets/test/List.test.ets","CoreFile/UserFile/UserFileURI/entry/src/ohosTest/module.json5"],
+			"testFileCount": 17,
+			"trackedFileCount": 185
+		},
+		"payloadSha256": "9dbbb39a299e25b0774631dd609c1ace8d017b15c032a19e8af3c795700ef940",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "ccae9abd-1de2-5aba-ab48-3972f8005101"
+}

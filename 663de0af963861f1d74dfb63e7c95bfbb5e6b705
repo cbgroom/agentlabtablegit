@@ -1,0 +1,68 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-distributedcollab-entry",
+	"recorded_at_unix_ms": 1790568368786,
+	"row": {
+		"id": "skill-scope-guide-snippets-distributedcollab-entry",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["DistributedCollab/entry/build-profile.json5"],
+			"codeLineCount": 678,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": null,
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "e2713a2779c5a3e0eb879efe6115455592caeea5",
+					"path": "DistributedCollab/entry/.gitignore"
+				},
+				{
+					"gitBlobOid": "9016faf39f8a65cf648bae246a53575510fe8b9f",
+					"path": "DistributedCollab/entry/build-profile.json5"
+				},
+				{
+					"gitBlobOid": "f8b117a17af3b2d7cb87a7680e29e2bb8ccd5b46",
+					"path": "DistributedCollab/entry/hvigorfile.ts"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkTS","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.DistributedServiceKit","@kit.PerformanceAnalysisKit","@ohos.abilityAccessCtrl","@ohos.distributedsched.abilityConnectionManager","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 11,
+			"id": "skill-scope-guide-snippets-distributedcollab-entry",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 7,
+				"json": 7,
+				"json5": 5,
+				"no-extension": 1,
+				"png": 3,
+				"ts": 1,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "DistributedCollab/entry",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at DistributedCollab/entry; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 8,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["DistributedCollab/entry/src/ohosTest/ets/test/Ability.test.ets","DistributedCollab/entry/src/ohosTest/ets/test/List.test.ets","DistributedCollab/entry/src/ohosTest/module.json5","DistributedCollab/entry/src/test/List.test.ets","DistributedCollab/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 25
+		},
+		"payloadSha256": "69f4053ee21f39a80f76eb255f617188c4d1912ac511c7d948ae0d2968d1417c",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "ccae9abd-1de2-5aba-ab48-3972f8005101"
+}

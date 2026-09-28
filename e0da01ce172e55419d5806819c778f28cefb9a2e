@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-enterpriseadminextensionability-enterpriseadminextensionability",
+	"recorded_at_unix_ms": 1790568368786,
+	"row": {
+		"id": "skill-scope-guide-snippets-enterpriseadminextensionability-enterpriseadminextensionability",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["EnterpriseAdminExtensionAbility/EnterpriseAdminExtensionAbility/build-profile.json5","EnterpriseAdminExtensionAbility/EnterpriseAdminExtensionAbility/entry/build-profile.json5"],
+			"codeLineCount": 1090,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "企业设备管理扩展能力，是MDM应用必备组件。当开发者为企业开发MDM（Mobile Device Management）应用时，需继承EnterpriseAdminExtensionAbility，在EnterpriseAdminExtensionAbility实例中实现MDM业务逻辑，EnterpriseAdminExtensionAbility实现了系统管理状态变化通知功能。本示例依照开发指南[MDM Kit（企业设备管理）](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/mdm/Readme-CN.md)进行编写。本示例涉及使用接口：@ohos.enterprise.adminManager中的[disableAdmin](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-enterprise-adminmanager#adminmanagerdisableadmin)接口，@ohos.e",
+			"documentedTitle": "EnterpriseAdminExtensionAbility的创建与使用",
+			"evidence": [
+				{
+					"gitBlobOid": "b2ad7e172cedb232e997a1fa36d2811fcdb3fabc",
+					"path": "EnterpriseAdminExtensionAbility/EnterpriseAdminExtensionAbility/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "47645cb7689122f17749af218f12d78287db05e1",
+					"path": "EnterpriseAdminExtensionAbility/EnterpriseAdminExtensionAbility/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "ce307a8827bd75456441ceb57d530e4c8d45d36c",
+					"path": "EnterpriseAdminExtensionAbility/EnterpriseAdminExtensionAbility/AppScope/resources/base/media/app_icon.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.BasicServicesKit","@kit.MDMKit","@ohos.UiTest","@ohos.app.ability.UIAbility","@ohos.app.ability.abilityDelegatorRegistry","@ohos.application.testRunner","@ohos.arkui.UIContext","@ohos.data.preferences","@ohos.hilog","@ohos.window","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 13,
+			"id": "skill-scope-guide-snippets-enterpriseadminextensionability-enterpriseadminextensionability",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 12,
+				"jpg": 4,
+				"json": 9,
+				"json5": 8,
+				"md": 2,
+				"png": 3,
+				"svg": 1,
+				"ts": 4
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "EnterpriseAdminExtensionAbility/EnterpriseAdminExtensionAbility",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at EnterpriseAdminExtensionAbility/EnterpriseAdminExtensionAbility; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 16,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["EnterpriseAdminExtensionAbility/EnterpriseAdminExtensionAbility/entry/src/ohosTest/ets/TestRunner/OpenHarmonyTestRunner.ts","EnterpriseAdminExtensionAbility/EnterpriseAdminExtensionAbility/entry/src/ohosTest/ets/test/Ability.test.ets","EnterpriseAdminExtensionAbility/EnterpriseAdminExtensionAbility/entry/src/ohosTest/ets/test/List.test.ets","EnterpriseAdminExtensionAbility/EnterpriseAdminExtensionAbility/entry/src/ohosTest/ets/testability/TestAbility.ets","EnterpriseAdminExtensionAbility/EnterpriseAdminExtensionAbility/entry/src/ohosTest/ets/testability/pages/Index.ets","EnterpriseAdminExtensionAbility/EnterpriseAdminExtensionAbility/entry/src/ohosTest/module.json5","EnterpriseAdminExtensionAbility/EnterpriseAdminExtensionAbility/entry/src/ohosTest/resources/base/element/color.json","EnterpriseAdminExtensionAbility/EnterpriseAdminExtensionAbility/entry/src/ohosTest/resources/base/element/string.json","EnterpriseAdminExtensionAbility/EnterpriseAdminExtensionAbility/entry/src/ohosTest/resources/base/media/icon.png","EnterpriseAdminExtensionAbility/EnterpriseAdminExtensionAbility/entry/src/ohosTest/resources/base/profile/test_pages.json"],
+			"testFileCount": 10,
+			"trackedFileCount": 43
+		},
+		"payloadSha256": "6f477c43765aae56b189e10ff493615927055b066386ef014828f53247ecc0b5",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "ccae9abd-1de2-5aba-ab48-3972f8005101"
+}

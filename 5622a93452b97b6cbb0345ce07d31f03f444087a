@@ -1,0 +1,72 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-form-customfontwidgetcards",
+	"recorded_at_unix_ms": 1790568368786,
+	"row": {
+		"id": "skill-scope-guide-snippets-form-customfontwidgetcards",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Form/CustomFontWidgetCards/build-profile.json5","Form/CustomFontWidgetCards/entry/build-profile.json5"],
+			"codeLineCount": 406,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "此Sample为卡片使用自定义字体开发指南。",
+			"documentedTitle": "服务卡片开发指导：开发卡片使用自定义字体",
+			"evidence": [
+				{
+					"gitBlobOid": "850128966bb495650ef4ce197ffddcafacbb7472",
+					"path": "Form/CustomFontWidgetCards/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "a83cf7de5e0e844655c1136bfbc080b03593eaef",
+					"path": "Form/CustomFontWidgetCards/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "Form/CustomFontWidgetCards/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkGraphics2D","@kit.ArkUI","@kit.CoreFileKit","@kit.FormKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 8,
+			"id": "skill-scope-guide-snippets-form-customfontwidgetcards",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 9,
+				"jpg": 3,
+				"json": 10,
+				"json5": 9,
+				"md": 1,
+				"no-extension": 1,
+				"png": 5,
+				"properties": 1,
+				"ts": 2,
+				"ttf": 1,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Form/CustomFontWidgetCards",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Form/CustomFontWidgetCards; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 11,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Form/CustomFontWidgetCards/entry/src/ohosTest/ets/test/Ability.test.ets","Form/CustomFontWidgetCards/entry/src/ohosTest/ets/test/List.test.ets","Form/CustomFontWidgetCards/entry/src/ohosTest/module.json5","Form/CustomFontWidgetCards/entry/src/test/List.test.ets","Form/CustomFontWidgetCards/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 43
+		},
+		"payloadSha256": "de64a06b82c6c61dfb38a174cf26db0ee123f0de50c05e5f0057da3fbb0901c4",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "ccae9abd-1de2-5aba-ab48-3972f8005101"
+}

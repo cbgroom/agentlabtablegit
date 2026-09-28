@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-form-formstandalonedemo",
+	"recorded_at_unix_ms": 1790568368786,
+	"row": {
+		"id": "skill-scope-guide-snippets-form-formstandalonedemo",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Form/FormStandaloneDemo/build-profile.json5","Form/FormStandaloneDemo/entry/build-profile.json5","Form/FormStandaloneDemo/library/build-profile.json5"],
+			"codeLineCount": 596,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "此Sample为开发指南中**服务卡片开发指导（Stage模型）**章节中**开发卡片页面**一小节示例代码的完整工程。",
+			"documentedTitle": "服务卡片开发指导：独立卡片包",
+			"evidence": [
+				{
+					"gitBlobOid": "1541321323e79e894ac1270a7676fa94dbcd41a9",
+					"path": "Form/FormStandaloneDemo/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "a1c5fef75ee9ecfc16edd5619de91f9e32bb2661",
+					"path": "Form/FormStandaloneDemo/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "Form/FormStandaloneDemo/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.FormKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.app.ability.abilityDelegatorRegistry","@ohos.hilog","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 9,
+			"id": "skill-scope-guide-snippets-form-formstandalonedemo",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 13,
+				"json": 14,
+				"json5": 14,
+				"md": 2,
+				"no-extension": 1,
+				"png": 7,
+				"ts": 3,
+				"txt": 3
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Form/FormStandaloneDemo",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Form/FormStandaloneDemo; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 16,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Form/FormStandaloneDemo/entry/src/ohosTest/ets/test/Ability.test.ets","Form/FormStandaloneDemo/entry/src/ohosTest/ets/test/List.test.ets","Form/FormStandaloneDemo/entry/src/ohosTest/module.json5","Form/FormStandaloneDemo/entry/src/test/List.test.ets","Form/FormStandaloneDemo/entry/src/test/LocalUnit.test.ets","Form/FormStandaloneDemo/library/src/ohosTest/ets/test/Ability.test.ets","Form/FormStandaloneDemo/library/src/ohosTest/ets/test/List.test.ets","Form/FormStandaloneDemo/library/src/ohosTest/module.json5","Form/FormStandaloneDemo/library/src/test/List.test.ets","Form/FormStandaloneDemo/library/src/test/LocalUnit.test.ets"],
+			"testFileCount": 10,
+			"trackedFileCount": 57
+		},
+		"payloadSha256": "96e5dd179d85a6453e835888aeded953414c9778aaf2353480ca3bd4a02583a5",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "ccae9abd-1de2-5aba-ab48-3972f8005101"
+}

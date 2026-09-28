@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-distributedappdev-continuesample",
+	"recorded_at_unix_ms": 1790568368786,
+	"row": {
+		"id": "skill-scope-guide-snippets-distributedappdev-continuesample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["DistributedAppDev/ContinueSample/build-profile.json5","DistributedAppDev/ContinueSample/entry/build-profile.json5"],
+			"codeLineCount": 2139,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例主要展示了应用数据跨端迁移的能力，通过跨端迁移的能力实现了一个简单的迁移应用，可以响应系统迁移事件，控制应用的迁移能力、是否迁移页面栈以及迁移后是否退出源端等。使用了分布式数据对象接口[@ohos.data.distributedDataObject](https://gitee.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-arkdata/js-apis-data-distributedobject.md)等接口，通过分布式数据对象以及资产实现了文件数据的流转迁移。本示例仅适配设备类型为phone。",
+			"documentedTitle": "跨端迁移",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "DistributedAppDev/ContinueSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "ee840c39ab1b2ee22af7e67af4810a80f95a7438",
+					"path": "DistributedAppDev/ContinueSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "fbd361bc4606c4dfcf9f81932c97558f0fbdd450",
+					"path": "DistributedAppDev/ContinueSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkData","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.app.ability.abilityDelegatorRegistry","@ohos.base","@ohos.hilog","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 12,
+			"id": "skill-scope-guide-snippets-distributedappdev-continuesample",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 19,
+				"json": 9,
+				"json5": 11,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "DistributedAppDev/ContinueSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at DistributedAppDev/ContinueSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 21,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["DistributedAppDev/ContinueSample/entry/src/ohosTest/ets/test/Ability.test.ets","DistributedAppDev/ContinueSample/entry/src/ohosTest/ets/test/Continue.test.ets","DistributedAppDev/ContinueSample/entry/src/ohosTest/ets/test/List.test.ets","DistributedAppDev/ContinueSample/entry/src/ohosTest/module.json5","DistributedAppDev/ContinueSample/entry/src/test/List.test.ets","DistributedAppDev/ContinueSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 51
+		},
+		"payloadSha256": "917ec4a50d931c2db6d78967965509610bc4ed4a856434e82a3122420b22f6f5",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "ccae9abd-1de2-5aba-ab48-3972f8005101"
+}
