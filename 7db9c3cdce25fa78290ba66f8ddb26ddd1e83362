@@ -1,0 +1,71 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-ndkaddinteractionevent",
+	"recorded_at_unix_ms": 1790568345880,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-ndkaddinteractionevent",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/NdkAddInteractionEvent/build-profile.json5","ArkUISample/NdkAddInteractionEvent/entry/build-profile.json5","ArkUISample/NdkAddInteractionEvent/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 2895,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "ArkUI开发框架对UI组件的事件，提供了监听函数的方式。首先，可使用addNodeEventReceiver函数添加组件事件的监听器，该监听器会监听该组件上发生的所有事件，例如：点击事件、焦点事件。然后，可使用registerNodeEvent函数声明组件的哪些事件需要监听。",
+			"documentedTitle": "ArkUI指南文档示例",
+			"evidence": [
+				{
+					"gitBlobOid": "3bcb5e53df55afccbe8f68f99db37cc59e12d492",
+					"path": "ArkUISample/NdkAddInteractionEvent/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "b9c2a8cc1a9f328ad95c1ec971fe07a5f756dcb9",
+					"path": "ArkUISample/NdkAddInteractionEvent/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "ArkUISample/NdkAddInteractionEvent/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","ArkUIBaseNode.h","arkui/native_animate.h","arkui/native_gesture.h","arkui/native_interface.h","arkui/native_key_event.h","arkui/native_node.h","arkui/native_node_napi.h","arkui/native_type.h","cassert","cstdint","hilog/log.h","js_native_api.h","js_native_api_types.h","libentry.so","list","memory","sstream","string"],
+			"externalDependencyCount": 25,
+			"id": "skill-scope-guide-snippets-arkuisample-ndkaddinteractionevent",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 2,
+				"ets": 15,
+				"h": 13,
+				"jpg": 6,
+				"json": 10,
+				"json5": 11,
+				"md": 2,
+				"png": 5,
+				"ts": 3,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/NdkAddInteractionEvent",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/NdkAddInteractionEvent; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 33,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/NdkAddInteractionEvent/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NdkAddInteractionEvent/entry/src/ohosTest/ets/test/Index.test.ets","ArkUISample/NdkAddInteractionEvent/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NdkAddInteractionEvent/entry/src/ohosTest/module.json5","ArkUISample/NdkAddInteractionEvent/entry/src/test/List.test.ets","ArkUISample/NdkAddInteractionEvent/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 68
+		},
+		"payloadSha256": "b2073212002e532291fb958429300dc766e08f0240262928f86375c8c1ea9642",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "a3c35d8a-236a-5f5c-8e43-3beeb4d1e230"
+}

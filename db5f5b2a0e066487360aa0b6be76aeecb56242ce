@@ -1,0 +1,74 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-nativetype",
+	"recorded_at_unix_ms": 1790568345880,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-nativetype",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/NativeType/CustomContainerSample/build-profile.json5","ArkUISample/NativeType/CustomContainerSample/entry/build-profile.json5","ArkUISample/NativeType/CustomContainerSample/entry/src/main/cpp/CMakeLists.txt","ArkUISample/NativeType/CustomDrawIrregularSample/build-profile.json5","ArkUISample/NativeType/CustomDrawIrregularSample/entry/build-profile.json5","ArkUISample/NativeType/CustomDrawIrregularSample/entry/src/main/cpp/CMakeLists.txt","ArkUISample/NativeType/CustomDrawSample/build-profile.json5","ArkUISample/NativeType/CustomDrawSample/entry/build-profile.json5","ArkUISample/NativeType/CustomDrawSample/entry/src/main/cpp/CMakeLists.txt","ArkUISample/NativeType/CustomRenderNode/build-profile.json5","ArkUISample/NativeType/CustomRenderNode/entry/build-profile.json5","ArkUISample/NativeType/CustomRenderNode/entry/src/main/cpp/CMakeLists.txt","ArkUISample/NativeType/NativeDrawPageSample/build-profile.json5","ArkUISample/NativeType/NativeDrawPageSample/entry/build-profile.json5","ArkUISample/NativeType/NativeDrawPageSample/entry/src/main/cpp/CMakeLists.txt","ArkUISample/NativeType/NativeNodeInterfaceSample/build-profile.json5","ArkUISample/NativeType/NativeNodeInterfaceSample/entry/build-profile.json5","ArkUISample/NativeType/NativeNodeInterfaceSample/entry/src/main/cpp/CMakeLists.txt","ArkUISample/NativeType/NativeNodeUtilsSample/build-profile.json5","ArkUISample/NativeType/NativeNodeUtilsSample/entry/build-profile.json5","ArkUISample/NativeType/NativeNodeUtilsSample/entry/src/main/cpp/CMakeLists.txt","ArkUISample/NativeType/NdkCreateList/build-profile.json5","ArkUISample/NativeType/NdkCreateList/entry/build-profile.json5","ArkUISample/NativeType/NdkCreateList/entry/src/main/cpp/CMakeLists.txt","ArkUISample/NativeType/NdkEmbedArktsComponents/build-profile.json5","ArkUISample/NativeType/NdkEmbedArktsComponents/entry/build-profile.json5","ArkUISample/NativeType/NdkEmbedArktsComponents/entry/src/main/cpp/CMakeLists.txt","ArkUISample/NativeType/native_type_sample/build-profile.json5","ArkUISample/NativeType/native_type_sample/entry/build-profile.json5","ArkUISample/NativeType/native_type_sample/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 36894,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "ArkUI开发框架在NDK接口提供了自定义UI组件的能力，开发者通过注册相关自定义回调事件接入ArkUI开发框架的布局渲染流程。本示例展示了如何创建自定义布局容器。示例创建了一个自定义容器，该容器将子组件最大值加上额外边距作为自身大小，同时对子组件进行居中排布。",
+			"documentedTitle": "自定义布局容器",
+			"evidence": [
+				{
+					"gitBlobOid": "09b5ce42a090f9200c1deba7b5997b60b700e551",
+					"path": "ArkUISample/NativeType/CustomContainerSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "eae3e3df529e84c05955a9dbf8c53c324997ea5a",
+					"path": "ArkUISample/NativeType/CustomContainerSample/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "ArkUISample/NativeType/CustomContainerSample/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkGraphics2D","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.UiTest","@ohos.app.ability.AbilityConstant","@ohos.app.ability.UIAbility","@ohos.app.ability.Want","@ohos.arkui.UIContext","@ohos.arkui.node","@ohos.hilog","@ohos.window","@ohos/hvigor-ohos-plugin","@ohos/hypium","AbilityKit/ability_base/want.h","ArkUIBaseNode.h","ArkUIListItemAdapter.h","ArkUIListItemNode.h","ArkUIListNode.h","ArkUITextInputNode.h","ArkUITextNode.h","CreateNode.h","ace/xcomponent/native_interface_xcomponent.h","algorithm","arkui/drag_and_drop.h","arkui/native_animate.h","arkui/native_dialog.h","arkui/native_gesture.h","arkui/native_interface.h","arkui/native_key_event.h","arkui/native_node.h","arkui/native_node_napi.h","arkui/native_type.h","arkui/styled_string.h","array","atomic","cassert","chrono","cmath","cstddef","cstdint","cstdio","cstring","functional","hilog/log.h","initializer_list","iomanip","iostream","js_native_api.h","js_native_api_types.h","libentry.so","list","map","memory","multimedia/image_framework/image/pixelmap_native.h","napi/native_api.h","native_drawing/drawing_brush.h","native_drawing/drawing_canvas.h","native_drawing/drawing_color.h","native_drawing/drawing_color_filter.h","native_drawing/drawing_font.h","native_drawing/drawing_font_collection.h","native_drawing/drawing_path.h","native_drawing/drawing_pen.h","native_drawing/drawing_point.h","native_drawing/drawing_rect.h","native_drawing/drawing_round_rect.h","native_drawing/drawing_text_declaration.h","native_drawing/drawing_text_typography.h","node_api.h","node_api_types.h","optional","sstream","stack","string","thread","unordered_map","unordered_set","utility","uv.h","vector"],
+			"externalDependencyCount": 84,
+			"id": "skill-scope-guide-snippets-arkuisample-nativetype",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 50,
+				"ets": 147,
+				"gif": 5,
+				"h": 117,
+				"jpeg": 21,
+				"jpg": 4,
+				"json": 98,
+				"json5": 103,
+				"md": 20,
+				"no-extension": 9,
+				"png": 71,
+				"ts": 30,
+				"txt": 19
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/NativeType",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/NativeType; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 344,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/NativeType/CustomContainerSample/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NativeType/CustomContainerSample/entry/src/ohosTest/ets/test/Index.test.ets","ArkUISample/NativeType/CustomContainerSample/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NativeType/CustomContainerSample/entry/src/ohosTest/module.json5","ArkUISample/NativeType/CustomContainerSample/entry/src/test/List.test.ets","ArkUISample/NativeType/CustomContainerSample/entry/src/test/LocalUnit.test.ets","ArkUISample/NativeType/CustomDrawIrregularSample/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NativeType/CustomDrawIrregularSample/entry/src/ohosTest/ets/test/Index.test.ets","ArkUISample/NativeType/CustomDrawIrregularSample/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NativeType/CustomDrawIrregularSample/entry/src/ohosTest/module.json5","ArkUISample/NativeType/CustomDrawIrregularSample/entry/src/test/List.test.ets","ArkUISample/NativeType/CustomDrawIrregularSample/entry/src/test/LocalUnit.test.ets","ArkUISample/NativeType/CustomDrawSample/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NativeType/CustomDrawSample/entry/src/ohosTest/ets/test/Index.test.ets","ArkUISample/NativeType/CustomDrawSample/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NativeType/CustomDrawSample/entry/src/ohosTest/module.json5","ArkUISample/NativeType/CustomDrawSample/entry/src/test/List.test.ets","ArkUISample/NativeType/CustomDrawSample/entry/src/test/LocalUnit.test.ets","ArkUISample/NativeType/CustomRenderNode/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NativeType/CustomRenderNode/entry/src/ohosTest/ets/test/Index.test.ets","ArkUISample/NativeType/CustomRenderNode/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NativeType/CustomRenderNode/entry/src/ohosTest/module.json5","ArkUISample/NativeType/CustomRenderNode/entry/src/test/List.test.ets","ArkUISample/NativeType/CustomRenderNode/entry/src/test/LocalUnit.test.ets","ArkUISample/NativeType/NativeDrawPageSample/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NativeType/NativeDrawPageSample/entry/src/ohosTest/ets/test/DrawPageTest.test.ets","ArkUISample/NativeType/NativeDrawPageSample/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NativeType/NativeDrawPageSample/entry/src/ohosTest/module.json5","ArkUISample/NativeType/NativeNodeInterfaceSample/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NativeType/NativeNodeInterfaceSample/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NativeType/NativeNodeInterfaceSample/entry/src/ohosTest/ets/test/LoadingAdapter.test.ets","ArkUISample/NativeType/NativeNodeInterfaceSample/entry/src/ohosTest/ets/test/drawPage/DrawPageTest.test.ets","ArkUISample/NativeType/NativeNodeInterfaceSample/entry/src/ohosTest/ets/test/nativeUI/NativeUIPageTest.test.ets","ArkUISample/NativeType/NativeNodeInterfaceSample/entry/src/ohosTest/module.json5","ArkUISample/NativeType/NativeNodeInterfaceSample/entry/src/ohosTest/syscap.json","ArkUISample/NativeType/NativeNodeInterfaceSample/entry/src/test/List.test.ets","ArkUISample/NativeType/NativeNodeInterfaceSample/entry/src/test/LocalUnit.test.ets","ArkUISample/NativeType/NativeNodeUtilsSample/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NativeType/NativeNodeUtilsSample/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NativeType/NativeNodeUtilsSample/entry/src/ohosTest/ets/test/LoadingAdapter.test.ets","ArkUISample/NativeType/NativeNodeUtilsSample/entry/src/ohosTest/ets/test/drawPage/DrawPageTest.test.ets","ArkUISample/NativeType/NativeNodeUtilsSample/entry/src/ohosTest/ets/test/nativeUI/NativeUIPageTest.test.ets","ArkUISample/NativeType/NativeNodeUtilsSample/entry/src/ohosTest/module.json5","ArkUISample/NativeType/NativeNodeUtilsSample/entry/src/ohosTest/syscap.json","ArkUISample/NativeType/NativeNodeUtilsSample/entry/src/test/List.test.ets","ArkUISample/NativeType/NativeNodeUtilsSample/entry/src/test/LocalUnit.test.ets","ArkUISample/NativeType/NdkCreateList/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NativeType/NdkCreateList/entry/src/ohosTest/ets/test/Index.test.ets","ArkUISample/NativeType/NdkCreateList/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NativeType/NdkCreateList/entry/src/ohosTest/module.json5","ArkUISample/NativeType/NdkCreateList/entry/src/test/List.test.ets","ArkUISample/NativeType/NdkCreateList/entry/src/test/LocalUnit.test.ets","ArkUISample/NativeType/NdkEmbedArktsComponents/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NativeType/NdkEmbedArktsComponents/entry/src/ohosTest/ets/test/Index.test.ets","ArkUISample/NativeType/NdkEmbedArktsComponents/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NativeType/NdkEmbedArktsComponents/entry/src/ohosTest/module.json5","ArkUISample/NativeType/NdkEmbedArktsComponents/entry/src/test/List.test.ets","ArkUISample/NativeType/NdkEmbedArktsComponents/entry/src/test/LocalUnit.test.ets","ArkUISample/NativeType/native_type_sample/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NativeType/native_type_sample/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NativeType/native_type_sample/entry/src/ohosTest/module.json5","ArkUISample/NativeType/native_type_sample/entry/src/test/List.test.ets","ArkUISample/NativeType/native_type_sample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 63,
+			"trackedFileCount": 694
+		},
+		"payloadSha256": "a61322e3402135801c1be655dafdd51516a6b4d31e9073923086f10ad438cd7c",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "a3c35d8a-236a-5f5c-8e43-3beeb4d1e230"
+}

@@ -1,0 +1,72 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-nativexcomponent",
+	"recorded_at_unix_ms": 1790568345880,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-nativexcomponent",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/NativeXComponent/build-profile.json5","ArkUISample/NativeXComponent/entry/build-profile.json5","ArkUISample/NativeXComponent/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 4241,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例主要介绍开发者如何使用ArkUI NDK API创建XComponent组件进行自定义绘制。主要包括：创建组件，获取ArkUI_NodeHandle和OH_ArkUI_SurfaceHolder实例，注册Surface生命周期和无障碍回调，设置可变帧率，获取NativeWindow后使用OpenGL ES/EGL接口在XComponent组件上进行图形绘制。功能主要包括绘制一个五角星，期望帧率设置，点击按钮开启/关闭软键盘，并可以通过点击XComponent区域改变五角星的颜色。",
+			"documentedTitle": "NativeXComponent",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkUISample/NativeXComponent/.gitignore"
+				},
+				{
+					"gitBlobOid": "33e40e31af85a79aaa9242b628f577e0157a7ee4",
+					"path": "ArkUISample/NativeXComponent/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "79421a57da43fb2a471e3ade57c18b8d845b3647",
+					"path": "ArkUISample/NativeXComponent/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos.UiTest","@ohos.app.ability.abilityDelegatorRegistry","@ohos.arkui.node","@ohos/hvigor-ohos-plugin","@ohos/hypium","EGL/egl.h","EGL/eglext.h","EGL/eglplatform.h","GLES3/gl3.h","ace/xcomponent/native_interface_xcomponent.h","algorithm","cmath","cstdint","cstdio","hilog/log.h","iostream","js_native_api.h","js_native_api_types.h","libnativerender.so","napi/native_api.h","string","unordered_map"],
+			"externalDependencyCount": 26,
+			"id": "skill-scope-guide-snippets-arkuisample-nativexcomponent",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 5,
+				"ets": 13,
+				"h": 6,
+				"jpeg": 2,
+				"json": 9,
+				"json5": 9,
+				"md": 1,
+				"no-extension": 2,
+				"png": 4,
+				"ts": 4,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/NativeXComponent",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/NativeXComponent; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 28,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/NativeXComponent/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/NativeXComponent/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/NativeXComponent/entry/src/ohosTest/module.json5","ArkUISample/NativeXComponent/entry/src/test/List.test.ets","ArkUISample/NativeXComponent/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 56
+		},
+		"payloadSha256": "c044054b1b87079dec214af0cba3b56c83f13b93042187172c568221dc67c9fe",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "a3c35d8a-236a-5f5c-8e43-3beeb4d1e230"
+}
