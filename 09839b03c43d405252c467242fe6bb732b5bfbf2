@@ -1,0 +1,68 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-containerreader",
+	"recorded_at_unix_ms": 1790568336271,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-containerreader",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/ContainerReader/build-profile.json5","ArkUISample/ContainerReader/entry/build-profile.json5"],
+			"codeLineCount": 1754,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例展示了ArkUI中[ContainerReader组件](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-arkui/arkui-ts/ts-container-containerreader.md)的开发示例。通过本示例，开发者可以学习如何使用ContainerReader组件感知容器尺寸和断点信息、如何结合Flex/Row/Column等布局组件实现自适应布局、以及如何基于容器断点实现网格组件列数自适应、自定义组件自适应、左右分栏布局等典型开发场景。该工程中展示的代码详细描述可查链接[ContainerReader](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/ui/arkts-layout-development-container-reader.md)。",
+			"documentedTitle": "ContainerReader示例",
+			"evidence": [
+				{
+					"gitBlobOid": "6bb62356cd7c32ea23f039bfa2087ce5b51bf269",
+					"path": "ArkUISample/ContainerReader/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "36fda3775e6548f83a400af3b0d60368f38fb975",
+					"path": "ArkUISample/ContainerReader/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "ArkUISample/ContainerReader/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.router","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 8,
+			"id": "skill-scope-guide-snippets-arkuisample-containerreader",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 23,
+				"json": 11,
+				"json5": 10,
+				"md": 2,
+				"png": 18,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/ContainerReader",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/ContainerReader; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 25,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/ContainerReader/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/ContainerReader/entry/src/ohosTest/ets/test/ContainerReader.test.ets","ArkUISample/ContainerReader/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/ContainerReader/entry/src/ohosTest/module.json5","ArkUISample/ContainerReader/entry/src/ohosTest/syscap.json","ArkUISample/ContainerReader/entry/src/test/List.test.ets","ArkUISample/ContainerReader/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 7,
+			"trackedFileCount": 67
+		},
+		"payloadSha256": "e23fd19e0c5da82fdf9f23895c9c23abc9e0f7a4143b04321fb4d9b1cf0cc074",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "ad98ed82-a08d-582a-aaa0-9df0c1f44770"
+}

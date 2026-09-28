@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-displaybasicsample",
+	"recorded_at_unix_ms": 1790568336271,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-displaybasicsample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/DisplayBasicSample/build-profile.json5","ArkUISample/DisplayBasicSample/entry/build-profile.json5"],
+			"codeLineCount": 605,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例主要展示了屏幕管理提供管理设备屏幕的一些基础能力，例如获取默认显示设备的相关信息、获取全部显示设备的信息，此外还能对显示设备的插拔行为进行监听。应用可以根据对应的屏幕信息、屏幕状态变化、屏幕折叠状态等适配不同的UI界面显示。",
+			"documentedTitle": "屏幕管理基础使用示例",
+			"evidence": [
+				{
+					"gitBlobOid": "70da54af318a2d7138df607bd1846266881226e7",
+					"path": "ArkUISample/DisplayBasicSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "6c9cb36ebf3625c103f4a595eaec91fafc1fff29",
+					"path": "ArkUISample/DisplayBasicSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "2c6ba1fc213d294b781956c68a15f40aa2b90f96",
+					"path": "ArkUISample/DisplayBasicSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 7,
+			"id": "skill-scope-guide-snippets-arkuisample-displaybasicsample",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 7,
+				"json": 9,
+				"json5": 10,
+				"md": 1,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/DisplayBasicSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/DisplayBasicSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 9,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/DisplayBasicSample/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/DisplayBasicSample/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/DisplayBasicSample/entry/src/ohosTest/module.json5","ArkUISample/DisplayBasicSample/entry/src/test/List.test.ets","ArkUISample/DisplayBasicSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 37
+		},
+		"payloadSha256": "12fd0aac527e3ffaea51bc1f89c4a5bf42ca7958c2d6d484e38ef27fffd0cf4f",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "ad98ed82-a08d-582a-aaa0-9df0c1f44770"
+}
