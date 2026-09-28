@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-ability-restartapp",
+	"recorded_at_unix_ms": 1790568313105,
+	"row": {
+		"id": "skill-scope-guide-snippets-ability-restartapp",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Ability/restartapp/build-profile.json5","Ability/restartapp/entry/build-profile.json5"],
+			"codeLineCount": 484,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例展示了如何使用 ApplicationContext 的 restartApp 方法来重启应用。restartApp 方法可以用于在应用运行过程中重启应用，例如在配置更改后需要重启应用使新配置生效的场景。",
+			"documentedTitle": "应用重启（restartApp）",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Ability/restartapp/.gitignore"
+				},
+				{
+					"gitBlobOid": "95f0f8b18d0ac3abe62c6583dc012dd0fafe133f",
+					"path": "Ability/restartapp/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "330f2e3a3d354319bc540c896a7f74a91f05e2f4",
+					"path": "Ability/restartapp/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 6,
+			"id": "skill-scope-guide-snippets-ability-restartapp",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 10,
+				"gif": 3,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Ability/restartapp",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Ability/restartapp; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 12,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Ability/restartapp/entry/src/ohosTest/ets/test/Ability.test.ets","Ability/restartapp/entry/src/ohosTest/ets/test/List.test.ets","Ability/restartapp/entry/src/ohosTest/module.json5","Ability/restartapp/entry/src/test/List.test.ets","Ability/restartapp/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 44
+		},
+		"payloadSha256": "59c68fd73783c9ca3f44843eec20377f7e23ba7e17c37428a9bd4e5f5f16d1bc",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3b345d12-1c13-5ad7-a401-fdecc04f5c99"
+}

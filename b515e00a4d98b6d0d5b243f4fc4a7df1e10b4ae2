@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-ability-guideforappexit",
+	"recorded_at_unix_ms": 1790568313105,
+	"row": {
+		"id": "skill-scope-guide-snippets-ability-guideforappexit",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Ability/GuideForAppExit/build-profile.json5","Ability/GuideForAppExit/onBackPressed/build-profile.json5","Ability/GuideForAppExit/terminateSelf/build-profile.json5"],
+			"codeLineCount": 647,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例展示了应用退出的相关场景和方法，包含[UIAbility终止](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/application-models/uiability-lifecycle.md)和[返回键处理](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/ui/ui-cases.md#%E7%9B%91%E5%90%AC%E7%B3%BB%E7%BB%9F%E8%BF%94%E5%9B%9E%E9%94%AE)等功能。当用户执行返回操作或应用需要主动退出时，开发者可以通过相应的方法来控制应用的行为。",
+			"documentedTitle": "应用退出指南",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Ability/GuideForAppExit/.gitignore"
+				},
+				{
+					"gitBlobOid": "060f11ea5db6f02832a03de5fc0e30d89326e364",
+					"path": "Ability/GuideForAppExit/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "5fc8bec0551c18ef99449ac2c32aee8af7bec066",
+					"path": "Ability/GuideForAppExit/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 7,
+			"id": "skill-scope-guide-snippets-ability-guideforappexit",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 13,
+				"gif": 2,
+				"json": 13,
+				"json5": 15,
+				"md": 2,
+				"no-extension": 3,
+				"png": 8,
+				"ts": 3
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Ability/GuideForAppExit",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Ability/GuideForAppExit; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 16,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Ability/GuideForAppExit/onBackPressed/src/ohosTest/ets/test/Ability.test.ets","Ability/GuideForAppExit/onBackPressed/src/ohosTest/ets/test/List.test.ets","Ability/GuideForAppExit/onBackPressed/src/ohosTest/module.json5","Ability/GuideForAppExit/onBackPressed/src/test/List.test.ets","Ability/GuideForAppExit/onBackPressed/src/test/LocalUnit.test.ets","Ability/GuideForAppExit/terminateSelf/src/ohosTest/ets/test/Ability.test.ets","Ability/GuideForAppExit/terminateSelf/src/ohosTest/ets/test/List.test.ets","Ability/GuideForAppExit/terminateSelf/src/ohosTest/module.json5","Ability/GuideForAppExit/terminateSelf/src/test/List.test.ets","Ability/GuideForAppExit/terminateSelf/src/test/LocalUnit.test.ets"],
+			"testFileCount": 10,
+			"trackedFileCount": 59
+		},
+		"payloadSha256": "943966ea0e2d393f43f80cf094a5ba910ce4c621fb2526807d0ba5c83bbb3c0e",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3b345d12-1c13-5ad7-a401-fdecc04f5c99"
+}

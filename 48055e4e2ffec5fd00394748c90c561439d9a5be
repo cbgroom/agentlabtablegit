@@ -1,0 +1,71 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-ability-modularobjectextensiondispatcherclient",
+	"recorded_at_unix_ms": 1790568313105,
+	"row": {
+		"id": "skill-scope-guide-snippets-ability-modularobjectextensiondispatcherclient",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Ability/ModularObjectExtensionDispatcherClient/build-profile.json5","Ability/ModularObjectExtensionDispatcherClient/entry/build-profile.json5","Ability/ModularObjectExtensionDispatcherClient/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 1913,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例展示了[ModularObjectDispatcher](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-ability-kit/capi-modular-object-dispatcher-h.md)客户端的开发方法：连接服务端ModularObjectExtensionAbility后，通过分发器在运行时动态查询接口元数据（接口、方法、参数、枚举、结构体），并通过MemberID动态调用远端方法，无需在编译期依赖服务端的接口定义。",
+			"documentedTitle": "ModularObjectExtensionDispatcher客户端",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Ability/ModularObjectExtensionDispatcherClient/.gitignore"
+				},
+				{
+					"gitBlobOid": "306dbf6fcaa0b48fb92e5ff58d447d00fa68f8fc",
+					"path": "Ability/ModularObjectExtensionDispatcherClient/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "6fa8eb29fa5e5df7cf4a6ebc9ae7ecc420065227",
+					"path": "Ability/ModularObjectExtensionDispatcherClient/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","AbilityKit/ability_runtime/ability_runtime_common.h","AbilityKit/ability_runtime/connect_options.h","AbilityKit/ability_runtime/modular_object_dispatcher.h","AbilityKit/ability_runtime/modular_object_extension_manager.h","IPCKit/ipc_cremote_object.h","IPCKit/ipc_kit.h","array","cstdint","cstdlib","cstring","hilog/log.h","libentry.so","map","memory","set","string","unistd.h","vector"],
+			"externalDependencyCount": 25,
+			"id": "skill-scope-guide-snippets-ability-modularobjectextensiondispatcherclient",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 2,
+				"ets": 7,
+				"h": 3,
+				"json": 9,
+				"json5": 11,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Ability/ModularObjectExtensionDispatcherClient",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Ability/ModularObjectExtensionDispatcherClient; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 15,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Ability/ModularObjectExtensionDispatcherClient/entry/src/ohosTest/ets/test/Ability.test.ets","Ability/ModularObjectExtensionDispatcherClient/entry/src/ohosTest/ets/test/List.test.ets","Ability/ModularObjectExtensionDispatcherClient/entry/src/ohosTest/module.json5","Ability/ModularObjectExtensionDispatcherClient/entry/src/test/List.test.ets","Ability/ModularObjectExtensionDispatcherClient/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 46
+		},
+		"payloadSha256": "0dcc8a127ab4af1b3695bda0a2c2ebab08ffc542651f18fdf504f4e21b79b99b",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3b345d12-1c13-5ad7-a401-fdecc04f5c99"
+}

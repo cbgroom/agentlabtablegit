@@ -1,0 +1,71 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-ability-modularobjectextensiondispatcherservice",
+	"recorded_at_unix_ms": 1790568313105,
+	"row": {
+		"id": "skill-scope-guide-snippets-ability-modularobjectextensiondispatcherservice",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Ability/ModularObjectExtensionDispatcherService/build-profile.json5","Ability/ModularObjectExtensionDispatcherService/entry/build-profile.json5","Ability/ModularObjectExtensionDispatcherService/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 3067,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例展示了[ModularObjectExtensionAbility](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-ability-kit/capi-modular-object-extension-ability-h.md)服务端的开发方法：作为ModularObjectDispatcher客户端的服务端，通过[Taihe工具](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/application-models/modular-object-extension-ability-taihe.md)生成类型库元数据文件和Proxy/Stub代码，对外提供可被动态查询和调用的接口。",
+			"documentedTitle": "ModularObjectExtensionDispatcher服务端",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Ability/ModularObjectExtensionDispatcherService/.gitignore"
+				},
+				{
+					"gitBlobOid": "57beb47ae9e57932547d2b49839da371eb9f0e5b",
+					"path": "Ability/ModularObjectExtensionDispatcherService/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "87ad963aedf3c8815dbf640873a05664ae23113a",
+					"path": "Ability/ModularObjectExtensionDispatcherService/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","AbilityKit/ability_runtime/ability_runtime_common.h","AbilityKit/ability_runtime/modular_object_extension_ability.h","AbilityKit/ability_runtime/modular_object_extension_context.h","IPCKit/ipc_kit.h","array","cstdint","cstdlib","cstring","hilog/log.h","map","memory","set","string","unistd.h","vector"],
+			"externalDependencyCount": 22,
+			"id": "skill-scope-guide-snippets-ability-modularobjectextensiondispatcherservice",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 10,
+				"ets": 7,
+				"h": 13,
+				"json": 9,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 2,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Ability/ModularObjectExtensionDispatcherService",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Ability/ModularObjectExtensionDispatcherService; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 32,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Ability/ModularObjectExtensionDispatcherService/entry/src/ohosTest/ets/test/Ability.test.ets","Ability/ModularObjectExtensionDispatcherService/entry/src/ohosTest/ets/test/List.test.ets","Ability/ModularObjectExtensionDispatcherService/entry/src/ohosTest/module.json5","Ability/ModularObjectExtensionDispatcherService/entry/src/test/List.test.ets","Ability/ModularObjectExtensionDispatcherService/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 62
+		},
+		"payloadSha256": "0c0c82986436c63c3065e542c2462d578363a2faadc8623d47d37645b04cfe45",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3b345d12-1c13-5ad7-a401-fdecc04f5c99"
+}

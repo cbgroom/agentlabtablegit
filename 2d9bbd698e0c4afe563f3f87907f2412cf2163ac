@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-ability-startoptions",
+	"recorded_at_unix_ms": 1790568313105,
+	"row": {
+		"id": "skill-scope-guide-snippets-ability-startoptions",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Ability/StartOptions/ControlStartupAnimation/build-profile.json5","Ability/StartOptions/GetLaunchResult/build-profile.json5","Ability/StartOptions/HideSplashScreen/build-profile.json5","Ability/StartOptions/HideStartedUIAbility/build-profile.json5","Ability/StartOptions/SetBackgroundColor/build-profile.json5","Ability/StartOptions/SetSplitRatioAbility/build-profile.json5","Ability/StartOptions/SetWindowPosition/build-profile.json5","Ability/StartOptions/SetWindowSizeConstraints/build-profile.json5","Ability/StartOptions/SpecifyDisplayScreen/build-profile.json5","Ability/StartOptions/StartWithSpecifiedWindowMode/build-profile.json5","Ability/StartOptions/SupportWindowModes/build-profile.json5","Ability/StartOptions/build-profile.json5","Ability/StartOptions/entry/build-profile.json5"],
+			"codeLineCount": 3773,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例展示了启动Ability时可配置的各种选项，包含[Ability启动方式](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/application-models/uiability-start.md)、[StartOptions配置](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/application-models/start-options.md)等内容。通过配置启动选项，开发者可以控制Ability的启动模式、窗口显示方式、启动结果回调等行为。",
+			"documentedTitle": "启动选项配置",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Ability/StartOptions/.gitignore"
+				},
+				{
+					"gitBlobOid": "38648265cf5d8c44aacbd0516a0bc0ef77de9798",
+					"path": "Ability/StartOptions/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "d760311da7024db36a767717dc28df01f40b4524",
+					"path": "Ability/StartOptions/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.ImageKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 9,
+			"id": "skill-scope-guide-snippets-ability-startoptions",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 73,
+				"gif": 8,
+				"json": 64,
+				"json5": 65,
+				"md": 2,
+				"no-extension": 13,
+				"png": 38,
+				"ts": 13,
+				"txt": 12
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Ability/StartOptions",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Ability/StartOptions; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 86,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Ability/StartOptions/ControlStartupAnimation/src/ohosTest/ets/test/Ability.test.ets","Ability/StartOptions/ControlStartupAnimation/src/ohosTest/ets/test/List.test.ets","Ability/StartOptions/ControlStartupAnimation/src/ohosTest/module.json5","Ability/StartOptions/ControlStartupAnimation/src/test/List.test.ets","Ability/StartOptions/ControlStartupAnimation/src/test/LocalUnit.test.ets","Ability/StartOptions/GetLaunchResult/src/ohosTest/ets/test/Ability.test.ets","Ability/StartOptions/GetLaunchResult/src/ohosTest/ets/test/List.test.ets","Ability/StartOptions/GetLaunchResult/src/ohosTest/module.json5","Ability/StartOptions/GetLaunchResult/src/test/List.test.ets","Ability/StartOptions/GetLaunchResult/src/test/LocalUnit.test.ets","Ability/StartOptions/HideSplashScreen/src/ohosTest/ets/test/Ability.test.ets","Ability/StartOptions/HideSplashScreen/src/ohosTest/ets/test/List.test.ets","Ability/StartOptions/HideSplashScreen/src/ohosTest/module.json5","Ability/StartOptions/HideSplashScreen/src/test/List.test.ets","Ability/StartOptions/HideSplashScreen/src/test/LocalUnit.test.ets","Ability/StartOptions/HideStartedUIAbility/src/ohosTest/ets/test/Ability.test.ets","Ability/StartOptions/HideStartedUIAbility/src/ohosTest/ets/test/List.test.ets","Ability/StartOptions/HideStartedUIAbility/src/ohosTest/module.json5","Ability/StartOptions/HideStartedUIAbility/src/test/List.test.ets","Ability/StartOptions/HideStartedUIAbility/src/test/LocalUnit.test.ets","Ability/StartOptions/SetBackgroundColor/src/ohosTest/ets/test/Ability.test.ets","Ability/StartOptions/SetBackgroundColor/src/ohosTest/ets/test/List.test.ets","Ability/StartOptions/SetBackgroundColor/src/ohosTest/module.json5","Ability/StartOptions/SetBackgroundColor/src/test/List.test.ets","Ability/StartOptions/SetBackgroundColor/src/test/LocalUnit.test.ets","Ability/StartOptions/SetSplitRatioAbility/src/ohosTest/ets/test/Ability.test.ets","Ability/StartOptions/SetSplitRatioAbility/src/ohosTest/ets/test/List.test.ets","Ability/StartOptions/SetSplitRatioAbility/src/ohosTest/module.json5","Ability/StartOptions/SetSplitRatioAbility/src/test/List.test.ets","Ability/StartOptions/SetSplitRatioAbility/src/test/LocalUnit.test.ets","Ability/StartOptions/SetWindowPosition/src/ohosTest/ets/test/Ability.test.ets","Ability/StartOptions/SetWindowPosition/src/ohosTest/ets/test/List.test.ets","Ability/StartOptions/SetWindowPosition/src/ohosTest/module.json5","Ability/StartOptions/SetWindowPosition/src/test/List.test.ets","Ability/StartOptions/SetWindowPosition/src/test/LocalUnit.test.ets","Ability/StartOptions/SetWindowSizeConstraints/src/ohosTest/ets/test/Ability.test.ets","Ability/StartOptions/SetWindowSizeConstraints/src/ohosTest/ets/test/List.test.ets","Ability/StartOptions/SetWindowSizeConstraints/src/ohosTest/module.json5","Ability/StartOptions/SetWindowSizeConstraints/src/test/List.test.ets","Ability/StartOptions/SetWindowSizeConstraints/src/test/LocalUnit.test.ets","Ability/StartOptions/SpecifyDisplayScreen/src/ohosTest/ets/test/Ability.test.ets","Ability/StartOptions/SpecifyDisplayScreen/src/ohosTest/ets/test/List.test.ets","Ability/StartOptions/SpecifyDisplayScreen/src/ohosTest/module.json5","Ability/StartOptions/SpecifyDisplayScreen/src/test/List.test.ets","Ability/StartOptions/SpecifyDisplayScreen/src/test/LocalUnit.test.ets","Ability/StartOptions/StartWithSpecifiedWindowMode/src/ohosTest/ets/test/Ability.test.ets","Ability/StartOptions/StartWithSpecifiedWindowMode/src/ohosTest/ets/test/List.test.ets","Ability/StartOptions/StartWithSpecifiedWindowMode/src/ohosTest/module.json5","Ability/StartOptions/StartWithSpecifiedWindowMode/src/test/List.test.ets","Ability/StartOptions/StartWithSpecifiedWindowMode/src/test/LocalUnit.test.ets","Ability/StartOptions/SupportWindowModes/src/ohosTest/ets/test/Ability.test.ets","Ability/StartOptions/SupportWindowModes/src/ohosTest/ets/test/List.test.ets","Ability/StartOptions/SupportWindowModes/src/ohosTest/module.json5","Ability/StartOptions/SupportWindowModes/src/test/List.test.ets","Ability/StartOptions/SupportWindowModes/src/test/LocalUnit.test.ets","Ability/StartOptions/entry/src/ohosTest/ets/test/Ability.test.ets","Ability/StartOptions/entry/src/ohosTest/ets/test/List.test.ets","Ability/StartOptions/entry/src/ohosTest/module.json5","Ability/StartOptions/entry/src/test/List.test.ets","Ability/StartOptions/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 60,
+			"trackedFileCount": 288
+		},
+		"payloadSha256": "4f2a4f7cc68e8e28e035c4afd6d8b599dd3afdfc2eaa594083eddb1bd2e7926d",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3b345d12-1c13-5ad7-a401-fdecc04f5c99"
+}

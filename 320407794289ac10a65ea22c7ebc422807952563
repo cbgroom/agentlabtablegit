@@ -1,0 +1,72 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-ability-insightintentconfigdevelopment",
+	"recorded_at_unix_ms": 1790568313105,
+	"row": {
+		"id": "skill-scope-guide-snippets-ability-insightintentconfigdevelopment",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Ability/InsightIntentConfigDevelopment/build-profile.json5","Ability/InsightIntentConfigDevelopment/entry/build-profile.json5"],
+			"codeLineCount": 530,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本工程介绍了如何[使用配置文件开发意图](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/application-models/insight-intent-config-development.md)。",
+			"documentedTitle": "使用配置文件开发意图",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Ability/InsightIntentConfigDevelopment/.gitignore"
+				},
+				{
+					"gitBlobOid": "2cd74554d31ff95804233ac100a852ea0f54a18a",
+					"path": "Ability/InsightIntentConfigDevelopment/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "9ea09cf945d8b458ce4438ead4c1a6658f66b82c",
+					"path": "Ability/InsightIntentConfigDevelopment/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos.app.ability.abilityDelegatorRegistry","@ohos.window","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 8,
+			"id": "skill-scope-guide-snippets-ability-insightintentconfigdevelopment",
+			"kind": "sample-project",
+			"languages": {
+				"cer": 1,
+				"ets": 13,
+				"json": 15,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 7,
+				"p12": 1,
+				"p7b": 1,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Ability/InsightIntentConfigDevelopment",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Ability/InsightIntentConfigDevelopment; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 15,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Ability/InsightIntentConfigDevelopment/entry/src/ohosTest/ets/test/Ability.test.ets","Ability/InsightIntentConfigDevelopment/entry/src/ohosTest/ets/test/List.test.ets","Ability/InsightIntentConfigDevelopment/entry/src/ohosTest/module.json5","Ability/InsightIntentConfigDevelopment/entry/src/ohosTest/syscap.json","Ability/InsightIntentConfigDevelopment/entry/src/test/List.test.ets","Ability/InsightIntentConfigDevelopment/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 58
+		},
+		"payloadSha256": "29649f951c33ae864fd578f271656f24c9a3ec2cca99cf74b042ecf0f19fc5bc",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3b345d12-1c13-5ad7-a401-fdecc04f5c99"
+}

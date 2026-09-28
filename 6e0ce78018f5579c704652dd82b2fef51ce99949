@@ -1,0 +1,65 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-ability-support",
+	"recorded_at_unix_ms": 1790568313105,
+	"row": {
+		"id": "skill-scope-guide-snippets-ability-support",
+		"kind": "domain-support",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": [],
+			"codeLineCount": 608,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": null,
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "a189fb158c4ca189ec8acea95bf84f08e4019769",
+					"path": "Ability/ModularObjectExtensionAbilityIDL/exampleone/example/Easy.ohidl"
+				},
+				{
+					"gitBlobOid": "65d5e27f029fefaa82d70fcf2ed84c0647819c49",
+					"path": "Ability/ModularObjectExtensionAbilityIDL/exampleone/generated/calculator.typelib.json"
+				},
+				{
+					"gitBlobOid": "9b5183d877de8634addf334b9106d478080093c2",
+					"path": "Ability/ModularObjectExtensionAbilityIDL/exampleone/generated/calculator_proxy.cpp"
+				}
+			],
+			"externalDependencies": ["AbilityKit/ability_runtime/modular_object_extension_context.h","IPCKit/ipc_kit.h","array","cstdint","cstdlib","cstring","map","memory","set","string","unistd.h","vector"],
+			"externalDependencyCount": 12,
+			"id": "skill-scope-guide-snippets-ability-support",
+			"kind": "domain-support",
+			"languages": {
+				"cpp": 2,
+				"h": 3,
+				"json": 1,
+				"ohidl": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Ability/_support",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain shared documentation or support assets for the Ability sample domain without treating them as an application.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 5,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": [],
+			"testFileCount": 0,
+			"trackedFileCount": 8
+		},
+		"payloadSha256": "e1e90d27809aea17e4a80d81db584ea8a00a53cf3096745e7c79ccdafc532bb2",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3b345d12-1c13-5ad7-a401-fdecc04f5c99"
+}
