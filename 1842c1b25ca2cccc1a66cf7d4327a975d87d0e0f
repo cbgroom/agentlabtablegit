@@ -1,0 +1,74 @@
+{
+	"deleted": false,
+	"key": "skill-scope-hms-cordova-iap-cordova-plugin-hms-site",
+	"recorded_at_unix_ms": 1790568404829,
+	"row": {
+		"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-site",
+		"kind": "plugin",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["cordova-plugin-hms-site/example/cordova/package.json","cordova-plugin-hms-site/example/ionic/package.json","cordova-plugin-hms-site/ionic-native/dist/ngx/package.json","cordova-plugin-hms-site/ionic-native/dist/package.json","cordova-plugin-hms-site/package.json","cordova-plugin-hms-site/plugin.xml"],
+			"codeLineCount": 11981,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "---",
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "490b5c70e94bec59c1400a1bd385a04b184ac7f6",
+					"path": "cordova-plugin-hms-site/LICENSE"
+				},
+				{
+					"gitBlobOid": "03fa63b00614b5d73d14e5cf3899800a6b93db68",
+					"path": "cordova-plugin-hms-site/README.md"
+				},
+				{
+					"gitBlobOid": "490b5c70e94bec59c1400a1bd385a04b184ac7f6",
+					"path": "cordova-plugin-hms-site/example/cordova/LICENSE"
+				}
+			],
+			"externalDependencies": ["@angular/common","@angular/core","@angular/core/testing","@angular/forms","@angular/platform-browser","@angular/platform-browser-dynamic","@angular/platform-browser-dynamic/testing","@angular/router","@hmscore/ionic-native-hms-site/ngx","@ionic-native/core","@ionic-native/splash-screen/ngx","@ionic-native/status-bar/ngx","@ionic/angular","android.app.Activity","android.content.Context","android.content.Intent","android.content.pm.PackageManager","android.net.ConnectivityManager","android.net.NetworkInfo","android.util.Log","androidx.annotation.Nullable","com.google.gson.Gson","com.google.gson.GsonBuilder","com.huawei.agconnect.config.AGConnectServicesConfig","com.huawei.hms.cordova.site.basef.CordovaBaseModule","com.huawei.hms.cordova.site.basef.CordovaEvent","com.huawei.hms.cordova.site.basef.CordovaMethod","com.huawei.hms.cordova.site.basef.CordovaRule","com.huawei.hms.cordova.site.basef.HMSLog","com.huawei.hms.cordova.site.basef.handler.CorError","com.huawei.hms.cordova.site.basef.handler.CorException","com.huawei.hms.cordova.site.basef.handler.CorLog","com.huawei.hms.cordova.site.basef.handler.CorPack","com.huawei.hms.cordova.site.basef.handler.CordovaController","com.huawei.hms.cordova.site.basef.handler.Promise","com.huawei.hms.site.api.SearchResultListener","com.huawei.hms.site.api.SearchService","com.huawei.hms.site.api.SearchServiceFactory","com.huawei.hms.site.api.model.DetailSearchRequest","com.huawei.hms.site.api.model.LocationType","com.huawei.hms.site.api.model.NearbySearchRequest","com.huawei.hms.site.api.model.QueryAutocompleteRequest","com.huawei.hms.site.api.model.QuerySuggestionRequest","com.huawei.hms.site.api.model.SearchStatus","com.huawei.hms.site.api.model.Site","com.huawei.hms.site.api.model.TextSearchRequest","com.huawei.hms.site.widget.SearchFilter","com.huawei.hms.site.widget.SearchIntent","com.huawei.hms.support.hianalytics.HiAnalyticsUtils","com.huawei.hms.utils.HMSBIInitializer","cordova","java.io.Serializable","java.io.UnsupportedEncodingException","java.lang.annotation.ElementType","java.lang.annotation.Retention","java.lang.annotation.RetentionPolicy","java.lang.annotation.Target","java.lang.ref.WeakReference","java.lang.reflect.InvocationTargetException","java.lang.reflect.Method","java.net.URLEncoder","java.util.ArrayList","java.util.Arrays","java.util.Collections","java.util.HashMap","java.util.List","java.util.Locale","java.util.Map","org.apache.cordova.CallbackContext","org.apache.cordova.CordovaInterface","org.apache.cordova.CordovaPlugin","org.apache.cordova.CordovaWebView","org.apache.cordova.PluginResult","org.json.JSONArray","org.json.JSONException","org.json.JSONObject","protractor","static android.os.Build.DEVICE","static org.apache.cordova.PluginResult.Status.OK","tslib","zone.js/dist/zone","zone.js/dist/zone-testing"],
+			"externalDependencyCount": 82,
+			"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-site",
+			"kind": "plugin",
+			"languages": {
+				"css": 1,
+				"gradle": 1,
+				"html": 4,
+				"java": 18,
+				"js": 11,
+				"json": 13,
+				"map": 3,
+				"md": 4,
+				"no-extension": 6,
+				"scss": 4,
+				"svg": 1,
+				"ts": 25,
+				"xml": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "cordova-plugin-hms-site",
+			"repository": "https://github.com/HMS-Core/hms-cordova-plugin.git",
+			"repositoryId": "hms-cordova-iap",
+			"responsibility": "Maintain the complete Cordova plugin package rooted at cordova-plugin-hms-site, including JS/TS, native bridge, metadata, examples, and generated distributions.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 63,
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9",
+			"sourceTreeOid": "51a14d55393617e1c80b922187fc9c4ee798df60",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "cordova-plugin-monorepo",
+			"testEntrypoints": ["cordova-plugin-hms-site/example/ionic/e2e/src/app.e2e-spec.ts","cordova-plugin-hms-site/example/ionic/src/app/app.component.spec.ts","cordova-plugin-hms-site/example/ionic/src/app/home/home.page.spec.ts","cordova-plugin-hms-site/example/ionic/tsconfig.spec.json"],
+			"testFileCount": 4,
+			"trackedFileCount": 93
+		},
+		"payloadSha256": "2cb119594cb63f26cab86bcabe829682343a9229632d44c5e3145a6dcec901b5",
+		"repositoryId": "hms-cordova-iap",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "9865634a-8a2b-5101-a4e8-a6ba3ad5323d"
+}

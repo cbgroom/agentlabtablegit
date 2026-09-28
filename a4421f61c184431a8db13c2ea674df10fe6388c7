@@ -1,0 +1,76 @@
+{
+	"deleted": false,
+	"key": "skill-scope-hms-cordova-iap-cordova-plugin-hms-scan",
+	"recorded_at_unix_ms": 1790568404829,
+	"row": {
+		"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-scan",
+		"kind": "plugin",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["cordova-plugin-hms-scan/example/cordova/package.json","cordova-plugin-hms-scan/example/ionic/package.json","cordova-plugin-hms-scan/ionic-native/dist/ngx/package.json","cordova-plugin-hms-scan/ionic-native/dist/package.json","cordova-plugin-hms-scan/package.json","cordova-plugin-hms-scan/plugin.xml"],
+			"codeLineCount": 10682,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "----",
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "490b5c70e94bec59c1400a1bd385a04b184ac7f6",
+					"path": "cordova-plugin-hms-scan/LICENSE"
+				},
+				{
+					"gitBlobOid": "8eaba796813a7e633a918ae6fc97d46909c8408e",
+					"path": "cordova-plugin-hms-scan/README.md"
+				},
+				{
+					"gitBlobOid": "490b5c70e94bec59c1400a1bd385a04b184ac7f6",
+					"path": "cordova-plugin-hms-scan/example/cordova/LICENSE"
+				}
+			],
+			"externalDependencies": ["@angular/common","@angular/core","@angular/core/testing","@angular/forms","@angular/platform-browser","@angular/platform-browser-dynamic","@angular/platform-browser-dynamic/testing","@angular/router","@hmscore/ionic-native-hms-scan/ngx","@ionic-native/core","@ionic-native/file-chooser/ngx","@ionic-native/splash-screen/ngx","@ionic-native/status-bar/ngx","@ionic/angular","android.Manifest","android.app.Activity","android.content.Context","android.content.Intent","android.content.pm.PackageManager","android.content.res.Resources","android.database.Cursor","android.graphics.Bitmap","android.graphics.BitmapFactory","android.graphics.Canvas","android.graphics.Color","android.graphics.ImageFormat","android.graphics.Paint","android.graphics.Point","android.graphics.Rect","android.graphics.RectF","android.graphics.YuvImage","android.hardware.Camera","android.net.ConnectivityManager","android.net.NetworkInfo","android.net.Uri","android.os.Build","android.os.Handler","android.os.HandlerThread","android.os.Message","android.provider.MediaStore","android.text.TextUtils","android.util.AttributeSet","android.util.Base64","android.util.DisplayMetrics","android.util.Log","android.util.SparseArray","android.view.Display","android.view.SurfaceHolder","android.view.SurfaceView","android.view.View","android.view.ViewGroup","android.view.ViewGroup.LayoutParams","android.view.ViewGroup.MarginLayoutParams","android.view.WindowManager","android.widget.FrameLayout","android.widget.ImageView","com.huawei.agconnect.config.AGConnectServicesConfig","com.huawei.hms.cordova.scan.MultiProcessorModule.SurfaceCallBack","com.huawei.hms.cordova.scan.backend.draw.CameraOperation","com.huawei.hms.cordova.scan.backend.draw.CommonHandler","com.huawei.hms.cordova.scan.backend.draw.ScanResultView","com.huawei.hms.cordova.scan.backend.helpers.Constants","com.huawei.hms.cordova.scan.backend.helpers.Exceptions","com.huawei.hms.cordova.scan.backend.helpers.OnViewLifecycle","com.huawei.hms.cordova.scan.backend.layout.InitialProps","com.huawei.hms.cordova.scan.backend.layout.OnViewLayoutScroll","com.huawei.hms.cordova.scan.backend.layout.PluginLayout","com.huawei.hms.cordova.scan.backend.layout.PluginLayoutManager","com.huawei.hms.cordova.scan.backend.utils.CordovaUtils","com.huawei.hms.cordova.scan.backend.utils.JSONUtils","com.huawei.hms.cordova.scan.basef.CordovaBaseModule","com.huawei.hms.cordova.scan.basef.CordovaEvent","com.huawei.hms.cordova.scan.basef.CordovaMethod","com.huawei.hms.cordova.scan.basef.CordovaRule","com.huawei.hms.cordova.scan.basef.HMSLog","com.huawei.hms.cordova.scan.basef.handler.CorPack","com.huawei.hms.cordova.scan.basef.handler.CordovaController","com.huawei.hms.cordova.scan.basef.handler.Promise","com.huawei.hms.hmsscankit.RemoteView","com.huawei.hms.hmsscankit.ScanUtil","com.huawei.hms.hmsscankit.WriterException","com.huawei.hms.ml.scan.HmsBuildBitmapOption","com.huawei.hms.ml.scan.HmsScan","com.huawei.hms.ml.scan.HmsScanAnalyzer","com.huawei.hms.ml.scan.HmsScanAnalyzerOptions","com.huawei.hms.ml.scan.HmsScanFrame","com.huawei.hms.ml.scan.HmsScanFrameOptions","com.huawei.hms.ml.scan.HmsScanResult","com.huawei.hms.mlsdk.common.MLFrame","com.huawei.hms.support.hianalytics.HiAnalyticsUtils","com.huawei.hms.utils.HMSBIInitializer","cordova","java.io.ByteArrayOutputStream","java.io.IOException","java.io.Serializable","java.lang.annotation.ElementType","java.lang.annotation.Retention","java.lang.annotation.RetentionPolicy","java.lang.annotation.Target","java.lang.ref.WeakReference"],
+			"externalDependencyCount": 126,
+			"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-scan",
+			"kind": "plugin",
+			"languages": {
+				"bat": 1,
+				"css": 1,
+				"gradle": 2,
+				"html": 14,
+				"java": 35,
+				"js": 18,
+				"json": 13,
+				"map": 6,
+				"md": 4,
+				"no-extension": 7,
+				"png": 1,
+				"properties": 1,
+				"scss": 8,
+				"ts": 47,
+				"xml": 4
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "cordova-plugin-hms-scan",
+			"repository": "https://github.com/HMS-Core/hms-cordova-plugin.git",
+			"repositoryId": "hms-cordova-iap",
+			"responsibility": "Maintain the complete Cordova plugin package rooted at cordova-plugin-hms-scan, including JS/TS, native bridge, metadata, examples, and generated distributions.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 123,
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9",
+			"sourceTreeOid": "51a14d55393617e1c80b922187fc9c4ee798df60",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "cordova-plugin-monorepo",
+			"testEntrypoints": ["cordova-plugin-hms-scan/example/ionic/e2e/src/app.e2e-spec.ts","cordova-plugin-hms-scan/example/ionic/src/app/app.component.spec.ts","cordova-plugin-hms-scan/example/ionic/src/app/bitmapmode/bitmapmode.page.spec.ts","cordova-plugin-hms-scan/example/ionic/src/app/customview/customview.page.spec.ts","cordova-plugin-hms-scan/example/ionic/src/app/decode/decode.page.spec.ts","cordova-plugin-hms-scan/example/ionic/src/app/home/home.page.spec.ts","cordova-plugin-hms-scan/example/ionic/src/app/multiprocessor/multiprocessor.page.spec.ts","cordova-plugin-hms-scan/example/ionic/tsconfig.spec.json"],
+			"testFileCount": 8,
+			"trackedFileCount": 162
+		},
+		"payloadSha256": "3ef0d2e33bafba9e666f12e67f71dd2558bb63c335d9c17aa7a7fb64d03184b9",
+		"repositoryId": "hms-cordova-iap",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "9865634a-8a2b-5101-a4e8-a6ba3ad5323d"
+}

@@ -1,0 +1,73 @@
+{
+	"deleted": false,
+	"key": "skill-scope-hms-cordova-iap-cordova-plugin-hms-pushfcm",
+	"recorded_at_unix_ms": 1790568404829,
+	"row": {
+		"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-pushfcm",
+		"kind": "plugin",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["cordova-plugin-hms-pushfcm/example/cordova/package.json","cordova-plugin-hms-pushfcm/example/ionic/package.json","cordova-plugin-hms-pushfcm/ionic-native/dist/ngx/package.json","cordova-plugin-hms-pushfcm/ionic-native/dist/package.json","cordova-plugin-hms-pushfcm/package.json","cordova-plugin-hms-pushfcm/plugin.xml"],
+			"codeLineCount": 3813,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "Cordova Push FCM Kit is a messaging service provided for you.Use this function to push messages to users of non-Huawei devices.",
+			"documentedTitle": "Cordova HMS Push FCM",
+			"evidence": [
+				{
+					"gitBlobOid": "490b5c70e94bec59c1400a1bd385a04b184ac7f6",
+					"path": "cordova-plugin-hms-pushfcm/LICENCE"
+				},
+				{
+					"gitBlobOid": "f0be206991549763ad8ad5585de9e4656deda21f",
+					"path": "cordova-plugin-hms-pushfcm/README.md"
+				},
+				{
+					"gitBlobOid": "0c8a80022eaad1406ec334ff3017890b48f80120",
+					"path": "cordova-plugin-hms-pushfcm/example/cordova/LICENCE"
+				}
+			],
+			"externalDependencies": ["@angular/common","@angular/core","@angular/core/testing","@angular/forms","@angular/platform-browser","@angular/platform-browser-dynamic","@angular/platform-browser-dynamic/testing","@angular/router","@hmscore/ionic-native-hms-push/ngx","@hmscore/ionic-native-hms-pushfcm/ngx","@ionic-native/core","@ionic-native/splash-screen/ngx","@ionic-native/status-bar/ngx","@ionic/angular","android.app.Activity","android.content.Context","android.content.Intent","android.content.pm.PackageManager","android.net.ConnectivityManager","android.net.NetworkInfo","android.util.Log","com.huawei.agconnect.config.AGConnectServicesConfig","com.huawei.hms.cordova.fcm.basef.CordovaBaseModule","com.huawei.hms.cordova.fcm.basef.CordovaEvent","com.huawei.hms.cordova.fcm.basef.CordovaMethod","com.huawei.hms.cordova.fcm.basef.CordovaRule","com.huawei.hms.cordova.fcm.basef.HMSLog","com.huawei.hms.cordova.fcm.basef.handler.CorPack","com.huawei.hms.cordova.fcm.basef.handler.CordovaController","com.huawei.hms.cordova.fcm.basef.handler.Promise","com.huawei.hms.cordova.fcm.remote.FcmProxy","com.huawei.hms.push.plugin.base.proxy.ProxySettings","com.huawei.hms.push.plugin.fcm.FcmPushProxy","com.huawei.hms.support.hianalytics.HiAnalyticsUtils","com.huawei.hms.utils.HMSBIInitializer","cordova","java.io.Serializable","java.lang.annotation.ElementType","java.lang.annotation.Retention","java.lang.annotation.RetentionPolicy","java.lang.annotation.Target","java.lang.ref.WeakReference","java.lang.reflect.InvocationTargetException","java.lang.reflect.Method","java.util.ArrayList","java.util.Arrays","java.util.Collections","java.util.HashMap","java.util.List","java.util.Locale","java.util.Map","org.apache.cordova.CallbackContext","org.apache.cordova.CordovaInterface","org.apache.cordova.CordovaPlugin","org.apache.cordova.CordovaWebView","org.apache.cordova.PluginResult","org.json.JSONArray","org.json.JSONException","org.json.JSONObject","protractor","static android.os.Build.DEVICE","static org.apache.cordova.PluginResult.Status.OK","tslib","zone.js/dist/zone","zone.js/dist/zone-testing"],
+			"externalDependencyCount": 65,
+			"id": "skill-scope-hms-cordova-iap-cordova-plugin-hms-pushfcm",
+			"kind": "plugin",
+			"languages": {
+				"css": 1,
+				"gradle": 1,
+				"html": 4,
+				"java": 17,
+				"js": 16,
+				"json": 13,
+				"map": 2,
+				"md": 4,
+				"no-extension": 5,
+				"scss": 4,
+				"ts": 23,
+				"xml": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "cordova-plugin-hms-pushfcm",
+			"repository": "https://github.com/HMS-Core/hms-cordova-plugin.git",
+			"repositoryId": "hms-cordova-iap",
+			"responsibility": "Maintain the complete Cordova plugin package rooted at cordova-plugin-hms-pushfcm, including JS/TS, native bridge, metadata, examples, and generated distributions.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 65,
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9",
+			"sourceTreeOid": "51a14d55393617e1c80b922187fc9c4ee798df60",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "cordova-plugin-monorepo",
+			"testEntrypoints": ["cordova-plugin-hms-pushfcm/example/ionic/e2e/src/app.e2e-spec.ts","cordova-plugin-hms-pushfcm/example/ionic/src/app/app.component.spec.ts","cordova-plugin-hms-pushfcm/example/ionic/src/app/home/home.page.spec.ts","cordova-plugin-hms-pushfcm/example/ionic/tsconfig.spec.json"],
+			"testFileCount": 4,
+			"trackedFileCount": 92
+		},
+		"payloadSha256": "c544db869f633aca1fa3dd0edc75f69de37b164a6d383d0b41a3b5e9d1be3051",
+		"repositoryId": "hms-cordova-iap",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "9865634a-8a2b-5101-a4e8-a6ba3ad5323d"
+}
