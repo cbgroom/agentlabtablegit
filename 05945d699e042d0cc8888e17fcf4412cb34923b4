@@ -1,0 +1,72 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-styledstringsample",
+	"recorded_at_unix_ms": 1790568351985,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-styledstringsample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/StyledStringSample/build-profile.json5","ArkUISample/StyledStringSample/entry/build-profile.json5","ArkUISample/StyledStringSample/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 672,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例展示了如何创建文本、设置文本样式。",
+			"documentedTitle": "StyledStringSample",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkUISample/StyledStringSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "6ccaa10146c0a73ea73ab2f0b8e8c4d3fd4610fb",
+					"path": "ArkUISample/StyledStringSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "0edf05d24f2ca0e69a966f00825600f3d9474df8",
+					"path": "ArkUISample/StyledStringSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","ace/xcomponent/native_interface_xcomponent.h","arkui/native_interface.h","arkui/native_node.h","arkui/native_node_napi.h","arkui/native_type.h","arkui/styled_string.h","cstdlib","cstring","hilog/log.h","js_native_api.h","js_native_api_types.h","libentry.so","napi/native_api.h","native_drawing/drawing_font_collection.h","native_drawing/drawing_text_declaration.h"],
+			"externalDependencyCount": 21,
+			"id": "skill-scope-guide-snippets-arkuisample-styledstringsample",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 2,
+				"ets": 8,
+				"h": 1,
+				"jpg": 1,
+				"json": 10,
+				"json5": 11,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 3,
+				"txt": 3
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/StyledStringSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/StyledStringSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 14,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/StyledStringSample/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/StyledStringSample/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/StyledStringSample/entry/src/ohosTest/module.json5","ArkUISample/StyledStringSample/entry/src/test/List.test.ets","ArkUISample/StyledStringSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 48
+		},
+		"payloadSha256": "c97abe162a003a0c09ede0dbfa69139a07bcb97a972bb2c697ce2b0b4a0728a6",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "719967d3-bc58-5330-8f3c-204d3d1e7d91"
+}

@@ -1,0 +1,72 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-textareaeventndk",
+	"recorded_at_unix_ms": 1790568351985,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-textareaeventndk",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/TextAreaEventNDK/build-profile.json5","ArkUISample/TextAreaEventNDK/entry/build-profile.json5","ArkUISample/TextAreaEventNDK/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 769,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例为使用NDK接口构建UI->使用文本->[监听输入框事件](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/ui/ndk-textarea-event.md)的配套示例工程。",
+			"documentedTitle": "TextAreaEventNDK",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkUISample/TextAreaEventNDK/.gitignore"
+				},
+				{
+					"gitBlobOid": "9f3da12b4f7412ceb28fad341a984ad96524d072",
+					"path": "ArkUISample/TextAreaEventNDK/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "7a9c6fdbf5c1b7eed2a023bdcab1837d973490a5",
+					"path": "ArkUISample/TextAreaEventNDK/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos.app.ability.AbilityConstant","@ohos.app.ability.UIAbility","@ohos.app.ability.Want","@ohos.app.ability.abilityDelegatorRegistry","@ohos.application.testRunner","@ohos.hilog","@ohos.window","@ohos/hvigor-ohos-plugin","@ohos/hypium","ace/xcomponent/native_interface_xcomponent.h","arkui/native_interface.h","arkui/native_node.h","arkui/native_node_napi.h","arkui/styled_string.h","hilog/log.h","js_native_api.h","js_native_api_types.h","libentry.so","napi/native_api.h","sstream"],
+			"externalDependencyCount": 24,
+			"id": "skill-scope-guide-snippets-arkuisample-textareaeventndk",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 2,
+				"ets": 10,
+				"gif": 1,
+				"h": 1,
+				"json": 14,
+				"json5": 11,
+				"md": 1,
+				"no-extension": 2,
+				"png": 7,
+				"ts": 4,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/TextAreaEventNDK",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/TextAreaEventNDK; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 17,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/TextAreaEventNDK/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/TextAreaEventNDK/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/TextAreaEventNDK/entry/src/ohosTest/ets/testability/TestAbility.ets","ArkUISample/TextAreaEventNDK/entry/src/ohosTest/ets/testability/pages/Index.ets","ArkUISample/TextAreaEventNDK/entry/src/ohosTest/ets/testrunner/OpenHarmonyTestRunner.ts","ArkUISample/TextAreaEventNDK/entry/src/ohosTest/module.json5","ArkUISample/TextAreaEventNDK/entry/src/ohosTest/resources/base/element/color.json","ArkUISample/TextAreaEventNDK/entry/src/ohosTest/resources/base/element/string.json","ArkUISample/TextAreaEventNDK/entry/src/ohosTest/resources/base/media/icon.png","ArkUISample/TextAreaEventNDK/entry/src/ohosTest/resources/base/profile/test_pages.json","ArkUISample/TextAreaEventNDK/entry/src/ohosTest/syscap.json","ArkUISample/TextAreaEventNDK/entry/src/test/List.test.ets","ArkUISample/TextAreaEventNDK/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 13,
+			"trackedFileCount": 55
+		},
+		"payloadSha256": "fa2633359f23b0a6d3c935085d468495b1dd0ff2dbb9554b42b5377951d95c5f",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "719967d3-bc58-5330-8f3c-204d3d1e7d91"
+}

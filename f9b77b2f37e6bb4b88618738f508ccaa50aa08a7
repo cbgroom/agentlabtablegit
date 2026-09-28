@@ -1,0 +1,71 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-scrollablendk",
+	"recorded_at_unix_ms": 1790568351985,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-scrollablendk",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/ScrollableNDK/build-profile.json5","ArkUISample/ScrollableNDK/entry/build-profile.json5","ArkUISample/ScrollableNDK/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 6709,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本工程以`ArkUI` + `NDK(C-API)` 的方式实现滚动类组件示例，演示 `原生节点（Native Node）` 的创建、复用、懒加载与 ETS 侧对接。",
+			"documentedTitle": "ArkUI 滚动类 NDK 示例（ScrollableNDK）",
+			"evidence": [
+				{
+					"gitBlobOid": "190b59e64fddc09562dcd7edb768170c6946d40e",
+					"path": "ArkUISample/ScrollableNDK/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "ca46d37e285379436140625afdbcc717309cbf50",
+					"path": "ArkUISample/ScrollableNDK/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "ArkUISample/ScrollableNDK/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","algorithm","arkui/native_interface.h","arkui/native_node.h","arkui/native_node_napi.h","arkui/native_type.h","array","atomic","chrono","cmath","cstdint","cstring","functional","hilog/log.h","initializer_list","iomanip","js_native_api.h","js_native_api_types.h","libentry.so","list","memory","napi/native_api.h","sstream","stack","string","thread","unordered_map","utility","vector"],
+			"externalDependencyCount": 34,
+			"id": "skill-scope-guide-snippets-arkuisample-scrollablendk",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 8,
+				"ets": 20,
+				"h": 13,
+				"jpeg": 6,
+				"json": 9,
+				"json5": 11,
+				"md": 2,
+				"png": 5,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/ScrollableNDK",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/ScrollableNDK; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 44,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/ScrollableNDK/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/ScrollableNDK/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/ScrollableNDK/entry/src/ohosTest/module.json5","ArkUISample/ScrollableNDK/entry/src/test/List.test.ets","ArkUISample/ScrollableNDK/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 79
+		},
+		"payloadSha256": "18a025c8edc223205fa211e6645d540c6c85324da58706d01336c9056b0bc3c5",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "719967d3-bc58-5330-8f3c-204d3d1e7d91"
+}

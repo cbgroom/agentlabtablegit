@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-statetrack",
+	"recorded_at_unix_ms": 1790568351985,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-statetrack",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/StateTrack/build-profile.json5","ArkUISample/StateTrack/entry/build-profile.json5"],
+			"codeLineCount": 683,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "stateTrack",
+			"documentedTitle": "@Track装饰器：class对象属性级更新",
+			"evidence": [
+				{
+					"gitBlobOid": "f7aed61164ee0e77e2b2b21985b338b6c92df211",
+					"path": "ArkUISample/StateTrack/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "13a613e8fccccf05502e2bd282e778580b091cee",
+					"path": "ArkUISample/StateTrack/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "b400ac8bc6cbc645e41bbf7c2dd1e2875a05852f",
+					"path": "ArkUISample/StateTrack/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.router","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 8,
+			"id": "skill-scope-guide-snippets-arkuisample-statetrack",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 11,
+				"json": 11,
+				"json5": 10,
+				"md": 2,
+				"png": 7,
+				"ts": 2,
+				"ttf": 1,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/StateTrack",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/StateTrack; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 13,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/StateTrack/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/StateTrack/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/StateTrack/entry/src/ohosTest/ets/test/StateTrackClass.test.ets","ArkUISample/StateTrack/entry/src/ohosTest/module.json5","ArkUISample/StateTrack/entry/src/ohosTest/syscap.json","ArkUISample/StateTrack/entry/src/test/List.test.ets","ArkUISample/StateTrack/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 7,
+			"trackedFileCount": 45
+		},
+		"payloadSha256": "a2125a56ac7bbff2e0517c2577aef3c46ebe747cebf4843f6bce0983f4833f67",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "719967d3-bc58-5330-8f3c-204d3d1e7d91"
+}
