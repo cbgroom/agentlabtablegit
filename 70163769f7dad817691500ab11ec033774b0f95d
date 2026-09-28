@@ -1,0 +1,54 @@
+{
+	"deleted": false,
+	"key": "first-four-round-17-agent-36401280453",
+	"recorded_at_unix_ms": 1790586570214,
+	"row": {
+		"id": "first-four-round-17-agent-36401280453",
+		"payload": {
+			"assessment": {
+				"path": "assessments/round-15-agent-36401280453.json",
+				"sha256": "9662f0d69538b3233dcc92c05bfc6c01930d3420a288b207cec1340eb2b8e213"
+			},
+			"automaticPromotion": false,
+			"changes": {
+				"added": ["semantic program fact agent-analysis-uiability-backup-restore-state-recovery"],
+				"retired": [],
+				"updated": ["24 scopes program-bound","17 scopes semantic-ready"]
+			},
+			"coverage": {
+				"maintenanceReadyScopeCount": 2,
+				"processSkillCount": 12,
+				"programBoundScopeCount": 24,
+				"repositoryCount": 4,
+				"scopeSkillCount": 480,
+				"semanticReadyScopeCount": 17,
+				"trackedFileCount": 44567
+			},
+			"decision": "review-proposed-knowledge",
+			"focus": ["consume one exact hard-gate gap with source-blob evidence","persist accepted knowledge in long-lived TableGit","export a reviewable Release snapshot from one committed revision"],
+			"id": "first-four-round-17-agent-36401280453",
+			"ownershipPlane": "target-operations",
+			"parentRoundSha256": "500f016da3410ff9728430897aa02339a77c022f7ab8a62045c48ffab198f598",
+			"producer": {
+				"kind": "github-action",
+				"repository": "yxsicd/agentlabrelease",
+				"runId": "36401280453",
+				"runUrl": "https://github.com/yxsicd/agentlabrelease/actions/runs/36401280453"
+			},
+			"residualGaps": ["close 451 MS-BEHAVIOR-EVIDENCE-MISSING gaps with revision-bound evidence","close 458 MS-BOUNDARY-EVIDENCE-MISSING gaps with revision-bound evidence","close 15 MS-OPERATION-EVIDENCE-MISSING gaps with revision-bound evidence","close 456 MS-PROGRAM-EVIDENCE-UNBOUND gaps with revision-bound evidence","close 457 MS-RELATIONS-EVIDENCE-MISSING gaps with revision-bound evidence","close 460 MS-RESPONSIBILITY-EVIDENCE-MISSING gaps with revision-bound evidence"],
+			"roundIndex": 17,
+			"schema": "agentlab.maintainer_skill_refresh_round.v1",
+			"tables": {
+				"processSkillsSha256": "a7f6affb37e60c7009870feafa86325ba4b7cdabf0ff2b0fd88364fa667ff6d7",
+				"programFactsSha256": "54bc22bc9a702f7c8c430217d0082ac19bcbea299e7bbe42774ab7888fbdef9b",
+				"scopeSkillsSha256": "65532f79e008a0e9a2589f966808fc8225e19ab78f96981a3c3eef273e941a28"
+			}
+		},
+		"payloadSha256": "5d43c172ae36d803e49b18ed57e29babdbcc8e9644fe980967a0230fa4528d7b",
+		"roundIndex": 17,
+		"schema": "agentlab.maintainer_skill_refresh_round.v1"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "d513a9f8-71d1-5a2e-8964-31abc3104bb5"
+}
