@@ -1,0 +1,31 @@
+{
+	"deleted": false,
+	"key": "skill-guide-snippets-repository-analysis",
+	"recorded_at_unix_ms": 1790568306970,
+	"row": {
+		"id": "skill-guide-snippets-repository-analysis",
+		"payload": {
+			"analysisIds": ["analysis-guide-project-boundaries","analysis-guide-noise-control"],
+			"assetClass": "reusable-knowledge",
+			"body": "Treat guide-snippets as a corpus of independently buildable sample projects, not one application. Establish the owning sample root from its nearest root build-profile before interpreting module facts. Repository-wide counts measure corpus coverage; build and test claims must be per sample root. Reassess through the generic evidence flywheel and close per-project behavior gaps rather than extrapolating one sample across the corpus.",
+			"factIds": ["fact-guide-inventory","fact-guide-project-topology","fact-guide-build-test"],
+			"id": "skill-guide-snippets-repository-analysis",
+			"methodDigest": "62058fd98c20109bca54b25881763826c2c5ba79ec68eb69188435682269f9b5",
+			"methodRevision": "f697ba31f0c6197a097e252b86ea3ed8e29ba551",
+			"methodSkillId": "agentlab-codebase-analysis",
+			"ownershipPlane": "target-operations",
+			"repositoryId": "guide-snippets",
+			"skillLayer": "instance",
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"stage": "repository-analysis",
+			"status": "source-supported",
+			"title": "Guide Snippets corpus boundary"
+		},
+		"payloadSha256": "e34ac0f09805278540a833ea6bf250e588cd1f80c0bd12df7af16ee03aac45b5",
+		"repositoryId": "guide-snippets",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "99aac46a-a21c-5233-a55d-1a0460e08642"
+}

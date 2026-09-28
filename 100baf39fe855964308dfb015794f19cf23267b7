@@ -1,0 +1,31 @@
+{
+	"deleted": false,
+	"key": "skill-cordova-iap-seed-extraction",
+	"recorded_at_unix_ms": 1790568306970,
+	"row": {
+		"id": "skill-cordova-iap-seed-extraction",
+		"payload": {
+			"analysisIds": ["analysis-cordova-iap-bridge","analysis-cordova-iap-build-gap"],
+			"assetClass": "reusable-knowledge",
+			"body": "Mine iterative cohorts across structurally distinct bridge concerns: action routing, request mapping, Task success/failure conversion, activity-result handling, hooks/plugin installation, declarations versus runtime exports, and example integration. Require a repaired build/test contract before promotion because the package build script currently invokes tsc without inputs or a root tsconfig. Preserve that blocker as round evidence, continue behavior analysis that does not depend on the build, and resume qualification from the exact parent round once the contract is repaired.",
+			"factIds": ["fact-cordova-iap-inventory","fact-cordova-iap-architecture","fact-cordova-iap-build-test"],
+			"id": "skill-cordova-iap-seed-extraction",
+			"methodDigest": "11d504969e093e313c18ad2237f57f395b081fe741b4d03346c5e8b63eecf453",
+			"methodRevision": "59216bbc5bca6de2cb0d87bd29f8f154db9d4946",
+			"methodSkillId": "agentlab-seed-extraction",
+			"ownershipPlane": "target-operations",
+			"repositoryId": "hms-cordova-iap",
+			"skillLayer": "instance",
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9",
+			"stage": "seed-extraction",
+			"status": "candidate-mining-blocked-on-build-contract",
+			"title": "Cordova HMS IAP diversified seed policy"
+		},
+		"payloadSha256": "140691436ea4f2a6d95a94267cd7c7f2ac3c377d4fdb46758661cced821ce04b",
+		"repositoryId": "hms-cordova-iap",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "99aac46a-a21c-5233-a55d-1a0460e08642"
+}

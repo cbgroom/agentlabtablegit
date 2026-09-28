@@ -1,0 +1,31 @@
+{
+	"deleted": false,
+	"key": "skill-cordova-iap-program-analysis",
+	"recorded_at_unix_ms": 1790568306970,
+	"row": {
+		"id": "skill-cordova-iap-program-analysis",
+		"payload": {
+			"analysisIds": ["analysis-cordova-iap-bridge","analysis-cordova-iap-build-gap"],
+			"assetClass": "reusable-knowledge",
+			"body": "Trace each operation across TypeScript asyncExec, plugin.xml service/action registration, Java Cordova dispatch, HMS SDK Task completion, mapper output, and example consumption. The purchaseData example flow is exact only through a bounded local chain; object identity, external HMS behavior, reachability, exception flow, and callback ordering remain unresolved.",
+			"factIds": ["fact-cordova-iap-inventory","fact-cordova-iap-architecture","fact-cordova-iap-build-test"],
+			"id": "skill-cordova-iap-program-analysis",
+			"methodDigest": "b62b41c5927cf7c8773ac943c4171946fc95f89c50503fb1ec9dff107f52552b",
+			"methodRevision": "b334c4a7a983f4e4725b401c8eb45fb34d7b952f",
+			"methodSkillId": "agentlab-program-analysis",
+			"ownershipPlane": "target-operations",
+			"repositoryId": "hms-cordova-iap",
+			"skillLayer": "instance",
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9",
+			"stage": "program-analysis",
+			"status": "bounded-cross-language-flow-supported",
+			"title": "Cordova HMS IAP bridge analysis"
+		},
+		"payloadSha256": "b494244603d517431beb1497a0a8b00179a67842297c35f6f324aecf9105abf2",
+		"repositoryId": "hms-cordova-iap",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "99aac46a-a21c-5233-a55d-1a0460e08642"
+}

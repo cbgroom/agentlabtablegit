@@ -1,0 +1,31 @@
+{
+	"deleted": false,
+	"key": "skill-guide-snippets-seed-extraction",
+	"recorded_at_unix_ms": 1790568306970,
+	"row": {
+		"id": "skill-guide-snippets-seed-extraction",
+		"payload": {
+			"analysisIds": ["analysis-guide-project-boundaries","analysis-guide-noise-control"],
+			"assetClass": "reusable-knowledge",
+			"body": "Use iterative cohorts for breadth, project-boundary discovery, and false-positive suppression. A candidate must stay inside one declared sample unless a source-to-source cross-sample dependency is proven. High-cardinality SDK imports such as ArkUI or hypium are routing signals, not difficulty evidence. Measure newly behavior-ready and Oracle-ready sample scopes each round, preserve rejected candidates, and drive the next round toward distinct mechanisms instead of repeatedly sampling familiar imports.",
+			"factIds": ["fact-guide-inventory","fact-guide-project-topology","fact-guide-build-test"],
+			"id": "skill-guide-snippets-seed-extraction",
+			"methodDigest": "11d504969e093e313c18ad2237f57f395b081fe741b4d03346c5e8b63eecf453",
+			"methodRevision": "59216bbc5bca6de2cb0d87bd29f8f154db9d4946",
+			"methodSkillId": "agentlab-seed-extraction",
+			"ownershipPlane": "target-operations",
+			"repositoryId": "guide-snippets",
+			"skillLayer": "instance",
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"stage": "seed-extraction",
+			"status": "noise-control-baseline",
+			"title": "Guide Snippets seed and noise policy"
+		},
+		"payloadSha256": "dfc9fc16981be2095d79e559538a57f6cc23a1175abf3cb10f18d39824e27266",
+		"repositoryId": "guide-snippets",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "99aac46a-a21c-5233-a55d-1a0460e08642"
+}
