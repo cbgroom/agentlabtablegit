@@ -1,0 +1,71 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-applicationmodels-stageservicewidgetcards",
+	"recorded_at_unix_ms": 1790568316923,
+	"row": {
+		"id": "skill-scope-guide-snippets-applicationmodels-stageservicewidgetcards",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ApplicationModels/StageServiceWidgetCards/build-profile.json5","ApplicationModels/StageServiceWidgetCards/entry/build-profile.json5"],
+			"codeLineCount": 3923,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例展示了在一个Stage模型中，开发基于ArkTS UI及JS UI的卡片指导。",
+			"documentedTitle": "服务卡片开发指导（Stage模型）",
+			"evidence": [
+				{
+					"gitBlobOid": "5fd2b0548729d939dce2d760bacc360df21ee982",
+					"path": "ApplicationModels/StageServiceWidgetCards/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "db52f2f875890e5ded32109e09e1c539aa59e35d",
+					"path": "ApplicationModels/StageServiceWidgetCards/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "ce307a8827bd75456441ceb57d530e4c8d45d36c",
+					"path": "ApplicationModels/StageServiceWidgetCards/AppScope/resources/base/media/app_icon.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkData","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.FormKit","@kit.IPCKit","@kit.NetworkKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.app.ability.AbilityConstant","@ohos.app.ability.UIAbility","@ohos.app.ability.Want","@ohos.app.ability.abilityDelegatorRegistry","@ohos.application.testRunner","@ohos.hilog","@ohos.window","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 19,
+			"id": "skill-scope-guide-snippets-applicationmodels-stageservicewidgetcards",
+			"kind": "sample-project",
+			"languages": {
+				"css": 1,
+				"ets": 24,
+				"gif": 2,
+				"hml": 1,
+				"json": 23,
+				"json5": 8,
+				"md": 2,
+				"png": 17,
+				"svg": 1,
+				"ts": 14
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ApplicationModels/StageServiceWidgetCards",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ApplicationModels/StageServiceWidgetCards; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 39,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ApplicationModels/StageServiceWidgetCards/entry/src/ohosTest/ets/test/Ability.test.ets","ApplicationModels/StageServiceWidgetCards/entry/src/ohosTest/ets/test/Form.test.ets","ApplicationModels/StageServiceWidgetCards/entry/src/ohosTest/ets/test/List.test.ets","ApplicationModels/StageServiceWidgetCards/entry/src/ohosTest/ets/testability/TestAbility.ets","ApplicationModels/StageServiceWidgetCards/entry/src/ohosTest/ets/testability/pages/Index.ets","ApplicationModels/StageServiceWidgetCards/entry/src/ohosTest/ets/testrunner/OpenHarmonyTestRunner.ts","ApplicationModels/StageServiceWidgetCards/entry/src/ohosTest/module.json5","ApplicationModels/StageServiceWidgetCards/entry/src/ohosTest/resources/base/element/color.json","ApplicationModels/StageServiceWidgetCards/entry/src/ohosTest/resources/base/element/string.json","ApplicationModels/StageServiceWidgetCards/entry/src/ohosTest/resources/base/media/icon.png","ApplicationModels/StageServiceWidgetCards/entry/src/ohosTest/resources/base/profile/test_pages.json","ApplicationModels/StageServiceWidgetCards/entry/src/ohosTest/resources/en_US/element/string.json","ApplicationModels/StageServiceWidgetCards/entry/src/ohosTest/resources/zh_CN/element/string.json","ApplicationModels/StageServiceWidgetCards/entry/src/ohosTest/syscap.json"],
+			"testFileCount": 14,
+			"trackedFileCount": 93
+		},
+		"payloadSha256": "6a683c99decaa196d71347db2f20d343abe326cba3cfc42ee1ba26c97e804e98",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "956db560-51d8-5bf6-9e32-c59e54c0f429"
+}

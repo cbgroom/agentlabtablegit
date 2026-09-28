@@ -1,0 +1,70 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkdata-preferences",
+	"recorded_at_unix_ms": 1790568316923,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkdata-preferences",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkData/Preferences/PreferencesNDKSample/build-profile.json5","ArkData/Preferences/PreferencesNDKSample/entry/build-profile.json5","ArkData/Preferences/PreferencesNDKSample/entry/src/main/cpp/CMakeLists.txt","ArkData/Preferences/PreferencesSamples/build-profile.json5","ArkData/Preferences/PreferencesSamples/entry/build-profile.json5"],
+			"codeLineCount": 1507,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "此示例提供了一套完整的对本地数据库进行管理的机制，包括但不限于增、删、改、查操作。",
+			"documentedTitle": "通过关系型数据库实现数据持久化 (C/C++)",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkData/Preferences/PreferencesNDKSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "7703fdcfb0e7b8d87ab5aff187d3f23f513aba2e",
+					"path": "ArkData/Preferences/PreferencesNDKSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "de0319898eab929ccd93656d473255b0436074fd",
+					"path": "ArkData/Preferences/PreferencesNDKSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkData","@kit.ArkTS","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos.app.ability.common","@ohos/hvigor-ohos-plugin","@ohos/hypium","cstdint","database/preferences/oh_preferences.h","database/preferences/oh_preferences_err_code.h","database/preferences/oh_preferences_option.h","database/preferences/oh_preferences_value.h","hilog/log.h","libentry.so"],
+			"externalDependencyCount": 17,
+			"id": "skill-scope-guide-snippets-arkdata-preferences",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 1,
+				"ets": 17,
+				"json": 18,
+				"json5": 22,
+				"md": 5,
+				"no-extension": 4,
+				"png": 15,
+				"ts": 5,
+				"txt": 3
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkData/Preferences",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkData/Preferences; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 23,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkData/Preferences/PreferencesNDKSample/entry/src/ohosTest/ets/test/Ability.test.ets","ArkData/Preferences/PreferencesNDKSample/entry/src/ohosTest/ets/test/List.test.ets","ArkData/Preferences/PreferencesNDKSample/entry/src/ohosTest/module.json5","ArkData/Preferences/PreferencesNDKSample/entry/src/test/List.test.ets","ArkData/Preferences/PreferencesNDKSample/entry/src/test/LocalUnit.test.ets","ArkData/Preferences/PreferencesSamples/entry/src/ohosTest/ets/test/Ability.test.ets","ArkData/Preferences/PreferencesSamples/entry/src/ohosTest/ets/test/List.test.ets","ArkData/Preferences/PreferencesSamples/entry/src/ohosTest/module.json5","ArkData/Preferences/PreferencesSamples/entry/src/test/List.test.ets","ArkData/Preferences/PreferencesSamples/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 10,
+			"trackedFileCount": 90
+		},
+		"payloadSha256": "c2eb78ae91c480870d27c123a4fc25feabf38584e5168e0acf5a73ef55c9b2ee",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "956db560-51d8-5bf6-9e32-c59e54c0f429"
+}

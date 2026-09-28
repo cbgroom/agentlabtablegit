@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-ability-uiserviceextensionability",
+	"recorded_at_unix_ms": 1790568316923,
+	"row": {
+		"id": "skill-scope-guide-snippets-ability-uiserviceextensionability",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Ability/UIServiceExtensionAbility/build-profile.json5","Ability/UIServiceExtensionAbility/entry/build-profile.json5"],
+			"codeLineCount": 516,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "UIServiceExtensionAbility扩展能力是OpenHarmony中用于提供用户界面服务的扩展能力。系统应用可以通过该扩展能力实现特定的UI服务功能，并将其开放给其它应用调用。",
+			"documentedTitle": "使用通过UIServiceExtensionAbility实现的系统悬浮窗",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Ability/UIServiceExtensionAbility/.gitignore"
+				},
+				{
+					"gitBlobOid": "eeb634d05c2109367d0723bc3acaf0b8c0bc8766",
+					"path": "Ability/UIServiceExtensionAbility/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "11e64c835198917c3adbc15082338a84c6033bc3",
+					"path": "Ability/UIServiceExtensionAbility/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.UiTest","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 9,
+			"id": "skill-scope-guide-snippets-ability-uiserviceextensionability",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 9,
+				"json": 11,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Ability/UIServiceExtensionAbility",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Ability/UIServiceExtensionAbility; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 11,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Ability/UIServiceExtensionAbility/entry/src/ohosTest/ets/test/Ability.test.ets","Ability/UIServiceExtensionAbility/entry/src/ohosTest/ets/test/List.test.ets","Ability/UIServiceExtensionAbility/entry/src/ohosTest/module.json5","Ability/UIServiceExtensionAbility/entry/src/ohosTest/syscap.json","Ability/UIServiceExtensionAbility/entry/src/test/List.test.ets","Ability/UIServiceExtensionAbility/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 42
+		},
+		"payloadSha256": "99bd71f8909a4851c71e86ea110b2ea9fdeeb3b2603bef6a33e0f5a1c4a3e8a5",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "956db560-51d8-5bf6-9e32-c59e54c0f429"
+}

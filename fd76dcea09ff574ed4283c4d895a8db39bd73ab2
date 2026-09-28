@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkdata-kvstore",
+	"recorded_at_unix_ms": 1790568316923,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkdata-kvstore",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkData/KvStore/ECStoreSamples/build-profile.json5","ArkData/KvStore/ECStoreSamples/entry/build-profile.json5","ArkData/KvStore/KvStoreSamples/build-profile.json5","ArkData/KvStore/KvStoreSamples/entry/build-profile.json5"],
+			"codeLineCount": 1720,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "从安全角度考虑，为满足部分敏感数据的安全特性，提供了E类加密数据库的方案以提高锁屏下数据的安全性。应用在申请ohos.permission.PROTECT_SCREEN_LOCK_DATA权限后会在EL5路径下创建一个E类数据库，在锁屏的情况下（未调用Access接口获取保留文件密钥）会触发文件密钥的销毁，此时E类数据库不可读写。当锁屏解锁后，密钥会恢复，E类数据库恢复正常读写操作。这样的设计可以有效防止用户数据的泄露。本示例主要展示了[E类加密数据库的使用指南](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/database/encrypted_estore_guidelines.md)中ArkTS场景的开发示例，帮助开发者更好地理解和使用E类加密数据库。",
+			"documentedTitle": "E类加密数据库Sample",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkData/KvStore/ECStoreSamples/.gitignore"
+				},
+				{
+					"gitBlobOid": "1538b573c176a954e513996a2dc587ea876bdb62",
+					"path": "ArkData/KvStore/ECStoreSamples/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "f5f1ebe55e5e68e6d2e66c21eba769839852409b",
+					"path": "ArkData/KvStore/ECStoreSamples/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkData","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.DistributedServiceKit","@kit.PerformanceAnalysisKit","@ohos.abilityAccessCtrl","@ohos.app.ability.common","@ohos.bundle.bundleManager","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 12,
+			"id": "skill-scope-guide-snippets-arkdata-kvstore",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 16,
+				"json": 18,
+				"json5": 20,
+				"md": 4,
+				"no-extension": 4,
+				"png": 12,
+				"ts": 9,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkData/KvStore",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkData/KvStore; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 25,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkData/KvStore/ECStoreSamples/entry/src/ohosTest/ets/test/Ability.test.ets","ArkData/KvStore/ECStoreSamples/entry/src/ohosTest/ets/test/List.test.ets","ArkData/KvStore/ECStoreSamples/entry/src/ohosTest/module.json5","ArkData/KvStore/ECStoreSamples/entry/src/test/List.test.ets","ArkData/KvStore/ECStoreSamples/entry/src/test/LocalUnit.test.ets","ArkData/KvStore/KvStoreSamples/entry/src/ohosTest/ets/test/Ability.test.ets","ArkData/KvStore/KvStoreSamples/entry/src/ohosTest/ets/test/List.test.ets","ArkData/KvStore/KvStoreSamples/entry/src/ohosTest/module.json5","ArkData/KvStore/KvStoreSamples/entry/src/test/List.test.ets","ArkData/KvStore/KvStoreSamples/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 10,
+			"trackedFileCount": 85
+		},
+		"payloadSha256": "289e3394def5c33152476da6278bb2551021c391cb45ef6a058520b74876ee09",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "956db560-51d8-5bf6-9e32-c59e54c0f429"
+}

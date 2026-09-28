@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-ability-wantoverview",
+	"recorded_at_unix_ms": 1790568316923,
+	"row": {
+		"id": "skill-scope-guide-snippets-ability-wantoverview",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["Ability/WantOverview/build-profile.json5","Ability/WantOverview/entry/build-profile.json5"],
+			"codeLineCount": 516,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "[Want概述](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/application-models/want-overview.md) 文档中的Want是一种对象，用于在应用组件之间传递信息。",
+			"documentedTitle": "Want简介",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "Ability/WantOverview/.gitignore"
+				},
+				{
+					"gitBlobOid": "bcb86cf7e6798d8e5b3b8835c36e431bc394ea5b",
+					"path": "Ability/WantOverview/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "6fdea09476ac2091e81f31ca672bc2d18d217b1b",
+					"path": "Ability/WantOverview/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@ohos.app.ability.abilityDelegatorRegistry","@ohos.base","@ohos.router","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 9,
+			"id": "skill-scope-guide-snippets-ability-wantoverview",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 11,
+				"json": 11,
+				"json5": 10,
+				"md": 2,
+				"no-extension": 2,
+				"png": 5,
+				"ts": 2,
+				"txt": 1
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "Ability/WantOverview",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at Ability/WantOverview; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 13,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["Ability/WantOverview/entry/src/ohosTest/ets/test/Ability.test.ets","Ability/WantOverview/entry/src/ohosTest/ets/test/List.test.ets","Ability/WantOverview/entry/src/ohosTest/module.json5","Ability/WantOverview/entry/src/ohosTest/syscap.json","Ability/WantOverview/entry/src/test/List.test.ets","Ability/WantOverview/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 44
+		},
+		"payloadSha256": "795f6b7dd8c8d4841e576d6c37c038ff188d2e197561d0b0f47a3e8988fa7abe",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "956db560-51d8-5bf6-9e32-c59e54c0f429"
+}
