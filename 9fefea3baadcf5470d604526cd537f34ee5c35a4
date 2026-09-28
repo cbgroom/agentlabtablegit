@@ -1,0 +1,41 @@
+{
+	"deleted": false,
+	"key": "first-four-round-1-structural-baseline",
+	"recorded_at_unix_ms": 1790568410867,
+	"row": {
+		"id": "first-four-round-1-structural-baseline",
+		"payload": {
+			"automaticPromotion": false,
+			"changes": {
+				"added": ["12 process Maintainer Skills","480 scope-level Maintainer Skills"],
+				"retired": [],
+				"updated": []
+			},
+			"coverage": {
+				"processSkillCount": 12,
+				"repositoryCount": 4,
+				"scopeSkillCount": 480,
+				"trackedFileCount": 44567
+			},
+			"decision": "continue",
+			"focus": ["whole-tree inventory","stable maintenance boundaries","build and test entrypoints","dependency surface"],
+			"id": "first-four-round-1-structural-baseline",
+			"ownershipPlane": "target-operations",
+			"parentRoundSha256": null,
+			"residualGaps": ["behavior contracts are not complete for every scope Skill","cross-scope call and state-transition coverage remains partial","executable Oracle coverage remains incomplete"],
+			"roundIndex": 1,
+			"schema": "agentlab.maintainer_skill_refresh_round.v1",
+			"tables": {
+				"processSkillsSha256": "fe4f99028efe5f752eb58319c83ee2b4dbfdf0e91f9d832ac73f83eeeb5c5a6e",
+				"programFactsSha256": "3bd2efd317f57e57af2c65c2b4f1b8dc7e64d619a2c0a9d322880c89fb303dcf",
+				"scopeSkillsSha256": "df5e32d245d2c8e0deb3eee201283d755aba884f35a88bb1c3d9bce910211107"
+			}
+		},
+		"payloadSha256": "d0600b52020e0af14556ecc66337cefc5a82c7d60f338bd5a655dad78613fda4",
+		"roundIndex": 1,
+		"schema": "agentlab.maintainer_skill_refresh_round.v1"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "d035b743-8776-57b3-a297-84a277c22bec"
+}

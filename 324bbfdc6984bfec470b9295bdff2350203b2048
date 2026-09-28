@@ -1,0 +1,48 @@
+{
+	"deleted": false,
+	"key": "first-four-round-5-targeted-operation-evidence",
+	"recorded_at_unix_ms": 1790568410867,
+	"row": {
+		"id": "first-four-round-5-targeted-operation-evidence",
+		"payload": {
+			"assessment": {
+				"path": "assessments/round-4-targeted-operation-evidence.json",
+				"sha256": "0c7bb0e3b4173affc93534071d2d73726dad2f67c685b1deeefad8e24438861d"
+			},
+			"automaticPromotion": false,
+			"changes": {
+				"added": ["code-workshop devpractices semantic evidence binding","guide SetBasicAttrsEvts semantic and executable operation bindings","Harmony IAP consumable executable ohosTest operation binding"],
+				"retired": [],
+				"updated": ["the hard-gate assessment now distinguishes 2 L3, 4 L2, 7 L1-bound and 467 L1-unbound scopes"]
+			},
+			"coverage": {
+				"maintenanceReadyScopeCount": 2,
+				"processSkillCount": 12,
+				"programBoundScopeCount": 13,
+				"repositoryCount": 4,
+				"scopeSkillCount": 480,
+				"semanticReadyScopeCount": 6,
+				"trackedFileCount": 44567
+			},
+			"decision": "continue",
+			"focus": ["consume the gap queue with exact scope-bound evidence","promote only scopes with all semantic dimensions","require executable build, test or runtime evidence for L3"],
+			"id": "first-four-round-5-targeted-operation-evidence",
+			"ownershipPlane": "target-operations",
+			"parentRoundSha256": "7f9de2b16e1d173f8b4ba3bb34dfc3ed2eb0765d14309fc3bdfa5ea5aabb35b4",
+			"residualGaps": ["467 scope Skills still have no bound program evidence","code-workshop devpractices and three Cordova bridge scopes remain L2 without executable operation evidence","the two L3 scopes are maintenance-ready only; independent case Oracle review and automatic promotion remain separate gates"],
+			"roundIndex": 5,
+			"schema": "agentlab.maintainer_skill_refresh_round.v1",
+			"tables": {
+				"processSkillsSha256": "b75522b766e10ee537af25ebe6cb45314866b5b03bd31106e7358e41bf6a4b55",
+				"programFactsSha256": "6dd40814146ff4e17a3615540059bfd6cc888ef14e5b910b07290525618e3b24",
+				"scopeSkillsSha256": "65532f79e008a0e9a2589f966808fc8225e19ab78f96981a3c3eef273e941a28"
+			}
+		},
+		"payloadSha256": "06a89d0160d9144148e160ff222bae79e9cd2bb9ffcacfaec34f3a1af1eb5d4f",
+		"roundIndex": 5,
+		"schema": "agentlab.maintainer_skill_refresh_round.v1"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "d035b743-8776-57b3-a297-84a277c22bec"
+}
