@@ -1,0 +1,29 @@
+{
+	"deleted": false,
+	"key": "analysis-harmony-iap-purchase-lifecycle",
+	"recorded_at_unix_ms": 1790568407820,
+	"row": {
+		"id": "analysis-harmony-iap-purchase-lifecycle",
+		"kind": "analysis",
+		"payload": {
+			"dimensions": ["responsibility","relations","behavior"],
+			"evidence": [
+				{
+					"path": "release/qualifications/alpha13-payment-feedback-analysis-165bcbd/bounded-expression-flow-program-analysis.json"
+				}
+			],
+			"id": "analysis-harmony-iap-purchase-lifecycle",
+			"interpretation": "The consumable purchaseData path has seven verified local expression-flow steps through finishPurchase; external SDK behavior and app-server verification are not source-resolved.",
+			"kind": "analysis",
+			"repositoryId": "harmony-iap-client",
+			"scopeSkillIds": ["skill-scope-harmony-iap-client-entry-src-main-ets-pages-consumablespage-ets"],
+			"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3"
+		},
+		"payloadSha256": "e815fb1c8c7eba3f376f26b823c0f07a84e6fd7b4af54c58d48a3fcb24d06895",
+		"repositoryId": "harmony-iap-client",
+		"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "badff1be-24b3-51fc-8037-3c6fb7a1953a"
+}

@@ -1,0 +1,30 @@
+{
+	"deleted": false,
+	"key": "fact-harmony-iap-inventory",
+	"recorded_at_unix_ms": 1790568407820,
+	"row": {
+		"id": "fact-harmony-iap-inventory",
+		"kind": "repository-inventory",
+		"payload": {
+			"arktsFiles": 9,
+			"arktsLines": 1503,
+			"evidence": [
+				{
+					"gitBlobOid": "0eef09802441e9ae7d9522e99cdbf4ca1356a0ba",
+					"path": "readme_en.md"
+				}
+			],
+			"id": "fact-harmony-iap-inventory",
+			"kind": "repository-inventory",
+			"repositoryId": "harmony-iap-client",
+			"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3",
+			"trackedFiles": 44
+		},
+		"payloadSha256": "af4b68e708d3a88fb8d002f57e61ede376d8b4251b74f3505709dff7f7f2eb4c",
+		"repositoryId": "harmony-iap-client",
+		"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "badff1be-24b3-51fc-8037-3c6fb7a1953a"
+}

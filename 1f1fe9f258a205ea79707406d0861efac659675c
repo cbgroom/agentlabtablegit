@@ -1,0 +1,23 @@
+{
+	"deleted": false,
+	"key": "analysis-harmony-iap-coverage-gap",
+	"recorded_at_unix_ms": 1790568407820,
+	"row": {
+		"id": "analysis-harmony-iap-coverage-gap",
+		"kind": "analysis",
+		"payload": {
+			"evidenceFactIds": ["fact-harmony-iap-inventory","fact-harmony-iap-architecture"],
+			"id": "analysis-harmony-iap-coverage-gap",
+			"interpretation": "Existing deep evidence is concentrated on consumable purchaseData. Environment, other product types, navigation, JWS edge cases, and runtime account/store transitions need independent mining.",
+			"kind": "analysis",
+			"repositoryId": "harmony-iap-client",
+			"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3"
+		},
+		"payloadSha256": "b8fecd90aeed4529b2472b23e270a20261e55f2cc5a6217b2388af2fbc0eedb0",
+		"repositoryId": "harmony-iap-client",
+		"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "badff1be-24b3-51fc-8037-3c6fb7a1953a"
+}

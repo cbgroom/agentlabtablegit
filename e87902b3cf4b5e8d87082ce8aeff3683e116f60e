@@ -1,0 +1,34 @@
+{
+	"deleted": false,
+	"key": "verification-harmony-iap-consumable-ohostest-runtime-bridge",
+	"recorded_at_unix_ms": 1790568407820,
+	"row": {
+		"id": "verification-harmony-iap-consumable-ohostest-runtime-bridge",
+		"kind": "runtime-verification",
+		"payload": {
+			"dimensions": ["operation"],
+			"evidence": [
+				{
+					"path": "release/qualifications/alpha13-payment-feedback-analysis-165bcbd/purchase-data-runtime-oracle-bridge.json",
+					"sha256": "4d24e409678502fd3b0fade142e36f86e898b09d2bb38811bc769431afbe0bef"
+				},
+				{
+					"path": "release/qualifications/alpha13-payment-feedback-analysis-165bcbd/purchase-data-ohostest-reference-qualification.json",
+					"sha256": "8652ffab7ef3d358b8057f8dd561eab8e882f3de4e944e22fe9ee42dbd67d1f1"
+				}
+			],
+			"id": "verification-harmony-iap-consumable-ohostest-runtime-bridge",
+			"interpretation": "A revision-bound reference extraction built source variants and executed seven Hypium ohosTests on the Linux x86 emulator; the candidate passed and six meaningful wrong variants were killed. This qualifies a repeatable maintenance verification route for the consumable purchaseData scope only. It does not approve the candidate as an upstream case: semantic alignment, independent Oracle review and live vendor IAP remain open.",
+			"kind": "runtime-verification",
+			"repositoryId": "harmony-iap-client",
+			"scopeSkillIds": ["skill-scope-harmony-iap-client-entry-src-main-ets-pages-consumablespage-ets"],
+			"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3"
+		},
+		"payloadSha256": "c4ce6ab809b9b83e1b0baa6564850065d83ecbcc703ac6ea313df31d035a0d8f",
+		"repositoryId": "harmony-iap-client",
+		"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "badff1be-24b3-51fc-8037-3c6fb7a1953a"
+}

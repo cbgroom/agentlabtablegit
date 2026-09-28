@@ -1,0 +1,34 @@
+{
+	"deleted": false,
+	"key": "fact-guide-project-topology",
+	"recorded_at_unix_ms": 1790568407820,
+	"row": {
+		"id": "fact-guide-project-topology",
+		"kind": "architecture",
+		"payload": {
+			"evidence": [
+				{
+					"gitBlobOid": "e84d1f851a1b6439c6a36dd3350ffa8ea1f46751",
+					"path": "ArkWeb/ArkWebClipboard/build-profile.json5"
+				},
+				{
+					"gitBlobOid": "e6bee2e7ea574f199656a4065bd5d9207c09c389",
+					"path": "ArkWeb/ArkWebClipboard/README.md"
+				}
+			],
+			"id": "fact-guide-project-topology",
+			"kind": "architecture",
+			"moduleBuildProfiles": 1554,
+			"repositoryId": "guide-snippets",
+			"sampleRootsWithTopLevelBuildProfile": 355,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"topLevelDomains": 57
+		},
+		"payloadSha256": "5fdd3e2030770143fd757723d3979c32c6f626262114fc67514ac96d4397dd04",
+		"repositoryId": "guide-snippets",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "badff1be-24b3-51fc-8037-3c6fb7a1953a"
+}

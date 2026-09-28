@@ -1,0 +1,29 @@
+{
+	"deleted": false,
+	"key": "analysis-cordova-iap-bridge",
+	"recorded_at_unix_ms": 1790568407820,
+	"row": {
+		"id": "analysis-cordova-iap-bridge",
+		"kind": "analysis",
+		"payload": {
+			"dimensions": ["responsibility","relations","behavior"],
+			"evidence": [
+				{
+					"path": "release/qualifications/alpha13-payment-feedback-analysis-165bcbd/bounded-expression-flow-program-analysis.json"
+				}
+			],
+			"id": "analysis-cordova-iap-bridge",
+			"interpretation": "The known example purchaseData flow has four verified bounded steps to consumeOwnedPurchase, but alias/object identity and runtime bridge behavior remain unresolved.",
+			"kind": "analysis",
+			"repositoryId": "hms-cordova-iap",
+			"scopeSkillIds": ["skill-scope-hms-cordova-iap-cordova-plugin-hms-iap-example-ionic","skill-scope-hms-cordova-iap-cordova-plugin-hms-iap-src-android","skill-scope-hms-cordova-iap-cordova-plugin-hms-iap-src-www"],
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+		},
+		"payloadSha256": "8ca8ec417b4e611f3e9c679aba4eb9611223f4bcefc0b3304e7ab580f0fb8a0d",
+		"repositoryId": "hms-cordova-iap",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "badff1be-24b3-51fc-8037-3c6fb7a1953a"
+}

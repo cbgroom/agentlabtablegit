@@ -1,0 +1,34 @@
+{
+	"deleted": false,
+	"key": "verification-guide-setbasicattrsevts-build-emulator-and-route-calibration",
+	"recorded_at_unix_ms": 1790568407820,
+	"row": {
+		"id": "verification-guide-setbasicattrsevts-build-emulator-and-route-calibration",
+		"kind": "runtime-verification",
+		"payload": {
+			"dimensions": ["operation"],
+			"evidence": [
+				{
+					"path": "release/qualifications/harmony-arkweb-lifecycle-localization-6840590/guide-api20-build-runtime.json",
+					"sha256": "65929f6c426397b3ac2abeb4f8906d10d83717be1887632966090d533de3d1e7"
+				},
+				{
+					"path": "release/qualifications/harmony-arkweb-lifecycle-localization-6840590/summary.json",
+					"sha256": "a1c8771de734dd9d6de34079b1167b2cadcfe22c3df99739206788d0fd5adcf9"
+				}
+			],
+			"id": "verification-guide-setbasicattrsevts-build-emulator-and-route-calibration",
+			"interpretation": "At the exact source revision, the nested SetBasicAttrsEvtsTwo project produced two clean member-equivalent HAPs; one installed, launched and stayed live on the Linux x86 emulator. Later controlled variants exercised the target route and eight preservation routes. This is executable maintenance evidence for the sample scope, not an independently approved benchmark case or power/thermal result.",
+			"kind": "runtime-verification",
+			"repositoryId": "guide-snippets",
+			"scopeSkillIds": ["skill-scope-guide-snippets-arkweb-setbasicattrsevts"],
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+		},
+		"payloadSha256": "fdddba0570f859493cd193f8803545a60b6690a832dedbe93e4a085999b96e40",
+		"repositoryId": "guide-snippets",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "badff1be-24b3-51fc-8037-3c6fb7a1953a"
+}

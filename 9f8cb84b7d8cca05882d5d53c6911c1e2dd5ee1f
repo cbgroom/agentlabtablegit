@@ -1,0 +1,36 @@
+{
+	"deleted": false,
+	"key": "fact-code-workshop-architecture",
+	"recorded_at_unix_ms": 1790568407820,
+	"row": {
+		"id": "fact-code-workshop-architecture",
+		"kind": "architecture",
+		"payload": {
+			"evidence": [
+				{
+					"gitBlobOid": "03ada1b33bb56a68ee5243c459638fe3154523c5",
+					"path": "build-profile.json5"
+				},
+				{
+					"gitBlobOid": "1b1bef231077c8cb52a3c031cb677daef047d08f",
+					"path": "products/phone/src/main/ets/page/MainPage.ets"
+				}
+			],
+			"id": "fact-code-workshop-architecture",
+			"kind": "architecture",
+			"modules": {
+				"common": 1,
+				"features": 7,
+				"products": 4
+			},
+			"repositoryId": "code-workshop",
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+		},
+		"payloadSha256": "5fc662685344f11862f2651435d6ea50cd847939ef6b0389256ad7f22eab0413",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "badff1be-24b3-51fc-8037-3c6fb7a1953a"
+}

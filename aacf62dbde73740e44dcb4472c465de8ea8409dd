@@ -1,0 +1,23 @@
+{
+	"deleted": false,
+	"key": "analysis-cordova-iap-build-gap",
+	"recorded_at_unix_ms": 1790568407820,
+	"row": {
+		"id": "analysis-cordova-iap-build-gap",
+		"kind": "analysis",
+		"payload": {
+			"evidenceFactIds": ["fact-cordova-iap-build-test"],
+			"id": "analysis-cordova-iap-build-gap",
+			"interpretation": "The package declares tsc without input files or a root tsconfig; npm install passes and npm run build exits 1. This is an upstream build-contract gap, not a qualified regression oracle.",
+			"kind": "analysis",
+			"repositoryId": "hms-cordova-iap",
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+		},
+		"payloadSha256": "ae6cdd17ab3ff513381744e1980c5e02002b59b344f38c8e450deb50f7f62bca",
+		"repositoryId": "hms-cordova-iap",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "badff1be-24b3-51fc-8037-3c6fb7a1953a"
+}

@@ -1,0 +1,36 @@
+{
+	"deleted": false,
+	"key": "fact-cordova-iap-architecture",
+	"recorded_at_unix_ms": 1790568407820,
+	"row": {
+		"id": "fact-cordova-iap-architecture",
+		"kind": "architecture",
+		"payload": {
+			"evidence": [
+				{
+					"gitBlobOid": "ca404faf2023271881c79ff7b53b668cc71f17ea",
+					"path": "cordova-plugin-hms-iap/src/www/HMSInAppPurchases.ts"
+				},
+				{
+					"gitBlobOid": "5ea1f52199fdf4ff0c1d7cb8de9088a5d9c1f1f4",
+					"path": "cordova-plugin-hms-iap/src/android/src/main/java/com/huawei/hms/cordova/iap/HMSInAppPurchases.java"
+				},
+				{
+					"gitBlobOid": "0d551406043aad6e854acc389acea199c5533eaa",
+					"path": "cordova-plugin-hms-iap/example/ionic/src/app/home/home.page.ts"
+				}
+			],
+			"id": "fact-cordova-iap-architecture",
+			"kind": "architecture",
+			"layers": ["TypeScript API","generated JavaScript","Cordova metadata/hooks","Android Java bridge","HMS IAP SDK","Cordova and Ionic examples"],
+			"repositoryId": "hms-cordova-iap",
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+		},
+		"payloadSha256": "daf5e06816fcbe61872d1f7ea34b08ff5bb49df9392d2719590a72ae0d6b0c06",
+		"repositoryId": "hms-cordova-iap",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "badff1be-24b3-51fc-8037-3c6fb7a1953a"
+}

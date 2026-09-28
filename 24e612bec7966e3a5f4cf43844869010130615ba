@@ -1,0 +1,31 @@
+{
+	"deleted": false,
+	"key": "fact-cordova-iap-inventory",
+	"recorded_at_unix_ms": 1790568407820,
+	"row": {
+		"id": "fact-cordova-iap-inventory",
+		"kind": "repository-inventory",
+		"payload": {
+			"evidence": [
+				{
+					"gitBlobOid": "53106877e0482542433083efaa105b9db2b44c30",
+					"path": "cordova-plugin-hms-iap/README.md"
+				}
+			],
+			"iapSourceLines": 5244,
+			"iapSubtreeFiles": 104,
+			"id": "fact-cordova-iap-inventory",
+			"kind": "repository-inventory",
+			"monorepoPluginDirectories": 24,
+			"repositoryId": "hms-cordova-iap",
+			"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9",
+			"trackedFiles": 3713
+		},
+		"payloadSha256": "c60fc260e8e842a8dd1090e6bff1eed7ab3c2d6d2a633e1bcd884751defff774",
+		"repositoryId": "hms-cordova-iap",
+		"sourceRevision": "8c51815f27f2cb2dea925a6a25db7f522a6e79b9"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "badff1be-24b3-51fc-8037-3c6fb7a1953a"
+}

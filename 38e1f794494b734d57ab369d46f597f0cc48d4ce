@@ -1,0 +1,37 @@
+{
+	"deleted": false,
+	"key": "fact-harmony-iap-architecture",
+	"recorded_at_unix_ms": 1790568407820,
+	"row": {
+		"id": "fact-harmony-iap-architecture",
+		"kind": "architecture",
+		"payload": {
+			"evidence": [
+				{
+					"gitBlobOid": "b2cc02977d74631a63703f33a1ae6c1f94d81219",
+					"path": "build-profile.json5"
+				},
+				{
+					"gitBlobOid": "926fa6e4c7ed2be446856c282805d86b1a5db3a5",
+					"path": "entry/src/main/ets/pages/EntryPage.ets"
+				},
+				{
+					"gitBlobOid": "88627d0b01928c16d85520af57573cf2be0b0048",
+					"path": "entry/src/main/ets/pages/ConsumablesPage.ets"
+				}
+			],
+			"id": "fact-harmony-iap-architecture",
+			"kind": "architecture",
+			"modules": ["entry"],
+			"productFlows": ["consumable","non-consumable","non-renewable","subscription"],
+			"repositoryId": "harmony-iap-client",
+			"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3"
+		},
+		"payloadSha256": "216a3b442c5514d0cdb3ca40bdc89ee20f4c3fcefe59c6113db0528cc7d6659a",
+		"repositoryId": "harmony-iap-client",
+		"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "badff1be-24b3-51fc-8037-3c6fb7a1953a"
+}

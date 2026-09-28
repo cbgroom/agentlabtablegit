@@ -1,0 +1,25 @@
+{
+	"deleted": false,
+	"key": "analysis-guide-project-boundaries",
+	"recorded_at_unix_ms": 1790568407820,
+	"row": {
+		"id": "analysis-guide-project-boundaries",
+		"kind": "analysis",
+		"payload": {
+			"dimensions": ["responsibility","boundary","relations"],
+			"evidenceFactIds": ["fact-guide-project-topology"],
+			"id": "analysis-guide-project-boundaries",
+			"interpretation": "The nearest independently rooted build-profile defines the initial semantic ownership boundary; module build profiles beneath it do not create cross-sample dependencies.",
+			"kind": "analysis",
+			"repositoryId": "guide-snippets",
+			"scopeSkillIds": ["skill-scope-guide-snippets-arkweb-arkwebclipboard"],
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+		},
+		"payloadSha256": "55fd17a651b9cee3923efbb8c0bc28bc27141a3441b0ec81c41db657153c1d08",
+		"repositoryId": "guide-snippets",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "badff1be-24b3-51fc-8037-3c6fb7a1953a"
+}

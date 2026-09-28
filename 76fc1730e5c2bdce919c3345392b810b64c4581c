@@ -1,0 +1,25 @@
+{
+	"deleted": false,
+	"key": "analysis-code-workshop-responsibility-map",
+	"recorded_at_unix_ms": 1790568407820,
+	"row": {
+		"id": "analysis-code-workshop-responsibility-map",
+		"kind": "analysis",
+		"payload": {
+			"dimensions": ["responsibility","boundary"],
+			"evidenceFactIds": ["fact-code-workshop-architecture"],
+			"id": "analysis-code-workshop-responsibility-map",
+			"interpretation": "Product entry modules own application shells; feature modules own scenario UI/business slices; common owns shared services, storage, models, components, and utilities.",
+			"kind": "analysis",
+			"repositoryId": "code-workshop",
+			"scopeSkillIds": ["skill-scope-code-workshop-products-phone","skill-scope-code-workshop-root"],
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+		},
+		"payloadSha256": "fd5c7a1f673ead6c13c4966f853f47702100a51760e8d732c960fad1851c46ba",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "badff1be-24b3-51fc-8037-3c6fb7a1953a"
+}

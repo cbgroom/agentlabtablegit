@@ -1,0 +1,29 @@
+{
+	"deleted": false,
+	"key": "fact-harmony-iap-build-test",
+	"recorded_at_unix_ms": 1790568407820,
+	"row": {
+		"id": "fact-harmony-iap-build-test",
+		"kind": "build-test-entrypoint",
+		"payload": {
+			"buildArtifactSha256": "b26d5e92bf6d91fc484922ab3525b101f763555c38e04b770885b273cda2a88f",
+			"buildCommand": ["hvigorw","--no-daemon","--no-parallel","--no-type-check","--analyze=false","--mode","module","-p","product=default","assembleHap"],
+			"evidence": [
+				{
+					"path": "release/qualifications/alpha13-payment-feedback-analysis-165bcbd/build-qualification.json"
+				}
+			],
+			"id": "fact-harmony-iap-build-test",
+			"kind": "build-test-entrypoint",
+			"repositoryId": "harmony-iap-client",
+			"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3",
+			"trackedTestFiles": 0
+		},
+		"payloadSha256": "eb18b01bd1b87758554efd884a510c4d001b85c9aa0f2ab891a1ebfa8d96362b",
+		"repositoryId": "harmony-iap-client",
+		"sourceRevision": "59260e2b0f9663be2d35288f4f339b8ce60ae5a3"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "badff1be-24b3-51fc-8037-3c6fb7a1953a"
+}

@@ -1,0 +1,32 @@
+{
+	"deleted": false,
+	"key": "fact-code-workshop-build-test",
+	"recorded_at_unix_ms": 1790568407820,
+	"row": {
+		"id": "fact-code-workshop-build-test",
+		"kind": "build-test-entrypoint",
+		"payload": {
+			"evidence": [
+				{
+					"path": "release/qualifications/harmony-arkweb-lifecycle-localization-6840590/source-build-preflight.json"
+				},
+				{
+					"gitBlobOid": "ce9dea9073bf7e18a279673bd04b382be569955c",
+					"path": "README.md"
+				}
+			],
+			"id": "fact-code-workshop-build-test",
+			"kind": "build-test-entrypoint",
+			"repositoryId": "code-workshop",
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+			"testPathMatches": 87,
+			"toolchainBoundary": "DevEco/Hvigor SDK 6.1; product-root qualification is separate from repository parsing"
+		},
+		"payloadSha256": "b9bdcd4e952e205f22cf0427939f043255b1b2711a5da472ea176146609b1006",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "badff1be-24b3-51fc-8037-3c6fb7a1953a"
+}

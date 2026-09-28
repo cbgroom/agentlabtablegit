@@ -1,0 +1,33 @@
+{
+	"deleted": false,
+	"key": "fact-guide-inventory",
+	"recorded_at_unix_ms": 1790568407820,
+	"row": {
+		"id": "fact-guide-inventory",
+		"kind": "repository-inventory",
+		"payload": {
+			"analyzedFiles": 12155,
+			"evidence": [
+				{
+					"path": "release/qualifications/harmony-real-multi-repo-34661ff/summary.json",
+					"sha256": "87765202438945f8bf3094678c0e732f185d2ca13229d0077f4af2e2e1e871d9"
+				}
+			],
+			"filesWithSyntaxErrors": 27,
+			"id": "fact-guide-inventory",
+			"kind": "repository-inventory",
+			"repositoryId": "guide-snippets",
+			"sourceFileCandidates": 12157,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"textLines": 836570,
+			"trackedFiles": 39298,
+			"unsupportedSources": 2
+		},
+		"payloadSha256": "4eb23e37cb2456fda067820508bd148437afc04ae3b44a6f30c4bf62cf9c909e",
+		"repositoryId": "guide-snippets",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "badff1be-24b3-51fc-8037-3c6fb7a1953a"
+}
