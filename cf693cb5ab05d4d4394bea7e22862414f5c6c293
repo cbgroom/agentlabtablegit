@@ -1,0 +1,48 @@
+{
+	"deleted": false,
+	"key": "agent-analysis-userauth-instance-lifecycle-demo-page",
+	"recorded_at_unix_ms": 1790570996494,
+	"row": {
+		"id": "agent-analysis-userauth-instance-lifecycle-demo-page",
+		"kind": "analysis",
+		"payload": {
+			"agentProposal": {
+				"automaticPromotion": false,
+				"schema": "agentlab.maintainer_skill_fact_proposal.v1",
+				"sourceAssessmentSha256": "7176954ae41743f05ab236067e527b4fd9091016e66f3c22b5e964cfde0cc471"
+			},
+			"dimensions": ["behavior","boundary","relations","responsibility"],
+			"evidence": [
+				{
+					"gitBlobOid": "bc1fa6c275fda96137e10d7a824568715b113cbb",
+					"path": "UserAuthentication/entry/src/main/ets/pages/Index.ets"
+				},
+				{
+					"gitBlobOid": "2f0beaf027106d0be03eab937781b86293cbc576",
+					"path": "UserAuthentication/entry/src/main/module.json5"
+				},
+				{
+					"gitBlobOid": "6395759585f97da6c54a88d0ca58245d80838854",
+					"path": "UserAuthentication/entry/src/main/ets/entryability/EntryAbility.ets"
+				},
+				{
+					"gitBlobOid": "eed6635f664fa08b992d84590bf62be7e0bb5381",
+					"path": "UserAuthentication/entry/build-profile.json5"
+				}
+			],
+			"id": "agent-analysis-userauth-instance-lifecycle-demo-page",
+			"interpretation": "Responsibility: Index.ets, the sole @Entry page, hosts nine Tabs whose buttons wrap one documented @kit.UserAuthenticationKit recipe each: getAvailableStatus ATL3 FACE check, four getUserAuthInstance start() flows (PIN/FACE/FINGERPRINT at ATL3, ReuseUnlockResult variants, one uiContext widget), cancel() after 3s, on('authTip') perception, getEnrolledState digest, async getAuthLockState, ATL2 companion-device flow. Boundary: keep module.json5 (srcEntries, ACCESS_BIOMETRIC + SECURITY_RESTRICTIONS), main_pages 'pages/Index', and build-profile.json5 obfuscation plus default/ohosTest targets consistent; EntryAbility seeds AppStorage 'pageContext'/'UIContext' read by resourceToString and the toast, so renaming either key desynchronizes page and ability. Relations: in-scope imports are only common/Logger plus Kits; hvigorfile.ts pins hapTasks; the ohosTest hypium suite only asserts string containment, never userAuth. Behavior: results sit in an 8-slot @State array indexed by ResultIndex; each on('result') self-unsubscribes via off('result'); challenge is 16 cryptoFramework bytes, 3 retries; Kit failures are BusinessError-logged, never rethrown; resourceToString degrades to 'undefined'.",
+			"kind": "analysis",
+			"limitations": ["That the ATL3 FACE/PIN/FINGERPRINT flows or companion-device flow succeed on any device is unproved: no device or emulator execution was performed, and results depend on enrollment and vendor capability not observable in the tree.","That the declared ohos.permission.ACCESS_BIOMETRIC and ohos.access.permission.SECURITY_RESTRICTIONS permissions are actually required (versus merely declared) for getAvailableStatus, getEnrolledState, or getAuthLockState is an inference from module.json5, not a verified SDK contract.","The semantics and numeric values of MAX_ALLOWABLE_REUSE_DURATION and PERMANENT_LOCKOUT_DURATION are taken from usage context only; no SDK typings were consulted, so version drift in @kit.UserAuthenticationKit is not ruled out.","The obfuscation rules in obfuscation-rules.txt were not evaluated, so whether release obfuscation preserves the reflection-sensitive ArkUS struct and JSON.stringify of AuthLockState is unverified."],
+			"repositoryId": "guide-snippets",
+			"scopeSkillIds": ["skill-scope-guide-snippets-userauthentication-entry"],
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+		},
+		"payloadSha256": "36e5690656a647bf2d678505254dc0fb09f898ffec96b7c8423491a10d61d675",
+		"repositoryId": "guide-snippets",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "7d844266-465d-5be4-a304-a399b3178fb7"
+}
