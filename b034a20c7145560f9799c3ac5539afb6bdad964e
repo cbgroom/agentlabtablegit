@@ -1,0 +1,67 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-floatview",
+	"recorded_at_unix_ms": 1790568339131,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-floatview",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/FloatView/build-profile.json5","ArkUISample/FloatView/entry/build-profile.json5"],
+			"codeLineCount": 941,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "标准悬浮窗是一种在设备屏幕上显示的悬浮窗口形态，可用于展示关键内容并支持跨应用场景下的持续交互。",
+			"documentedTitle": "ArkTS 标准悬浮窗（FloatView）",
+			"evidence": [
+				{
+					"gitBlobOid": "1284daa33615d0bd9620e4f7e528f562dff2a6ef",
+					"path": "ArkUISample/FloatView/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "402786277bdcddda7c6d435ef34ba6fce989ae2a",
+					"path": "ArkUISample/FloatView/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "ArkUISample/FloatView/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.DeviceSecurityKit","@kit.PerformanceAnalysisKit","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 8,
+			"id": "skill-scope-guide-snippets-arkuisample-floatview",
+			"kind": "sample-project",
+			"languages": {
+				"ets": 8,
+				"json": 9,
+				"json5": 9,
+				"md": 2,
+				"png": 5,
+				"ts": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/FloatView",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/FloatView; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 10,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/FloatView/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/FloatView/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/FloatView/entry/src/ohosTest/module.json5"],
+			"testFileCount": 3,
+			"trackedFileCount": 35
+		},
+		"payloadSha256": "f60436c91f6427ea9a6cef4311bdfe47ed79664424e4edf21c9d42de108b270d",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "d3261572-b280-5189-89a0-a69d29f36cd9"
+}

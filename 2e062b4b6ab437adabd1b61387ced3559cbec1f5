@@ -1,0 +1,73 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-imagecapiguide",
+	"recorded_at_unix_ms": 1790568339131,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-imagecapiguide",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/ImageCAPIGuide/build-profile.json5","ArkUISample/ImageCAPIGuide/entry/build-profile.json5","ArkUISample/ImageCAPIGuide/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 1156,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例为开发指南中图片组件开发章节示例代码的完整工程。该工程展示了如何在应用底层创建图片组件，加载并展示多种来源的图像资源，同时实现多样化的图像调整与显示效果，帮助开发者快速掌握高性能图片展示功能的实现方法。",
+			"documentedTitle": "显示图片（Image）",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkUISample/ImageCAPIGuide/.gitignore"
+				},
+				{
+					"gitBlobOid": "784a24c92c8091aafb0e3fc926b48e11179de922",
+					"path": "ArkUISample/ImageCAPIGuide/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "6daa5a40887f263a61386ad485a42c4ec3f2faa7",
+					"path": "ArkUISample/ImageCAPIGuide/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","arkui/native_interface.h","arkui/native_node.h","arkui/native_node_napi.h","arkui/native_type.h","hilog/log.h","js_native_api.h","libentry.so"],
+			"externalDependencyCount": 14,
+			"id": "skill-scope-guide-snippets-arkuisample-imagecapiguide",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 3,
+				"ets": 8,
+				"h": 2,
+				"jpg": 1,
+				"json": 10,
+				"json5": 11,
+				"md": 2,
+				"no-extension": 2,
+				"png": 7,
+				"svg": 1,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/ImageCAPIGuide",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/ImageCAPIGuide; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 16,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/ImageCAPIGuide/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/ImageCAPIGuide/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/ImageCAPIGuide/entry/src/ohosTest/module.json5","ArkUISample/ImageCAPIGuide/entry/src/test/List.test.ets","ArkUISample/ImageCAPIGuide/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 52
+		},
+		"payloadSha256": "32d0c86becc15cb1b45a1e33f0a3d5f49e5be17fc9ef042f8ded116f1f547327",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "d3261572-b280-5189-89a0-a69d29f36cd9"
+}

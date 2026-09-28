@@ -1,0 +1,74 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkuisample-drawabledescriptorsample",
+	"recorded_at_unix_ms": 1790568339131,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkuisample-drawabledescriptorsample",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkUISample/DrawableDescriptorSample/build-profile.json5","ArkUISample/DrawableDescriptorSample/entry/build-profile.json5","ArkUISample/DrawableDescriptorSample/entry/src/main/cpp/CMakeLists.txt"],
+			"codeLineCount": 1131,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例通过使用[drawable_descriptor.h](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-arkui/capi-drawable-descriptor-h.md)中的接口，帮助开发者更好的理解并合理使用ArkUI提供的组件以及组件属性。该工程创建Image组件，入参类型为DrawableDescriptor,并可以设置duration、iteration属性。",
+			"documentedTitle": "ArkUI使用DrawableDescriptor指南文档示例",
+			"evidence": [
+				{
+					"gitBlobOid": "d2ff20141ceed86d87c0ea5d99481973005bab2b",
+					"path": "ArkUISample/DrawableDescriptorSample/.gitignore"
+				},
+				{
+					"gitBlobOid": "721059a8c9905e14398fa32f81c441aa1f460ebd",
+					"path": "ArkUISample/DrawableDescriptorSample/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "2ada7e9ab48d78775263c744fe0bab677880f70d",
+					"path": "ArkUISample/DrawableDescriptorSample/AppScope/resources/base/element/string.json"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.TestKit","@ohos.hilog","@ohos.multimedia.image","@ohos.resourceManager","@ohos/hvigor-ohos-plugin","@ohos/hypium","arkui/drawable_descriptor.h","arkui/native_interface.h","arkui/native_node.h","arkui/native_node_napi.h","hilog/log.h","libentry.so","map","multimedia/image_framework/image/image_common.h","multimedia/image_framework/image/image_source_native.h","multimedia/image_framework/image/pixelmap_native.h","multimedia/image_framework/image_pixel_map_mdk.h","mutex","napi/native_api.h","native_drawing/drawing_pixel_map.h","resourcemanager/ohresmgr.h"],
+			"externalDependencyCount": 25,
+			"id": "skill-scope-guide-snippets-arkuisample-drawabledescriptorsample",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 2,
+				"ets": 9,
+				"gif": 1,
+				"h": 1,
+				"jpeg": 2,
+				"jpg": 1,
+				"json": 9,
+				"json5": 12,
+				"md": 2,
+				"no-extension": 2,
+				"png": 6,
+				"ts": 3,
+				"txt": 2
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkUISample/DrawableDescriptorSample",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkUISample/DrawableDescriptorSample; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 15,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkUISample/DrawableDescriptorSample/entry/src/ohosTest/ets/test/Ability.test.ets","ArkUISample/DrawableDescriptorSample/entry/src/ohosTest/ets/test/List.test.ets","ArkUISample/DrawableDescriptorSample/entry/src/ohosTest/ets/test/index.test.ets","ArkUISample/DrawableDescriptorSample/entry/src/ohosTest/module.json5","ArkUISample/DrawableDescriptorSample/entry/src/test/List.test.ets","ArkUISample/DrawableDescriptorSample/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 6,
+			"trackedFileCount": 52
+		},
+		"payloadSha256": "2534e6f88f69cb2c85a23aad812a2046bb5350bbb40f2fc7acbe2ac31fa82c15",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "d3261572-b280-5189-89a0-a69d29f36cd9"
+}
