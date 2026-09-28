@@ -1,0 +1,72 @@
+{
+	"deleted": false,
+	"key": "skill-scope-guide-snippets-arkts-arktsruntime",
+	"recorded_at_unix_ms": 1790568323220,
+	"row": {
+		"id": "skill-scope-guide-snippets-arkts-arktsruntime",
+		"kind": "sample-project",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": ["ArkTS/ArkTSRuntime/ArkTSGC/build-profile.json5","ArkTS/ArkTSRuntime/ArkTSGC/entry/build-profile.json5","ArkTS/ArkTSRuntime/ArkTSModule/ArktsImportNativeModule/build-profile.json5","ArkTS/ArkTSRuntime/ArkTSModule/ArktsImportNativeModule/entry/build-profile.json5","ArkTS/ArkTSRuntime/ArkTSModule/ArktsImportNativeModule/entry/src/main/cpp/CMakeLists.txt","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/build-profile.json5","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/entry/build-profile.json5","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/entry/src/main/cpp/CMakeLists.txt","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har1/build-profile.json5","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har2/build-profile.json5","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har3/build-profile.json5","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/harlibrary/build-profile.json5","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/myHar/build-profile.json5","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/myHsp/build-profile.json5","ArkTS/ArkTSRuntime/ArkTSModule/JsApisLoadNativeModule/build-profile.json5","ArkTS/ArkTSRuntime/ArkTSModule/JsApisLoadNativeModule/entry/build-profile.json5","ArkTS/ArkTSRuntime/ArkTSModule/JsApisLoadNativeModule/entry/src/main/cpp/CMakeLists.txt","ArkTS/ArkTSRuntime/ArkTSModule/LazyImport/build-profile.json5","ArkTS/ArkTSRuntime/ArkTSModule/LazyImport/entry/build-profile.json5","ArkTS/ArkTSRuntime/ArktsRuntimeFag/build-profile.json5","ArkTS/ArkTSRuntime/ArktsRuntimeFag/entry/build-profile.json5"],
+			"codeLineCount": 6546,
+			"coverage": "all tracked files under this leaf boundary are assigned exactly once",
+			"documentedPurpose": "本示例为ArkTS运行时GC（Garbage Collection，垃圾回收）文档的代码同源示例，对应文档：[GC垃圾回收](https://gitcode.com/openharmony/docs/blob/master/zh-cn/application-dev/arkts-utils/gc-introduction.md)。",
+			"documentedTitle": "ArkTS GC垃圾回收",
+			"evidence": [
+				{
+					"gitBlobOid": "296d7b39f15a600ff14de4cbc188c9c3fc91064f",
+					"path": "ArkTS/ArkTSRuntime/ArkTSGC/AppScope/app.json5"
+				},
+				{
+					"gitBlobOid": "6d2acdeba61d5ea50fd763887587e91010992df3",
+					"path": "ArkTS/ArkTSRuntime/ArkTSGC/AppScope/resources/base/element/string.json"
+				},
+				{
+					"gitBlobOid": "923f2b3f27e915d6871871deea0420eb45ce102f",
+					"path": "ArkTS/ArkTSRuntime/ArkTSGC/AppScope/resources/base/media/background.png"
+				}
+			],
+			"externalDependencies": ["@kit.AbilityKit","@kit.ArkUI","@kit.CoreFileKit","@kit.PerformanceAnalysisKit","@kit.SomeKit","@kit.TestKit","@ohos.UiTest","@ohos.app.ability.abilityDelegatorRegistry","@ohos.arkui.UIContext","@ohos.hilog","@ohos.inputMethod","@ohos.resourceManager","@ohos.router","@ohos/hvigor-ohos-plugin","@ohos/hypium","libentry.so","mod"],
+			"externalDependencyCount": 17,
+			"id": "skill-scope-guide-snippets-arkts-arktsruntime",
+			"kind": "sample-project",
+			"languages": {
+				"cpp": 3,
+				"ets": 125,
+				"jpeg": 2,
+				"js": 2,
+				"json": 59,
+				"json5": 86,
+				"md": 12,
+				"no-extension": 12,
+				"png": 38,
+				"ts": 22,
+				"txt": 6
+			},
+			"ownershipPlane": "target-operations",
+			"pathBoundary": "ArkTS/ArkTSRuntime",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/guide-snippets.git",
+			"repositoryId": "guide-snippets",
+			"responsibility": "Maintain the independently buildable Harmony sample rooted at ArkTS/ArkTSRuntime; keep its modules, tests, resources, and SDK contract together.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 152,
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"sourceTreeOid": "20bc24c3933662e0f7a55022bf918015407a94b2",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-sample-project-corpus",
+			"testEntrypoints": ["ArkTS/ArkTSRuntime/ArkTSGC/entry/src/ohosTest/ets/test/Ability.test.ets","ArkTS/ArkTSRuntime/ArkTSGC/entry/src/ohosTest/ets/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSGC/entry/src/ohosTest/module.json5","ArkTS/ArkTSRuntime/ArkTSGC/entry/src/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSGC/entry/src/test/LocalUnit.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/ArktsImportNativeModule/entry/src/ohosTest/ets/test/Ability.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/ArktsImportNativeModule/entry/src/ohosTest/ets/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/ArktsImportNativeModule/entry/src/ohosTest/module.json5","ArkTS/ArkTSRuntime/ArkTSModule/ArktsImportNativeModule/entry/src/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/ArktsImportNativeModule/entry/src/test/LocalUnit.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/entry/src/ohosTest/ets/test/Ability.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/entry/src/ohosTest/ets/test/DynamicImport.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/entry/src/ohosTest/ets/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/entry/src/ohosTest/module.json5","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/entry/src/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/entry/src/test/LocalUnit.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har1/src/ohosTest/ets/test/Ability.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har1/src/ohosTest/ets/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har1/src/ohosTest/module.json5","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har1/src/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har1/src/test/LocalUnit.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har2/src/ohosTest/ets/test/Ability.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har2/src/ohosTest/ets/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har2/src/ohosTest/module.json5","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har2/src/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har2/src/test/LocalUnit.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har3/src/ohosTest/ets/test/Ability.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har3/src/ohosTest/ets/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har3/src/ohosTest/module.json5","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har3/src/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/har3/src/test/LocalUnit.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/harlibrary/src/ohosTest/ets/test/Ability.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/harlibrary/src/ohosTest/ets/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/harlibrary/src/ohosTest/module.json5","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/harlibrary/src/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/harlibrary/src/test/LocalUnit.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/myHar/src/ohosTest/ets/test/Ability.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/myHar/src/ohosTest/ets/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/myHar/src/ohosTest/module.json5","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/myHar/src/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/myHar/src/test/LocalUnit.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/myHsp/src/ohosTest/ets/test/Ability.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/myHsp/src/ohosTest/ets/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/myHsp/src/ohosTest/module.json5","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/myHsp/src/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/DynamicImport/myHsp/src/test/LocalUnit.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/JsApisLoadNativeModule/entry/src/ohosTest/ets/test/Ability.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/JsApisLoadNativeModule/entry/src/ohosTest/ets/test/JsApisLoadNativeModule.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/JsApisLoadNativeModule/entry/src/ohosTest/ets/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/JsApisLoadNativeModule/entry/src/ohosTest/module.json5","ArkTS/ArkTSRuntime/ArkTSModule/JsApisLoadNativeModule/entry/src/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/JsApisLoadNativeModule/entry/src/test/LocalUnit.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/LazyImport/entry/src/ohosTest/ets/test/Ability.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/LazyImport/entry/src/ohosTest/ets/test/LazyImport.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/LazyImport/entry/src/ohosTest/ets/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/LazyImport/entry/src/ohosTest/module.json5","ArkTS/ArkTSRuntime/ArkTSModule/LazyImport/entry/src/test/List.test.ets","ArkTS/ArkTSRuntime/ArkTSModule/LazyImport/entry/src/test/LocalUnit.test.ets","ArkTS/ArkTSRuntime/ArktsRuntimeFag/entry/src/ohosTest/ets/test/Ability.test.ets","ArkTS/ArkTSRuntime/ArktsRuntimeFag/entry/src/ohosTest/ets/test/AdditionalTests.test.ets","ArkTS/ArkTSRuntime/ArktsRuntimeFag/entry/src/ohosTest/ets/test/ArktsRuntimeFag.test.ets","ArkTS/ArkTSRuntime/ArktsRuntimeFag/entry/src/ohosTest/ets/test/List.test.ets","ArkTS/ArkTSRuntime/ArktsRuntimeFag/entry/src/ohosTest/ets/test/Local.test.ets","ArkTS/ArkTSRuntime/ArktsRuntimeFag/entry/src/ohosTest/module.json5","ArkTS/ArkTSRuntime/ArktsRuntimeFag/entry/src/test/List.test.ets","ArkTS/ArkTSRuntime/ArktsRuntimeFag/entry/src/test/LocalUnit.test.ets"],
+			"testFileCount": 66,
+			"trackedFileCount": 367
+		},
+		"payloadSha256": "b50daaadd66e499afa7ae0ff8112687c97bdef846d51557cae89e00180e63f47",
+		"repositoryId": "guide-snippets",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "e93a92f9-0dc7-5700-a3f6-00291e684f6d"
+}
