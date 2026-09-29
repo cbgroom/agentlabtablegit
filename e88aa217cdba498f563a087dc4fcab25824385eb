@@ -1,0 +1,76 @@
+{
+	"deleted": false,
+	"key": "skill-scope-code-workshop-common-platform-services",
+	"recorded_at_unix_ms": 1790687243273,
+	"row": {
+		"id": "skill-scope-code-workshop-common-platform-services",
+		"kind": "composite-responsibility",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": [],
+			"codeLineCount": 3880,
+			"coverage": "all tracked files selected by this scope are assigned exactly once",
+			"documentedPurpose": null,
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "7030f39b70c0f00a616f9530b73def8625c755c3",
+					"path": "common/src/main/ets/accountservice/AccountService.ets"
+				},
+				{
+					"gitBlobOid": "d0de20ca7f7cbff89e8b1cd2efcf4ad61c4bc2e7",
+					"path": "common/src/main/ets/util/Logger.ets"
+				}
+			],
+			"externalDependencies": ["@hms.hds.hdsBaseComponent","@kit.AbilityKit","@kit.AccountKit","@kit.AppGalleryKit","@kit.ArkData","@kit.ArkGraphics2D","@kit.ArkTS","@kit.ArkUI","@kit.ArkWeb","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.ImageKit","@kit.NetworkKit","@kit.NotificationKit","@kit.PerformanceAnalysisKit","@kit.PushKit","@kit.SensorServiceKit","@kit.ShareKit","@kit.UIDesignKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","@ohos/imageknife","env.json"],
+			"externalDependencyCount": 23,
+			"id": "skill-scope-code-workshop-common-platform-services",
+			"kind": "composite-responsibility",
+			"languages": {
+				"ets": 39
+			},
+			"ownershipPlane": "target-operations",
+			"ownershipSelectors": [
+				{
+					"path": "common/src/main/ets/accountservice",
+					"type": "prefix"
+				},
+				{
+					"path": "common/src/main/ets/pushservice",
+					"type": "prefix"
+				},
+				{
+					"path": "common/src/main/ets/updateservice",
+					"type": "prefix"
+				},
+				{
+					"path": "common/src/main/ets/util",
+					"type": "prefix"
+				}
+			],
+			"pathBoundary": "common",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/sample_in_harmonyos.git",
+			"repositoryId": "code-workshop",
+			"responsibility": "Maintain account, push, application-update, and reusable platform utility adapters exposed by the common module.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 39,
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+			"sourceTreeOid": "ab156e6aa2fc9c64f400ee119e142fded5573271",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-multi-product-modules",
+			"testEntrypoints": [],
+			"testFileCount": 0,
+			"trackedFileCount": 39
+		},
+		"payloadSha256": "d261ad2cdb7ee550313a98deeb4fbf3a57dff2703c501308a2dcb4a96d255196",
+		"repositoryId": "code-workshop",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "74b1390e-4add-5d2b-8a08-325f7794acb0"
+}

@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-code-workshop-common-verification",
+	"recorded_at_unix_ms": 1790687243273,
+	"row": {
+		"id": "skill-scope-code-workshop-common-verification",
+		"kind": "composite-responsibility",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": [],
+			"codeLineCount": 3106,
+			"coverage": "all tracked files selected by this scope are assigned exactly once",
+			"documentedPurpose": null,
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "85c78f67579d6e31b5f5aeea463e216b9b141048",
+					"path": "common/src/ohosTest/ets/test/Ability.test.ets"
+				},
+				{
+					"gitBlobOid": "165fc1615ee8618b4cb6a622f144a9a707eee99f",
+					"path": "common/src/test/LocalUnit.test.ets"
+				}
+			],
+			"externalDependencies": ["@hms.hds.hdsBaseComponent","@kit.AbilityKit","@kit.AccountKit","@kit.AppGalleryKit","@kit.ArkData","@kit.ArkGraphics2D","@kit.ArkTS","@kit.ArkUI","@kit.ArkWeb","@kit.BasicServicesKit","@kit.CoreFileKit","@kit.ImageKit","@kit.NetworkKit","@kit.NotificationKit","@kit.PerformanceAnalysisKit","@kit.PushKit","@kit.SensorServiceKit","@kit.ShareKit","@kit.UIDesignKit","@ohos/hvigor-ohos-plugin","@ohos/hypium","@ohos/imageknife","env.json"],
+			"externalDependencyCount": 23,
+			"id": "skill-scope-code-workshop-common-verification",
+			"kind": "composite-responsibility",
+			"languages": {
+				"ets": 36,
+				"json5": 1
+			},
+			"ownershipPlane": "target-operations",
+			"ownershipSelectors": [
+				{
+					"path": "common/src/ohosTest",
+					"type": "prefix"
+				},
+				{
+					"path": "common/src/test",
+					"type": "prefix"
+				}
+			],
+			"pathBoundary": "common",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/sample_in_harmonyos.git",
+			"repositoryId": "code-workshop",
+			"responsibility": "Maintain the common module's ohosTest integration suite and local unit-test entrypoints as its executable verification surface.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 36,
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+			"sourceTreeOid": "ab156e6aa2fc9c64f400ee119e142fded5573271",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-multi-product-modules",
+			"testEntrypoints": ["common/src/ohosTest/ets/test/Ability.test.ets","common/src/ohosTest/ets/test/List.test.ets","common/src/ohosTest/ets/test/util/AppTypeUtil.test.ets","common/src/ohosTest/ets/test/util/BreakpointSystem.test.ets","common/src/ohosTest/ets/test/util/BundleManagerUtil.test.ets","common/src/ohosTest/ets/test/util/ColorPickerUtil.test.ets","common/src/ohosTest/ets/test/util/ColorUtil.test.ets","common/src/ohosTest/ets/test/util/DateFormatUtil.test.ets","common/src/ohosTest/ets/test/util/DebounceUtil.test.ets","common/src/ohosTest/ets/test/util/DeviceUtil.test.ets","common/src/ohosTest/ets/test/util/DynamicInstallManager.test.ets","common/src/ohosTest/ets/test/util/FileUtil.test.ets","common/src/ohosTest/ets/test/util/GlobalContext.test.ets","common/src/ohosTest/ets/test/util/HdsUtil.test.ets","common/src/ohosTest/ets/test/util/ImageKnifeUtil.test.ets","common/src/ohosTest/ets/test/util/ImageUtil.test.ets","common/src/ohosTest/ets/test/util/Logger.test.ets","common/src/ohosTest/ets/test/util/MaterialUtil.test.ets","common/src/ohosTest/ets/test/util/NetworkUtil.test.ets","common/src/ohosTest/ets/test/util/ObservedArray.test.ets","common/src/ohosTest/ets/test/util/PasteboardUtil.test.ets","common/src/ohosTest/ets/test/util/ProcessUtil.test.ets","common/src/ohosTest/ets/test/util/PullUpManager.test.ets","common/src/ohosTest/ets/test/util/RawfileIOUtil.test.ets","common/src/ohosTest/ets/test/util/ResourceUtil.test.ets","common/src/ohosTest/ets/test/util/ShareUtil.test.ets","common/src/ohosTest/ets/test/util/SubmitInfoUtil.test.ets","common/src/ohosTest/ets/test/util/TextOverflowUtil.test.ets","common/src/ohosTest/ets/test/util/TimeUtil.test.ets","common/src/ohosTest/ets/test/util/UrlUtil.test.ets","common/src/ohosTest/ets/test/util/VibratorUtils.test.ets","common/src/ohosTest/ets/test/util/WantValidatorUtil.test.ets","common/src/ohosTest/ets/test/util/WebUtil.test.ets","common/src/ohosTest/ets/test/util/WindowUtil.test.ets","common/src/ohosTest/module.json5","common/src/test/List.test.ets","common/src/test/LocalUnit.test.ets"],
+			"testFileCount": 37,
+			"trackedFileCount": 37
+		},
+		"payloadSha256": "ee496a7c1e42ebd0c8df2c161b633ad07f90b80fdcd7c8af680471a988afa557",
+		"repositoryId": "code-workshop",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "74b1390e-4add-5d2b-8a08-325f7794acb0"
+}

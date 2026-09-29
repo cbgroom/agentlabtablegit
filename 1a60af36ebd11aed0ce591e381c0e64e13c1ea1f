@@ -1,0 +1,69 @@
+{
+	"deleted": false,
+	"key": "skill-scope-code-workshop-componentlibrary-verification",
+	"recorded_at_unix_ms": 1790687243273,
+	"row": {
+		"id": "skill-scope-code-workshop-componentlibrary-verification",
+		"kind": "composite-responsibility",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"buildEntrypoints": [],
+			"codeLineCount": 78,
+			"coverage": "all tracked files selected by this scope are assigned exactly once",
+			"documentedPurpose": null,
+			"documentedTitle": null,
+			"evidence": [
+				{
+					"gitBlobOid": "85c78f67579d6e31b5f5aeea463e216b9b141048",
+					"path": "features/componentlibrary/src/ohosTest/ets/test/Ability.test.ets"
+				},
+				{
+					"gitBlobOid": "165fc1615ee8618b4cb6a622f144a9a707eee99f",
+					"path": "features/componentlibrary/src/test/LocalUnit.test.ets"
+				}
+			],
+			"externalDependencies": [",built_in:","@kit.AbilityKit","@kit.ArkData","@kit.ArkGraphics2D","@kit.ArkUI","@kit.BasicServicesKit","@kit.CameraKit","@kit.CoreFileKit","@kit.CoreSpeechKit","@kit.ImageKit","@kit.MediaLibraryKit","@kit.Penkit","@kit.PerformanceAnalysisKit","@kit.SpeechKit","@kit.TelephonyKit","@kit.UIDesignKit","@ohos/common","@ohos/commonbusiness","@ohos/hvigor-ohos-plugin","@ohos/hypium"],
+			"externalDependencyCount": 20,
+			"id": "skill-scope-code-workshop-componentlibrary-verification",
+			"kind": "composite-responsibility",
+			"languages": {
+				"ets": 4,
+				"json5": 1
+			},
+			"ownershipPlane": "target-operations",
+			"ownershipSelectors": [
+				{
+					"path": "features/componentlibrary/src/ohosTest",
+					"type": "prefix"
+				},
+				{
+					"path": "features/componentlibrary/src/test",
+					"type": "prefix"
+				}
+			],
+			"pathBoundary": "features/componentlibrary",
+			"repository": "https://gitcode.com/HarmonyOS_Samples/sample_in_harmonyos.git",
+			"repositoryId": "code-workshop",
+			"responsibility": "Maintain the component-library ohosTest integration suite and local unit-test entrypoints as its executable verification surface.",
+			"schema": "agentlab.maintainer_scope_skill.v1",
+			"skillLayer": "instance",
+			"sourceFileCount": 4,
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+			"sourceTreeOid": "ab156e6aa2fc9c64f400ee119e142fded5573271",
+			"stage": "repository-scope",
+			"status": "source-supported",
+			"strategy": "harmony-multi-product-modules",
+			"testEntrypoints": ["features/componentlibrary/src/ohosTest/ets/test/Ability.test.ets","features/componentlibrary/src/ohosTest/ets/test/List.test.ets","features/componentlibrary/src/ohosTest/module.json5","features/componentlibrary/src/test/List.test.ets","features/componentlibrary/src/test/LocalUnit.test.ets"],
+			"testFileCount": 5,
+			"trackedFileCount": 5
+		},
+		"payloadSha256": "0dd6eadd74e69f405377243f26eb85b118f99994f20b791a38a88fb089a76aa3",
+		"repositoryId": "code-workshop",
+		"schema": "agentlab.maintainer_scope_skill.v1",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "74b1390e-4add-5d2b-8a08-325f7794acb0"
+}

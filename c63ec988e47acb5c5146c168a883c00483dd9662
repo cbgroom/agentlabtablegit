@@ -1,0 +1,19 @@
+{
+	"deleted": true,
+	"key": "skill-scope-code-workshop-features-componentlibrary",
+	"lineage": {
+		"generation": 1,
+		"levels": [
+			{
+				"oids": ["9cd268f420c9ac47947c758f6f32195c1fbba7fd"],
+				"stride": 1
+			}
+		],
+		"schema": "mcpgit.table-row-lineage.v1"
+	},
+	"recorded_at_unix_ms": 1790687243273,
+	"row": null,
+	"row_version": 2,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "74b1390e-4add-5d2b-8a08-325f7794acb0"
+}
