@@ -1,0 +1,52 @@
+{
+	"deleted": false,
+	"key": "agent-analysis-multi-product-build-manifest-contract",
+	"recorded_at_unix_ms": 1790667515252,
+	"row": {
+		"id": "agent-analysis-multi-product-build-manifest-contract",
+		"kind": "analysis",
+		"payload": {
+			"agentProposal": {
+				"automaticPromotion": false,
+				"schema": "agentlab.maintainer_skill_fact_proposal.v1",
+				"sourceAssessmentSha256": "e316df77fefac67b13138c4b58da7f43426755810a140500f3b7d7a0b46e1cbd"
+			},
+			"dimensions": ["behavior","boundary","relations","responsibility"],
+			"evidence": [
+				{
+					"gitBlobOid": "03ada1b33bb56a68ee5243c459638fe3154523c5",
+					"path": "build-profile.json5"
+				},
+				{
+					"gitBlobOid": "22aedaae91f857a8d991e13fcc98ddea7cb9ddf2",
+					"path": "oh-package.json5"
+				},
+				{
+					"gitBlobOid": "f0c6ce4e0a91eb9cb7a8a1739cdc2b87eda102c5",
+					"path": "hvigorfile.ts"
+				},
+				{
+					"gitBlobOid": "91592bc11e0239648befcb1c9f1b12415630d147",
+					"path": "VersionFile.json5"
+				},
+				{
+					"gitBlobOid": "ccae3eeb477120f8b5d46eb018dcaadc9c6cd80a",
+					"path": "OAT.xml"
+				}
+			],
+			"id": "agent-analysis-multi-product-build-manifest-contract",
+			"interpretation": "Root contract of the HMOS Code Workshop multi-product HarmonyOS app. Behavior: build-profile.json5, the declared build entrypoint, registers 13 modules (products phone, wearable, tv, pc; feature libraries mine, exploration, componentlibrary, devpractices, commonbusiness, widgetcommon, abilitycommon; shared common) across 7 flavors (default, dev, uat, uat_mirror, icsl, beta, prod), all at compatibleSdkVersion 6.1.0(23)/targetSdkVersion 6.1.1(24) with useNormalizedOHMUrl. oh-package.json5 sets modelVersion 5.0.0 and routes @ohos/hypium and @ohos/hamock versions via parameterFile VersionFile.json5; hvigorfile.ts binds the root build to @ohos/hvigor-ohos-plugin appTasks. Boundary: scope owns only the 9 root files (manifests, .gitignore, LICENSE, OAT.xml, bilingual READMEs); module sources and assets under products/, features/, common/, hmosword-build/, hvigor/, AppScope/ are sibling scopes referenced via modules[].srcPath. Relations: product targets bind module targets via applyToProducts; VersionFile.json5 parameterizes tool versions. Responsibility: keep module registry, flavor matrix, version parameterization, and compliance/docs files consistent as modules or SDK versions change.",
+			"kind": "analysis",
+			"limitations": ["No build was executed, so it is unproved that the 13 declared modules resolve, that hvigor completes, or that the empty signingConfigs yield signable artifacts.","It is assumed, not verified, that every module-level oh-package.json5 resolves the @param:dependencies placeholders (hypium-version, hamock-version, imageknife-version) declared in VersionFile.json5.","Whether each modules[].srcPath directory actually exists with a valid module configuration was not inspected beyond the root manifest.","README-documented capabilities (1+8 device coverage, one-click sample sharing, app-store distribution) are claims from documentation, not verified runtime or release behavior."],
+			"repositoryId": "code-workshop",
+			"scopeSkillIds": ["skill-scope-code-workshop-root"],
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+		},
+		"payloadSha256": "607cc581091c87d9aacd2e16e17a56c8ef90c3bc6b5e24b205ad11196940a76e",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "5171bcfb-c2ab-576d-b225-02e5f00b0a93"
+}
