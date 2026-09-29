@@ -1,0 +1,68 @@
+{
+	"deleted": false,
+	"key": "agent-analysis-arkts-har-shared-home-ui-foundation",
+	"recorded_at_unix_ms": 1790640184199,
+	"row": {
+		"id": "agent-analysis-arkts-har-shared-home-ui-foundation",
+		"kind": "analysis",
+		"payload": {
+			"agentProposal": {
+				"automaticPromotion": false,
+				"schema": "agentlab.maintainer_skill_fact_proposal.v1",
+				"sourceAssessmentSha256": "c934a40921ada8ec8302585f03762950045e94da14acbc45160989f44eff8e80"
+			},
+			"dimensions": ["behavior","boundary","relations","responsibility"],
+			"evidence": [
+				{
+					"gitBlobOid": "c5850cf004f054733ec607666f59f23cdbfe3af7",
+					"path": "features/commonbusiness/Index.ets"
+				},
+				{
+					"gitBlobOid": "53770b9dbfec3167f556f1e3a7748df80401ad9f",
+					"path": "features/commonbusiness/src/main/module.json5"
+				},
+				{
+					"gitBlobOid": "5783299aa0dbb147f94d7c9e20ece1c6e32ec24a",
+					"path": "features/commonbusiness/oh-package.json5"
+				},
+				{
+					"gitBlobOid": "b8fd8088e0077597b02be8266878a421e23994da",
+					"path": "features/commonbusiness/src/main/ets/viewmodel/BaseHomeViewModel.ets"
+				},
+				{
+					"gitBlobOid": "3af5f5ac35e98683a3930cdda78d2d39f63f8217",
+					"path": "features/commonbusiness/src/main/ets/view/BaseHomeView.ets"
+				},
+				{
+					"gitBlobOid": "5cdbd6d6a6b52e2b46813937dae531426192532a",
+					"path": "features/commonbusiness/src/main/ets/viewmodel/BannerSource.ets"
+				},
+				{
+					"gitBlobOid": "bb5b5c3731e283dd507c847560ee59bde477bbc7",
+					"path": "features/commonbusiness/src/test/List.test.ets"
+				},
+				{
+					"gitBlobOid": "03ada1b33bb56a68ee5243c459638fe3154523c5",
+					"path": "build-profile.json5"
+				},
+				{
+					"gitBlobOid": "f54a2873878fe184549c6c1469d1f644e0b70d43",
+					"path": "common/oh-package.json5"
+				}
+			],
+			"id": "agent-analysis-arkts-har-shared-home-ui-foundation",
+			"interpretation": "features/commonbusiness is a HarmonyOS HAR: src/main/module.json5 declares module type 'har' named 'commonbusiness'; oh-package.json5 names the package @ohos/commonbusiness with main Index.ets. Responsibility: a reusable home-page UI foundation - BaseHomeView switches on LoadingStatus (SUCCESS/FAILED/LOADING/NO_NETWORK); BaseHomeViewModel.sendEvent dispatches BaseHomeEventType events to handlers for adaptive banner height per breakpoint, spring-back and title-bar animations, NavPathStack navigation to Article/Sample/Component detail pages, and double-back-press exit with a toast; BannerSource implements IDataSource. Boundary: the public surface is exactly the re-exports of Index.ets; the only intra-repo dependency is file:../../common (@ohos/common), plus @kit imports; root build-profile.json5 registers the module. Relations: coupling flows through shared AppStorage keys (GLOBAL_INFO, HOME_PAGE_CONTEXT, IS_SIDEBAR_LAYOUT) and HdsTabsController, not only through exported symbols. Maintenance contract: preserve the Index.ets export list, the AppStorage key conventions, and the ../../common dependency; tests present are scaffold-only.",
+			"kind": "analysis",
+			"limitations": ["Whether any product or sibling feature module actually consumes @ohos/commonbusiness could not be verified: the checkout is sparse-checked to features/commonbusiness, so products/ and other feature trees are absent from the working directory and only root build-profile.json5 registration was observed.","The behavioral account of AppStorage keys (GLOBAL_INFO, HOME_PAGE_CONTEXT, IS_SIDEBAR_LAYOUT, CURRENT_TAB) rests on imports and usage sites only; the StorageKey and GlobalInfoModel definitions live in @ohos/common under common/, which is not in the working tree, so their semantics are unproved.","No build, test, or runtime execution was performed: hvigor HAR packaging, obfuscation/consumer rule handling, and the hypium ohosTest/localUnit suites were never run, so compile-correctness and test pass status remain unproved.","The claimed navigation targets (PageEnum.COMPONENT_DETAIL_VIEW, SAMPLE_DETAIL_VIEW, BANNER_DETAIL_VIEW) are defined in @ohos/common outside this scope; that the pushed routes are actually registered by some consumer page is unproved."],
+			"repositoryId": "code-workshop",
+			"scopeSkillIds": ["skill-scope-code-workshop-features-commonbusiness"],
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+		},
+		"payloadSha256": "d0557c6c46658a29d0cca2cbcc9f50bd659881704ec1a7ed825bf16bbd645bf6",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "af64109f-e7f6-5507-a34d-1c269693ab9b"
+}
