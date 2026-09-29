@@ -1,0 +1,52 @@
+{
+	"deleted": false,
+	"key": "agent-analysis-hypium-test-suite-registration-surface",
+	"recorded_at_unix_ms": 1790696893959,
+	"row": {
+		"id": "agent-analysis-hypium-test-suite-registration-surface",
+		"kind": "analysis",
+		"payload": {
+			"agentProposal": {
+				"automaticPromotion": false,
+				"schema": "agentlab.maintainer_skill_fact_proposal.v1",
+				"sourceAssessmentSha256": "52e4e56831d0dba5d435996b90ace547b4089397e371a4d6c31ed08c48d1e598"
+			},
+			"dimensions": ["behavior","boundary","relations","responsibility"],
+			"evidence": [
+				{
+					"gitBlobOid": "cdb26154e63399a77d6a9b9bd72c9057aa336c1d",
+					"path": "common/src/ohosTest/ets/test/List.test.ets"
+				},
+				{
+					"gitBlobOid": "f18db0fde40224da5c2fc25064cef5cc03f6e458",
+					"path": "common/src/ohosTest/ets/test/util/ProcessUtil.test.ets"
+				},
+				{
+					"gitBlobOid": "165fc1615ee8618b4cb6a622f144a9a707eee99f",
+					"path": "common/src/test/LocalUnit.test.ets"
+				},
+				{
+					"gitBlobOid": "a71319f1b64f95ebe2583ce2b14b9d747e307f95",
+					"path": "common/src/ohosTest/module.json5"
+				},
+				{
+					"gitBlobOid": "03d8d47af8c71849ea6fa824dc8d834e49e121dd",
+					"path": "common/src/main/ets/util/ProcessUtil.ets"
+				}
+			],
+			"id": "agent-analysis-hypium-test-suite-registration-surface",
+			"interpretation": "common/src/test and common/src/ohosTest are the common module's executable verification surface. Each List.test.ets exports testsuite(), the hypium entry point registering suites. The local suite (LocalUnit.test.ets via common/src/test/List.test.ets) is self-contained, asserting only hypium expect matchers without production imports. The device suite (common/src/ohosTest/ets/test/List.test.ets) wires 33 suite functions; registration order matters because ProcessUtilTest is invoked last - its cases call ProcessUtil.exitApp/terminateAbility/killAllAbility, which its comment says terminate the test process; moving it earlier would drop later suites. Util tests read a UIAbilityContext from AppStorage under StorageKey.UI_CONTEXT (produced outside this scope), import helpers from common/src/main/ets/util, asserting non-throw guards, Promise returns, and stateful behavior (DebounceUtil counter). common/src/ohosTest/module.json5 declares feature module 'common_test' for default/tablet/2in1 devices. Contract: keep both testsuite() registrations complete and matching imports, preserve ProcessUtilTest-last ordering, and keep the local suite free of device-only imports.",
+			"kind": "analysis",
+			"limitations": ["The claim that AppStorage holds a UIContext under StorageKey.UI_CONTEXT before ohosTest suites run is inferred from the tests' optional-chained reads; the producer of that key lives outside this scope and was not verified.","The claim that ProcessUtil.exitApp/terminateAbility/killAllAbility terminate the xTest process rests on the in-repo comment and the ability API names; no runtime execution, build, or device behavior was observed.","That hypium's runner discovers suites via the testsuite() export convention is assumed from the framework's usage pattern, not proven from repository source.","That the local unit suite can run host-side without device dependencies was not demonstrated by execution; it is supported only by the absence of device-kit imports in LocalUnit.test.ets."],
+			"repositoryId": "code-workshop",
+			"scopeSkillIds": ["skill-scope-code-workshop-common-verification"],
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+		},
+		"payloadSha256": "73220266c2159685e16cc02894b5efba737778551da6741525a63e584162c623",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "14127b8b-ceb9-5d9a-b5f7-19d987293294"
+}
