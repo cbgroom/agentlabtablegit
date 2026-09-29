@@ -1,0 +1,48 @@
+{
+	"deleted": false,
+	"key": "agent-analysis-hmosword-build-sample-onboarding",
+	"recorded_at_unix_ms": 1790647952150,
+	"row": {
+		"id": "agent-analysis-hmosword-build-sample-onboarding",
+		"kind": "analysis",
+		"payload": {
+			"agentProposal": {
+				"automaticPromotion": false,
+				"schema": "agentlab.maintainer_skill_fact_proposal.v1",
+				"sourceAssessmentSha256": "f3813e6912fd30335b49062e7be6f9d29e8275dcf7e29f1fa061e0be24581f5f"
+			},
+			"dimensions": ["behavior","boundary","relations","responsibility"],
+			"evidence": [
+				{
+					"gitBlobOid": "4a8faa1fd1ddaa4108ba44d2573e4942b01b56d2",
+					"path": "hmosword-build/index.js"
+				},
+				{
+					"gitBlobOid": "aeca4cbf0c1dc2edabedeeac9ccc44bd61dbc1f0",
+					"path": "hmosword-build/config/mock.json"
+				},
+				{
+					"gitBlobOid": "26ae0570039c2a38709b0bd670ca551d456a1e7d",
+					"path": "hmosword-build/package.json"
+				},
+				{
+					"gitBlobOid": "03ada1b33bb56a68ee5243c459638fe3154523c5",
+					"path": "build-profile.json5"
+				}
+			],
+			"id": "agent-analysis-hmosword-build-sample-onboarding",
+			"interpretation": "Responsibility: hmosword-build is a Node.js bootstrap helper that clones external HarmonyOS_Samples repos per config/mock.json into ../submodules/ and rewrites each so it registers as a feature module in build-profile.json5. Scope: hmosword-build/{index.js, package.json, config/mock.json} + image/* + screenshots/* PNG (json5 ^2.2.3 is package.json's only dep); writes touch parent build-profile.json5, ../submodules/<sampleName>/, each clone's module.json5/oh-package.json5/build-profile.json5. Behavior: index.js needs fs/path/child_process + json5; readMock iterates mock.json.data; per item derives sampleName + samplePath, skips clone if non-empty, else async `git clone -b <branch> <originalUrl> <samplePath>`; processSample/processSampleWithoutConfig then rewrite the clone (entry->moduleName rename, oh-package.json5.name rewrite, src/main/module.json5 -> type='feature'/deliveryWithInstall=false/abilities[0].name=abilityName/exported=false); configured samples map clone build-profile.json5 modules entry->feature/others leaf; writeBuildProfile appends new modules to parent build-profile.json5.modules; only entry-derived entries carry default-product targets.",
+			"kind": "analysis",
+			"limitations": ["Whether `git clone -b <branch>` succeeds for every originalUrl/branch pair in config/mock.json is unverified: network reachability, SSH/auth availability, and rename drift in the upstream HarmonyOS_Samples repos are not provable from this checkout.","Whether the rewritten modules actually compile under hvigor is unverified; processSampleWithoutConfig only mutates modules whose existing type is 'entry', and silently skips samples whose ohosTest-only module.json5 tree yields an empty cloneSamples list.","The substringFromStartToEnd(moduleName, 6) naming convention assumes every configured moduleName is exactly 6 characters longer than the desired directory name; off-by-one or character-set edge cases are not exercised here.","deleteExtraDir is invoked with (samplePath, needModules) but its declared third parameter moduleName is never used; the cleanup semantics for samples whose build-profile.json5 is missing or whose needModules list is empty are not validated by the source alone."],
+			"repositoryId": "code-workshop",
+			"scopeSkillIds": ["skill-scope-code-workshop-hmosword-build"],
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+		},
+		"payloadSha256": "e16e193d411a06fb9704bb4bc2f35a285aed6f68601532f20a5ec241a99a93c5",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "98d2e610-b904-5f9e-ac56-372d649407c0"
+}
