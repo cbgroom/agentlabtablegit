@@ -1,0 +1,68 @@
+{
+	"deleted": false,
+	"key": "agent-analysis-exploration-discovery-feed-har-module",
+	"recorded_at_unix_ms": 1790641217826,
+	"row": {
+		"id": "agent-analysis-exploration-discovery-feed-har-module",
+		"kind": "analysis",
+		"payload": {
+			"agentProposal": {
+				"automaticPromotion": false,
+				"schema": "agentlab.maintainer_skill_fact_proposal.v1",
+				"sourceAssessmentSha256": "0a3e40fe4b41b92d1d72ddd1b764c28518956ae46be3c9d25e0199a6d6ba0974"
+			},
+			"dimensions": ["behavior","boundary","relations","responsibility"],
+			"evidence": [
+				{
+					"gitBlobOid": "f00769887f563b28478c154d9c7161383003b0fa",
+					"path": "features/exploration/Index.ets"
+				},
+				{
+					"gitBlobOid": "f0ed8df73d90fa5360cab86ca4ef43d6da5a9a9f",
+					"path": "features/exploration/oh-package.json5"
+				},
+				{
+					"gitBlobOid": "a052b38b3c540ad14186498d20f3f535ff8b3748",
+					"path": "features/exploration/src/main/module.json5"
+				},
+				{
+					"gitBlobOid": "ab9116ebe9b59a0107416c340f4f058fb68fd3a5",
+					"path": "features/exploration/src/main/ets/model/DiscoverModel.ets"
+				},
+				{
+					"gitBlobOid": "66decd0f900402213933a700438213e2c23ea60c",
+					"path": "features/exploration/src/main/ets/viewmodel/ExplorationViewModel.ets"
+				},
+				{
+					"gitBlobOid": "ab92d6b0c886dff42cc49fae64601987d489e8bc",
+					"path": "features/exploration/src/main/ets/view/ArticleDetailView.ets"
+				},
+				{
+					"gitBlobOid": "03ada1b33bb56a68ee5243c459638fe3154523c5",
+					"path": "build-profile.json5"
+				},
+				{
+					"gitBlobOid": "ace54b5e9d5e10e12ae410687e7f800df06ca51a",
+					"path": "common/src/main/resources/rawfile/router_config.json"
+				},
+				{
+					"gitBlobOid": "34a3234eb509907eeb724642ccea0bdc05104e7f",
+					"path": "features/abilitycommon/src/main/ets/viewmodel/SplashViewModel.ets"
+				}
+			],
+			"id": "agent-analysis-exploration-discovery-feed-har-module",
+			"interpretation": "Maintenance contract: features/exploration is a HarmonyOS HAR module (module.json5 type 'har', package @ohos/exploration) exporting only ExplorationHomeView and DiscoverModel from Index.ets. DiscoverModel is a singleton over DiscoverService: it prefers cached preference data, falls back to an HmosRequest fetch, and persists via PreferenceCacheHelper. Consumers call it dynamically: rawfile router_config.json routes DiscoverModule to @ohos/exploration/DiscoverModel, and abilitycommon SplashViewModel preloads via preloadDiscoveryData(). Views load through the module router_map (ExplorationView, ArticleDetailView, BannerDetailView). ExplorationHomeView replaces EXPLORATION_VIEW into its own PageContext; ExplorationView, driven by ExplorationViewModel extending BaseHomeViewModel<ExplorationState>, renders a banner plus Repeat-templated cards by ArticleStyleTypeEnum, tracks breakpoint/color-mode changes, and opens ARTICLE_DETAIL_VIEW. ArticleDetailView hosts ArkWeb rendering with URL validation, whitelisted JS bridge calls, and a 1s back-press guard. Release builds enable obfuscation; tests are unmodified hypium templates.",
+			"kind": "analysis",
+			"limitations": ["The hypium suites (Ability.test.ets, List.test.ets, LocalUnit.test.ets) are template scaffolding; nothing here proves they pass or that any test exercises module code, since no build or test run was performed.","The claim that DiscoverData deserializes correctly from HmosRequest responses and PreferenceCacheHelper storage is inferred from type annotations only; the actual JSON field mapping in @ohos/common is outside this boundary and unverified.","Whether the router_map BannerDetailView entry covers every banner navigation path routed by @ohos/commonbusiness's BaseHomeViewModel/JUMP_BANNER_DETAIL handling is unproved without auditing commonbusiness sources.","Runtime behavior of the ArkWeb article rendering, the checkPreview JS bridge, and the 1-second back-press guard on devices is asserted from source reading only and was never executed."],
+			"repositoryId": "code-workshop",
+			"scopeSkillIds": ["skill-scope-code-workshop-features-exploration"],
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+		},
+		"payloadSha256": "d36b88488334df92e4eb076c347de87589e7c54006be5be34c266a39dde745bf",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "7cd57567-39ed-52f9-86a6-38e78143aee8"
+}
