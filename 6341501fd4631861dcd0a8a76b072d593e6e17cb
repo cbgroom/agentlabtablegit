@@ -1,0 +1,44 @@
+{
+	"deleted": false,
+	"key": "agent-analysis-common-platform-services-account-push-update-utility-contract",
+	"recorded_at_unix_ms": 1790711146581,
+	"row": {
+		"id": "agent-analysis-common-platform-services-account-push-update-utility-contract",
+		"kind": "analysis",
+		"payload": {
+			"agentProposal": {
+				"automaticPromotion": false,
+				"schema": "agentlab.maintainer_skill_fact_proposal.v1",
+				"sourceAssessmentSha256": "5666182d7e425df022e95b19c46e59bb9affc1637eb8cd988d4789d093903e2b"
+			},
+			"dimensions": ["behavior","boundary","relations","responsibility"],
+			"evidence": [
+				{
+					"gitBlobOid": "7030f39b70c0f00a616f9530b73def8625c755c3",
+					"path": "common/src/main/ets/accountservice/AccountService.ets"
+				},
+				{
+					"gitBlobOid": "2fdb138c97d9e0282292c0af3d80ce2b41553a00",
+					"path": "common/src/main/ets/pushservice/PushServiceManager.ets"
+				},
+				{
+					"gitBlobOid": "13f28378ed4e7a62de27f6d9d7460dbd062b9762",
+					"path": "common/src/main/ets/util/index.ets"
+				}
+			],
+			"id": "agent-analysis-common-platform-services-account-push-update-utility-contract",
+			"interpretation": "Scope owns the common module's platform-service layer: AccountService (lazy singleton over AccountKit HuaweiID auth), PushServiceManager plus PushService (notification-enable and push-token upload), UpdateService (AppGallery update check/dialog), and ~35 static utility adapters under util re-exported through the index.ets barrel. Observable behavior: serviceInit() subscribes to distributed-account login/logout common events, restores the persisted UserAccount from PreferenceManager key 'userAccount', queries HuaweiIDProvider state and resolves InitResult{isLogin,needUpdate}; login() runs a forced authorization (profile scope, serviceauthcode, PS256, random state checked against response state); logout paths clear nickname/unionId/avatarUrl, persist 'userLogin', and emit BIND_LOGOUT_EVENT. PushServiceManager requests notification enable then posts pushService.getToken() to PushService, a stub resolving true. UpdateService guards canIUse, derives UIAbilityContext from AppStorage UI_CONTEXT, and rejects BusinessError-like objects when context or capability is missing. Public boundary: singleton classes and stateless static utils exposing Promise<boolean>, InitResult, PushTokenParams; cross-boundary relations import out-of-scope storagemanager/PreferenceManager and constant/CommonConstants event ids. Maintenance contract: preserve singleton semantics, emitted events, preference keys, TAG-prefixed hilog logging (domain 0xFF00, prefix '[HMOSWorld]'), login state validation, and the index.ets barrel; PushService.postPushToken is an intentional integration seam.",
+			"kind": "analysis",
+			"limitations": ["PushService.postPushToken resolves true without network I/O; whether products replace this seam or tokens are actually uploaded is not provable from these blobs.","PreferenceManager.getValue is cast to UserAccount without schema validation; persisted-shape compatibility across app versions is claimed, not runtime-verified."],
+			"repositoryId": "code-workshop",
+			"scopeSkillIds": ["skill-scope-code-workshop-common-platform-services"],
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+		},
+		"payloadSha256": "27b633a00cfa03a09a734bc0e1798014403ccbb37f11f699d915d7b1cee5c0da",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "64429ee9-1eb4-5d40-8029-e93167001b71"
+}
