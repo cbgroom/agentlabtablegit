@@ -1,0 +1,68 @@
+{
+	"deleted": false,
+	"key": "agent-analysis-mine-har-module-mvvm-tab-slice",
+	"recorded_at_unix_ms": 1790642290368,
+	"row": {
+		"id": "agent-analysis-mine-har-module-mvvm-tab-slice",
+		"kind": "analysis",
+		"payload": {
+			"agentProposal": {
+				"automaticPromotion": false,
+				"schema": "agentlab.maintainer_skill_fact_proposal.v1",
+				"sourceAssessmentSha256": "5ad24c76c36b0716f178d02fab3f144b42c5587f616871ccd2fcb5a0dd35a2b2"
+			},
+			"dimensions": ["behavior","boundary","relations","responsibility"],
+			"evidence": [
+				{
+					"gitBlobOid": "90faa94e84985e9b4dbc9dd17c22ef59b107744a",
+					"path": "features/mine/Index.ets"
+				},
+				{
+					"gitBlobOid": "69b28deb7f23e71c7172ba18f507e37183ebfaec",
+					"path": "features/mine/src/main/resources/base/profile/router_map.json"
+				},
+				{
+					"gitBlobOid": "e73f38b4d48a3c9c3252f2680446cfa51feb77e2",
+					"path": "features/mine/src/main/ets/viewmodel/MinePageVM.ets"
+				},
+				{
+					"gitBlobOid": "08b21dba72fa5bb31d17b83ab037b312461d8c24",
+					"path": "features/mine/src/main/ets/service/MineService.ets"
+				},
+				{
+					"gitBlobOid": "2ea88f52cd9b4e52385d64bd324e7df6bd939fb5",
+					"path": "features/mine/oh-package.json5"
+				},
+				{
+					"gitBlobOid": "2a7637745dbd4fa8818e5cab29a0b9a412f65953",
+					"path": "features/mine/src/main/module.json5"
+				},
+				{
+					"gitBlobOid": "44d5c405ecd60a7531f19425a9db6cafb6269ac6",
+					"path": "features/mine/src/main/ets/viewmodel/MinePageState.ets"
+				},
+				{
+					"gitBlobOid": "165fc1615ee8618b4cb6a622f144a9a707eee99f",
+					"path": "features/mine/src/test/LocalUnit.test.ets"
+				},
+				{
+					"gitBlobOid": "c5850cf004f054733ec607666f59f23cdbfe3af7",
+					"path": "features/commonbusiness/Index.ets"
+				}
+			],
+			"id": "agent-analysis-mine-har-module-mvvm-tab-slice",
+			"interpretation": "HAR module 'mine' (module.json5 type har) encapsulating the Mine tab as an MVVM slice. Public surface: Index.ets, the oh-package.json5 main of @ohos/mine, exports MineHomeView, MineEventType, MinePageVM, MinePageState; oh-package.json5 pins file: deps on @ohos/common and @ohos/commonbusiness (BaseHomeViewModel, HmosRequest, PreferenceCacheHelper, Toast) plus kits (BasicServicesKit, UIDesignKit HDS, ArkUI). Relations: router_map.json registers five routes (MineView, MineSettingsView, NewContentView, AboutView, BulletinView) with @Builder functions in view/. Behavior: MinePageVM is a singleton event pump; sendEvent dispatches MineEventType cases (login/logout, INIT_DATA reload, jumps to new-content/bulletin) and listGroupData wires item taps to them. MineService fetches NewContentData via HmosRequest, annotating sample-card requests with deviceInfo deviceType/sdkApiVersion, and caches into preferences; BulletinModel retries from the preference cache when its network call rejects. Strings localize via base/en_US/zh_CN resources. Contract: exported names, route name/buildFunction pairs, the event enum, and common-module call signatures must stay compatible.",
+			"kind": "analysis",
+			"limitations": ["No in-scope source pushes the five router_map route names, so whether the host product's Navigation actually resolves these named-route entries at runtime is unproved.","The HmosRequest endpoint contract behind TriggerEnums.NEW_CONTENTS and the bulletin trigger, including matching preference-cache key shapes, lives in @ohos/common outside this boundary and is unproved.","The bundled LocalUnit.test.ets and Ability.test.ets contain only template assertions, and no build or test toolchain was run; build success and the AccountService login-state flow remain unproved."],
+			"repositoryId": "code-workshop",
+			"scopeSkillIds": ["skill-scope-code-workshop-features-mine"],
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+		},
+		"payloadSha256": "cbc6cf23584d1e76d5e9340f03cc567885386aaa6d14c329e4dd1f9c632d1e6a",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "40a6f6c7-db41-58e8-8988-492f8f270069"
+}
