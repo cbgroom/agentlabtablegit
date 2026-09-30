@@ -1,0 +1,50 @@
+{
+	"deleted": false,
+	"key": "operation-build-ba2fd5204b013e40b09f63c6f360fd0750aefabbe7e56eefad180ba43361814f",
+	"recorded_at_unix_ms": 1790805392663,
+	"row": {
+		"id": "operation-build-ba2fd5204b013e40b09f63c6f360fd0750aefabbe7e56eefad180ba43361814f",
+		"kind": "build-verification",
+		"payload": {
+			"automaticPromotion": false,
+			"dimensions": ["operation"],
+			"evidence": [
+				{
+					"path": "release/qualifications/code-workshop-7aa95cac-componentlibrary-build/build-qualification.json",
+					"sha256": "de1f82800dd7680242948d77d6c2416c5d97319f72d2d876cbca194a82ddeba7"
+				}
+			],
+			"id": "operation-build-ba2fd5204b013e40b09f63c6f360fd0750aefabbe7e56eefad180ba43361814f",
+			"interpretation": "Receipt-content-qualified module build only; runtime, tests, performance and type checking are not independently qualified.",
+			"kind": "build-verification",
+			"operationEvidence": {
+				"path": "release/qualifications/code-workshop-7aa95cac-componentlibrary-build/build-qualification.json",
+				"sha256": "de1f82800dd7680242948d77d6c2416c5d97319f72d2d876cbca194a82ddeba7"
+			},
+			"operationEvidenceCheck": {
+				"lane": "build-only",
+				"limitations": ["This receipt proves repeatable source compilation and HAR packaging for componentlibrary@default only; it does not prove runtime UI behavior or device compatibility.","The build emitted ArkTS/system-capability warnings that are retained in the build-log digests; successful packaging does not convert those warnings into runtime support claims.","The raw gzip HAR archives differ, while the 239 canonical member paths and bytes are identical; reproducibility is therefore asserted only for member content."],
+				"qualificationScope": {
+					"moduleBuild": true,
+					"performance": false,
+					"runtime": false,
+					"tests": false
+				},
+				"receiptPath": "release/qualifications/code-workshop-7aa95cac-componentlibrary-build/build-qualification.json",
+				"receiptSha256": "de1f82800dd7680242948d77d6c2416c5d97319f72d2d876cbca194a82ddeba7",
+				"status": "verified",
+				"typeChecking": "not-qualified",
+				"verificationBoundary": "receipt bytes and recorded assertions; no build replay or raw artifact/log readback"
+			},
+			"repositoryId": "code-workshop",
+			"scopeSkillIds": ["skill-scope-code-workshop-componentlibrary-framework"],
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+		},
+		"payloadSha256": "d5a6579515e93b38744bd9769f68e447413c740f5442bead713a2ca23ae93fce",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "ad32588f-e5cb-5f3b-8513-37b745bea2c8"
+}
