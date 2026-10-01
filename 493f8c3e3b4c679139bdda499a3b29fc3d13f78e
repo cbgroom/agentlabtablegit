@@ -1,0 +1,41 @@
+{
+	"deleted": false,
+	"key": "lesson-skill-abilitystage-application-context-semantic-controls",
+	"recorded_at_unix_ms": 1790894526160,
+	"row": {
+		"id": "lesson-skill-abilitystage-application-context-semantic-controls",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"body": "For a configuration-lifecycle task, bind the selected module entry and actual stage source. Independently observe creation, application-context environment registration, language change, color-mode change and destruction. Require the accepted source to pass and wrong-entry/wrong-event mutations to fail their declared intended checks. Read raw worker observations rather than trusting startup completion or producer booleans. These verified controls cover only the recorded operator-dispatch source seam; separately calibrate actual framework delivery, ArkTS/HAP, exact emulator API and ohosTest before qualifying the task.",
+			"factIds": ["lesson-fact-abilitystage-application-context-semantic-controls"],
+			"id": "lesson-skill-abilitystage-application-context-semantic-controls",
+			"lessonSource": {
+				"lessonFileDigest": "f14cf6f505d3eaede540ad02200ea6d14fa2351699185d33ec3f6967f91c3bdd",
+				"lessonId": "lesson-abilitystage-application-context-semantic-controls",
+				"repository": "agentlabstage-48eb54481017",
+				"revision": "3a9d8a4fc7a720e13741da1b70f3bc96c2636568",
+				"tablePrefix": "data/"
+			},
+			"methodDigest": "a70d6d7d7db82589415e8a4019e99cc3454510da6b22a3eaaea0f13af2526c3d",
+			"methodRevision": "bece477a916807ec344a00f5b00f8e0966e3d0e9",
+			"methodSkillId": "agentlab-experiment-learning",
+			"objectId": "lesson-abilitystage-application-context-semantic-controls",
+			"ownershipPlane": "target-operations",
+			"repositoryId": "guide-snippets",
+			"role": "maintenance",
+			"skillLayer": "method",
+			"sourceLessonExportDigest": "f14cf6f505d3eaede540ad02200ea6d14fa2351699185d33ec3f6967f91c3bdd",
+			"sourceLessonId": "lesson-abilitystage-application-context-semantic-controls",
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"stage": "calibration",
+			"title": "A startup-only observation does not establish configuration delivery through the selected stage"
+		},
+		"payloadSha256": "480242927976384b8ad3323e53d986db31c117e0c026d5df36cbc749c1f36ff6",
+		"repositoryId": "guide-snippets",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "87072402-aee9-5b76-9557-e5e17eb25449"
+}
