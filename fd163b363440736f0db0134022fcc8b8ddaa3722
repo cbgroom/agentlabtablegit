@@ -1,0 +1,44 @@
+{
+	"deleted": false,
+	"key": "agent-analysis-abilitystage-environment-callback-binding",
+	"recorded_at_unix_ms": 1790855597949,
+	"row": {
+		"id": "agent-analysis-abilitystage-environment-callback-binding",
+		"kind": "analysis",
+		"payload": {
+			"agentProposal": {
+				"automaticPromotion": false,
+				"schema": "agentlab.maintainer_skill_fact_proposal.v1",
+				"sourceAssessmentSha256": "c653f3ba120a780f141a9df49b295003f371cce1a02149c2039c925979567d31"
+			},
+			"dimensions": ["behavior","boundary","relations","responsibility"],
+			"evidence": [
+				{
+					"gitBlobOid": "2af410f20ec60e1642bff565d4bb6a49d6e1cdcd",
+					"path": "Ability/AbilityStage/entry/src/main/ets/myabilitystage/MyAbilityStage.ets"
+				},
+				{
+					"gitBlobOid": "1693f30f7d0eeb838b21aedaf51f054dbffb1c3b",
+					"path": "Ability/AbilityStage/entry/src/main/module.json5"
+				},
+				{
+					"gitBlobOid": "9f0a7c97fe0cce514f5626cf249b77b48c53896a",
+					"path": "Ability/AbilityStage/entry/src/main/ets/exampleabilitystage/MyAbilityStage.ets"
+				}
+			],
+			"id": "agent-analysis-abilitystage-environment-callback-binding",
+			"interpretation": "Responsibility: application-level lifecycle container for the entry HAP. entry/src/main/module.json5 (1693f30f) binds module.srcEntry './ets/myabilitystage/MyAbilityStage.ets', so the platform instantiates MyAbilityStage (2af410f) when the module loads. Boundary: the exported default class extends AbilityStage from @kit.AbilityKit and is instantiated by the ability framework, not by in-repo code; observable output is console logs only. Behavior: onCreate() obtains this.context.getApplicationContext() and registers an EnvironmentCallback on the 'environment' event; onConfigurationUpdated logs the config and reads language/colorMode/direction/fontSizeScale/fontWeightScale (values read, never used), onMemoryLevel logs the memory level; registration is wrapped in try/catch logging BusinessError code/message; onDestroy() logs stage destruction. Relations: imports AbilityStage/EnvironmentCallback from AbilityKit and BusinessError from BasicServicesKit; a second variant ets/exampleabilitystage/MyAbilityStage.ets (9f0a7c97) also exports a default MyAbilityStage adding onAcceptWant returning 'MyAbilityStage' for specified mode, but module.json5 within this scope references only the myabilitystage copy. Doc markers [Start/End myAbility_start] and [Start/End abilityModule_start] delimit regions extracted into guides, so maintenance must keep marker pairs and the srcEntry path consistent. EntryAbility/EntryBackupAbility are sibling abilities in the same module.json5, outside this stage's responsibility. No runtime execution, build success, or device behavior is claimed.",
+			"kind": "analysis",
+			"limitations": ["Framework dispatch of module.srcEntry to MyAbilityStage at HAP load is assumed from OpenHarmony conventions; no build or runtime verification was performed.","The exampleabilitystage variant is unreferenced only per module.json5 within this scope; imports from files outside the scope were not checked."],
+			"repositoryId": "guide-snippets",
+			"scopeSkillIds": ["skill-scope-guide-snippets-ability-abilitystage"],
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+		},
+		"payloadSha256": "d25bfc177d27358085c3ca824d421a06ef0f4c9d9299a0530abede69e59c754b",
+		"repositoryId": "guide-snippets",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "12735bc4-1fca-5dd8-844c-55fbc2d4b555"
+}
