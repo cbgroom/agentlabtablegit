@@ -1,0 +1,78 @@
+{
+	"deleted": false,
+	"key": "operation-source-1ce5172adaf6d9ad277154a6b3b8175102619cd7869012cd30a1da3a6370d5d7",
+	"recorded_at_unix_ms": 1790971683876,
+	"row": {
+		"id": "operation-source-1ce5172adaf6d9ad277154a6b3b8175102619cd7869012cd30a1da3a6370d5d7",
+		"kind": "source-maintenance-verification",
+		"payload": {
+			"automaticPromotion": false,
+			"dimensions": ["operation"],
+			"evidence": [
+				{
+					"path": "platform-services-source.json",
+					"root": "operation-receipts",
+					"sha256": "8996264f78328962f8c21a644ec3afa23e37e9627c718da021db53c997a96e0d"
+				}
+			],
+			"id": "operation-source-1ce5172adaf6d9ad277154a6b3b8175102619cd7869012cd30a1da3a6370d5d7",
+			"interpretation": "Reviewed scoped source-maintenance controls; no build, full-scope coverage, framework runtime, formal tests or performance qualification.",
+			"kind": "source-maintenance-verification",
+			"operationEvidence": {
+				"path": "platform-services-source.json",
+				"sha256": "8996264f78328962f8c21a644ec3afa23e37e9627c718da021db53c997a96e0d"
+			},
+			"operationEvidenceCheck": {
+				"adapter": "recorded-source-maintenance-controls-v1",
+				"controls": [
+					{
+						"failedCheckIds": [],
+						"id": "baseline",
+						"role": "baseline"
+					},
+					{
+						"failedCheckIds": [],
+						"id": "strict-enabled-condition",
+						"role": "reference"
+					},
+					{
+						"failedCheckIds": [],
+						"id": "explicit-success-promise",
+						"role": "reference"
+					},
+					{
+						"failedCheckIds": ["check-enabled-check-throws","check-enabled-upload","check-request-fails","check-request-upload","check-token-fails"],
+						"id": "invert-enabled-branch",
+						"role": "wrong"
+					},
+					{
+						"failedCheckIds": ["check-request-fails"],
+						"id": "treat-request-failure-as-success",
+						"role": "wrong"
+					}
+				],
+				"lane": "source-only",
+				"qualificationScope": {
+					"build": false,
+					"performance": false,
+					"runtime": false,
+					"sourceMaintenance": true,
+					"tests": false
+				},
+				"receiptPath": "platform-services-source.json",
+				"receiptSha256": "8996264f78328962f8c21a644ec3afa23e37e9627c718da021db53c997a96e0d",
+				"status": "verified",
+				"verificationBoundary": "Reviewed source-maintenance controls and retained bytes; no authenticated producer, full scope coverage, formal tests, framework runtime or Agent qualification."
+			},
+			"repositoryId": "code-workshop",
+			"scopeSkillIds": ["skill-scope-code-workshop-common-platform-services"],
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+		},
+		"payloadSha256": "de2ed27c3d22189e2302d2e602208918982fc71e9213da0dfc24a159adb27454",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3866dee7-c734-5283-a7c5-92fc549d726b"
+}
