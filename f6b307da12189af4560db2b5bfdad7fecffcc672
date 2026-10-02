@@ -1,0 +1,62 @@
+{
+	"deleted": false,
+	"key": "lesson-admission-e2a1bc49277d42a44ac76e1085386ade354aaa50e6250f7853a47924a0031bc3",
+	"recorded_at_unix_ms": 1790928004868,
+	"row": {
+		"id": "lesson-admission-e2a1bc49277d42a44ac76e1085386ade354aaa50e6250f7853a47924a0031bc3",
+		"payload": {
+			"assessment": {
+				"path": "assessments/lesson-lesson-admission-e2a1bc49277d42a44ac76e1085386ade354aaa50e6250f7853a47924a0031bc3.json",
+				"sha256": "8e9c190eafa4adbb270f3236ff0d50d888839fddfc5feb05b60c7ca3ddd1068e"
+			},
+			"assessmentReused": false,
+			"automaticPromotion": false,
+			"changes": {
+				"added": ["lesson-skill-abilitystage-owned-environment-subscription","lesson-fact-abilitystage-owned-environment-subscription"],
+				"retired": [],
+				"updated": []
+			},
+			"countsAsMaturityGain": false,
+			"coverage": {
+				"maintenanceReadyScopeCount": 2,
+				"processSkillCount": 14,
+				"programBoundScopeCount": 46,
+				"repositoryCount": 4,
+				"scopeSkillCount": 489,
+				"semanticReadyScopeCount": 41,
+				"trackedFileCount": 44567
+			},
+			"decision": "continue",
+			"id": "lesson-admission-e2a1bc49277d42a44ac76e1085386ade354aaa50e6250f7853a47924a0031bc3",
+			"knowledgeChangeMode": "reviewed-lesson-admission",
+			"lessonSource": {
+				"lessonFileDigest": "4c35fb855d324a789cea2dc8965b59f325467580c0cac7dab71cbee80e1e421a",
+				"lessonId": "lesson-abilitystage-owned-environment-subscription",
+				"repository": "agentlabbehavior-4c02370-20261002",
+				"revision": "8f8314b673a02fc259762894f9b821806eb5c5ba",
+				"tablePrefix": "data/"
+			},
+			"ownershipPlane": "target-operations",
+			"parentRoundSha256": "c48591860a7a57ca49843e248013bc80f5b5f2557dca214db20055f4516d1249",
+			"priorAssessmentSha256": "e2349e92fd320bdc9b75caa42d7cad85f504e10e902ec7fc365933789734d102",
+			"producer": {
+				"kind": "reviewed-lesson-admission-planner"
+			},
+			"residualGaps": ["close 438 MS-BEHAVIOR-EVIDENCE-MISSING gaps with revision-bound evidence","close 445 MS-BOUNDARY-EVIDENCE-MISSING gaps with revision-bound evidence","close 39 MS-OPERATION-EVIDENCE-MISSING gaps with revision-bound evidence","close 2 MS-OPERATION-RECEIPT-UNVERIFIED gaps with revision-bound evidence","close 443 MS-PROGRAM-EVIDENCE-UNBOUND gaps with revision-bound evidence","close 444 MS-RELATIONS-EVIDENCE-MISSING gaps with revision-bound evidence","close 447 MS-RESPONSIBILITY-EVIDENCE-MISSING gaps with revision-bound evidence"],
+			"reviewSha256": "3134f690300e4d7b5cad9817e3c7b98461981447fdaf6618f9ea799d503546f0",
+			"roundIndex": 41,
+			"schema": "agentlab.maintainer_skill_refresh_round.v1",
+			"tables": {
+				"processSkillsSha256": "07bb6e2db288d636c7951bad249a9ca082005d4f6a92e89cd249b52de5a01bc1",
+				"programFactsSha256": "e71229389cce2c9c65714831c1c543708136ba1cb0406a2fdedcc918353d76e5",
+				"scopeSkillsSha256": "9faf87778708c0bc9acf6522ac1c0b1358e1845139da4f2949348d7285e51953"
+			}
+		},
+		"payloadSha256": "ad6da8b7d2a99fe9cb0889e7d9907e47230f766889546b89f17fd4d7d9e72c0d",
+		"roundIndex": 41,
+		"schema": "agentlab.maintainer_skill_refresh_round.v1"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "98ff66dd-1145-5b90-9119-16df43bbe31b"
+}

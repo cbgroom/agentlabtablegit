@@ -1,0 +1,50 @@
+{
+	"deleted": false,
+	"key": "lesson-fact-abilitystage-owned-environment-subscription",
+	"recorded_at_unix_ms": 1790928004868,
+	"row": {
+		"id": "lesson-fact-abilitystage-owned-environment-subscription",
+		"kind": "verified-lesson",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"cause": "For the declared task, truthiness checks lose valid callback ID zero, stale local ownership prevents recreation, and repeated registration accumulates subscriptions",
+			"change": "Represent subscription ownership explicitly, acquire it only after successful registration, and release it on destruction while preserving original callbacks",
+			"id": "lesson-fact-abilitystage-owned-environment-subscription",
+			"kind": "verified-lesson",
+			"lessonSource": {
+				"lessonFileDigest": "4c35fb855d324a789cea2dc8965b59f325467580c0cac7dab71cbee80e1e421a",
+				"lessonId": "lesson-abilitystage-owned-environment-subscription",
+				"repository": "agentlabbehavior-4c02370-20261002",
+				"revision": "8f8314b673a02fc259762894f9b821806eb5c5ba",
+				"tablePrefix": "data/"
+			},
+			"methodDigest": "c81b35a7ffb1b953687b24b768d3983ce195459881ea9c0e281c7f3033c47775",
+			"methodRevision": "4c023707abf67e370f6049cd430676b91460ed66",
+			"methodSkillId": "agentlab-experiment-learning",
+			"ownershipPlane": "target-operations",
+			"phenomenon": "Repeated creation, destruction, recreation and registration failure distinguish subscription ownership implementations",
+			"qualification": {
+				"boundary": "independently reconstructed recorded behavior checks",
+				"caseQualified": false,
+				"harmonyBuildQualified": false,
+				"harmonyRuntimeQualified": false,
+				"learningBenefitVerified": false,
+				"producerAuthenticated": false,
+				"uiQualified": false
+			},
+			"repositoryId": "guide-snippets",
+			"scope": "Frozen owned ApplicationContext subscription task extension at the declared source cut; controlled host seam only",
+			"sourceLessonExportDigest": "4c35fb855d324a789cea2dc8965b59f325467580c0cac7dab71cbee80e1e421a",
+			"sourceLessonId": "lesson-abilitystage-owned-environment-subscription",
+			"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525",
+			"validationIds": ["behavior-0f7fd70b34b48c06ece1f241a927462ee07c635fa227664cf4e784b5c546c943-lesson-3134f690300e4d7b5cad9817e3c7b98461981447fdaf6618f9ea799d503546f0-validation"]
+		},
+		"payloadSha256": "842b6ad857cdf2f8e0382a1368ab1d5712f6a9e2dabd230ad8c38e8f739883d9",
+		"repositoryId": "guide-snippets",
+		"sourceRevision": "71bbb3916625c8d9a370b7a1989b3a7f82090525"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "98ff66dd-1145-5b90-9119-16df43bbe31b"
+}
