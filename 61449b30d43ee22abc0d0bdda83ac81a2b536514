@@ -1,0 +1,83 @@
+{
+	"deleted": false,
+	"key": "operation-source-59ec37d6a455b3d674aa971f90316b5967297dace95ef17d3655860275be9956",
+	"recorded_at_unix_ms": 1790942376620,
+	"row": {
+		"id": "operation-source-59ec37d6a455b3d674aa971f90316b5967297dace95ef17d3655860275be9956",
+		"kind": "source-maintenance-verification",
+		"payload": {
+			"automaticPromotion": false,
+			"dimensions": ["operation"],
+			"evidence": [
+				{
+					"path": "source-f74bf8a6beb80e7002505bd9151cf193809484d8ea3fe69e0849a572ea2049ed.json",
+					"root": "operation-receipts",
+					"sha256": "f74bf8a6beb80e7002505bd9151cf193809484d8ea3fe69e0849a572ea2049ed"
+				}
+			],
+			"id": "operation-source-59ec37d6a455b3d674aa971f90316b5967297dace95ef17d3655860275be9956",
+			"interpretation": "Reviewed scoped source-maintenance controls; no build, full-scope coverage, framework runtime, formal tests or performance qualification.",
+			"kind": "source-maintenance-verification",
+			"operationEvidence": {
+				"path": "source-f74bf8a6beb80e7002505bd9151cf193809484d8ea3fe69e0849a572ea2049ed.json",
+				"sha256": "f74bf8a6beb80e7002505bd9151cf193809484d8ea3fe69e0849a572ea2049ed"
+			},
+			"operationEvidenceCheck": {
+				"adapter": "recorded-source-maintenance-controls-v1",
+				"controls": [
+					{
+						"failedCheckIds": ["fulfilled-false"],
+						"id": "baseline",
+						"role": "baseline"
+					},
+					{
+						"failedCheckIds": [],
+						"id": "reference",
+						"role": "reference"
+					},
+					{
+						"failedCheckIds": [],
+						"id": "alternative-valid",
+						"role": "reference"
+					},
+					{
+						"failedCheckIds": ["fulfilled-false","fulfilled-true","reject-above-limit","reject-at-limit","reject-below-limit"],
+						"id": "delete-before-upload",
+						"role": "wrong"
+					},
+					{
+						"failedCheckIds": ["reject-at-limit","reject-below-limit"],
+						"id": "failure-path-overreach",
+						"role": "wrong"
+					},
+					{
+						"failedCheckIds": ["reject-at-limit"],
+						"id": "inclusive-threshold",
+						"role": "wrong"
+					}
+				],
+				"lane": "source-only",
+				"qualificationScope": {
+					"build": false,
+					"performance": false,
+					"runtime": false,
+					"sourceMaintenance": true,
+					"tests": false
+				},
+				"receiptPath": "source-f74bf8a6beb80e7002505bd9151cf193809484d8ea3fe69e0849a572ea2049ed.json",
+				"receiptSha256": "f74bf8a6beb80e7002505bd9151cf193809484d8ea3fe69e0849a572ea2049ed",
+				"status": "verified",
+				"verificationBoundary": "Reviewed source-maintenance controls and retained bytes; no authenticated producer, full scope coverage, formal tests, framework runtime or Agent qualification."
+			},
+			"repositoryId": "code-workshop",
+			"scopeSkillIds": ["skill-scope-code-workshop-common-persistence-telemetry"],
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+		},
+		"payloadSha256": "0e1a78e4784eeb48192040a084cd97a5a90c0bf87985868726b0a1c7936a2656",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "fb177600-0d36-50bd-a30d-f9b8b60e5f0a"
+}
