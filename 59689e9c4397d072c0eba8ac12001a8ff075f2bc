@@ -1,0 +1,41 @@
+{
+	"deleted": false,
+	"key": "skill-code-workshop-push-source-outcome-20261003",
+	"recorded_at_unix_ms": 1790976725543,
+	"row": {
+		"id": "skill-code-workshop-push-source-outcome-20261003",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"body": "For this explicit source-seam extension, preserve permission gating, singleton/Promise behavior, pending-stage joining and release/retry; validate token payload and visible post failure separately from unhandled rejection containment. The frozen contract includes all earlier checks. A first recorded unguided Pi/GLM submission passed all twelve; this is not a failed-feedback repair, statistical success rate or demonstrated guidance benefit. Original host launch failure remains infrastructure evidence. Compiler erasure and controlled imports do not qualify ArkTS, Hypium, emulator delivery, full candidate coverage or a formal case. Runtime/completion receipts are independently retained outside this calibration export; producer identity is not authenticated. Admit any scoped lesson explicitly to a later knowledge cut before reuse.",
+			"factIds": ["behavior-fact-push-source-outcome-20261003"],
+			"id": "skill-code-workshop-push-source-outcome-20261003",
+			"lessonSource": {
+				"lessonFileDigest": "6a22dd789072dbd0ab43e3b395b8c07f92d1f2a8421332f1186f11247ba17767",
+				"lessonId": "lesson-push-source-outcome-20261003",
+				"repository": "agentlabpush-20261003",
+				"revision": "aec6dd02c90fe6a3668d35bddabe60d89fd8ca30",
+				"tablePrefix": "data/"
+			},
+			"methodDigest": "6de6643cdedd7e89baf62445cfb49a40a85f502bf8b2214f9bffdcbccfb06935",
+			"methodRevision": "ba5e4f91443b2081835f608b4a212402273bf3d6",
+			"methodSkillId": "agentlab-experiment-learning",
+			"objectId": "lesson-push-source-outcome-20261003",
+			"ownershipPlane": "target-operations",
+			"repositoryId": "code-workshop",
+			"role": "maintenance",
+			"skillLayer": "method",
+			"sourceLessonExportDigest": "6a22dd789072dbd0ab43e3b395b8c07f92d1f2a8421332f1186f11247ba17767",
+			"sourceLessonId": "lesson-push-source-outcome-20261003",
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+			"stage": "evaluation",
+			"title": "Two accepted controls pass all twelve frozen checks; five wrong controls are discriminated. A recorded unguided Pi/GLM submission also passes all twelve on its first attempt, with independent runtime and completion readback retained separately."
+		},
+		"payloadSha256": "3d6531a2527943a7c23511cb93dada32dc570707da11972c49d0be7874623c02",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "3ef5b6b5-6e58-5afe-a165-a12613d8bb12"
+}
