@@ -1,0 +1,54 @@
+{
+	"deleted": false,
+	"key": "first-four-round-40-agent-36960519495",
+	"recorded_at_unix_ms": 1790912365647,
+	"row": {
+		"id": "first-four-round-40-agent-36960519495",
+		"payload": {
+			"assessment": {
+				"path": "assessments/round-38-agent-36960519495.json",
+				"sha256": "e2349e92fd320bdc9b75caa42d7cad85f504e10e902ec7fc365933789734d102"
+			},
+			"automaticPromotion": false,
+			"changes": {
+				"added": [],
+				"retired": [],
+				"updated": ["semantic program fact agent-analysis-rdb-preference-telemetry-pipeline","46 scopes program-bound","41 scopes semantic-ready"]
+			},
+			"coverage": {
+				"maintenanceReadyScopeCount": 2,
+				"processSkillCount": 13,
+				"programBoundScopeCount": 46,
+				"repositoryCount": 4,
+				"scopeSkillCount": 489,
+				"semanticReadyScopeCount": 41,
+				"trackedFileCount": 44567
+			},
+			"decision": "review-proposed-knowledge-refresh",
+			"focus": ["consume 1 exact hard-gate gaps with independently validated source-blob evidence","persist accepted knowledge in long-lived TableGit","export a reviewable Release snapshot from one committed revision"],
+			"id": "first-four-round-40-agent-36960519495",
+			"ownershipPlane": "target-operations",
+			"parentRoundSha256": "b46f2f205cbd5b482e6533723c7b5ed649b1556504dc9180bb60160855c6ec2a",
+			"producer": {
+				"kind": "github-action",
+				"repository": "yxsicd/agentlabrelease",
+				"runId": "36960519495",
+				"runUrl": "https://github.com/yxsicd/agentlabrelease/actions/runs/36960519495"
+			},
+			"residualGaps": ["close 438 MS-BEHAVIOR-EVIDENCE-MISSING gaps with revision-bound evidence","close 445 MS-BOUNDARY-EVIDENCE-MISSING gaps with revision-bound evidence","close 39 MS-OPERATION-EVIDENCE-MISSING gaps with revision-bound evidence","close 2 MS-OPERATION-RECEIPT-UNVERIFIED gaps with revision-bound evidence","close 443 MS-PROGRAM-EVIDENCE-UNBOUND gaps with revision-bound evidence","close 444 MS-RELATIONS-EVIDENCE-MISSING gaps with revision-bound evidence","close 447 MS-RESPONSIBILITY-EVIDENCE-MISSING gaps with revision-bound evidence"],
+			"roundIndex": 40,
+			"schema": "agentlab.maintainer_skill_refresh_round.v1",
+			"tables": {
+				"processSkillsSha256": "6cfa7218f4f4e7808d908f92b3eca1bbb60801eacb726a3003c71668e32381a9",
+				"programFactsSha256": "9196a26a9575d940d7c184434a66cf5cc1179b281900c52b6a0091ed661fd941",
+				"scopeSkillsSha256": "9faf87778708c0bc9acf6522ac1c0b1358e1845139da4f2949348d7285e51953"
+			}
+		},
+		"payloadSha256": "c48591860a7a57ca49843e248013bc80f5b5f2557dca214db20055f4516d1249",
+		"roundIndex": 40,
+		"schema": "agentlab.maintainer_skill_refresh_round.v1"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "7500712a-aed2-58f3-87db-e786f9bf0f66"
+}
