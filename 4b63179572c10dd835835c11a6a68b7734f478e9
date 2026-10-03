@@ -1,0 +1,41 @@
+{
+	"deleted": false,
+	"key": "skill-rating-convert-calibration-37147845918",
+	"recorded_at_unix_ms": 1791060023164,
+	"row": {
+		"id": "skill-rating-convert-calibration-37147845918",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"body": "Calibrate RatingDescriptor.convert against the exact frozen source under declared controlled defaults and an identity Observed decorator. Construct a fresh instance for each scenario and assert rating=0, indicator=false, stars=5, stepSize=0.5 and starStyle=false from actual own fields before convert. Read attributes from scenarioInputs, not a duplicated action list. Observe actual post-call fields and undefined return; encode actual NaN as a disclosed tagged value. Retain passing behavior-preserving variants, wrong rating assignment, wrong indicator comparison and wrong stars assignment with exact failure sets and reference recovery. This evidence qualifies only the four tested source-seam scenarios, not real decorators, parent/mapping implementations, framework rendering, Harmony build/runtime or a formal Agent case. The real automatic verifier repair fixed a missing global without changing the design; it does not establish guidance benefit, automatic knowledge return or cross-repository generalization.",
+			"factIds": ["fact-rating-convert-source-seam-37147845918"],
+			"id": "skill-rating-convert-calibration-37147845918",
+			"lessonSource": {
+				"lessonFileDigest": "5085fdaadfd87e4eae3ecab6dff6999272822c0060c916f684551514478d143d",
+				"lessonId": "lesson-rating-convert-source-seam-37147845918",
+				"repository": "agentlabsourcesuite-37147845918",
+				"revision": "9dbe415dbfc44acedeed3b639a661c60149ac9b3",
+				"tablePrefix": "assets/observations/source-suite/"
+			},
+			"methodDigest": "5a71f2018cc28ff4bab37b0fe260a947cb4f3f285ad9e386ebbe61d6de7160f0",
+			"methodRevision": "daf5b25471cee89240864ad5ad63e2a5c4df3fca",
+			"methodSkillId": "agentlab-experiment-learning",
+			"objectId": "lesson-rating-convert-source-seam-37147845918",
+			"ownershipPlane": "target-operations",
+			"repositoryId": "code-workshop",
+			"role": "maintenance",
+			"skillLayer": "method",
+			"sourceLessonExportDigest": "5085fdaadfd87e4eae3ecab6dff6999272822c0060c916f684551514478d143d",
+			"sourceLessonId": "lesson-rating-convert-source-seam-37147845918",
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+			"stage": "calibration",
+			"title": "The first generated verifier lacked the Observed global and exited before checks. One native-bound automatic repair added an explicit identity decorator and preserved the complete request, design and contract. Independent execution then matched fourteen checks across seven controls plus reference recovery."
+		},
+		"payloadSha256": "a868813ab6635123f3ccfa04aa19bc03ed919efd871004a65522d55831d282ad",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "47033774-3e64-55a2-a8f7-569c1a7e685e"
+}

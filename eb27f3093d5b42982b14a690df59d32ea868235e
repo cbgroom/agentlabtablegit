@@ -1,0 +1,51 @@
+{
+	"deleted": false,
+	"key": "fact-rating-convert-source-seam-37147845918",
+	"recorded_at_unix_ms": 1791060023164,
+	"row": {
+		"id": "fact-rating-convert-source-seam-37147845918",
+		"kind": "verified-lesson",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"cause": "The loaded source has an @Observed decorator requiring a runtime global. Its convert body uses Number and case-normalized boolean comparisons; invalid numeric strings produce NaN rather than reaching the nullish default. These method observations hold under the declared controlled dependency boundary.",
+			"change": "Bind necessary runtime globals explicitly, construct the source-exported class, assert actual own initial fields before operations, consume the frozen attributes and preserve a tagged NaN observation. Keep production decorator, base-class and mapping behavior unqualified.",
+			"id": "fact-rating-convert-source-seam-37147845918",
+			"kind": "verified-lesson",
+			"lessonSource": {
+				"lessonFileDigest": "5085fdaadfd87e4eae3ecab6dff6999272822c0060c916f684551514478d143d",
+				"lessonId": "lesson-rating-convert-source-seam-37147845918",
+				"repository": "agentlabsourcesuite-37147845918",
+				"revision": "9dbe415dbfc44acedeed3b639a661c60149ac9b3",
+				"tablePrefix": "assets/observations/source-suite/"
+			},
+			"methodDigest": "5a71f2018cc28ff4bab37b0fe260a947cb4f3f285ad9e386ebbe61d6de7160f0",
+			"methodRevision": "daf5b25471cee89240864ad5ad63e2a5c4df3fca",
+			"methodSkillId": "agentlab-experiment-learning",
+			"ownershipPlane": "target-operations",
+			"phenomenon": "The first generated verifier lacked the Observed global and exited before checks. One native-bound automatic repair added an explicit identity decorator and preserved the complete request, design and contract. Independent execution then matched fourteen checks across seven controls plus reference recovery.",
+			"qualification": {
+				"boundary": "reviewed interpretation of independently reconstructed source-suite controls",
+				"caseQualified": false,
+				"harmonyBuildQualified": false,
+				"harmonyRuntimeQualified": false,
+				"learningBenefitVerified": false,
+				"producerAuthenticated": false,
+				"reviewerAuthenticated": false,
+				"uiQualified": false
+			},
+			"repositoryId": "code-workshop",
+			"scope": "RatingDescriptor.convert on the four frozen scenarios, with controlled mapping defaults, empty base class and identity Observed decorator; not production framework/dependency behavior or exhaustive input coverage.",
+			"sourceLessonExportDigest": "5085fdaadfd87e4eae3ecab6dff6999272822c0060c916f684551514478d143d",
+			"sourceLessonId": "lesson-rating-convert-source-seam-37147845918",
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+			"validationIds": ["source-suite-2294ecc1482db98d8bb0bd17ca977ac40d27738b5a8ff59df10c4777ee2ff48d-lesson-d70089bf55ee37d9541cd7d37babd51962eb6ce9e36d1e78d6f674da752fd742-validation"]
+		},
+		"payloadSha256": "618c9afe3910d26f4b07fb5e3bae1f1a7631728e6e8af48334aee3e337cc38ae",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "47033774-3e64-55a2-a8f7-569c1a7e685e"
+}
