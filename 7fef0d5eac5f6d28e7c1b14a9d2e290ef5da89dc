@@ -1,0 +1,78 @@
+{
+	"deleted": false,
+	"key": "operation-source-4b2cb3be35f734969ccb5cb151ceaa2f4465c5cb4a93d4059b84cb5fe54a5bc5",
+	"recorded_at_unix_ms": 1790992571269,
+	"row": {
+		"id": "operation-source-4b2cb3be35f734969ccb5cb151ceaa2f4465c5cb4a93d4059b84cb5fe54a5bc5",
+		"kind": "source-maintenance-verification",
+		"payload": {
+			"automaticPromotion": false,
+			"dimensions": ["operation"],
+			"evidence": [
+				{
+					"path": "source-7e21577f168186970d081c85d2bc01e1612776a0dbdbc536cfeed11de4fedcca.json",
+					"root": "operation-receipts",
+					"sha256": "7e21577f168186970d081c85d2bc01e1612776a0dbdbc536cfeed11de4fedcca"
+				}
+			],
+			"id": "operation-source-4b2cb3be35f734969ccb5cb151ceaa2f4465c5cb4a93d4059b84cb5fe54a5bc5",
+			"interpretation": "Reviewed scoped source-maintenance controls; no build, full-scope coverage, framework runtime, formal tests or performance qualification.",
+			"kind": "source-maintenance-verification",
+			"operationEvidence": {
+				"path": "source-7e21577f168186970d081c85d2bc01e1612776a0dbdbc536cfeed11de4fedcca.json",
+				"sha256": "7e21577f168186970d081c85d2bc01e1612776a0dbdbc536cfeed11de4fedcca"
+			},
+			"operationEvidenceCheck": {
+				"adapter": "recorded-source-maintenance-controls-v1",
+				"controls": [
+					{
+						"failedCheckIds": [],
+						"id": "baseline-unmodified",
+						"role": "baseline"
+					},
+					{
+						"failedCheckIds": [],
+						"id": "ref-const-context",
+						"role": "reference"
+					},
+					{
+						"failedCheckIds": [],
+						"id": "ref-rename-width-local",
+						"role": "reference"
+					},
+					{
+						"failedCheckIds": ["check-sc1-convert","check-sc4-convert"],
+						"id": "wrong-hardcode-convert-type",
+						"role": "wrong"
+					},
+					{
+						"failedCheckIds": ["check-sc2-generate","check-sc4-generate"],
+						"id": "wrong-skip-width-line",
+						"role": "wrong"
+					}
+				],
+				"lane": "source-only",
+				"qualificationScope": {
+					"build": false,
+					"performance": false,
+					"runtime": false,
+					"sourceMaintenance": true,
+					"tests": false
+				},
+				"receiptPath": "source-7e21577f168186970d081c85d2bc01e1612776a0dbdbc536cfeed11de4fedcca.json",
+				"receiptSha256": "7e21577f168186970d081c85d2bc01e1612776a0dbdbc536cfeed11de4fedcca",
+				"status": "verified",
+				"verificationBoundary": "Reviewed source-maintenance controls and retained bytes; no authenticated producer, full scope coverage, formal tests, framework runtime or Agent qualification."
+			},
+			"repositoryId": "code-workshop",
+			"scopeSkillIds": ["skill-scope-code-workshop-componentlibrary-dialog-overlays"],
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+		},
+		"payloadSha256": "312487213b7558521e91797a940e028d6d45b03e09ed1762be2f7e09effe4113",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "79caff47-c417-42d5-bad6-945f8ad32b47"
+}
