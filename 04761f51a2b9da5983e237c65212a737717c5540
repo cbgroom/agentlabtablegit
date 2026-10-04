@@ -1,0 +1,62 @@
+{
+	"deleted": false,
+	"key": "lesson-admission-fac0bbbb02d9b07ff17e425bf9a3780a7b142cd3d39e5866666dfce37937a133",
+	"recorded_at_unix_ms": 1791139627557,
+	"row": {
+		"id": "lesson-admission-fac0bbbb02d9b07ff17e425bf9a3780a7b142cd3d39e5866666dfce37937a133",
+		"payload": {
+			"assessment": {
+				"path": "assessments/lesson-lesson-admission-fac0bbbb02d9b07ff17e425bf9a3780a7b142cd3d39e5866666dfce37937a133.json",
+				"sha256": "14f865e7db27b6c99239c1c9cf0fe87f9eaf7116ea1c071869c441f79c9b109c"
+			},
+			"assessmentReused": false,
+			"automaticPromotion": false,
+			"changes": {
+				"added": ["skill-source-suite-db551ff85120153e3c713abcd10a14ffddc6e1e096543127a9538eb395d8c109","fact-source-suite-db551ff85120153e3c713abcd10a14ffddc6e1e096543127a9538eb395d8c109"],
+				"retired": [],
+				"updated": []
+			},
+			"countsAsMaturityGain": false,
+			"coverage": {
+				"maintenanceReadyScopeCount": 6,
+				"processSkillCount": 19,
+				"programBoundScopeCount": 46,
+				"repositoryCount": 4,
+				"scopeSkillCount": 489,
+				"semanticReadyScopeCount": 41,
+				"trackedFileCount": 44567
+			},
+			"decision": "continue",
+			"id": "lesson-admission-fac0bbbb02d9b07ff17e425bf9a3780a7b142cd3d39e5866666dfce37937a133",
+			"knowledgeChangeMode": "reviewed-lesson-admission",
+			"lessonSource": {
+				"lessonFileDigest": "4adc5864da57ae2d4958fabdb9133d6b539df98e32ebca573307ff6d726c11d5",
+				"lessonId": "lesson-source-suite-db551ff85120153e3c713abcd10a14ffddc6e1e096543127a9538eb395d8c109",
+				"repository": "agentlabsourcesuite-37147845918",
+				"revision": "bcb04c81c18e1df04dd5eea20ae4fbc88e7e2ec3",
+				"tablePrefix": "assets/observations/source-suite/"
+			},
+			"ownershipPlane": "target-operations",
+			"parentRoundSha256": "8fab43fe77c44a200557afedeb9657be0b52b02019a94ea303e180ccb49213d5",
+			"priorAssessmentSha256": "341b241b0e85788c77910a4b9c0b9d0a7a1ad7683ea805278e39d0afb3f17b0c",
+			"producer": {
+				"kind": "reviewed-lesson-admission-planner"
+			},
+			"residualGaps": ["close 438 MS-BEHAVIOR-EVIDENCE-MISSING gaps with revision-bound evidence","close 445 MS-BOUNDARY-EVIDENCE-MISSING gaps with revision-bound evidence","close 35 MS-OPERATION-EVIDENCE-MISSING gaps with revision-bound evidence","close 2 MS-OPERATION-RECEIPT-UNVERIFIED gaps with revision-bound evidence","close 443 MS-PROGRAM-EVIDENCE-UNBOUND gaps with revision-bound evidence","close 444 MS-RELATIONS-EVIDENCE-MISSING gaps with revision-bound evidence","close 447 MS-RESPONSIBILITY-EVIDENCE-MISSING gaps with revision-bound evidence"],
+			"reviewSha256": "094add9db65dfaea2592be26006037266532d1406de0ca9d538f426151bd1af9",
+			"roundIndex": 50,
+			"schema": "agentlab.maintainer_skill_refresh_round.v1",
+			"tables": {
+				"processSkillsSha256": "758de538c9caf3cd61d1814cc85638cf092a1a56e6891eb27d94066e8bffb171",
+				"programFactsSha256": "d034713cb731d71dd066736d0f20ecd8c73e8e22a4147676cf16417ecf23acd8",
+				"scopeSkillsSha256": "9faf87778708c0bc9acf6522ac1c0b1358e1845139da4f2949348d7285e51953"
+			}
+		},
+		"payloadSha256": "5c818823284270d01a49cda87907a317dcf37c9ae1d3af81f873c46be8bd67df",
+		"roundIndex": 50,
+		"schema": "agentlab.maintainer_skill_refresh_round.v1"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "8f692afe-e44c-5721-bc51-85140d77b636"
+}

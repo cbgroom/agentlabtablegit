@@ -1,0 +1,51 @@
+{
+	"deleted": false,
+	"key": "fact-source-suite-db551ff85120153e3c713abcd10a14ffddc6e1e096543127a9538eb395d8c109",
+	"recorded_at_unix_ms": 1791139627557,
+	"row": {
+		"id": "fact-source-suite-db551ff85120153e3c713abcd10a14ffddc6e1e096543127a9538eb395d8c109",
+		"kind": "verified-lesson",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"cause": "The generator stores code strings as instance fields with source initializers taken from DEFAULT_KEY mapping entries, mutates them inside an attributes.forEach switch, and builds the output template only after the fold, so branch selection and error propagation follow directly from field state at template time with no rollback path.",
+			"change": "Accepted the source-suite calibration: the baseline and both behavior-preserving reference controls (ternary textColor, for-of loop) pass all declared checks, and each wrong variant fails exactly its declared check set, confirming the segment/state probe design discriminates the Button template branch, the Switch codeOne block, the DEFAULT_KEY type fallback, and the JSON.parse throw semantics of ToggleCodeGenerator.",
+			"id": "fact-source-suite-db551ff85120153e3c713abcd10a14ffddc6e1e096543127a9538eb395d8c109",
+			"kind": "verified-lesson",
+			"lessonSource": {
+				"lessonFileDigest": "4adc5864da57ae2d4958fabdb9133d6b539df98e32ebca573307ff6d726c11d5",
+				"lessonId": "lesson-source-suite-db551ff85120153e3c713abcd10a14ffddc6e1e096543127a9538eb395d8c109",
+				"repository": "agentlabsourcesuite-37147845918",
+				"revision": "bcb04c81c18e1df04dd5eea20ae4fbc88e7e2ec3",
+				"tablePrefix": "assets/observations/source-suite/"
+			},
+			"methodDigest": "e972f8e10c341d0868a41c7192d50351d4e61b75398baefe95fdf94336e9b4ef",
+			"methodRevision": "4b1c4e0c41314027164de86ade578aa38b2ba57a",
+			"methodSkillId": "agentlab-experiment-learning",
+			"ownershipPlane": "target-operations",
+			"phenomenon": "ToggleCodeGenerator.generate behaves as a single-pass ordered attribute fold: toggleType maps through toggleTypeMapData with DEFAULT_KEY fallback, isOn JSON.parses currentValue and selects textColor, and the returned string branches once on the mapped toggleType with a Switch-only codeOne block; invalid isOn JSON throws SyntaxError mid-fold, preserving earlier assignments and the pre-call textColor.",
+			"qualification": {
+				"boundary": "reviewed interpretation of independently reconstructed source-suite controls",
+				"caseQualified": false,
+				"harmonyBuildQualified": false,
+				"harmonyRuntimeQualified": false,
+				"learningBenefitVerified": false,
+				"producerAuthenticated": false,
+				"reviewerAuthenticated": false,
+				"uiQualified": false
+			},
+			"repositoryId": "code-workshop",
+			"scope": "Source-suite calibration for skill-scope-code-workshop-componentlibrary-input-display at 7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+			"sourceLessonExportDigest": "4adc5864da57ae2d4958fabdb9133d6b539df98e32ebca573307ff6d726c11d5",
+			"sourceLessonId": "lesson-source-suite-db551ff85120153e3c713abcd10a14ffddc6e1e096543127a9538eb395d8c109",
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+			"validationIds": ["source-suite-e816a7311444f0f7b02f916dd2be4902961c09b42484f26ab9768909c6340b5b-lesson-094add9db65dfaea2592be26006037266532d1406de0ca9d538f426151bd1af9-validation"]
+		},
+		"payloadSha256": "0a38696c2b17ebe4a2e4083e9be82470d4106ca0582e5caf390052f72dbf1924",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "8f692afe-e44c-5721-bc51-85140d77b636"
+}

@@ -1,0 +1,41 @@
+{
+	"deleted": false,
+	"key": "skill-source-suite-db551ff85120153e3c713abcd10a14ffddc6e1e096543127a9538eb395d8c109",
+	"recorded_at_unix_ms": 1791139627557,
+	"row": {
+		"id": "skill-source-suite-db551ff85120153e3c713abcd10a14ffddc6e1e096543127a9538eb395d8c109",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"body": "Review traced every declared scenario and check to the loaded original ToggleCodeGenerator body and the entity mapping's DEFAULT_KEY entries, and cross-checked worker observations against the verifier's frozen-input consumption path. The ison-invalid- scenario confirms the throw happens before textColor mutation, so post-throw field state matches initializers; the single-attribute limitation on earlier-assignment survival under a later parse throw is disclosed and remains unverified by design. Git-source identity is byte-bound at the revision, while producer and rubric-freeze authentication are disclosed absent and were not substituted for binding. Disclosure of non-compiled string output and fresh-instance scoping is consistent with all claims, so no contradiction rejects.",
+			"factIds": ["fact-source-suite-db551ff85120153e3c713abcd10a14ffddc6e1e096543127a9538eb395d8c109"],
+			"id": "skill-source-suite-db551ff85120153e3c713abcd10a14ffddc6e1e096543127a9538eb395d8c109",
+			"lessonSource": {
+				"lessonFileDigest": "4adc5864da57ae2d4958fabdb9133d6b539df98e32ebca573307ff6d726c11d5",
+				"lessonId": "lesson-source-suite-db551ff85120153e3c713abcd10a14ffddc6e1e096543127a9538eb395d8c109",
+				"repository": "agentlabsourcesuite-37147845918",
+				"revision": "bcb04c81c18e1df04dd5eea20ae4fbc88e7e2ec3",
+				"tablePrefix": "assets/observations/source-suite/"
+			},
+			"methodDigest": "e972f8e10c341d0868a41c7192d50351d4e61b75398baefe95fdf94336e9b4ef",
+			"methodRevision": "4b1c4e0c41314027164de86ade578aa38b2ba57a",
+			"methodSkillId": "agentlab-experiment-learning",
+			"objectId": "lesson-source-suite-db551ff85120153e3c713abcd10a14ffddc6e1e096543127a9538eb395d8c109",
+			"ownershipPlane": "target-operations",
+			"repositoryId": "code-workshop",
+			"role": "maintenance",
+			"skillLayer": "method",
+			"sourceLessonExportDigest": "4adc5864da57ae2d4958fabdb9133d6b539df98e32ebca573307ff6d726c11d5",
+			"sourceLessonId": "lesson-source-suite-db551ff85120153e3c713abcd10a14ffddc6e1e096543127a9538eb395d8c109",
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+			"stage": "calibration",
+			"title": "ToggleCodeGenerator.generate behaves as a single-pass ordered attribute fold: toggleType maps through toggleTypeMapData with DEFAULT_KEY fallback, isOn JSON.parses currentValue and selects textColor, and the returned string branches once on the mapped toggleType with a Switch-only codeOne block; invalid isOn JSON throws SyntaxError mid-fold, preserving earlier assignments and the pre-call textColor."
+		},
+		"payloadSha256": "3e94c1f0a0bc650a9e4996d27492630a067da4075681c45f9845757e79adea7e",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "8f692afe-e44c-5721-bc51-85140d77b636"
+}
