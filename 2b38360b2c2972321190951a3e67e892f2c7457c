@@ -1,0 +1,51 @@
+{
+	"deleted": false,
+	"key": "fact-source-suite-fa345f866f5bd480ceacac93157aefa424bbadf7a755160c998fdd3246c26059",
+	"recorded_at_unix_ms": 1791083950367,
+	"row": {
+		"id": "fact-source-suite-fa345f866f5bd480ceacac93157aefa424bbadf7a755160c998fdd3246c26059",
+		"kind": "verified-lesson",
+		"payload": {
+			"assetClass": "reusable-knowledge",
+			"automaticPromotion": false,
+			"cause": "The source's convert switch fully determines the observed behavior: Number never yields null/undefined so the map-default fallback cannot replace NaN, toLowerCase enables uppercase matching, and the default case is a no-op. The verifier enforces frozen initial fields via own-data-property assertion before invoking convert and serves fresh JSON clones of the immutable manifest inputs, so observations reflect actual execution rather than echoed expectations.",
+			"change": "Treat the rating descriptor's input-display semantics as calibration-verified knowledge within this scope: rating/stars accept fractional strings, malformed numerics remain NaN despite the fallback defaults, indicator/starStyle match 'true' case-insensitively and null-safely, and unhandled attribute names mutate nothing. Record that nullish/non-string currentValue paths, the convert return value, and the full parseFloat/parseInt input space remain unverified per the disclosed limitations.",
+			"id": "fact-source-suite-fa345f866f5bd480ceacac93157aefa424bbadf7a755160c998fdd3246c26059",
+			"kind": "verified-lesson",
+			"lessonSource": {
+				"lessonFileDigest": "36ae181eb8d1bc845074657572a431ed4e50080681e3170d80d04866fcbc5bcd",
+				"lessonId": "lesson-source-suite-fa345f866f5bd480ceacac93157aefa424bbadf7a755160c998fdd3246c26059",
+				"repository": "agentlabsourcesuite-37147845918",
+				"revision": "edbcd54848c6e1e9868d25ac7a347d17c0899168",
+				"tablePrefix": "assets/observations/source-suite/"
+			},
+			"methodDigest": "5c98fb3bbc7a3cbbdf793dfb3835af88185867421cc2974caa642a5b35824982",
+			"methodRevision": "37cfa0ce1ec6fcfa8c775b33255e8ba7010c9b3d",
+			"methodSkillId": "agentlab-experiment-learning",
+			"ownershipPlane": "target-operations",
+			"phenomenon": "For RatingDescriptor.convert at revision 7aa95cac, every declared scenario expectation, check outcome, and control failure was reproduced exactly: numeric attributes become Number(currentValue) with the '?? default' fallback provably dead, malformed strings persist as NaN, boolean fields are case-insensitive 'true' comparisons, unknown names leave fields untouched, behavior-preserving references pass all checks, and each wrong variant fails exactly its declared check set.",
+			"qualification": {
+				"boundary": "reviewed interpretation of independently reconstructed source-suite controls",
+				"caseQualified": false,
+				"harmonyBuildQualified": false,
+				"harmonyRuntimeQualified": false,
+				"learningBenefitVerified": false,
+				"producerAuthenticated": false,
+				"reviewerAuthenticated": false,
+				"uiQualified": false
+			},
+			"repositoryId": "code-workshop",
+			"scope": "Source-suite calibration for skill-scope-code-workshop-componentlibrary-input-display at 7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+			"sourceLessonExportDigest": "36ae181eb8d1bc845074657572a431ed4e50080681e3170d80d04866fcbc5bcd",
+			"sourceLessonId": "lesson-source-suite-fa345f866f5bd480ceacac93157aefa424bbadf7a755160c998fdd3246c26059",
+			"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6",
+			"validationIds": ["source-suite-5120f198233c8d273f58f4615ed50d87faadec4fc082b9de5f7486cc30ebf955-lesson-279e931540ff8a8f5b94f1988eedb6349011b825c94d68a4b55d02167bbfec26-validation"]
+		},
+		"payloadSha256": "fffd1ac70fc254d59b22489d96d205afb306f8dc7603270dc081a3b24d9a83b9",
+		"repositoryId": "code-workshop",
+		"sourceRevision": "7aa95cac4eca15e39fc6638cdf1de7db6fb70ad6"
+	},
+	"row_version": 1,
+	"schema": "mcpgit.table-row.v1",
+	"transaction_id": "ae6d70a4-f90a-599c-a0ce-34a9c5eec8df"
+}
